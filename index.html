@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="google-site-verification" content="8Du7IU5_y0w0vZeaz0bjDdLNdbzb35CubsG1YKISK8c" />
+  <title>Paraíso de Loros | Adopción de Loros y Aves Exóticas en España</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Adopta tu loro ideal en España con Paraíso de Loros. Aves socializadas, fotos y videos reales, asesoría y seguimiento. Contáctanos para disponibilidad." />
+  <meta name="robots" content="index, follow" />
+  <meta name="language" content="es-ES" />
+  <meta name="geo.region" content="ES" />
+  <meta name="geo.placename" content="España" />
+  <link rel="canonical" href="https://www.paraisodeloros.com/" />
+
+  <!-- Open Graph (Facebook / WhatsApp preview) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Paraíso de Loros | Adopción de Loros y Aves Exóticas" />
+  <meta property="og:description" content="Aves socializadas, fotos y videos reales, asesoría y seguimiento. Contáctanos para disponibilidad en España." />
+  <meta property="og:url" content="https://www.paraisodeloros.com/" />
+  <meta property="og:image" content="https://www.paraisodeloros.com/uploaded-macaw.jpg" />
+
+  <!-- Favicons (put files in root) -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+  <!-- Modern fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="/uploaded-macaw.webp">
+
+  <style>
+    :root{
+      --accent:#ff9900;
+      --accent-dark:#cc7a00;
+      --ink:#0b1420;
+      --muted:#6b7280;
+      --light:#f3f4f6;
+      --glass: rgba(255,255,255,.08);
+      --glass-border: rgba(255,255,255,.14);
+    }
+
+    *{margin:0;padding:0;box-sizing:border-box}
+    html { scroll-padding-top: 90px; }
+    body{
+      font-family: Inter, Arial, sans-serif;
+      line-height:1.6;
+      color:#e8e8e8;
+      background:#0a0a0a;
+      overflow-x:hidden;
+      padding-top:78px;
+    }
+    section { scroll-margin-top: 90px; }
+    .container{max-width:1100px;margin:0 auto}
+
+    /* Header */
+    .header{
+      position:fixed;top:0;width:100%;
+      background:rgba(15,15,20,.95);
+      backdrop-filter:blur(15px);
+      padding:1rem 5%;
+      display:flex;justify-content:space-between;align-items:center;
+      z-index:1000;
+      border-bottom:1px solid rgba(255,255,255,.1);
+      transition:all .25s ease;
+    }
+    .logo{
+      font-size:1.6rem;font-weight:800;
+      background:linear-gradient(135deg,#ff4757,#3742fa,#2f3542);
+      -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+      white-space:nowrap
+    }
+    .nav{display:flex;gap:1.2rem;align-items:center}
+    .nav a{
+      text-decoration:none;color:#e8e8e8;font-weight:600;
+      transition:color .2s ease;position:relative
+    }
+    .nav a:hover{color:#ff4757}
+    .nav a::after{
+      content:'';position:absolute;bottom:-6px;left:0;width:0;height:2px;
+      background:linear-gradient(90deg,#ff4757,#3742fa);
+      transition:width .25s ease
+    }
+    .nav a:hover::after{width:100%}
+    
+    /* ===== Dropdown Aves ===== */
+.dropdown{
+  position:relative;
+  display:inline-block;
+}
+
+.dropbtn{
+  display:inline-block;
+  color:#e8e8e8;
+  font-weight:600;
+  text-decoration:none;
+  position:relative;
+}
+
+/* same hover color as other menu items */
+.dropdown:hover .dropbtn{
+  color:#ff4757;
+}
+
+/* dropdown box */
+.dropdown-content{
+  display:none;
+  position:absolute;
+  top:calc(100% + 10px);
+  left:0;
+  min-width:260px;
+  background:rgba(15,15,20,.95);
+  border:1px solid rgba(255,255,255,.14);
+  border-radius:14px;
+  padding:.5rem;
+  box-shadow:0 20px 45px rgba(0,0,0,.55);
+  z-index:2000;
+}
+
+/* show on hover */
+.dropdown:hover .dropdown-content{
+  display:block;
+}
+
+/* dropdown links */
+.dropdown-content a{
+  display:block;
+  padding:.7rem .8rem;
+  border-radius:10px;
+  color:#e8e8e8;
+  font-weight:700;
+  text-decoration:none;
+}
+
+/* remove underline animation inside dropdown */
+.dropdown-content a::after{
+  display:none;
+}
+
+.dropdown-content a:hover{
+  background:rgba(255,255,255,.08);
+  color:#ffffff;
+}
+
+    /* Hero */
+    .hero{
+      min-height:calc(100vh - 78px);
+      display:flex;align-items:center;justify-content:center;
+      text-align:center;color:#fff;position:relative;overflow:hidden;background:#000;
+    }
+
+    .hero::after{
+      content:'';position:absolute;inset:0;z-index:0;
+      background-image:url('./uploaded-macaw.webp');
+      background-size:cover;background-position:center;
+      transform:scale(1);
+      animation:kenburns 18s ease-in-out infinite alternate;
+      filter:saturate(1.05) contrast(1.05);
+    }
+    .hero::before{
+      content:'';position:absolute;inset:0;z-index:1;
+      background:
+        radial-gradient(900px 360px at 50% 18%, rgba(255,153,0,.20), transparent 55%),
+        radial-gradient(900px 360px at 50% 88%, rgba(55,66,250,.18), transparent 55%),
+        linear-gradient(180deg,rgba(0,0,0,.82) 0%,rgba(0,0,0,.55) 48%,rgba(0,0,0,.88) 100%);
+    }
+
+    .floating-feather{
+      position:absolute;width:22px;height:22px;z-index:2;
+      background:rgba(255,255,255,.06);
+      border-radius:60% 0 60% 0;
+      box-shadow:0 0 0 1px rgba(255,255,255,.06) inset;
+      animation:float 6s ease-in-out infinite;
+      transform:rotate(25deg);
+    }
+    .floating-feather:nth-child(1){top:20%;left:10%}
+    .floating-feather:nth-child(2){top:62%;left:80%;animation-delay:2s}
+    .floating-feather:nth-child(3){top:82%;left:22%;animation-delay:4s}
+
+    .hero-content{
+      position:relative;z-index:3;
+      max-width:920px;padding:0 1.5rem;
+      animation:fadeInUp .9s ease;
+    }
+    .hero h1{
+      font-size:3rem;margin-bottom:.9rem;font-weight:800;
+      letter-spacing:-.02em;
+      text-shadow:0 12px 35px rgba(0,0,0,.45);
+    }
+    .hero p{
+      font-size:1.12rem;
+      margin:0 auto 1.3rem;
+      opacity:.96;
+      max-width:78ch;
+      text-shadow:0 10px 26px rgba(0,0,0,.35);
+    }
+    .hero .cta-row{
+      display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap;margin-top:.35rem;
+    }
+
+    .btn{
+      display:inline-block;padding:1rem 2.1rem;border-radius:999px;
+      font-weight:800;text-decoration:none;
+      transition:transform .2s ease, box-shadow .2s ease, background .2s ease, border-color .2s ease;
+      border:1px solid transparent;
+    }
+    .btn-primary{
+      background:linear-gradient(135deg,#ff4757,#ff3838);
+      color:#fff;
+      box-shadow:0 12px 30px rgba(255,71,87,.34);
+    }
+    .btn-primary:hover{transform:translateY(-3px);box-shadow:0 16px 42px rgba(255,71,87,.42)}
+
+    .btn-ghost{
+      background:rgba(255,255,255,.08);
+      border-color:rgba(255,255,255,.18);
+      color:#fff;
+      box-shadow:0 10px 22px rgba(0,0,0,.25);
+    }
+    .btn-ghost:hover{transform:translateY(-3px);background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.28)}
+
+    /* About */
+    .about{padding:5rem 5%;background:#111;text-align:center}
+    .about h2{font-size:2.2rem;margin-bottom:1rem;font-weight:800}
+    .about p{font-size:1.06rem;margin:0 auto 2.5rem;color:#b8b8b8;max-width:78ch}
+    .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.2rem}
+    .stat-card{
+      background:linear-gradient(135deg,#1a1a1a,#2c2c2c);
+      padding:1.4rem;border-radius:18px;border:1px solid rgba(255,255,255,.1);
+      transition:transform .25s ease;
+      box-shadow:0 10px 30px rgba(0,0,0,.3)
+    }
+    .stat-card:hover{transform:translateY(-8px)}
+    .stat-number{
+      font-size:2.2rem;font-weight:900;
+      background:linear-gradient(135deg,#ff4757,#3742fa);
+      -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text
+    }
+    .stat-label{color:#b8b8b8;margin-top:.35rem}
+
+    /* Birds */
+    .bird-section{background:#0e1016;padding:4rem 5%;color:#e9edf1}
+    .bird-section h2{font:900 2rem/1.2 Inter,Arial,sans-serif;margin-bottom:.6rem;text-align:center}
+    .bird-section .intro{color:#cbd5e1;margin:0 auto 1rem;text-align:center;max-width:78ch}
+    .bird-grid{display:grid;gap:1rem;grid-template-columns:repeat(3,minmax(240px,1fr))}
+    .bird-card{
+      background:linear-gradient(135deg,#171a22,#1e2430);
+      border:1px solid rgba(255,255,255,.10);
+      border-radius:18px;padding:1rem 1.1rem;transition:.25s ease;
+      box-shadow:0 12px 28px rgba(0,0,0,.35)
+    }
+    .bird-card:hover{transform:translateY(-6px);box-shadow:0 18px 44px rgba(0,0,0,.45)}
+    .bird-title{display:flex;align-items:center;gap:.5rem;font-weight:900;color:#fff;margin-bottom:.4rem}
+    .bird-info{color:#d8dee9;font-size:.98rem}
+    .bird-meta{margin-top:.55rem;color:#9fb1c7;font-size:.92rem}
+    .bird-cta{margin-top:.75rem;display:flex;gap:.6rem;flex-wrap:wrap}
+    .bird-cta a{
+      display:inline-block;padding:.55rem .9rem;border-radius:999px;
+      background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);
+      color:#fff;text-decoration:none;font-weight:800;transition:.18s
+    }
+    .bird-cta a:hover{background:var(--accent);border-color:var(--accent);color:#111}
+
+    /* Gallery */
+    .gallery{background:var(--light);color:var(--ink);padding:4rem 5%}
+    .gallery h2{font-size:2rem;font-weight:900;margin-bottom:1rem;text-align:center}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+    .card{background:#fff;border:1px solid #e5e7eb;border-radius:16px;overflow:hidden;box-shadow:0 8px 18px rgba(0,0,0,.06)}
+    .card img{width:100%;height:220px;object-fit:cover;display:block;transform:scale(1);transition:transform .35s ease}
+    .card:hover img{transform:scale(1.06)}
+
+    /* Process */
+    .process{background:var(--light);color:var(--ink);padding:4.5rem 5%}
+    .process .wrap{
+      max-width:1000px;margin:0 auto;background:#fff;border:1px solid #e5e7eb;border-radius:18px;
+      box-shadow:0 10px 24px rgba(0,0,0,.08);padding:2rem 1.5rem
+    }
+    .process h2{font-size:2rem;font-weight:900;margin-bottom:.75rem;text-align:center}
+    .process p.lead{color:#374151;margin:0 auto 1rem;text-align:center;max-width:78ch}
+    .steps{margin-top:.75rem;display:grid;gap:.8rem}
+    .step{display:flex;gap:.9rem;align-items:flex-start;background:#fafafa;border:1px solid #eee;border-radius:14px;padding:.95rem 1rem}
+    .badge{flex:0 0 34px;height:34px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,var(--accent),#ffb44a);color:#111;font-weight:900}
+    .process .cta{
+      margin-top:1.1rem;display:inline-block;padding:.85rem 1.4rem;border-radius:999px;
+      background:linear-gradient(135deg,var(--accent),#ffb44a);
+      color:#111;text-decoration:none;font-weight:900;
+      box-shadow:0 10px 24px rgba(255,153,0,.25);
+      transition:transform .2s ease, box-shadow .2s ease;
+    }
+    .process .cta:hover{transform:translateY(-2px);box-shadow:0 14px 34px rgba(255,153,0,.32)}
+
+    /* FAQ */
+    .faq{background:#fff;color:#111;padding:4rem 5%}
+    .faq h2{font-size:2rem;font-weight:900;margin-bottom:1rem;text-align:center}
+    details{background:#f9fafb;border:1px solid #e5e7eb;border-radius:14px;padding:1rem;margin-bottom:.9rem}
+    summary{list-style:none;cursor:pointer;font-weight:800;color:#111;display:flex;align-items:center;gap:.6rem}
+    summary::before{content:'▸';transition:transform .2s ease;color:var(--accent-dark)}
+    details[open] summary::before{transform:rotate(90deg)}
+    details p{margin-top:.6rem;color:#374151}
+
+    /* Facebook follow */
+    .social-follow{padding:3rem 5%;background:#f3f4f6;color:#0b1420;text-align:center}
+    .social-follow h2{font:900 1.8rem/1.2 Inter, Arial, sans-serif;margin-bottom:1rem}
+
+    /* Contact */
+    .contact{padding:5rem 5%;background:linear-gradient(135deg,#2c2c54,#40407a);color:#fff;text-align:center}
+    .contact h2{font-size:2.2rem;margin-bottom:1rem;font-weight:900}
+    .contact p{max-width:78ch;margin:0 auto 1.2rem}
+    .contact-form{max-width:650px;margin:0 auto}
+    .form-group{margin-bottom:1rem;text-align:left}
+    .form-group label{display:block;margin-bottom:.45rem;font-weight:800}
+    .form-group input,.form-group textarea{
+      width:100%;padding:1rem;border:1px solid rgba(255,255,255,.20);
+      border-radius:14px;background:rgba(0,0,0,.28);color:#fff;font-size:1rem
+    }
+    .submit-btn{
+      padding:1rem 2.4rem;border-radius:999px;border:none;
+      background:linear-gradient(135deg,#ff4757,#ff3838);
+      color:#fff;font-weight:900;cursor:pointer;
+      transition:transform .2s ease, box-shadow .2s ease
+    }
+    .submit-btn:hover{transform:translateY(-3px);box-shadow:0 15px 30px rgba(255,71,87,.35)}
+
+    /* Footer */
+    .footer{background:#0a0a0a;color:#b8b8b8;text-align:center;padding:2rem 5%;border-top:1px solid rgba(255,255,255,.1)}
+    .footer a{color:#ffb44a;text-decoration:none;font-weight:800}
+
+    /* ✅ Live Chat widget (bottom-right) */
+    .chat-launch{
+      position:fixed;right:18px;bottom:18px;z-index:9999;
+      width:52px;height:52px;border-radius:50%;
+      background:rgba(255,255,255,.12);
+      border:1px solid rgba(255,255,255,.18);
+      backdrop-filter:blur(10px);
+      display:grid;place-items:center;
+      cursor:pointer;
+      box-shadow:0 14px 30px rgba(0,0,0,.35);
+      transition:transform .18s ease, background .18s ease;
+    }
+    .chat-launch:hover{transform:translateY(-2px);background:rgba(255,255,255,.16)}
+    .chat-panel{
+      position:fixed;right:18px;bottom:86px;z-index:9999;
+      width:min(360px, calc(100vw - 36px));
+      border-radius:18px;
+      background:rgba(15,15,20,.92);
+      border:1px solid rgba(255,255,255,.16);
+      box-shadow:0 20px 50px rgba(0,0,0,.55);
+      overflow:hidden;
+      display:none;
+    }
+    .chat-panel.active{display:block}
+    .chat-head{
+      padding:1rem 1rem;
+      display:flex;justify-content:space-between;align-items:center;
+      background:linear-gradient(135deg, rgba(255,153,0,.22), rgba(55,66,250,.18));
+      border-bottom:1px solid rgba(255,255,255,.10);
+    }
+    .chat-head strong{font-weight:900}
+    .chat-close{
+      background:transparent;border:none;color:#fff;font-size:1.2rem;cursor:pointer;
+      opacity:.9;
+    }
+    .chat-body{padding:1rem}
+    .chat-body p{color:#cbd5e1;text-align:left;margin:0 0 .8rem;max-width:100%}
+    .chat-field{display:grid;gap:.6rem}
+    .chat-field input,.chat-field textarea{
+      width:100%;
+      padding:.85rem .9rem;border-radius:14px;
+      border:1px solid rgba(255,255,255,.14);
+      background:rgba(255,255,255,.06);
+      color:#fff;
+      outline:none;
+    }
+    .chat-actions{display:flex;gap:.6rem;margin-top:.75rem}
+    .chat-send{
+      flex:1;
+      padding:.85rem .9rem;border-radius:999px;border:none;
+      background:linear-gradient(135deg,#25D366,#7CFFB0);
+      color:#0b1420;font-weight:900;cursor:pointer;
+    }
+    .chat-email{
+      padding:.85rem .9rem;border-radius:999px;
+      border:1px solid rgba(255,255,255,.18);
+      background:rgba(255,255,255,.08);
+      color:#fff;font-weight:900;text-decoration:none;
+      display:inline-grid;place-items:center;
+    }
+
+    @media (max-width:768px){
+      .nav{display:none}
+      .hero h1{font-size:2.3rem}
+      .hero p{font-size:1.05rem}
+      .grid{grid-template-columns:1fr}
+      .bird-grid{grid-template-columns:1fr}
+    }
+
+    @keyframes fadeInUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes float{0%,100%{transform:translateY(0) rotate(25deg)}50%{transform:translateY(-18px) rotate(205deg)}}
+    @keyframes kenburns{from{transform:scale(1)}to{transform:scale(1.12)}}
+    @keyframes kenburns{from{transform:scale(1)}to{transform:scale(1.12)}}
+
+/* ============================= */
+/* DROPDOWN MENU (PASTE HERE)    */
+/* ============================= */
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn{
+  cursor: pointer;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 260px;
+  padding: .6rem;
+  border-radius: 14px;
+  background: rgba(15,15,20,.96);
+  border: 1px solid rgba(255,255,255,.12);
+  box-shadow: 0 20px 50px rgba(0,0,0,.55);
+  z-index: 9999;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.dropdown-content a{
+  display: block;
+  padding: .6rem .7rem;
+  border-radius: 10px;
+}
+
+.dropdown-content a:hover{
+  background: rgba(255,255,255,.08);
+}
+
+/* Fix click blocking */
+.nav a::after{ pointer-events: none; }
+.hero::before,
+.hero::after{ pointer-events: none; }
+
+/* ============================= */
+  </style>
+
+  <!-- ✅ Structured data (Spain-targeted) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "PetStore",
+    "name": "Paraíso de Loros",
+    "url": "https://www.paraisodeloros.com",
+    "email": "info@paraisodeloros.com",
+    "telephone": "+34 632 16 59 55",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "ES"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "España"
+    },
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=100089916354629"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">🦜 Paraíso de Loros</div>
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="/adopcion-de-loros.html">Adopción</a>
+      <div class="dropdown">
+  <a href="/available-birds/" class="dropbtn">Aves ▾</a>
+
+  <div class="dropdown-content" role="menu" aria-label="Aves disponibles">
+    <a href="/available-birds/loro-gris-africano.html" target="_blank" rel="noopener">Loro gris africano</a>
+    <a href="/available-birds/guacamayo-azul-amarillo.html" target="_blank" rel="noopener">Guacamayo azul y amarillo</a>
+    <a href="/available-birds/guacamayo-escarlata.html" target="_blank" rel="noopener">Guacamayo escarlata</a>
+    <a href="/available-birds/guacamayo-jacinto.html" target="_blank" rel="noopener">Guacamayo jacinto</a>
+    <a href="/available-birds/loro-amazonico.html" target="_blank" rel="noopener">Loro amazónico</a>
+    <a href="/available-birds/cacatua.html" target="_blank" rel="noopener">Cacatúa</a>
+    <a href="/available-birds/eclectus.html" target="_blank" rel="noopener">Eclectus</a>
+    <a href="/available-birds/conuro.html" target="_blank" rel="noopener">Conuro</a>
+    <a href="/available-birds/huevos-fertiles.html" target="_blank" rel="noopener">Huevos de loro (fértiles)</a>
+  </div>
+</div>
+      <a href="#galeria">Galería</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <div class="floating-feather"></div>
+    <div class="floating-feather"></div>
+    <div class="floating-feather"></div>
+
+    <div class="hero-content">
+      <h1>Encuentra Tu Compañero Emplumado Perfecto</h1>
+      <p>
+        En Paraíso de Loros, creemos que un loro no es “solo una mascota”: es un compañero inteligente, sensible y lleno de personalidad,
+        capaz de crear un vínculo real contigo. Trabajamos con aves cuidadas y socializadas desde temprano, para que lleguen a tu hogar con
+        confianza, equilibrio y buen temperamento.
+        <br><br>
+        Te acompañamos en todo el proceso: te enviamos fotos y videos reales, resolvemos tus dudas, y te guiamos para que elijas la especie
+        adecuada según tu estilo de vida, tu tiempo y tu experiencia. El objetivo es simple: que adoptes con seguridad y que el ave tenga un
+        hogar responsable, estable y amoroso.
+      </p>
+
+      <!-- ✅ Internal SEO link to blog (helps Google crawl & rank) -->
+      <p style="margin-top:.6rem;">
+        ¿Tienes dudas sobre la alimentación? Consulta nuestra guía:
+        <a href="/blog/como-alimentar-un-loro-bebe.html" style="font-weight:800;text-decoration:underline;">
+          cómo alimentar un loro bebé correctamente
+        </a>.
+      </p>
+
+      <div class="cta-row">
+        <a href="#contacto" class="btn btn-primary">Solicitar Información</a>
+        <a class="btn btn-ghost"
+           href="https://www.facebook.com/profile.php?id=100089916354629"
+           target="_blank" rel="noopener">
+          Ver Aves Disponibles (Facebook)
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="nosotros">
+    <div class="container">
+      <h2>¿Por Qué Adoptar un Loro?</h2>
+      <p>
+        Los loros son aves extraordinarias: aprenden, observan, se comunican y crean rutinas contigo.
+        Si les das tiempo, paciencia y cuidado, te acompañarán durante muchos años con una conexión única.
+      </p>
+<p>
+Si estás pensando en dar un hogar responsable a un ave,
+te invitamos a conocer nuestro proceso de
+<a href="/adopcion-de-loros">adopción de loros</a>,
+donde explicamos cada paso con detalle.
+</p>
+      <div class="stats" aria-label="Estadísticas">
+        <div class="stat-card"><div class="stat-number">150+</div><div class="stat-label">Aves atendidas</div></div>
+        <div class="stat-card"><div class="stat-number">98%</div><div class="stat-label">Clientes satisfechos</div></div>
+        <div class="stat-card"><div class="stat-number">5★</div><div class="stat-label">Valoración promedio</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="aves-disponibles" class="bird-section">
+    <div class="container">
+      <h2>Aves Disponibles</h2>
+      <p class="intro">
+        Machos y hembras (7–15 meses), dóciles y habladores, criados con cuidado y socializados desde temprano.
+        Contáctanos para disponibilidad actualizada, fotos y videos.
+      </p>
+
+      <div class="bird-grid">
+        <article class="bird-card">
+          <h3 class="bird-title">🦜 Guacamayo Jacinto</h3>
+          <p class="bird-info">Majestuoso y muy inteligente. Requiere estimulación mental, juguetes resistentes e interacción diaria.</p>
+          <p class="bird-meta">Edades/sexos: diversas — consulta disponibilidad.</p>
+          <div class="bird-cta">
+            <a href="#contacto">Solicitar información</a>
+            <a href="https://www.facebook.com/profile.php?id=100089916354629" target="_blank" rel="noopener">Ver en Facebook</a>
+          </div>
+        </article>
+
+        <article class="bird-card">
+          <h3 class="bird-title">🕊️ Loro Gris Africano</h3>
+          <p class="bird-info">Increíble capacidad de aprendizaje y habla. Forma vínculos profundos y disfruta de rutinas estables.</p>
+          <p class="bird-meta">Edades/sexos: diversas — consulta disponibilidad.</p>
+          <div class="bird-cta">
+            <a href="#contacto">Solicitar información</a>
+            <a href="https://www.facebook.com/profile.php?id=100089916354629" target="_blank" rel="noopener">Ver en Facebook</a>
+          </div>
+        </article>
+
+        <article class="bird-card">
+          <h3 class="bird-title">🌈 Guacamayo Azul y Amarillo</h3>
+          <p class="bird-info">Sociable y enérgico. Le encanta trepar, jugar y participar en la vida familiar.</p>
+          <p class="bird-meta">Edades/sexos: diversas — consulta disponibilidad.</p>
+          <div class="bird-cta">
+            <a href="#contacto">Solicitar información</a>
+            <a href="https://www.facebook.com/profile.php?id=100089916354629" target="_blank" rel="noopener">Ver en Facebook</a>
+          </div>
+        </article>
+
+        <article class="bird-card">
+          <h3 class="bird-title">🥚 Huevos fértiles de loro</h3>
+          <p class="bird-info">Disponibles por temporada. Envío seguro y guía básica de incubación. Recomendado para criadores con experiencia.</p>
+          <p class="bird-meta">Especies: varias — stock por temporada.</p>
+          <div class="bird-cta">
+            <a href="#contacto">Solicitar información</a>
+            <a href="https://www.facebook.com/profile.php?id=100089916354629" target="_blank" rel="noopener">Ver en Facebook</a>
+          </div>
+        </article>
+
+        <article class="bird-card">
+          <h3 class="bird-title">🔥 Guacamayo Escarlata</h3>
+          <p class="bird-info">Plumaje espectacular y carácter vivaz. Necesita espacio, enriquecimiento diario y convivencia cercana.</p>
+          <p class="bird-meta">Edades/sexos: diversas — consulta disponibilidad.</p>
+          <div class="bird-cta">
+            <a href="#contacto">Solicitar información</a>
+            <a href="https://www.facebook.com/profile.php?id=100089916354629" target="_blank" rel="noopener">Ver en Facebook</a>
+          </div>
+        </article>
+
+        <article class="bird-card">
+          <h3 class="bird-title">🌿 Loro Amazónico</h3>
+          <p class="bird-info">Expresivo y sociable. Disfruta interacción diaria, entrenamiento positivo y dieta equilibrada rica en verduras.</p>
+          <p class="bird-meta">Edades/sexos: diversas — consulta disponibilidad.</p>
+          <div class="bird-cta">
+            <a href="#contacto">Solicitar información</a>
+            <a href="https://www.facebook.com/profile.php?id=100089916354629" target="_blank" rel="noopener">Ver en Facebook</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+ <section class="gallery" id="galeria">
+  <div class="container">
+    <h2>Galería</h2>
+
+    <div class="grid">
+      <figure class="card">
+        <img src="/assets/img/galeria/galeria-1.webp" alt="Loro en galería 1" width="600" height="400" loading="lazy" decoding="async">
+      </figure>
+
+      <figure class="card">
+        <img src="/assets/img/galeria/galeria-2.webp" alt="Loro en galería 2" width="600" height="400" loading="lazy" decoding="async">
+      </figure>
+
+      <figure class="card">
+        <img src="/assets/img/galeria/galeria-3.webp" alt="Loro en galería 3" width="600" height="400" loading="lazy" decoding="async">
+      </figure>
+
+      <figure class="card">
+        <img src="/assets/img/galeria/galeria-4.webp" alt="Loro en galería 4" width="600" height="400" loading="lazy" decoding="async">
+      </figure>
+
+      <figure class="card">
+        <img src="/assets/img/galeria/galeria-5.webp" alt="Loro en galería 5" width="600" height="400" loading="lazy" decoding="async">
+      </figure>
+
+      <figure class="card">
+        <img src="/assets/img/galeria/galeria-6.webp" alt="Loro en galería 6" width="600" height="400" loading="lazy" decoding="async">
+      </figure>
+
+      <figure class="card">
+        <img src="/assets/img/galeria/galeria-7.webp" alt="Loro en galería 7" width="600" height="400" loading="lazy" decoding="async">
+      </figure>
+
+      <figure class="card">
+        <img src="/assets/img/galeria/galeria-8.webp" alt="Loro en galería 8" width="600" height="400" loading="lazy" decoding="async">
+      </figure>
+
+      <figure class="card">
+        <img src="/assets/img/galeria/galeria-9.webp" alt="Loro en galería 9" width="600" height="400" loading="lazy" decoding="async">
+      </figure>
+    </div>
+  </div>
+</section>
+
+  <section class="process" id="proceso">
+    <div class="container">
+      <div class="wrap">
+        <h2>🦜 Proceso de Adopción</h2>
+        <p class="lead">Sigue estos pasos claros para adoptar a tu nuevo compañero emplumado de forma segura y responsable.</p>
+
+        <div class="steps">
+          <div class="step"><div class="badge">1</div><div>Elige la especie que deseas (te orientamos si lo necesitas).</div></div>
+          <div class="step"><div class="badge">2</div><div>Solicita información y recibe fotos y videos reales.</div></div>
+          <div class="step"><div class="badge">3</div><div>Confirmamos disponibilidad, condiciones y recomendaciones.</div></div>
+          <div class="step"><div class="badge">4</div><div>Se formaliza el acuerdo y se prepara la entrega.</div></div>
+          <div class="step"><div class="badge">5</div><div>Envío o recogida según tu ubicación y normativa.</div></div>
+        </div>
+
+        <p class="lead" style="margin-top:1rem">Todas nuestras aves son revisadas por profesionales y te damos orientación de cuidados básicos.</p>
+        <a href="#contacto" class="cta">Solicitar Adopción</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq" id="faq">
+    <div class="container">
+      <h2>Preguntas Frecuentes</h2>
+
+      <details>
+        <summary>¿Qué incluye la adopción?</summary>
+        <p>Incluye asesoría, fotos/videos reales, guía básica de cuidados y seguimiento según el caso.</p>
+      </details>
+
+      <details>
+        <summary>¿Realizan envíos?</summary>
+        <p>Sí, dependiendo del destino y la normativa. Te explicamos opciones y requisitos.</p>
+      </details>
+
+      <details>
+        <summary>¿Tienen huevos fértiles?</summary>
+        <p>En temporada, puede haber disponibilidad según especie. Pregunta por stock actual.</p>
+      </details>
+
+      <details>
+        <summary>¿Qué edades suelen estar disponibles?</summary>
+        <p>Normalmente entre 7 y 15 meses, pero puede variar según cada ave y disponibilidad.</p>
+      </details>
+    </div>
+  </section>
+
+  <section id="facebook" class="social-follow">
+    <div class="container">
+      <h2>Síguenos en Facebook</h2>
+      <p style="color:#374151;margin:0 auto 1rem;max-width:78ch;">
+        Publicamos disponibilidad, videos y novedades en nuestra página.
+      </p>
+
+      <div class="fb-like"
+           data-href="https://www.facebook.com/profile.php?id=100089916354629"
+           data-layout="button_count"
+           data-action="like"
+           data-size="large"
+           data-share="true"></div>
+
+      <div class="fb-page"
+           data-href="https://www.facebook.com/profile.php?id=100089916354629"
+           data-tabs=""
+           data-width="380"
+           data-height="180"
+           data-small-header="true"
+           data-adapt-container-width="true"
+           data-hide-cover="false"
+           data-show-facepile="true"></div>
+    </div>
+  </section>
+
+  <section class="contact" id="contacto">
+    <div class="container">
+      <h2>Contacto y Solicitudes</h2>
+      <p>Completa el formulario y te contactaremos con disponibilidad, fotos y próximos pasos.</p>
+
+      <form class="contact-form"
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+            action="/gracias.html">
+
+        <input type="hidden" name="form-name" value="contact">
+        <p style="display:none;">
+          <label>No completar: <input name="bot-field"></label>
+        </p>
+
+        <div class="form-group">
+          <label for="nombre">Tu Nombre</label>
+          <input id="nombre" name="nombre" type="text" placeholder="Ingresa tu nombre completo" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Correo Electrónico</label>
+          <input id="email" name="email" type="email" placeholder="tu.correo@ejemplo.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="telefono">Número de Teléfono</label>
+          <input id="telefono" name="telefono" type="tel" placeholder="+34 632 16 59 55" required>
+        </div>
+
+        <div class="form-group">
+          <label for="mensaje">¿Qué estás buscando?</label>
+          <textarea id="mensaje" name="mensaje" rows="4" placeholder="Ej: Loro gris africano, guacamayo, huevos fértiles, envío, etc." required></textarea>
+        </div>
+
+        <button class="submit-btn" type="submit">Enviar Solicitud</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Paraíso de Loros. Todos los derechos reservados.</p>
+      <p style="margin-top:.5rem;opacity:.9;">
+        📧 <a href="mailto:info@paraisodeloros.com">info@paraisodeloros.com</a>
+        &nbsp; | &nbsp;
+        📞 <a href="tel:+34632165955">+34 632 16 59 55</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- ✅ Live chat widget -->
+  <button class="chat-launch" id="chatLaunch" aria-label="Abrir chat">💬</button>
+
+  <div class="chat-panel" id="chatPanel" role="dialog" aria-label="Chat rápido">
+    <div class="chat-head">
+      <div>
+        <strong>Chat rápido</strong><br>
+        <span style="font-size:.9rem;opacity:.9;">Respuesta por WhatsApp</span>
+      </div>
+      <button class="chat-close" id="chatClose" aria-label="Cerrar">✕</button>
+    </div>
+
+    <div class="chat-body">
+      <p>Escribe tu mensaje y lo enviamos directo a WhatsApp (sin complicaciones).</p>
+
+      <div class="chat-field">
+        <input id="chatName" type="text" placeholder="Tu nombre" />
+        <textarea id="chatMsg" rows="3" placeholder="¿Qué ave buscas? ¿Envío? ¿Fotos y videos?"></textarea>
+      </div>
+
+      <div class="chat-actions">
+        <button class="chat-send" id="chatSend">Enviar por WhatsApp</button>
+        <a class="chat-email" href="mailto:info@paraisodeloros.com?subject=Consulta%20desde%20web&body=Hola%2C%20quiero%20informaci%C3%B3n%20sobre..." aria-label="Enviar por email">Email</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Smooth anchor scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click',e=>{
+        const href = a.getAttribute('href');
+        const t = document.querySelector(href);
+        if(!t) return;
+        e.preventDefault();
+        t.scrollIntoView({behavior:'smooth'});
+      });
+    });
+
+    // Header on scroll
+    window.addEventListener('scroll',()=>{
+      const h=document.querySelector('.header');
+      if(window.scrollY>100){
+        h.style.background='rgba(10,10,15,0.98)';
+        h.style.boxShadow='0 5px 20px rgba(0,0,0,0.3)';
+      } else {
+        h.style.background='rgba(15,15,20,0.95)';
+        h.style.boxShadow='none';
+      }
+    });
+
+    // Live chat toggle
+    const chatLaunch = document.getElementById('chatLaunch');
+    const chatPanel  = document.getElementById('chatPanel');
+    const chatClose  = document.getElementById('chatClose');
+    const chatSend   = document.getElementById('chatSend');
+
+    function toggleChat(open){
+      chatPanel.classList.toggle('active', open);
+    }
+    chatLaunch.addEventListener('click', ()=> toggleChat(!chatPanel.classList.contains('active')));
+    chatClose.addEventListener('click', ()=> toggleChat(false));
+
+    // Send chat -> WhatsApp
+    chatSend.addEventListener('click', ()=>{
+      const name = (document.getElementById('chatName').value || '').trim();
+      const msg  = (document.getElementById('chatMsg').value || '').trim();
+
+      const base = "Hola Paraíso de Loros,";
+      const who  = name ? (" soy " + name + ".") : "";
+      const body = msg ? (" " + msg) : " quiero información sobre aves disponibles.";
+
+      const text = encodeURIComponent(base + who + body);
+      const url = "https://wa.me/34632165955?text=" + text;
+
+      window.open(url, "_blank", "noopener");
+    });
+  </script>
+
+  <!-- Facebook SDK -->
+  <div id="fb-root"></div>
+  <script>
+    
+  </script>
+  <script>
+  let fbLoaded = false;
+
+  function loadFacebookSDK() {
+    if (fbLoaded) return;
+    fbLoaded = true;
+
+    const js = document.createElement("script");
+    js.async = true;
+    js.defer = true;
+    js.src = "https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v18.0";
+    document.body.appendChild(js);
+  }
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 600) loadFacebookSDK();
+  }, { passive: true });
+</script>
+</body>
+</html> 
