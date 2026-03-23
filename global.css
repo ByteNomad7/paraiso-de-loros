@@ -155,11 +155,15 @@ footer a:hover,
 }
 
 /* ── Nav / Header ── */
-.topbar a, .main-nav a, .topnav a, .header-inner a {
+.topbar a, .main-nav a, .topnav a, .header-inner a, .nav a {
   color: rgba(255, 255, 255, 0.9);
   text-decoration: none;
 }
-.topbar a:hover, .main-nav a:hover, .topnav a:hover, .topnav a.active, .main-nav a.active {
+.topbar a:visited, .main-nav a:visited, .topnav a:visited, .header-inner a:visited, .nav a:visited {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+}
+.topbar a:hover, .main-nav a:hover, .topnav a:hover, .topnav a.active, .main-nav a.active, .nav a:hover {
   color: var(--gold);
   text-decoration: none;
 }
