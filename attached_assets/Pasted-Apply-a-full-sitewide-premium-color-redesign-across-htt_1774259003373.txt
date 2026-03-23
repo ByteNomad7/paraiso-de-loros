@@ -1,0 +1,121 @@
+Apply a full sitewide premium color redesign across https://paraisodeaves.com and remove all dark theme styling completely.
+
+GOAL:
+Implement a unified light premium theme across the entire website using a clean parrot/nature luxury palette. There must be no dark theme sections left anywhere on the site.
+
+IMPORTANT:
+- Implement this across the entire website, all pages, all sections, all components
+- Remove all dark backgrounds, dark overlays, dark cards, dark footer variations, dark form areas, and dark theme leftovers
+- Do not change the website content, text, URLs, or images
+- Only update colors, backgrounds, UI styling, and theme consistency
+
+1. REMOVE DARK THEME COMPLETELY
+Replace any dark/purple/black/blue heavy backgrounds with the approved light theme.
+No section should feel like a dark-mode website.
+No mixed dark/light design.
+No purple links or random blue accents.
+
+2. APPROVED COLOR PALETTE
+Use only this palette sitewide:
+
+- Primary green: #1F3D2B
+- Secondary green: #2B533C
+- Gold accent: #D4A94F
+- Gold hover: #B8933E
+- Cream background: #F8F5F0
+- White surface/card background: #FFFFFF
+- Main text: #1A1A1A
+- Secondary text: #5C5C5C
+- Border: #E7E0D2
+- Optional limited highlight red: #E63946
+
+3. GLOBAL THEME IMPLEMENTATION
+Apply these rules throughout the entire website:
+
+- Main page backgrounds: cream (#F8F5F0)
+- Cards, forms, content boxes: white (#FFFFFF)
+- Header and footer: deep green (#1F3D2B)
+- Headings: deep green (#1F3D2B)
+- Main text: dark charcoal (#1A1A1A)
+- Secondary text: #5C5C5C
+- Buttons: gold (#D4A94F)
+- Button hover: darker gold (#B8933E)
+- Links: green by default, gold on hover
+
+4. TYPOGRAPHY
+Use a premium font pairing sitewide:
+- Headings: Poppins or Montserrat
+- Body: Open Sans or Inter
+
+Improve:
+- hierarchy
+- readability
+- spacing
+- premium visual consistency
+
+5. BUTTON CONSISTENCY
+Make all primary CTA buttons consistent across the site:
+- background: #D4A94F
+- text: white
+- border radius: modern rounded corners
+- hover: #B8933E
+- subtle shadow
+No red or random colored main buttons.
+
+6. FORM REDESIGN
+Update all forms and contact/request sections:
+- background: white
+- borders: #E7E0D2
+- labels/text: dark
+- focus states: gold highlight
+- no dark form boxes
+- premium clean spacing
+
+7. SECTION CONSISTENCY
+Make sure every section follows the same visual identity:
+- light backgrounds
+- premium spacing
+- white cards where needed
+- no dark blocks interrupting the site flow
+
+8. FOOTER CONSISTENCY
+Keep footer premium and readable:
+- background: #1F3D2B
+- text: near-white
+- headings/accent details: gold
+- hover states: gold
+No overly dark black footer tone.
+
+9. HOVER & MICRO-INTERACTIONS
+Add subtle premium hover effects:
+- buttons: slightly darker gold + lift
+- links: gold hover
+- cards: soft shadow increase
+Keep it elegant, not flashy.
+
+10. GLOBAL CSS VARIABLES
+If not already present, create sitewide CSS variables and use them everywhere instead of hardcoded random colors.
+
+Example:
+:root {
+  --primary: #1F3D2B;
+  --primary-2: #2B533C;
+  --accent: #D4A94F;
+  --accent-hover: #B8933E;
+  --bg: #F8F5F0;
+  --surface: #FFFFFF;
+  --text: #1A1A1A;
+  --text-soft: #5C5C5C;
+  --border: #E7E0D2;
+}
+
+11. FINAL CHECK
+Audit every page and every component to confirm:
+- no dark theme remains
+- no purple or random blue colors remain
+- no mismatched section themes remain
+- all pages look like one premium brand
+- the website feels natural, elegant, tropical, and trustworthy
+
+FINAL RESULT:
+A fully light, premium, unified parrot-brand website with green, gold, cream, and white styling implemented across the entire site, with no dark theme left anywhere.

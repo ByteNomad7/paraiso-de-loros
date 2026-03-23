@@ -2,6 +2,20 @@
 
 Sitio web estático completamente en español para paraisodeaves — criador de loros y aves exóticas en España con envíos a toda Europa.
 
+## Blog SEO — 40 Artículos en 5 Clusters
+
+El blog cuenta con **40 artículos en español** organizados en 5 clusters de autoridad temática:
+
+| Cluster | Artículos | Objetivo |
+|---|---|---|
+| **Compra** | 7 | Capturar intención de compra alta |
+| **Precios** | 7 | Capturar búsquedas de precio/comparativa |
+| **Cuidados** | 11 | Autoridad educativa y retención |
+| **Especies** | 7 | Tráfico informacional de especie |
+| **Legalidad** | 6 | Diferenciación y confianza |
+
+Todos los artículos: 800-1200 palabras, H1/H2/H3, keywords naturales, links internos a product pages, CTA hacia WhatsApp, JSON-LD Article schema, `global.css` aplicado, meta title + description.
+
 ## Información Clave
 
 - **Dominio:** `https://paraisodeaves.com`
