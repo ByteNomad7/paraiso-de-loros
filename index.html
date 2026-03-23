@@ -308,24 +308,39 @@
     .social-follow{padding:3rem 5%;background:#F8F5F0;color:#1F3D2B;text-align:center}
     .social-follow h2{font:900 1.8rem/1.2 'Poppins', Arial, sans-serif;margin-bottom:1rem;color:#1F3D2B}
 
-    /* Contact */
-    .contact{padding:5rem 5%;background:linear-gradient(135deg,#1F3D2B,#2B533C);color:#fff;text-align:center}
-    .contact h2{font-size:2.2rem;margin-bottom:1rem;font-weight:900}
-    .contact p{max-width:78ch;margin:0 auto 1.2rem}
-    .contact-form{max-width:650px;margin:0 auto}
-    .form-group{margin-bottom:1rem;text-align:left}
-    .form-group label{display:block;margin-bottom:.45rem;font-weight:800}
+    /* Contact — light premium */
+    .contact{padding:70px 5%;background:#F8F5F0;color:#1A1A1A;text-align:center}
+    .contact h2{font-size:2.2rem;margin-bottom:.6rem;font-weight:900;color:#1F3D2B}
+    .contact>div>p{max-width:60ch;margin:0 auto 2rem;color:#5C5C5C}
+    .contact-form{
+      max-width:600px;margin:0 auto;
+      background:#FFFFFF;border:1px solid #E7E0D2;
+      border-radius:18px;padding:2rem 2rem 1.75rem;
+      box-shadow:0 10px 28px rgba(0,0,0,.06);
+      text-align:left
+    }
+    .form-group{margin-bottom:1.1rem}
+    .form-group label{display:block;margin-bottom:.4rem;font-weight:700;color:#1F3D2B;font-size:.92rem}
     .form-group input,.form-group textarea{
-      width:100%;padding:1rem;border:1px solid rgba(255,255,255,.25);
-      border-radius:14px;background:rgba(255,255,255,.12);color:#fff;font-size:1rem
+      width:100%;padding:.9rem 1rem;
+      border:1px solid #E7E0D2;border-radius:10px;
+      background:#FFFFFF;color:#1A1A1A;font-size:1rem;
+      transition:border-color .2s,box-shadow .2s;
+      outline:none
     }
+    .form-group input:focus,.form-group textarea:focus{
+      border-color:#D4A94F;box-shadow:0 0 0 3px rgba(212,169,79,.15)
+    }
+    .form-group input::placeholder,.form-group textarea::placeholder{color:#A8A39A}
     .submit-btn{
-      padding:1rem 2.4rem;border-radius:999px;border:none;
+      width:100%;padding:1rem 2rem;border-radius:10px;border:none;
       background:linear-gradient(135deg,#D4A94F,#B8933E);
-      color:#fff;font-weight:900;cursor:pointer;
-      transition:transform .2s ease, box-shadow .2s ease
+      color:#fff;font-weight:800;font-family:'Poppins',Arial,sans-serif;
+      font-size:1rem;cursor:pointer;
+      box-shadow:0 8px 20px rgba(212,169,79,.28);
+      transition:transform .2s ease,box-shadow .2s ease
     }
-    .submit-btn:hover{transform:translateY(-3px);box-shadow:0 15px 30px rgba(212,169,79,.40)}
+    .submit-btn:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(212,169,79,.40)}
 
     /* Footer */
     .footer{background:#1F3D2B;color:rgba(255,255,255,.75);text-align:center;padding:2rem 5%;border-top:1px solid rgba(255,255,255,.1)}

@@ -1,0 +1,138 @@
+/* ===== LIGHT PREMIUM SECTION OVERRIDE ===== */
+
+/* Main dark section background */
+.contact-section,
+.request-section,
+.inquiry-section,
+.dark-section,
+section.form-section {
+  background: #F8F5F0 !important;
+  color: #1A1A1A !important;
+}
+
+/* Titles and text */
+.contact-section h1,
+.contact-section h2,
+.contact-section h3,
+.request-section h1,
+.request-section h2,
+.request-section h3,
+.inquiry-section h1,
+.inquiry-section h2,
+.inquiry-section h3,
+.dark-section h1,
+.dark-section h2,
+.dark-section h3,
+section.form-section h1,
+section.form-section h2,
+section.form-section h3 {
+  color: #1F3D2B !important;
+}
+
+.contact-section p,
+.contact-section label,
+.request-section p,
+.request-section label,
+.inquiry-section p,
+.inquiry-section label,
+.dark-section p,
+.dark-section label,
+section.form-section p,
+section.form-section label {
+  color: #1A1A1A !important;
+}
+
+/* Form fields */
+.contact-section input,
+.contact-section textarea,
+.contact-section select,
+.request-section input,
+.request-section textarea,
+.request-section select,
+.inquiry-section input,
+.inquiry-section textarea,
+.inquiry-section select,
+.dark-section input,
+.dark-section textarea,
+.dark-section select,
+section.form-section input,
+section.form-section textarea,
+section.form-section select {
+  background: #FFFFFF !important;
+  color: #1A1A1A !important;
+  border: 1px solid #E7E0D2 !important;
+  border-radius: 10px;
+  box-shadow: none !important;
+}
+
+/* Placeholder */
+.contact-section input::placeholder,
+.contact-section textarea::placeholder,
+.request-section input::placeholder,
+.request-section textarea::placeholder,
+.inquiry-section input::placeholder,
+.inquiry-section textarea::placeholder,
+.dark-section input::placeholder,
+.dark-section textarea::placeholder,
+section.form-section input::placeholder,
+section.form-section textarea::placeholder {
+  color: #7A766D !important;
+}
+
+/* Form container/card */
+.contact-section form,
+.request-section form,
+.inquiry-section form,
+.dark-section form,
+section.form-section form {
+  background: #FFFFFF !important;
+  border: 1px solid #E7E0D2 !important;
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+/* Button */
+.contact-section button,
+.contact-section .btn,
+.request-section button,
+.request-section .btn,
+.inquiry-section button,
+.inquiry-section .btn,
+.dark-section button,
+.dark-section .btn,
+section.form-section button,
+section.form-section .btn {
+  background: #D4A94F !important;
+  color: #FFFFFF !important;
+  border: none !important;
+  border-radius: 10px;
+  padding: 14px 28px;
+  font-weight: 700;
+  box-shadow: 0 8px 18px rgba(212, 169, 79, 0.22);
+  transition: all 0.3s ease;
+}
+
+.contact-section button:hover,
+.contact-section .btn:hover,
+.request-section button:hover,
+.request-section .btn:hover,
+.inquiry-section button:hover,
+.inquiry-section .btn:hover,
+.dark-section button:hover,
+.dark-section .btn:hover,
+section.form-section button:hover,
+section.form-section .btn:hover {
+  background: #B8933E !important;
+  transform: translateY(-2px);
+}
+
+/* Optional softer section spacing */
+.contact-section,
+.request-section,
+.inquiry-section,
+.dark-section,
+section.form-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
