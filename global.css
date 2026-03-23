@@ -1,0 +1,171 @@
+/* ═══════════════════════════════════════════════════════════
+   paraisodeaves — Global Brand Color Enforcement
+   Applied site-wide to override any off-brand colors
+   ═══════════════════════════════════════════════════════════ */
+
+:root {
+  --primary:   #1F3D2B;
+  --secondary: #2B533C;
+  --gold:      #D4A94F;
+  --gold-rich: #E0B75F;
+  --gold-hover:#B8933E;
+  --bg:        #F8F5F0;
+  --surface:   #FFFFFF;
+  --border:    #E7E0D2;
+  --text:      #1A1A1A;
+  --muted:     #5C5C5C;
+  --red:       #E63946;
+}
+
+/* ── Body & Typography ── */
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+/* ── Links ── */
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--gold-hover);
+  text-decoration: underline;
+}
+a:visited {
+  color: var(--primary);
+}
+
+/* ── Headings — only in content areas, not in hero/dark sections ── */
+.content h1, .content h2, .content h3,
+.section h2, .section h3,
+.info-section h2,
+article h1, article h2, article h3 {
+  color: var(--primary);
+}
+
+/* ── Buttons — enforce gold primary ── */
+.btn-primary,
+.btn-gold,
+button[type="submit"],
+input[type="submit"] {
+  background: linear-gradient(135deg, var(--gold), var(--gold-rich));
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+.btn-primary:hover,
+.btn-gold:hover,
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+  background: linear-gradient(135deg, var(--gold-hover), var(--gold));
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(212, 169, 79, 0.4);
+}
+
+/* ── Status Badges ── (product pages) */
+.badge-disponible {
+  background: rgba(31, 61, 43, 0.10) !important;
+  color: var(--primary) !important;
+  border: 1px solid rgba(31, 61, 43, 0.25) !important;
+}
+.badge-cites {
+  background: rgba(212, 169, 79, 0.12) !important;
+  color: var(--gold-hover) !important;
+  border: 1px solid rgba(212, 169, 79, 0.35) !important;
+}
+.badge-europa {
+  background: rgba(43, 83, 60, 0.08) !important;
+  color: var(--secondary) !important;
+  border: 1px solid rgba(43, 83, 60, 0.22) !important;
+}
+.badge-urgencia {
+  background: rgba(212, 169, 79, 0.09) !important;
+  color: var(--gold-hover) !important;
+  border-left-color: var(--gold) !important;
+}
+.urgency-bar {
+  background: rgba(212, 169, 79, 0.09) !important;
+  color: var(--gold-hover) !important;
+  border-left-color: var(--gold) !important;
+}
+
+/* ── Forms & Inputs ── */
+input, textarea, select {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 8px;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(212, 169, 79, 0.18);
+}
+input::placeholder,
+textarea::placeholder {
+  color: #A8A39A;
+}
+
+/* ── Cards ── */
+.bird-card,
+.article-card,
+.species-card,
+.guide-card,
+.fit-card,
+.related-card,
+.blog-link-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+
+/* ── Blog image placeholder backgrounds ── */
+.bc-img, .card-img {
+  background: rgba(31, 61, 43, 0.07);
+}
+
+/* ── FAQ / Summary elements ── */
+summary {
+  color: var(--primary);
+}
+details p {
+  color: var(--muted);
+}
+
+/* ── Misc text colour overrides ── */
+.lead, .intro, .section-sub, p.meta, .card-excerpt {
+  color: var(--muted);
+}
+
+/* ── Footer links ── */
+.footer a,
+footer a,
+.article-footer a {
+  color: var(--gold-rich);
+}
+.footer a:hover,
+footer a:hover,
+.article-footer a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* ── Nav / Header ── */
+.topbar a, .main-nav a, .topnav a, .header-inner a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+}
+.topbar a:hover, .main-nav a:hover, .topnav a:hover, .topnav a.active, .main-nav a.active {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+/* ── Scrollbar (cosmetic) ── */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--gold); }
