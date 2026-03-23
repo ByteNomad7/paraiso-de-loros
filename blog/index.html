@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog sobre Loros | Guías, Precios y Consejos | Paraisodeaves</title>
+  <meta name="description" content="Descubre guías, precios, consejos y comparativas sobre loros en España y Europa. Aprende antes de comprar tu loro ideal." />
+  <link rel="canonical" href="https://paraisodeaves.com/blog/" />
+  <link rel="icon" href="/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Blog","name":"Blog sobre Loros | paraisodeaves","url":"https://paraisodeaves.com/blog/","description":"Guías, precios y consejos sobre loros en España y Europa.","publisher":{"@type":"Organization","name":"paraisodeaves","url":"https://paraisodeaves.com"}}</script>
+  <style>
+    :root{--accent:#1F3D2B;--accent2:#2B533C;--gold:#D4A94F;--gold2:#B8933E;--bg:#F8F5F0;--card:#ffffff;--border:#E7E0D2;--muted:#5C5C5C;--text:#1A1A1A}
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:'Open Sans',Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.7}
+    h1,h2,h3,h4{font-family:'Poppins',Arial,sans-serif}
+    a{color:var(--accent);text-decoration:none}
+    img{display:block;max-width:100%}
+
+    /* ── Topbar ── */
+    .topbar{position:sticky;top:0;z-index:50;background:#1F3D2B;backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.12);padding:14px 5%;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+    .brand{font-weight:900;font-size:1.05rem;font-family:'Poppins',Arial,sans-serif;background:linear-gradient(135deg,#D4A94F,#ffffff,#D4A94F);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;white-space:nowrap}
+    .topnav{display:flex;gap:1.2rem;align-items:center;flex-wrap:wrap}
+    .topnav a{color:rgba(255,255,255,.9);font-weight:600;font-size:.9rem;transition:color .2s}
+    .topnav a:hover,.topnav a.active{color:#D4A94F}
+
+    /* ── Hero ── */
+    .hero{background:linear-gradient(135deg,#1F3D2B,#2B533C);padding:72px 5% 64px;text-align:center}
+    .hero h1{font-size:2.6rem;font-weight:900;color:#fff;margin-bottom:1rem;line-height:1.15}
+    .hero p{font-size:1.1rem;color:rgba(255,255,255,.85);max-width:60ch;margin:0 auto 2rem}
+    .hero-cats{display:flex;gap:.6rem;flex-wrap:wrap;justify-content:center}
+    .cat-tag{display:inline-block;padding:.38rem .9rem;border-radius:999px;font-size:.82rem;font-weight:700;font-family:'Poppins',Arial,sans-serif;border:1px solid rgba(255,255,255,.30);color:rgba(255,255,255,.90);cursor:pointer;transition:background .2s,color .2s}
+    .cat-tag:hover,.cat-tag.active{background:#D4A94F;border-color:#D4A94F;color:#fff}
+
+    /* ── Section wrapper ── */
+    .section{padding:60px 5%}
+    .inner{max-width:1200px;margin:0 auto}
+    .section-label{display:inline-block;font-family:'Poppins',Arial,sans-serif;font-size:.78rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#D4A94F;margin-bottom:.6rem}
+    .section-title{font-size:1.9rem;font-weight:900;color:#1F3D2B;margin-bottom:.5rem}
+    .section-sub{color:#5C5C5C;max-width:60ch;margin-bottom:2.5rem}
+
+    /* ── Article grid ── */
+    .article-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.6rem}
+    .article-card{background:#ffffff;border:1px solid #E7E0D2;border-radius:18px;overflow:hidden;box-shadow:0 4px 14px rgba(0,0,0,.05);transition:transform .25s ease,box-shadow .25s ease;display:flex;flex-direction:column}
+    .article-card:hover{transform:translateY(-6px);box-shadow:0 16px 36px rgba(0,0,0,.10)}
+    .card-img{height:200px;overflow:hidden;background:#e8f0e9}
+    .card-img img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease}
+    .article-card:hover .card-img img{transform:scale(1.06)}
+    .card-body{padding:1.4rem 1.5rem;flex:1;display:flex;flex-direction:column}
+    .card-cat{display:inline-block;font-family:'Poppins',Arial,sans-serif;font-size:.72rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:#D4A94F;margin-bottom:.6rem}
+    .card-title{font-family:'Poppins',Arial,sans-serif;font-size:1.1rem;font-weight:800;color:#1F3D2B;margin-bottom:.6rem;line-height:1.3}
+    .card-excerpt{font-size:.92rem;color:#5C5C5C;line-height:1.6;flex:1;margin-bottom:1.2rem}
+    .btn-leer{display:inline-block;padding:.6rem 1.3rem;border-radius:999px;font-family:'Poppins',Arial,sans-serif;font-size:.85rem;font-weight:700;background:linear-gradient(135deg,#D4A94F,#B8933E);color:#fff;text-decoration:none;transition:transform .18s,box-shadow .18s;align-self:flex-start}
+    .btn-leer:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(212,169,79,.40)}
+
+    /* ── Footer ── */
+    .site-footer{background:#1F3D2B;color:rgba(255,255,255,.80);padding:3rem 5% 2rem;border-top:1px solid rgba(255,255,255,.10)}
+    .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:2rem;max-width:1200px;margin:0 auto 2rem}
+    .footer-brand{font-family:'Poppins',Arial,sans-serif;font-size:1.1rem;font-weight:900;background:linear-gradient(135deg,#D4A94F,#ffffff,#D4A94F);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:.7rem}
+    .footer-tagline{font-size:.88rem;color:rgba(255,255,255,.65);line-height:1.5}
+    .footer-col h4{font-family:'Poppins',Arial,sans-serif;font-size:.82rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#D4A94F;margin-bottom:.9rem}
+    .footer-col ul{list-style:none}
+    .footer-col ul li{margin-bottom:.5rem}
+    .footer-col ul li a{color:rgba(255,255,255,.80);font-size:.88rem;transition:color .2s}
+    .footer-col ul li a:hover{color:#D4A94F}
+    .footer-bottom{max-width:1200px;margin:0 auto;border-top:1px solid rgba(255,255,255,.10);padding-top:1.2rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem;font-size:.82rem;color:rgba(255,255,255,.55)}
+    .footer-bottom a{color:#D4A94F}
+
+    @media(max-width:900px){.article-grid{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr 1fr}}
+    @media(max-width:600px){.article-grid{grid-template-columns:1fr}.hero h1{font-size:1.8rem}.topnav{display:none}.footer-grid{grid-template-columns:1fr}.footer-bottom{flex-direction:column;text-align:center}}
+  </style>
+</head>
+<body>
+
+<nav class="topbar">
+  <a class="brand" href="/">🦜 paraisodeaves</a>
+  <div class="topnav">
+    <a href="/parrots-for-sale-spain.html">Loros España</a>
+    <a href="/buy-parrots-europe.html">Europa</a>
+    <a href="/african-grey-parrot-for-sale.html">Yaco</a>
+    <a href="/macaw-parrots-for-sale.html">Guacamayos</a>
+    <a href="/cockatoo-parrots-for-sale.html">Cacatúas</a>
+    <a href="/about-us.html">Nosotros</a>
+    <a href="/blog/" class="active">Blog</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <h1>Blog sobre Loros en España y Europa</h1>
+  <p>Guías de compra, precios orientativos, comparativas de especies y consejos de cuidado para encontrar el loro ideal con toda la información.</p>
+  <div class="hero-cats">
+    <span class="cat-tag active">Todos</span>
+    <span class="cat-tag">Guías de compra</span>
+    <span class="cat-tag">Precios</span>
+    <span class="cat-tag">Comparativas</span>
+    <span class="cat-tag">Cuidados</span>
+    <span class="cat-tag">Entrega en Europa</span>
+  </div>
+</section>
+
+<section class="section">
+  <div class="inner">
+    <span class="section-label">Últimos artículos</span>
+    <h2 class="section-title">Aprende antes de comprar</h2>
+    <p class="section-sub">Todo lo que necesitas saber sobre especies, precios, cuidados y envíos de aves exóticas.</p>
+
+    <div class="article-grid">
+
+      <article class="article-card">
+        <div class="card-img">
+          <img src="/images/loro-gris-01.jpg" alt="Loro gris africano (Yaco) en España" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <span class="card-cat">Guías de compra</span>
+          <h3 class="card-title">Cómo Comprar un Loro en España — Guía Paso a Paso</h3>
+          <p class="card-excerpt">Documentación CITES, cómo elegir especie, precios orientativos y cómo encontrar un criador de confianza. Todo explicado paso a paso.</p>
+          <a class="btn-leer" href="/blog/how-to-buy-a-parrot-in-spain.html">Leer más</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="card-img">
+          <img src="/images/loro-gris-02.jpg" alt="Precio del loro gris africano Yaco en Europa" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <span class="card-cat">Precios</span>
+          <h3 class="card-title">Precio del Loro Gris Africano (Yaco) en España y Europa</h3>
+          <p class="card-excerpt">¿Cuánto cuesta un Yaco? Analizamos los precios reales en España, Francia, Alemania y Reino Unido y qué factores influyen en el precio.</p>
+          <a class="btn-leer" href="/blog/african-grey-parrot-price-europe.html">Leer más</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="card-img">
+          <img src="/images/guacamayo-azul-01.jpg" alt="Guacamayo azul y amarillo vs cacatúa comparativa" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <span class="card-cat">Comparativas</span>
+          <h3 class="card-title">Guacamayo vs Cacatúa: ¿Cuál es Mejor para Ti?</h3>
+          <p class="card-excerpt">Comparamos tamaño, carácter, precio, nivel de ruido y necesidades de espacio para ayudarte a elegir entre estas dos magníficas especies.</p>
+          <a class="btn-leer" href="/blog/macaw-vs-cockatoo.html">Leer más</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="card-img">
+          <img src="/images/conuro-01.jpg" alt="Los mejores loros para principiantes" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <span class="card-cat">Guías de compra</span>
+          <h3 class="card-title">Los Mejores Loros para Principiantes en España</h3>
+          <p class="card-excerpt">Si es tu primer loro, esta guía te explica qué especies son más dóciles, fáciles de cuidar y adecuadas para hogares sin experiencia previa.</p>
+          <a class="btn-leer" href="/blog/best-parrots-for-beginners.html">Leer más</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="card-img">
+          <img src="/images/loro-amazonico-01.jpg" alt="Guía de cuidados del loro en casa" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <span class="card-cat">Cuidados</span>
+          <h3 class="card-title">Guía de Cuidados del Loro — Todo lo que Necesitas Saber</h3>
+          <p class="card-excerpt">Alimentación, jaula, enriquecimiento mental, veterinario y rutinas diarias. La guía de cuidados más completa para tener un loro sano y feliz.</p>
+          <a class="btn-leer" href="/blog/parrot-care-guide.html">Leer más</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="card-img">
+          <img src="/images/guacamayo-escarlata-01.jpg" alt="Dónde comprar aves exóticas en Europa con envío" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <span class="card-cat">Entrega en Europa</span>
+          <h3 class="card-title">Dónde Comprar Aves Exóticas en Europa con Envío Seguro</h3>
+          <p class="card-excerpt">Guía para compradores europeos: qué documentación exigen los países de la UE, cómo se gestiona el transporte y qué garantías pedir al criador.</p>
+          <a class="btn-leer" href="/blog/where-to-buy-exotic-birds-europe.html">Leer más</a>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="card-img">
+          <img src="/images/eclectus-01.jpg" alt="Cómo alimentar un loro bebé correctamente" loading="lazy" />
+        </div>
+        <div class="card-body">
+          <span class="card-cat">Cuidados</span>
+          <h3 class="card-title">Cómo Alimentar un Loro Bebé Correctamente</h3>
+          <p class="card-excerpt">Papilla, frecuencia de tomas, temperatura correcta y cuándo pasar a alimentación sólida. Todo sobre la cría a mano de loros bebé.</p>
+          <a class="btn-leer" href="/blog/como-alimentar-un-loro-bebe.html">Leer más</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA band -->
+<section style="background:linear-gradient(135deg,#1F3D2B,#2B533C);padding:56px 5%;text-align:center;color:#fff">
+  <div style="max-width:640px;margin:0 auto">
+    <h2 style="font-family:'Poppins',Arial,sans-serif;font-size:1.9rem;font-weight:900;margin-bottom:.8rem">¿Listo para encontrar tu loro?</h2>
+    <p style="color:rgba(255,255,255,.85);margin-bottom:1.5rem;font-size:1rem">Consulta disponibilidad de aves, precios actuales y condiciones de envío a España y Europa.</p>
+    <a href="/parrots-for-sale-spain.html" style="display:inline-block;padding:.9rem 2rem;border-radius:999px;background:linear-gradient(135deg,#D4A94F,#B8933E);color:#fff;font-family:'Poppins',Arial,sans-serif;font-weight:800;text-decoration:none;margin-right:.6rem">Ver Loros Disponibles</a>
+    <a href="https://wa.me/34632165955?text=Hola%2C%20me%20interesan%20vuestros%20loros" target="_blank" rel="noopener" style="display:inline-block;padding:.9rem 2rem;border-radius:999px;background:linear-gradient(135deg,#25D366,#1aad55);color:#fff;font-family:'Poppins',Arial,sans-serif;font-weight:800;text-decoration:none">💬 WhatsApp</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand">🦜 paraisodeaves</div>
+      <p class="footer-tagline">Criador de loros y aves exóticas en España. Envíos con documentación CITES a toda Europa.</p>
+      <p style="margin-top:1rem;font-size:.85rem;color:rgba(255,255,255,.60)">📧 <a href="mailto:info@paraisodeaves.com" style="color:#D4A94F">info@paraisodeaves.com</a><br>📞 <a href="tel:+34632165955" style="color:#D4A94F">+34 632 16 59 55</a></p>
+    </div>
+    <div class="footer-col">
+      <h4>Navegar</h4>
+      <ul>
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/about-us.html">Nosotros</a></li>
+        <li><a href="/about-us.html#contacto">Contacto</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Nuestras Aves</h4>
+      <ul>
+        <li><a href="/african-grey-parrot-for-sale.html">Loro Gris Africano</a></li>
+        <li><a href="/macaw-parrots-for-sale.html">Guacamayos</a></li>
+        <li><a href="/cockatoo-parrots-for-sale.html">Cacatúas</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Información</h4>
+      <ul>
+        <li><a href="/faq.html">FAQ</a></li>
+        <li><a href="/delivery-shipping.html">Entrega</a></li>
+        <li><a href="/blog/">Blog</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 paraisodeaves &mdash; Todos los derechos reservados</span>
+    <span><a href="/sitemap.xml">Sitemap</a></span>
+  </div>
+</footer>
+
+</body>
+</html>

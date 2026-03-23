@@ -58,6 +58,23 @@
     footer{background:#1F3D2B;padding:2rem 5%;text-align:center;color:rgba(255,255,255,.8);font-size:.9rem}
     footer a{color:#D4A94F}
     @media(max-width:640px){h1{font-size:1.75rem}.hero-section{padding:40px 5% 36px}.topnav{display:none}}
+
+    /* ── Premium 3-column footer ── */
+    footer{background:#1F3D2B;padding:3rem 5% 2rem;border-top:1px solid rgba(255,255,255,.10);color:rgba(255,255,255,.80);font-size:.9rem}
+    .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:2rem;max-width:1200px;margin:0 auto 2rem}
+    .footer-brand{font-family:'Poppins',Arial,sans-serif;font-size:1.05rem;font-weight:900;background:linear-gradient(135deg,#D4A94F,#ffffff,#D4A94F);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:.6rem;display:block}
+    .footer-tagline{font-size:.86rem;color:rgba(255,255,255,.60);line-height:1.5;margin-bottom:.9rem}
+    .footer-contact{font-size:.84rem;color:rgba(255,255,255,.65);line-height:1.7}
+    .footer-contact a{color:#D4A94F;text-decoration:none}
+    .footer-col h4{font-family:'Poppins',Arial,sans-serif;font-size:.75rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:#D4A94F;margin-bottom:.8rem}
+    .footer-col ul{list-style:none;padding:0;margin:0}
+    .footer-col ul li{margin-bottom:.45rem}
+    .footer-col ul li a{color:rgba(255,255,255,.78);font-size:.86rem;text-decoration:none;transition:color .2s}
+    .footer-col ul li a:hover{color:#D4A94F}
+    .footer-bottom{max-width:1200px;margin:0 auto;border-top:1px solid rgba(255,255,255,.10);padding-top:1.1rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem;font-size:.8rem;color:rgba(255,255,255,.50)}
+    .footer-bottom a{color:#D4A94F;text-decoration:none}
+    @media(max-width:820px){.footer-grid{grid-template-columns:1fr 1fr;row-gap:1.6rem}}
+    @media(max-width:480px){.footer-grid{grid-template-columns:1fr}.footer-bottom{flex-direction:column;text-align:center}}
   </style>
 </head>
 <body>
@@ -70,6 +87,7 @@
     <a href="/macaw-parrots-for-sale.html">Guacamayos</a>
     <a href="/cockatoo-parrots-for-sale.html">Cacatúas</a>
     <a href="/about-us.html">Nosotros</a>
+    <a href="/blog/">Blog</a>
   </div>
 </nav>
 <section class="hero-section">
@@ -155,8 +173,41 @@
   </div>
 </div>
 <footer>
-  <p>&copy; 2026 paraisodeaves · <a href="mailto:info@paraisodeaves.com">info@paraisodeaves.com</a> · <a href="tel:+34632165955">+34 632 16 59 55</a></p>
-  <p style="margin-top:.5rem"><a href="/">Inicio</a> · <a href="/about-us.html">Nosotros</a> · <a href="/faq.html">FAQ</a> · <a href="/delivery-shipping.html">Envíos</a></p>
+  <div class="footer-grid">
+    <div>
+      <span class="footer-brand">🦜 paraisodeaves</span>
+      <p class="footer-tagline">Criador de loros y aves exóticas en España. Envíos con documentación CITES a toda Europa.</p>
+      <p class="footer-contact">📧 <a href="mailto:info@paraisodeaves.com">info@paraisodeaves.com</a><br>📞 <a href="tel:+34632165955">+34 632 16 59 55</a></p>
+    </div>
+    <div class="footer-col">
+      <h4>Navegar</h4>
+      <ul>
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/about-us.html">Nosotros</a></li>
+        <li><a href="/about-us.html#contacto">Contacto</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Nuestras Aves</h4>
+      <ul>
+        <li><a href="/african-grey-parrot-for-sale.html">Loro Gris Africano</a></li>
+        <li><a href="/macaw-parrots-for-sale.html">Guacamayos</a></li>
+        <li><a href="/cockatoo-parrots-for-sale.html">Cacatúas</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Información</h4>
+      <ul>
+        <li><a href="/faq.html">FAQ</a></li>
+        <li><a href="/delivery-shipping.html">Entrega</a></li>
+        <li><a href="/blog/">Blog</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 paraisodeaves &mdash; Todos los derechos reservados</span>
+    <span><a href="/sitemap.xml">Sitemap</a></span>
+  </div>
 </footer>
 </body>
 </html>

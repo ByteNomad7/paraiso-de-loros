@@ -9,7 +9,15 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- English Landing Pages (High Priority) -->
+  <!-- Blog index -->
+  <url>
+    <loc>https://paraisodeaves.com/blog/</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Landing Pages (High Priority) -->
   <url>
     <loc>https://paraisodeaves.com/parrots-for-sale-spain</loc>
     <lastmod>2026-03-23</lastmod>

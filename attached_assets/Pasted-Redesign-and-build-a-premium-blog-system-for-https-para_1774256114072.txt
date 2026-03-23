@@ -1,0 +1,135 @@
+Redesign and build a premium blog system for https://paraisodeaves.com in Spanish, keeping the existing site style but making the blog area clean, structured, and SEO-friendly.
+
+GOAL:
+Create a dedicated blog page and a homepage articles section that improves internal linking, user trust, and organic traffic.
+
+1. CREATE MAIN BLOG PAGE
+Create a page:
+- /blog
+
+Page title:
+Blog sobre Loros | Guías, Precios y Consejos | Paraisodeaves
+
+Meta description:
+Descubre guías, precios, consejos y comparativas sobre loros en España y Europa. Aprende antes de comprar tu loro ideal.
+
+H1:
+Blog sobre Loros en España y Europa
+
+Intro text:
+Añadir una introducción breve y profesional explicando que el blog ayuda a compradores a aprender sobre especies, precios, cuidados, entrega y proceso de compra.
+
+2. BLOG PAGE LAYOUT
+Build a premium 2026 blog layout with:
+- clean hero/header section
+- article grid (3 columns desktop, 1 column mobile)
+- white cards with soft shadows
+- article image
+- category label
+- article title
+- short excerpt
+- “Leer más” button
+- pagination or load more if needed
+
+Use the premium palette already defined:
+- cream background
+- deep green headers/footer
+- gold accents
+- clean typography
+
+3. ARTICLE CATEGORIES
+Add visible blog categories/tags such as:
+- Guías de compra
+- Precios
+- Comparativas
+- Cuidados
+- Entrega en Europa
+
+4. HOMEPAGE BLOG SECTION
+Add a homepage section titled:
+Guías y Consejos sobre Loros
+
+Subheading:
+Aprende más sobre precios, cuidados y cómo comprar loros en España y Europa.
+
+Display 3 featured articles with:
+- image
+- title
+- short excerpt
+- “Leer más”
+
+Add CTA button:
+Ver todos los artículos
+
+Link this button to:
+- /blog
+
+5. FOOTER CLEANUP
+Remove the current blog keyword dump from the footer.
+Replace it with a clean footer structure:
+
+Column 1:
+- Inicio
+- Nosotros
+- Contacto
+
+Column 2:
+- Loro Gris Africano
+- Guacamayos
+- Cacatúas
+
+Column 3:
+- FAQ
+- Entrega
+- Blog
+
+Do not show raw keyword-heavy article links in one line.
+
+6. INITIAL BLOG ARTICLES
+Create article cards/pages for these posts:
+
+- Comprar un loro en España: guía 2026
+- Precio del loro gris africano en Europa
+- Guacamayo vs cacatúa: cuál elegir
+- Mejores loros para principiantes
+- Cómo cuidar un loro en casa
+- Dónde comprar loros en Europa
+
+Each article should have:
+- SEO title
+- meta description
+- H1
+- featured image area
+- intro
+- clear sections with H2/H3
+- CTA at end linking to contact or parrots pages
+
+7. INTERNAL LINKING
+Ensure blog posts link naturally to:
+- /adopcion
+- /aves
+- relevant bird pages
+- /contacto
+
+And homepage links to:
+- /blog
+- selected blog posts
+
+8. SEO REQUIREMENTS
+For each article:
+- SEO-friendly URL slug
+- unique title tag
+- unique meta description
+- proper H1/H2/H3
+- alt text for images
+- schema-ready article structure if possible
+
+9. MOBILE EXPERIENCE
+Ensure blog cards and homepage article section look premium on mobile:
+- good spacing
+- readable text
+- large tap targets
+- no cramped footer links
+
+FINAL RESULT:
+A premium Spanish blog page and homepage articles section that look professional, improve SEO, strengthen internal linking, and help convert visitors into buyers.
