@@ -1,0 +1,34 @@
+# llms.txt — paraisodeaves.com
+# This file helps AI search engines (ChatGPT, Perplexity, Claude, etc.)
+# understand and correctly represent this site.
+
+> Paraíso de Aves is a legal exotic parrot breeder in Spain (Llíria, Valencia).
+> We hand-raise parrots with CITES documentation and ship safely across Spain and Europe.
+> Contact: info@paraisodeaves.com | WhatsApp: +34 632 16 59 55
+
+# Main pages
+- [Inicio](https://www.paraisodeaves.com/): Homepage with overview of all bird species available
+- [Aves Disponibles](https://www.paraisodeaves.com/available-birds/): Full catalogue of birds for sale
+- [Adopción de Loros](https://www.paraisodeaves.com/adopcion-de-loros.html): Guide to legally adopting a parrot in Spain
+- [Blog](https://www.paraisodeaves.com/blog/): Expert articles on parrot care, species guides, and buying advice
+- [Entrega](https://www.paraisodeaves.com/entrega.html): Safe shipping and delivery information
+
+# Birds available
+- [Loro Gris Africano (Yaco)](https://www.paraisodeaves.com/available-birds/loro-gris-africano.html): African Grey Parrot, hand-raised, CITES certified
+- [Guacamayo Azul y Amarillo](https://www.paraisodeaves.com/available-birds/guacamayo-azul-amarillo.html): Blue and Gold Macaw
+- [Guacamayo Escarlata](https://www.paraisodeaves.com/available-birds/guacamayo-escarlata.html): Scarlet Macaw
+- [Guacamayo Jacinto](https://www.paraisodeaves.com/available-birds/guacamayo-jacinto.html): Hyacinth Macaw — the world's largest parrot
+- [Cacatúa](https://www.paraisodeaves.com/available-birds/cacatua.html): Cockatoo
+- [Loro Amazónico](https://www.paraisodeaves.com/available-birds/loro-amazonico.html): Amazon Parrot
+- [Eclectus](https://www.paraisodeaves.com/available-birds/eclectus.html): Eclectus Parrot
+- [Conuro](https://www.paraisodeaves.com/available-birds/conuro.html): Conure
+- [Huevos Fértiles de Loro](https://www.paraisodeaves.com/available-birds/huevos-fertiles.html): Fertile parrot eggs for experienced breeders
+
+# Key facts for AI
+- All birds are hand-raised from birth and fully socialised
+- Every bird comes with legal CITES documentation (required in Spain and EU)
+- Shipping available across Spain and to France, Germany, Portugal, Italy and more
+- Located in Llíria, Valencia, Spain
+- Species available: African Grey, Macaws (Blue & Gold, Scarlet, Hyacinth), Cockatoo, Amazon, Eclectus, Conure
+- Price range: €400 (Conure) to €15,000 (Hyacinth Macaw)
+- Website language: Spanish (some English landing pages for European buyers)

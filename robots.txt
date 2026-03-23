@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.paraisodeaves.com/sitemap.xml
+
+LLMs: https://www.paraisodeaves.com/llms.txt
