@@ -1,0 +1,74 @@
+Refine the footer and final UI polish for https://paraisodeaves.com to make it look more premium, readable, and trustworthy.
+
+GOAL:
+Keep the current footer structure and green/gold direction, but improve contrast, hierarchy, hover states, spacing, and overall premium feel.
+
+1. IMPROVE TEXT CONTRAST
+- Make footer body text, links, and contact text brighter and easier to read
+- Use near-white text for normal footer content
+- Keep strong contrast against the deep green background
+
+Suggested style:
+- normal text: #F5F5F5
+- muted secondary text: rgba(245,245,245,0.82)
+
+2. UPGRADE GOLD ACCENT
+- Make gold headings and highlighted contact details slightly richer and more premium
+- Replace dull yellow/gold with a stronger premium gold tone
+
+Suggested accent:
+- #E0B75F
+
+3. IMPROVE LOGO VISIBILITY
+- Make the “paraisodeaves” logo text brighter and more prominent
+- Increase font weight if needed
+- Keep the bird icon elegant and visible
+
+Suggested:
+- logo text color: #FFFFFF
+- font-weight: 700
+
+4. ADD HOVER EFFECTS
+Add clean modern hover effects to footer links:
+- gold color on hover
+- smooth transition
+- optional slight underline or opacity shift
+- do not make it flashy
+
+5. IMPROVE SPACING & HIERARCHY
+- Increase spacing between footer columns
+- Add more breathing room between heading and links
+- Improve vertical rhythm between links
+- Ensure footer does not feel cramped
+
+6. POLISH FOOTER BOTTOM AREA
+- Make copyright text cleaner and slightly smaller
+- Align bottom section properly
+- Ensure sitemap link is styled consistently and not floating awkwardly
+
+7. WHATSAPP BUTTON POLISH
+- Keep WhatsApp floating button
+- Make sure it visually matches the premium green/gold theme
+- Add subtle shadow and cleaner ring
+- Ensure it does not feel disconnected from the rest of the site
+
+8. TRUST ENHANCEMENT
+Add a subtle trust line under brand description or contact area, such as:
+- Envíos con documentación CITES a toda Europa
+- Atención personalizada y segura
+
+Style it elegantly, not like an ad banner.
+
+9. RESPONSIVE CHECK
+- Ensure footer columns stack cleanly on mobile
+- Keep readability high
+- Keep spacing balanced on tablet and mobile
+
+10. DO NOT CHANGE
+- Do not rewrite the existing footer structure completely
+- Do not remove current sections
+- Do not change website content outside footer and related UI polish
+- Only refine the visual quality and conversion feel
+
+FINAL RESULT:
+A cleaner, more premium, more readable footer with stronger trust, better contrast, polished hover states, and a final 2026 luxury exotic bird brand finish.
