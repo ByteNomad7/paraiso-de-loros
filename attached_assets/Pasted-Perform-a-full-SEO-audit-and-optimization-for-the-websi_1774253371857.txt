@@ -1,0 +1,150 @@
+Perform a full SEO audit and optimization for the website "ParaisoDeAves" (parrot breeding / exotic birds website focused on Spain and Europe).
+
+GOAL:
+Transform the website into a high-ranking SEO asset that targets buyer-intent keywords and generates organic traffic and inquiries.
+
+---
+
+1. KEYWORD STRATEGY (PRIMARY FOCUS)
+
+Target high-intent keywords:
+
+- parrots for sale Spain
+- buy parrots Europe
+- exotic birds Spain
+- african grey parrot for sale Europe
+- macaw parrot for sale Spain
+- cockatoo parrots for sale Europe
+
+Cluster keywords into pages and ensure natural usage.
+
+---
+
+2. HOMEPAGE OPTIMIZATION
+
+Rewrite homepage with:
+
+SEO Title:
+Parrots for Sale in Spain | Exotic Birds Breeder Europe | ParaisoDeAves
+
+Meta Description:
+Buy healthy parrots in Spain and across Europe. African Grey, Macaw, Cockatoo and more. Trusted breeder with safe delivery and care guarantee.
+
+H1:
+Exotic Parrots for Sale in Spain and Europe
+
+Add structured sections:
+- Introduction (who you are)
+- Types of parrots available
+- Why choose us (trust signals)
+- Delivery across Spain and Europe
+- Health & care guarantee
+- Contact / WhatsApp CTA
+
+Minimum 1000 words.
+
+---
+
+3. CREATE HIGH-INTENT LANDING PAGES
+
+Generate SEO pages:
+
+- /parrots-for-sale-spain
+- /buy-parrots-europe
+- /african-grey-parrot-for-sale
+- /macaw-parrots-for-sale
+- /cockatoo-parrots-for-sale
+
+Each page must include:
+- 800–1200 words
+- H1, H2, H3 structure
+- buyer-focused content
+- call-to-action (contact / WhatsApp)
+- internal linking
+
+---
+
+4. BLOG CONTENT (TRAFFIC ENGINE)
+
+Create 6 blog posts:
+
+- How to Buy a Parrot in Spain (2026 Guide)
+- Best Parrots for Beginners
+- African Grey Parrot Price in Europe
+- Macaw vs Cockatoo Comparison
+- Parrot Care Guide for New Owners
+- Where to Buy Exotic Birds in Europe
+
+Each article:
+- 800–1200 words
+- SEO optimized
+- internal links to product pages
+
+---
+
+5. TECHNICAL SEO
+
+- Generate sitemap.xml
+- Ensure mobile responsiveness
+- Improve page speed
+- Add meta titles and descriptions to all pages
+- Optimize URL structure
+
+---
+
+6. IMAGE SEO
+
+Add alt text for all images:
+
+Examples:
+- african grey parrot for sale Spain
+- macaw parrot breeder Europe
+- exotic birds Spain
+
+Compress images for performance.
+
+---
+
+7. TRUST & AUTHORITY PAGES
+
+Create:
+
+- About Us (breeder story)
+- Delivery & Shipping
+- Parrot Care & Health
+- FAQ
+
+Focus on trust, safety, and professionalism.
+
+---
+
+8. INTERNAL LINKING
+
+- Link blog posts → product pages
+- Link homepage → all key pages
+- Use keyword-rich anchor text
+
+---
+
+9. STRUCTURED DATA
+
+Add schema:
+
+- Organization
+- Product (parrots)
+- FAQ
+
+---
+
+10. CONVERSION OPTIMIZATION
+
+Add strong CTAs on all pages:
+
+- Contact via WhatsApp
+- Request availability
+- Reserve a parrot
+
+---
+
+FINAL RESULT:
+A fully optimized SEO website targeting buyer keywords, increasing visibility on Google, and generating leads across Spain and Europe.

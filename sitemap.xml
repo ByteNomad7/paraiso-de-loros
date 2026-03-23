@@ -1,54 +1,241 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- Homepage -->
   <url>
     <loc>https://paraisodeloros.com/</loc>
-    <lastmod>2026-01-27</lastmod>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
+  <!-- English Landing Pages (High Priority) -->
   <url>
-    <loc>https://paraisodeloros.com/adopcion-de-loros</loc>
+    <loc>https://paraisodeloros.com/parrots-for-sale-spain</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://paraisodeloros.com/buy-parrots-europe</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <url>
+    <loc>https://paraisodeloros.com/african-grey-parrot-for-sale</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://paraisodeloros.com/tipos-de-loros-domesticos</loc>
+    <loc>https://paraisodeloros.com/macaw-parrots-for-sale</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://paraisodeloros.com/cockatoo-parrots-for-sale</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Trust & Authority Pages -->
+  <url>
+    <loc>https://paraisodeloros.com/about-us</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paraisodeloros.com/delivery-shipping</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paraisodeloros.com/parrot-care-health</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paraisodeloros.com/faq</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Spanish Content Pages (Existing) -->
+  <url>
+    <loc>https://paraisodeloros.com/adopcion-de-loros</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paraisodeloros.com/tipos-de-loros-domesticos</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
   </url>
 
   <url>
     <loc>https://paraisodeloros.com/cuidados-basicos-de-un-loro</loc>
-    <priority>0.8</priority>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
   </url>
 
   <url>
     <loc>https://paraisodeloros.com/cuanto-cuesta-mantener-un-loro</loc>
-    <priority>0.8</priority>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
   </url>
 
   <url>
     <loc>https://paraisodeloros.com/errores-comunes-al-adoptar-un-loro</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://paraisodeloros.com/documentos-legales-para-adoptar-un-loro</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
+  <!-- Available Birds Pages -->
   <url>
-    <loc>https://paraisodeloros.com/aves-disponibles</loc>
-    <priority>0.9</priority>
+    <loc>https://paraisodeloros.com/available-birds/</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://paraisodeloros.com/faq</loc>
-    <priority>0.6</priority>
+    <loc>https://paraisodeloros.com/available-birds/loro-gris-africano</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://paraisodeloros.com/contacto</loc>
+    <loc>https://paraisodeloros.com/available-birds/guacamayo-azul-amarillo</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paraisodeloros.com/available-birds/guacamayo-escarlata</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paraisodeloros.com/available-birds/guacamayo-jacinto</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paraisodeloros.com/available-birds/loro-amazonico</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paraisodeloros.com/available-birds/cacatua</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paraisodeloros.com/available-birds/eclectus</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://paraisodeloros.com/available-birds/conuro</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://paraisodeloros.com/available-birds/huevos-fertiles</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- English Blog Posts -->
+  <url>
+    <loc>https://paraisodeloros.com/blog/how-to-buy-a-parrot-in-spain</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paraisodeloros.com/blog/best-parrots-for-beginners</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paraisodeloros.com/blog/african-grey-parrot-price-europe</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://paraisodeloros.com/blog/macaw-vs-cockatoo</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://paraisodeloros.com/blog/parrot-care-guide</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://paraisodeloros.com/blog/where-to-buy-exotic-birds-europe</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Spanish Blog (Existing) -->
+  <url>
+    <loc>https://paraisodeloros.com/blog/como-alimentar-un-loro-bebe</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
