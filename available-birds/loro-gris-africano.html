@@ -5,391 +5,483 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Loro Gris Africano | paraisodeaves</title>
-  <meta name="description" content="Información completa del Loro Gris Africano: carácter, cuidados, alimentación, tamaño, longevidad y recomendaciones. Fotos y asesoría en paraisodeaves." />
+  <meta name="description" content="Loro Gris Africano disponible en paraisodeaves. Socializado, con documentación CITES, envío a España y Europa. Contacta ahora." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://paraisodeaves.com/available-birds/loro-gris-africano.html" />
 
-  <!-- Fuente (Inter) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
 
+
   <style>
     :root{
-      --accent:#ff9900;
-      --accent-dark:#cc7a00;
-      --ink:#0b1420;
-      --muted:#9aa4b2;
-      --bg:#0a0a0a;
-      --card:#12141b;
-      --border: rgba(255,255,255,.12);
+      --primary:#1F3D2B;
+      --secondary:#2B533C;
+      --gold:#D4A94F;
+      --gold-rich:#E0B75F;
+      --gold-hover:#B8933E;
+      --bg:#F8F5F0;
+      --surface:#FFFFFF;
+      --border:#E7E0D2;
+      --text:#1A1A1A;
+      --muted:#5C5C5C;
+      --red:#C0392B;
     }
-
     *{margin:0;padding:0;box-sizing:border-box}
-    body{
-      font-family:'Open Sans',Arial,sans-serif;
-      background: var(--bg);
-      color:#1a1a1a;
-      line-height:1.65;
-    }
+    a{color:var(--primary);text-decoration:none}
+    a:hover{color:var(--secondary)}
+    body{font-family:'Open Sans',Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
     h1,h2,h3,h4,h5,h6{font-family:'Poppins',Arial,sans-serif}
 
+    /* ── TOP BAR ── */
     .topbar{
       position:sticky;top:0;z-index:50;
-      background:rgba(15,15,20,.95);
-      backdrop-filter: blur(14px);
-      border-bottom:1px solid #E7E0D2;
+      background:var(--primary);
+      border-bottom:2px solid var(--gold);
       padding:14px 5%;
       display:flex;align-items:center;justify-content:space-between;
     }
     .brand{
-      font-weight:900;
-      font-size:1.05rem;
-      letter-spacing:.2px;
-      background:linear-gradient(135deg,#D4A94F,#ffffff,#D4A94F);
-      -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
-      white-space:nowrap;
+      font-weight:900;font-size:1.08rem;letter-spacing:.2px;
+      color:#FFFFFF;white-space:nowrap;
     }
     .back{
-      color:#fff;text-decoration:none;font-weight:900;
-      padding:10px 14px;border-radius:999px;
-      border:1px solid rgba(255,255,255,.16);
-      background:rgba(255,255,255,.08);
-      transition:.2s ease;
+      color:#fff;text-decoration:none;font-weight:700;font-size:.9rem;
+      padding:9px 18px;border-radius:999px;
+      border:1px solid rgba(255,255,255,.35);
+      background:rgba(255,255,255,.10);
+      transition:background .2s ease;
     }
-    .back:hover{transform:translateY(-1px);background:rgba(0,100,0,.12)}
+    .back:hover{background:rgba(255,255,255,.20);color:#fff}
 
-    .wrap{max-width:1050px;margin:0 auto;padding:32px 5% 60px}
-    .hero{
-      border:1px solid #E7E0D2;
-      background:linear-gradient(135deg,#10131b,#151a28);
-      border-radius:18px;
-      padding:22px;
-      box-shadow:0 18px 50px rgba(0,0,0,.45);
+    /* ── LAYOUT ── */
+    .wrap{max-width:1080px;margin:0 auto;padding:36px 5% 70px}
+
+    /* ── HERO PRODUCT CARD ── */
+    .product-hero{
+      background:var(--surface);
+      border:1px solid var(--border);
+      border-radius:20px;
+      box-shadow:0 8px 40px rgba(0,0,0,.08);
       overflow:hidden;
     }
-    .hero-grid{
+    .product-grid{
       display:grid;
-      grid-template-columns: 1.25fr .75fr;
-      gap:18px;
+      grid-template-columns:1fr 1fr;
+      gap:0;
       align-items:stretch;
     }
-    .title{
-      font-size:2rem;
-      font-weight:900;
-      line-height:1.15;
-      margin-bottom:8px;
-    }
-    .subtitle{color:var(--muted);max-width:70ch}
-
-    .chips{
-      display:flex;flex-wrap:wrap;gap:10px;
-      margin-top:14px;
-    }
-    .chip{
-      border:1px solid rgba(255,255,255,.14);
-      background:rgba(255,255,255,.06);
-      padding:8px 12px;border-radius:999px;
-      font-weight:900;font-size:.92rem;
-    }
-
-    .gallery{
+    .product-images{
       display:grid;
-      grid-template-columns: 1fr;
-      gap:12px;
-      height:100%;
+      grid-template-rows:1fr 1fr;
+      gap:0;
+      min-height:420px;
     }
-    .photo{
-      border-radius:16px;
+    .product-images .photo{
       overflow:hidden;
-      border:1px solid rgba(255,255,255,.12);
-      background:#0f1117;
-      min-height:180px;
+      background:#e8e0d5;
     }
-    .photo img{
-      width:100%;
-      height:100%;
-      display:block;
-      object-fit:cover;
+    .product-images .photo:first-child{
+      border-bottom:2px solid var(--border);
     }
+    .product-images .photo img{
+      width:100%;height:100%;object-fit:cover;display:block;
+      transition:transform .4s ease;
+    }
+    .product-images .photo:hover img{transform:scale(1.04)}
 
-    .sections{
-      margin-top:18px;
-      display:grid;
-      grid-template-columns: 1fr 1fr;
-      gap:14px;
+    .product-info{
+      padding:32px 32px 28px;
+      display:flex;flex-direction:column;
+      border-left:1px solid var(--border);
     }
-    .card{
-      border:1px solid #E7E0D2;
-      background:rgba(255,255,255,.05);
-      border-radius:16px;
-      padding:16px 16px;
+    .badge-row{
+      display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px;
     }
-    .card h2{
-      font-size:1.15rem;
-      font-weight:900;
-      margin-bottom:8px;
+    .badge{
+      font-size:.75rem;font-weight:700;padding:4px 12px;border-radius:999px;
+      letter-spacing:.4px;text-transform:uppercase;
     }
-    .card p, .card li{color:#dbe2ea}
-    .card ul{padding-left:18px;margin-top:8px}
-    .card li{margin:6px 0}
-
-    .cta{
-      margin-top:16px;
-      display:flex;gap:10px;flex-wrap:wrap;
-    }
-    .btn{
-      display:inline-block;
-      padding:12px 16px;
-      border-radius:999px;
-      font-weight:900;
-      text-decoration:none;
-      border:1px solid rgba(255,255,255,.14);
-      background:rgba(255,255,255,.08);
-      color:#fff;
-      transition:.2s ease;
-    }
-    .btn:hover{transform:translateY(-2px);background:rgba(0,100,0,.12)}
-    .btn-primary{
-      border:none;
-      background:linear-gradient(135deg,var(--accent),#ffb44a);
-      color:#111;
-      box-shadow:0 12px 30px rgba(255,153,0,.22);
-    }
-    .btn-primary:hover{box-shadow:0 16px 44px rgba(255,153,0,.30)}
-
-    .note{
-      margin-top:14px;
-      color:var(--muted);
-      font-size:.95rem;
-    }
-
-    @media (max-width: 900px){
-      .hero-grid{grid-template-columns:1fr}
-      .sections{grid-template-columns:1fr}
-    }
-
-    /* ============================= */
-    /* DROPDOWN MENU (AVES) */
-    /* ============================= */
-    .dropdown {
-      position: relative;
-      display: inline-block;
-    }
-    .dropbtn {
-      cursor: pointer;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-    }
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      top: calc(100% + 10px);
-      left: 0;
-      min-width: 260px;
-      padding: 14px;
-      background: rgba(15,15,20,.96);
-      border: 1px solid rgba(255,255,255,.12);
-      border-radius: 14px;
-      box-shadow: 0 20px 50px rgba(0,0,0,.55);
-      z-index: 9999;
-    }
-    .dropdown-content a {
-      display: block;
-      padding: 8px 10px;
-      color: #e8e8e8;
-      font-size: .95rem;
-      text-decoration: none;
-      border-radius: 8px;
-      transition: background .2s ease, color .2s ease;
-    }
-    .dropdown-content a:hover {
-      background: rgba(255,255,255,.08);
-      color: #ff9900;
-    }
-    .dropdown:hover .dropdown-content {
-      display: block;
-    }
-
-    /* ============================= */
-    /* OTRAS AVES DISPONIBLES */
-    /* ============================= */
-    .otras-aves{
-      max-width:1050px;
-      margin: 0 auto;
-      padding: 0 5% 70px;
-      margin-top: 28px;
-    }
-    .otras-aves h2{
-      font-size:1.6rem;
-      font-weight:900;
+    .badge-disponible{background:#D4EDDA;color:#155724}
+    .badge-cites{background:#FFF3CD;color:#856404}
+    .badge-europa{background:#D1ECF1;color:#0C5460}
+    .badge-urgencia{
+      background:#FFF3CD;color:#856404;
+      font-size:.8rem;font-weight:700;
+      padding:6px 14px;border-radius:8px;
+      border-left:3px solid var(--gold);
       margin-bottom:14px;
     }
-    .otras-aves ul{
-      list-style:none;
-      padding:0;
-      display:grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap:10px;
+
+    h1.bird-name{
+      font-size:2.1rem;font-weight:900;line-height:1.15;
+      color:var(--primary);margin-bottom:8px;
     }
-    .otras-aves a{
-      display:block;
-      padding:12px 14px;
-      background: rgba(255,255,255,.04);
-      border: 1px solid rgba(255,255,255,.08);
-      border-radius: 12px;
-      color:#1a1a1a;
+    .bird-tagline{
+      color:var(--muted);font-size:.98rem;margin-bottom:18px;
+      line-height:1.55;
+    }
+    .meta-list{
+      list-style:none;padding:0;
+      border-top:1px solid var(--border);
+      padding-top:14px;margin-bottom:18px;
+    }
+    .meta-list li{
+      display:flex;align-items:center;gap:10px;
+      padding:7px 0;
+      border-bottom:1px solid #f3ede5;
+      font-size:.9rem;color:var(--text);
+    }
+    .meta-list li:last-child{border-bottom:none}
+    .meta-label{font-weight:700;min-width:80px;color:var(--primary)}
+    .meta-val{color:var(--text)}
+
+    .cta-stack{display:flex;flex-direction:column;gap:10px;margin-bottom:16px}
+    .btn{
+      display:inline-block;text-align:center;
+      padding:13px 22px;border-radius:999px;
+      font-weight:700;font-size:.95rem;
       text-decoration:none;
-      transition: transform .2s ease, box-shadow .2s ease, color .2s ease, background .2s ease;
+      transition:transform .2s ease,box-shadow .2s ease;
+      cursor:pointer;
     }
-    .otras-aves a:hover{
-      transform: translateY(-2px);
-      box-shadow: 0 10px 30px rgba(0,0,0,.4);
-      color:#ff9900;
-      background: rgba(255,255,255,.06);
+    .btn-gold{
+      background:linear-gradient(135deg,var(--gold),var(--gold-rich));
+      color:#fff;
+      box-shadow:0 8px 24px rgba(212,169,79,.35);
+    }
+    .btn-gold:hover{transform:translateY(-2px);box-shadow:0 14px 36px rgba(212,169,79,.45);color:#fff}
+    .btn-wa{
+      background:#25D366;
+      color:#fff;
+      box-shadow:0 8px 24px rgba(37,211,102,.25);
+    }
+    .btn-wa:hover{transform:translateY(-2px);background:#1aad55;color:#fff}
+    .btn-outline{
+      background:transparent;
+      color:var(--primary);
+      border:2px solid var(--primary);
+    }
+    .btn-outline:hover{background:var(--primary);color:#fff;transform:translateY(-2px)}
+
+    .video-note{
+      background:#F0F7F0;border:1px solid #C3DFCA;
+      border-radius:10px;padding:10px 14px;
+      font-size:.87rem;color:#1F3D2B;font-weight:600;
+      margin-top:4px;
     }
 
-    .otras-aves-volver{
-      margin-top:18px;
+    /* ── TRUST BLOCK ── */
+    .trust-block{
+      background:var(--primary);
+      border-radius:16px;
+      padding:28px 32px;
+      margin-top:22px;
+      color:#fff;
     }
-    .otras-aves-volver a{
-      color:#1a1a1a;
-      text-decoration:none;
-      font-weight:900;
-      display:inline-flex;
+    .trust-block h2{
+      font-size:1.2rem;font-weight:800;
+      color:var(--gold-rich);margin-bottom:16px;
+    }
+    .trust-grid{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:12px;
+    }
+    .trust-item{
+      display:flex;align-items:flex-start;gap:10px;
+    }
+    .trust-icon{font-size:1.3rem;flex-shrink:0;margin-top:2px}
+    .trust-text strong{display:block;font-size:.9rem;font-weight:700;color:#fff}
+    .trust-text span{font-size:.82rem;color:rgba(255,255,255,.75)}
+
+    /* ── SECTIONS GRID ── */
+    .sections{
+      margin-top:22px;
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:16px;
+    }
+    .card{
+      background:var(--surface);
+      border:1px solid var(--border);
+      border-radius:16px;
+      padding:22px;
+    }
+    .card h2{
+      font-size:1.05rem;font-weight:800;
+      color:var(--primary);
+      margin-bottom:12px;
+      padding-bottom:8px;
+      border-bottom:2px solid var(--gold);
+      display:inline-block;
+    }
+    .card ul{padding-left:18px;margin-top:4px}
+    .card li{margin:7px 0;font-size:.92rem;color:var(--text)}
+    .card p{font-size:.92rem;color:var(--text);margin-top:6px}
+
+    /* ── IS IT RIGHT FOR YOU ── */
+    .fit-card{
+      background:var(--surface);
+      border:1px solid var(--border);
+      border-radius:16px;
+      padding:24px;
+      margin-top:16px;
+    }
+    .fit-card h2{
+      font-size:1.1rem;font-weight:800;color:var(--primary);margin-bottom:14px;
+    }
+    .fit-grid{
+      display:grid;grid-template-columns:repeat(3,1fr);gap:12px;
+    }
+    .fit-item{
+      background:var(--bg);border:1px solid var(--border);
+      border-radius:12px;padding:14px;text-align:center;
+    }
+    .fit-emoji{font-size:1.6rem;margin-bottom:6px;display:block}
+    .fit-label{font-weight:700;font-size:.88rem;color:var(--primary);display:block;margin-bottom:3px}
+    .fit-desc{font-size:.82rem;color:var(--muted)}
+
+    /* ── FINAL CTA ── */
+    .final-cta{
+      background:linear-gradient(135deg,var(--primary),var(--secondary));
+      border-radius:16px;
+      padding:32px;
+      margin-top:24px;
+      text-align:center;
+      color:#fff;
+    }
+    .final-cta h2{
+      font-size:1.35rem;font-weight:800;
+      margin-bottom:8px;color:#fff;
+    }
+    .final-cta p{
+      color:rgba(255,255,255,.82);margin-bottom:22px;font-size:.95rem;
+    }
+    .final-cta-btns{
+      display:flex;gap:14px;justify-content:center;flex-wrap:wrap;
+    }
+
+    /* ── OTHER BIRDS ── */
+    .otras-aves{
+      margin-top:24px;
+      background:var(--surface);
+      border:1px solid var(--border);
+      border-radius:16px;
+      padding:24px;
+    }
+    .otras-aves h2{
+      font-size:1.05rem;font-weight:800;color:var(--primary);margin-bottom:14px;
+    }
+    .otras-aves ul{
+      list-style:none;padding:0;
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
       gap:8px;
-      align-items:center;
-      padding:10px 12px;
-      border-radius:999px;
-      border:1px solid rgba(255,255,255,.12);
-      background: rgba(255,255,255,.06);
-      transition:.2s ease;
     }
-    .otras-aves-volver a:hover{
-      transform: translateY(-1px);
-      color:#ff9900;
-      background: rgba(255,255,255,.10);
+    .otras-aves a{
+      display:block;padding:10px 14px;
+      background:var(--bg);border:1px solid var(--border);
+      border-radius:10px;
+      color:var(--primary);text-decoration:none;
+      font-size:.9rem;font-weight:600;
+      transition:background .2s,transform .2s,box-shadow .2s;
+    }
+    .otras-aves a:hover{
+      background:var(--primary);color:#fff;
+      transform:translateY(-1px);
+      box-shadow:0 6px 20px rgba(31,61,43,.18);
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width:850px){
+      .product-grid{grid-template-columns:1fr}
+      .product-images{grid-template-rows:auto auto;min-height:320px}
+      .product-images .photo{min-height:180px}
+      .product-info{border-left:none;border-top:1px solid var(--border);padding:24px}
+      .trust-grid{grid-template-columns:1fr}
+      .sections{grid-template-columns:1fr}
+      .fit-grid{grid-template-columns:1fr 1fr}
+      .final-cta-btns{flex-direction:column;align-items:center}
+      h1.bird-name{font-size:1.65rem}
+    }
+    @media (max-width:540px){
+      .fit-grid{grid-template-columns:1fr}
     }
   </style>
+
 </head>
 
 <body>
   <div class="topbar">
     <div class="brand">🦜 paraisodeaves</div>
-    <a class="back" href="/">← Volver al inicio</a>
+    <a class="back" href="/">← Inicio</a>
   </div>
 
   <main class="wrap">
-    <section class="hero">
-      <div class="hero-grid">
-        <div>
-          <h1 class="title">Loro Gris Africano</h1>
-          <p class="subtitle">
-            Famoso por su inteligencia, su capacidad de imitación y su sensibilidad emocional.
-            Es un loro que requiere rutinas, paciencia y una relación cercana con su familia.
-          </p>
 
-          <div class="chips">
-            <div class="chip">🧠 Muy inteligente</div>
-            <div class="chip">🗣️ Gran imitador</div>
-            <div class="chip">🤝 Vínculo fuerte</div>
-            <div class="chip">⏳ Longevidad alta</div>
+    <!-- ══ PRODUCT HERO ══ -->
+    <div class="product-hero">
+      <div class="product-grid">
+
+        <!-- LEFT: Images -->
+        <div class="product-images">
+          <div class="photo">
+            <img src="/images/loro-gris-01.jpg" alt="Loro Gris Africano socializado – paraisodeaves" loading="eager" />
           </div>
-
-          <div class="cta">
-            <a class="btn btn-primary" href="/#contacto">Solicitar información</a>
-            <a class="btn" target="_blank" rel="noopener" href="https://wa.me/34632165955?text=Hola%20Para%C3%ADso%20de%20Loros,%20quiero%20informaci%C3%B3n%20sobre%20el%20Loro%20Gris%20Africano.">WhatsApp</a>
+          <div class="photo">
+            <img src="/images/loro-gris-02.jpg" alt="Loro Gris Africano joven – paraisodeaves" loading="lazy" />
           </div>
-
-          <p class="note">
-            Nota: La disponibilidad cambia. Te enviamos fotos y videos reales del ave disponible en ese momento.
-          </p>
         </div>
 
-        <div class="gallery">
+        <!-- RIGHT: Info -->
+        <div class="product-info">
 
-  <div class="photo">
-    <img src="/images/loro-gris-01.jpg"
-         alt="Loro gris africano adulto socializado"
-         loading="lazy">
-  </div>
+          <div class="badge-row">
+            <span class="badge badge-disponible">✔ Disponible</span>
+            <span class="badge badge-cites">📋 CITES</span>
+            <span class="badge badge-europa">🌍 Envío Europa</span>
+          </div>
 
-  <div class="photo">
-    <img src="/images/loro-gris-02.jpg"
-         alt="Loro gris africano joven en paraisodeaves"
-         loading="lazy">
-  </div>
-  </div>
+          <div class="badge-urgencia">
+            ⏳ Disponibilidad limitada — alta demanda actual
+          </div>
 
-</div>
+          <h1 class="bird-name">Loro Gris Africano</h1>
+          <p class="bird-tagline">El loro más inteligente del mundo. Vínculo profundo, gran imitador y carácter sensible. Socializado desde pequeño en paraisodeaves.</p>
+
+          <ul class="meta-list">
+            <li><span class="meta-label">Ubicación</span><span class="meta-val">🇪🇸 España</span></li>
+            <li><span class="meta-label">Envío</span><span class="meta-val">✈️ Toda España y Europa</span></li>
+            <li><span class="meta-label">Documentos</span><span class="meta-val">📋 CITES incluida</span></li>
+            <li><span class="meta-label">Estado</span><span class="meta-val">Disponible</span></li>
+          </ul>
+
+          <div class="cta-stack">
+            <a href="https://paraisodeaves.com/#contacto" class="btn btn-gold">Solicitar Información</a>
+            <a href="https://wa.me/34632165955?text=Hola%20paraisodeaves%2C%20quiero%20informaci%C3%B3n%20sobre%20el%20Loro%20Gris%20Africano." class="btn btn-wa" target="_blank" rel="noopener">
+              💬 Hablar por WhatsApp
+            </a>
+          </div>
+
+          <div class="video-note">📹 Vídeo del ave disponible bajo solicitud por WhatsApp</div>
+
+          <div class="chips" style="display:flex;flex-wrap:wrap;gap:8px;margin-top:16px">
+            <div class="chip">🧠 Muy inteligente</div><div class="chip">🗣️ Gran imitador</div><div class="chip">🤝 Vínculo fuerte</div><div class="chip">⏳ Larga vida</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ TRUST BLOCK ══ -->
+    <div class="trust-block">
+      <h2>¿Por qué confiar en nosotros?</h2>
+      <div class="trust-grid">
+        <div class="trust-item">
+          <span class="trust-icon">📋</span>
+          <div class="trust-text">
+            <strong>Documentación CITES oficial</strong>
+            <span>Toda la documentación legal incluida y en regla</span>
+          </div>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon">📸</span>
+          <div class="trust-text">
+            <strong>Fotos y vídeos reales</strong>
+            <span>Te enviamos material del ave específica disponible</span>
+          </div>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon">🔍</span>
+          <div class="trust-text">
+            <strong>Seguimiento del proceso</strong>
+            <span>Te mantenemos informado en cada paso</span>
+          </div>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon">🤝</span>
+          <div class="trust-text">
+            <strong>Atención personalizada</strong>
+            <span>Resolvemos todas tus dudas antes y después</span>
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
+    <!-- ══ INFO CARDS ══ -->
     <section class="sections">
-      <article class="card">
-        <h2>Características</h2>
-        <ul>
-          <li><strong>Tamaño:</strong> mediano</li>
-          <li><strong>Personalidad:</strong> observador, sensible, muy inteligente</li>
-          <li><strong>Relación con humanos:</strong> crea vínculos fuertes</li>
-          <li><strong>Habilidad:</strong> imitación de sonidos y palabras (con entrenamiento y paciencia)</li>
-        </ul>
-      </article>
 
       <article class="card">
-        <h2>Cuidados y rutina</h2>
-        <ul>
-          <li>Interacción diaria (no es un loro “de adorno”)</li>
-          <li>Juguetes de estimulación mental + rotación semanal</li>
-          <li>Horario estable para dormir y comer</li>
-          <li>Entrenamiento positivo (sin gritos ni castigos)</li>
-        </ul>
+        <h2>Carácter y socialización</h2>
+        <ul><li>Observador, sensible y extremadamente inteligente</li><li>Socializado desde pequeño para un carácter equilibrado</li><li>Crea vínculos muy fuertes con su familia</li><li>Se adapta bien a rutinas estables y tranquilas</li></ul>
       </article>
-
       <article class="card">
-        <h2>Alimentación recomendada</h2>
-        <ul>
-          <li>Base: pellets de calidad (según disponibilidad)</li>
-          <li>Verduras y frutas variadas (con control)</li>
-          <li>Semillas: en cantidad moderada</li>
-          <li>Agua limpia a diario</li>
-        </ul>
+        <h2>Cuidados esenciales</h2>
+        <ul><li>Interacción diaria (no es un loro de adorno)</li><li>Juguetes de estimulación mental con rotación semanal</li><li>Horario estable de sueño, comida y actividad</li><li>Entrenamiento positivo sin gritos ni castigos</li></ul>
       </article>
-
+      <article class="card">
+        <h2>Alimentación</h2>
+        <ul><li>Base: pellets de calidad</li><li>Verduras y frutas variadas</li><li>Semillas en cantidad moderada</li><li>Agua limpia y fresca a diario</li></ul>
+      </article>
       <article class="card">
         <h2>¿Para quién es ideal?</h2>
-        <ul>
-          <li>Personas con tiempo y rutina estable</li>
-          <li>Familias responsables que quieren vínculo real</li>
-          <li>Personas pacientes (se gana confianza con constancia)</li>
-          <li>No recomendado si pasas todo el día fuera</li>
-        </ul>
+        <ul><li>Personas con tiempo y rutina estable en casa</li><li>Familias responsables que quieren un vínculo real</li><li>Quienes buscan paciencia y constancia</li><li>No recomendado si pasas todo el día fuera</li></ul>
       </article>
     </section>
+
+    <!-- ══ IS IT RIGHT FOR YOU ══ -->
+    <div class="fit-card">
+      <h2>¿Es este loro adecuado para ti?</h2>
+      <div class="fit-grid">
+
+        <div class="fit-item">
+          <span class="fit-emoji">⏰</span>
+          <span class="fit-label">Tiempo</span>
+          <span class="fit-desc">Requiere interacción diaria. No apto para ausencias largas.</span>
+        </div>
+        <div class="fit-item">
+          <span class="fit-emoji">🏠</span>
+          <span class="fit-label">Espacio</span>
+          <span class="fit-desc">Jaula amplia y zona de vuelo segura en casa.</span>
+        </div>
+        <div class="fit-item">
+          <span class="fit-emoji">❤️</span>
+          <span class="fit-label">Compromiso</span>
+          <span class="fit-desc">Puede vivir 50+ años. Es un compromiso de vida.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ FINAL CTA ══ -->
+    <div class="final-cta">
+      <h2>¿Te ha enamorado el Loro Gris Africano?</h2>
+      <p>Contáctanos ahora y te enviamos fotos y vídeos reales del ave disponible. Disponibilidad limitada.</p>
+      <div class="final-cta-btns">
+        <a href="https://paraisodeaves.com/#contacto" class="btn btn-gold" style="min-width:200px">Solicitar Información</a>
+        <a href="https://wa.me/34632165955?text=Hola%20paraisodeaves%2C%20quiero%20informaci%C3%B3n%20sobre%20el%20Loro%20Gris%20Africano." class="btn btn-wa" style="min-width:200px" target="_blank" rel="noopener">
+          💬 Contactar por WhatsApp
+        </a>
+      </div>
+    </div>
+
+    <!-- ══ OTHER BIRDS ══ -->
+    <div class="otras-aves">
+      <h2>Otras aves disponibles</h2>
+      <ul>
+      <li><a href="loro-gris-africano.html">🦜 Loro Gris Africano</a></li>
+      <li><a href="guacamayo-azul-amarillo.html">🦜 Guacamayo Azul y Amarillo</a></li>
+      <li><a href="guacamayo-escarlata.html">🦜 Guacamayo Escarlata</a></li>
+      <li><a href="guacamayo-jacinto.html">🦜 Guacamayo Jacinto</a></li>
+      <li><a href="loro-amazonico.html">🦜 Loro Amazónico</a></li>
+      <li><a href="cacatua.html">🦜 Cacatúa</a></li>
+      <li><a href="eclectus.html">🦜 Eclectus</a></li>
+      <li><a href="conuro.html">🦜 Conuro</a></li>
+      <li><a href="huevos-fertiles.html">🥚 Huevos de Loro (Fértiles)</a></li>
+</ul>
+    </div>
+
   </main>
-
-  <!-- ✅ OTRAS AVES DISPONIBLES (YA ESTILIZADO) -->
-  <section class="otras-aves">
-    <h2>Otras aves disponibles</h2>
-
-    <ul>
-      <li><a href="loro-gris-africano.html">Loro gris africano</a></li>
-      <li><a href="guacamayo-azul-amarillo.html">Guacamayo azul y amarillo</a></li>
-      <li><a href="guacamayo-escarlata.html">Guacamayo escarlata</a></li>
-      <li><a href="guacamayo-jacinto.html">Guacamayo jacinto</a></li>
-      <li><a href="loro-amazonico.html">Loro amazónico</a></li>
-      <li><a href="cacatua.html">Cacatúa</a></li>
-      <li><a href="eclectus.html">Eclectus</a></li>
-      <li><a href="conuro.html">Conuro</a></li>
-      <li><a href="huevos-fertiles.html">Huevos de loro (fértiles)</a></li>
-    </ul>
-
-    <p class="otras-aves-volver">
-      <a href="index.html">← Ver todas las aves disponibles</a>
-    </p>
-  </section>
 </body>
 </html>
