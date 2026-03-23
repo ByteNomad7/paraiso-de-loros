@@ -322,17 +322,24 @@
     "@context": "https://schema.org",
     "@type": "Product",
     "name": "Eclectus",
-    "description": "Eclectus criado a mano en España. Loro elegante e inteligente con documentación CITES. Envío a Europa.",
-    "brand": {"@type": "Brand", "name": "paraisodeaves"},
+    "description": "Loro Eclectus criado a mano en España. Plumaje único y carácter tranquilo. CITES incluido.",
+    "image": "https://www.paraisodeaves.com/uploaded-macaw.webp",
+    "url": "https://www.paraisodeaves.com/available-birds/eclectus.html",
+    "brand": {
+      "@type": "Brand",
+      "name": "paraisodeaves"
+    },
     "offers": {
-      "@type": "Offer",
+      "@type": "AggregateOffer",
+      "priceCurrency": "EUR",
+      "lowPrice": "1200",
+      "highPrice": "2500",
+      "offerCount": "1",
       "availability": "https://schema.org/InStock",
-      "areaServed": [{"@type": "Country", "name": "España"}, {"@type": "Country", "name": "France"}, {"@type": "Country", "name": "Germany"}],
       "seller": {
         "@type": "Organization",
         "name": "paraisodeaves",
-        "url": "https://www.paraisodeaves.com",
-        "telephone": "+34 632 16 59 55"
+        "url": "https://www.paraisodeaves.com"
       }
     }
   }

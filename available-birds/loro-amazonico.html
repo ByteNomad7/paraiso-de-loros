@@ -322,17 +322,24 @@
     "@context": "https://schema.org",
     "@type": "Product",
     "name": "Loro Amazónico",
-    "description": "Loro Amazónico criado a mano y socializado en España. Documentación CITES incluida. Envío a toda Europa.",
-    "brand": {"@type": "Brand", "name": "paraisodeaves"},
+    "description": "Loro Amazónico criado a mano en España. Sociable y gran capacidad de habla. CITES incluido.",
+    "image": "https://www.paraisodeaves.com/uploaded-macaw.webp",
+    "url": "https://www.paraisodeaves.com/available-birds/loro-amazonico.html",
+    "brand": {
+      "@type": "Brand",
+      "name": "paraisodeaves"
+    },
     "offers": {
-      "@type": "Offer",
+      "@type": "AggregateOffer",
+      "priceCurrency": "EUR",
+      "lowPrice": "800",
+      "highPrice": "2000",
+      "offerCount": "1",
       "availability": "https://schema.org/InStock",
-      "areaServed": [{"@type": "Country", "name": "España"}, {"@type": "Country", "name": "France"}, {"@type": "Country", "name": "Germany"}],
       "seller": {
         "@type": "Organization",
         "name": "paraisodeaves",
-        "url": "https://www.paraisodeaves.com",
-        "telephone": "+34 632 16 59 55"
+        "url": "https://www.paraisodeaves.com"
       }
     }
   }

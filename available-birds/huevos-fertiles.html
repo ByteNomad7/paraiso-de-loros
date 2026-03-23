@@ -321,18 +321,25 @@
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "Huevos de Loro Fértiles",
-    "description": "Huevos de loro fértiles disponibles en España. Envío seguro a Europa. Para criadores con experiencia.",
-    "brand": {"@type": "Brand", "name": "paraisodeaves"},
+    "name": "Huevos Fértiles de Loro",
+    "description": "Huevos fértiles de loro para criadores autorizados. Varias especies disponibles por temporada.",
+    "image": "https://www.paraisodeaves.com/uploaded-macaw.webp",
+    "url": "https://www.paraisodeaves.com/available-birds/huevos-fertiles.html",
+    "brand": {
+      "@type": "Brand",
+      "name": "paraisodeaves"
+    },
     "offers": {
-      "@type": "Offer",
+      "@type": "AggregateOffer",
+      "priceCurrency": "EUR",
+      "lowPrice": "150",
+      "highPrice": "500",
+      "offerCount": "1",
       "availability": "https://schema.org/InStock",
-      "areaServed": [{"@type": "Country", "name": "España"}, {"@type": "Country", "name": "France"}, {"@type": "Country", "name": "Germany"}],
       "seller": {
         "@type": "Organization",
         "name": "paraisodeaves",
-        "url": "https://www.paraisodeaves.com",
-        "telephone": "+34 632 16 59 55"
+        "url": "https://www.paraisodeaves.com"
       }
     }
   }
