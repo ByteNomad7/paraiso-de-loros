@@ -3,26 +3,100 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Gracias | paraisodeaves</title>
+  <title>Gracias por tu solicitud | paraisodeaves</title>
   <meta name="robots" content="noindex,follow">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/global.css">
   <style>
-    body{font-family:'Open Sans',Arial,sans-serif;background:#F8F5F0;color:#fff;display:grid;place-items:center;height:100vh;margin:0;padding:1rem}
-    h1,h2,h3,h4,h5,h6{font-family:'Poppins',Arial,sans-serif}
-    .box{max-width:640px;padding:2rem;border:1px solid rgba(255,255,255,.12);border-radius:18px;background:rgba(255,255,255,.06);text-align:center;box-shadow:0 12px 30px rgba(0,0,0,.35)}
-    a{display:inline-block;margin-top:1rem;color:#D4A94F;text-decoration:none;font-weight:800}
-    a:hover{text-decoration:underline}
+    body {
+      font-family: 'Open Sans', Arial, sans-serif;
+      background: #F8F5F0;
+      color: #1A1A1A;
+      display: grid;
+      place-items: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 1.5rem;
+    }
+    h1, h2, h3 { font-family: 'Poppins', Arial, sans-serif; }
+    .box {
+      max-width: 560px;
+      width: 100%;
+      padding: 2.5rem 2rem;
+      border: 1px solid #E7E0D2;
+      border-radius: 18px;
+      background: #FFFFFF;
+      text-align: center;
+      box-shadow: 0 8px 28px rgba(0,0,0,.08);
+    }
+    .icon {
+      font-size: 3rem;
+      margin-bottom: .75rem;
+      display: block;
+    }
+    h1 {
+      font-size: 1.8rem;
+      color: #1F3D2B;
+      margin: 0 0 .75rem;
+    }
+    p {
+      color: #5C5C5C;
+      line-height: 1.7;
+      margin: 0 0 .75rem;
+    }
+    .wa-link {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      margin: 1rem 0;
+      padding: .8rem 1.6rem;
+      border-radius: 999px;
+      background: linear-gradient(135deg, #25D366, #1aad55);
+      color: #fff;
+      font-weight: 800;
+      font-family: 'Poppins', Arial, sans-serif;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: transform .18s, box-shadow .18s;
+      box-shadow: 0 6px 18px rgba(37,211,102,.28);
+    }
+    .wa-link:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 24px rgba(37,211,102,.38);
+      color: #fff;
+      text-decoration: none;
+    }
+    .back-link {
+      display: inline-block;
+      margin-top: .5rem;
+      color: #1F3D2B;
+      font-weight: 700;
+      text-decoration: none;
+      font-size: .95rem;
+      transition: color .18s;
+    }
+    .back-link:hover { color: #D4A94F; text-decoration: none; }
+    .divider {
+      height: 1px;
+      background: #E7E0D2;
+      margin: 1.25rem 0;
+    }
   </style>
-  <link rel="stylesheet" href="/global.css" />
 </head>
 <body>
   <div class="box">
-    <h1>✅ ¡Gracias!</h1>
-    <p>Hemos recibido tu solicitud. Te contactaremos en 24–48 horas con disponibilidad, fotos y próximos pasos.</p>
-    <p style="margin-top:.8rem;font-weight:800;">WhatsApp: <a href="https://wa.me/34632165955" target="_blank" rel="noopener">+34 632 16 59 55</a></p>
-    <a href="/">← Volver al sitio</a>
+    <span class="icon">✅</span>
+    <h1>¡Solicitud recibida!</h1>
+    <p>Gracias por contactar con <strong>paraisodeaves</strong>. Hemos recibido tu solicitud y te responderemos en un plazo de <strong>24–48 horas</strong> con disponibilidad actual, fotos y próximos pasos.</p>
+    <div class="divider"></div>
+    <p style="font-size:.92rem;">Si prefieres una respuesta más rápida, escríbenos directamente por WhatsApp:</p>
+    <a class="wa-link" href="https://wa.me/34632165955" target="_blank" rel="noopener">
+      💬 Escribir por WhatsApp
+    </a>
+    <br>
+    <a class="back-link" href="/">← Volver al inicio</a>
   </div>
 </body>
 </html>
