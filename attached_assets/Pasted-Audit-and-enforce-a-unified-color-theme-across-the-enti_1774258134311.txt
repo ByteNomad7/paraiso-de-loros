@@ -1,0 +1,123 @@
+Audit and enforce a unified color theme across the entire website https://paraisodeaves.com.
+
+GOAL:
+Ensure the website uses a consistent premium color system (green, gold, cream) with no random or mismatched colors.
+
+---
+
+1. FULL COLOR AUDIT
+- Scan all pages, components, and sections:
+  - header
+  - footer
+  - buttons
+  - links
+  - forms
+  - cards
+  - backgrounds
+  - hover states
+
+- Detect any colors that do not match the brand palette
+
+---
+
+2. APPROVED COLOR SYSTEM
+
+Apply only these colors:
+
+- Primary (green): #1F3D2B
+- Secondary green: #2B533C
+- Accent (gold): #D4A94F
+- Accent hover: #B8933E
+- Background (cream): #F8F5F0
+- Surface (white): #FFFFFF
+- Text (dark): #1A1A1A
+- Secondary text: #5C5C5C
+- Border: #E7E0D2
+
+Optional (limited use):
+- Highlight red: #E63946
+
+---
+
+3. REMOVE INCONSISTENT COLORS
+- Remove or replace:
+  - purple
+  - blue
+  - random greys
+  - neon or overly bright tones
+
+Replace them with the approved palette.
+
+---
+
+4. BUTTON CONSISTENCY
+- All primary buttons must use:
+  - background: #D4A94F
+  - hover: #B8933E
+- No mixed button styles across pages
+
+---
+
+5. LINK COLORS
+- Standard links:
+  - color: #1F3D2B
+- Hover:
+  - color: #D4A94F
+
+Ensure no purple/blue default links remain.
+
+---
+
+6. BACKGROUND CONSISTENCY
+- Main pages: #F8F5F0
+- Cards/forms: #FFFFFF
+- Header/Footer: #1F3D2B
+
+Avoid mixing dark and light themes inconsistently.
+
+---
+
+7. FORM & INPUTS
+- Background: white
+- Border: #E7E0D2
+- Focus: gold highlight
+
+---
+
+8. HOVER & INTERACTIONS
+- Ensure all hover effects follow:
+  - gold accent or subtle darkening
+- No random hover colors
+
+---
+
+9. GLOBAL CSS VARIABLES (IMPORTANT)
+If not already used, create:
+
+:root {
+  --primary: #1F3D2B;
+  --accent: #D4A94F;
+  --bg: #F8F5F0;
+  --text: #1A1A1A;
+}
+
+Ensure all colors are pulled from variables, not hardcoded randomly.
+
+---
+
+10. FINAL CHECK
+- No mixed themes (dark + light conflicts)
+- No leftover default browser colors
+- No inconsistent button styles
+- Visual consistency across all pages
+
+---
+
+DO NOT:
+- Change content or layout
+- Only fix color consistency and styling
+
+---
+
+FINAL RESULT:
+A clean, unified, premium visual identity using a consistent green/gold/cream palette across the entire site.
