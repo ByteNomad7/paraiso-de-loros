@@ -46,6 +46,8 @@
     }
 
     *{margin:0;padding:0;box-sizing:border-box}
+    a{color:#1F3D2B;text-decoration:none}
+    a:hover{color:#2B533C}
     html { scroll-padding-top: 90px; }
     body{
       font-family:'Open Sans',Arial,sans-serif;
@@ -166,10 +168,31 @@
     .hero::before{
       content:'';position:absolute;inset:0;z-index:1;
       background:
-        radial-gradient(900px 360px at 50% 18%, rgba(212,169,79,.22), transparent 55%),
-        radial-gradient(900px 360px at 50% 88%, rgba(31,61,43,.28), transparent 55%),
-        linear-gradient(180deg,rgba(31,61,43,.82) 0%,rgba(31,61,43,.40) 48%,rgba(31,61,43,.82) 100%);
+        linear-gradient(180deg,
+          rgba(8,18,12,.82) 0%,
+          rgba(8,18,12,.48) 42%,
+          rgba(8,18,12,.78) 100%);
     }
+
+    /* Trust strip */
+    .trust-strip{
+      display:flex;gap:1.4rem;justify-content:center;flex-wrap:wrap;
+      margin-top:1.2rem;
+    }
+    .trust-strip span{
+      font-size:.84rem;font-weight:600;color:rgba(255,255,255,.88);
+      display:flex;align-items:center;gap:.35rem;
+    }
+    .trust-strip span::before{
+      content:'✔';color:#E0B75F;font-size:.9rem;font-weight:800;
+    }
+
+    /* Hero internal links — gold on dark background */
+    .hero-content a:not(.btn){
+      color:#E0B75F;font-weight:700;text-decoration:underline;
+      text-underline-offset:3px;
+    }
+    .hero-content a:not(.btn):hover{color:#fff}
 
     .floating-feather{
       position:absolute;width:22px;height:22px;z-index:2;
@@ -581,32 +604,25 @@
     <div class="floating-feather"></div>
 
     <div class="hero-content">
-      <h1>Encuentra Tu Compañero Emplumado Perfecto</h1>
-      <p>
-        En paraisodeaves, creemos que un loro no es “solo una mascota”: es un compañero inteligente, sensible y lleno de personalidad,
-        capaz de crear un vínculo real contigo. Trabajamos con aves cuidadas y socializadas desde temprano, para que lleguen a tu hogar con
-        confianza, equilibrio y buen temperamento.
-        <br><br>
-        Te acompañamos en todo el proceso: te enviamos fotos y videos reales, resolvemos tus dudas, y te guiamos para que elijas la especie
-        adecuada según tu estilo de vida, tu tiempo y tu experiencia. El objetivo es simple: que adoptes con seguridad y que el ave tenga un
-        hogar responsable, estable y amoroso.
-      </p>
-
+      <h1>Loros Criados con Amor,<br>Listos para Tu Hogar</h1>
       <!-- ✅ Internal SEO link to blog (helps Google crawl & rank) -->
-      <p style="margin-top:.6rem;">
-        ¿Tienes dudas sobre la alimentación? Consulta nuestra guía:
-        <a href="/blog/como-alimentar-un-loro-bebe.html" style="font-weight:800;text-decoration:underline;">
-          cómo alimentar un loro bebé correctamente
-        </a>.
+      <p>
+        Aves socializadas desde pequeñas, con documentación CITES y envíos seguros a toda España y Europa.
+        Consulta nuestra <a href="/blog/como-alimentar-un-loro-bebe.html">guía de alimentación para loros bebé</a>.
       </p>
 
       <div class="cta-row">
-        <a href="#contacto" class="btn btn-primary">Solicitar Información</a>
-        <a class="btn btn-ghost"
-           href="https://www.facebook.com/profile.php?id=100089916354629"
-           target="_blank" rel="noopener">
-          Ver Aves Disponibles (Facebook)
+        <a href="/available-birds/" class="btn btn-primary">Ver Aves Disponibles</a>
+        <a href="https://wa.me/34632165955?text=Hola%2C%20me%20interesa%20adoptar%20un%20loro.%20%C2%BFPod%C3%A9is%20informarme%3F"
+           class="btn btn-ghost" target="_blank" rel="noopener">
+          💬 Hablar por WhatsApp
         </a>
+      </div>
+
+      <div class="trust-strip">
+        <span>Documentación CITES</span>
+        <span>Envíos en toda Europa</span>
+        <span>Atención personalizada</span>
       </div>
     </div>
   </section>
