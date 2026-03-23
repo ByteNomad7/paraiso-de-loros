@@ -1,0 +1,78 @@
+Audit the entire website https://paraisodeaves.com and ensure 100% Spanish consistency across all pages.
+
+GOAL:
+Make the website fully native Spanish with no mixed language, no English leftovers, and no inconsistent tone.
+
+TASKS:
+
+1. FULL LANGUAGE SCAN
+- Scan all pages, components, modals, buttons, forms, and metadata
+- Detect any English words, phrases, labels, or mixed language content
+- Replace everything with natural, native Spanish (Spain tone)
+
+2. NAVIGATION & UI
+Ensure all menu items are in Spanish:
+- Home → Inicio
+- About → Nosotros
+- Contact → Contacto
+- FAQ → Preguntas Frecuentes
+- Delivery → Entrega
+- Gallery → Galería
+- Process → Proceso
+- Blog → Blog
+
+3. BUTTONS & ACTIONS
+Replace all CTA buttons with Spanish equivalents:
+- Submit → Enviar
+- Request → Solicitar Información
+- Contact Us → Contacto
+- Buy Now → Consultar Disponibilidad
+- Learn More → Más Información
+
+4. FORMS
+- All form labels, placeholders, and validation messages must be in Spanish
+- Example:
+  - Name → Nombre
+  - Email → Correo electrónico
+  - Message → Mensaje
+  - Submit → Enviar solicitud
+
+5. SEO & METADATA
+- Convert all page titles, meta descriptions, alt text, and slugs to Spanish
+- Example:
+  - "Parrots for Sale in Spain" → "Loros en Venta en España"
+- Ensure keywords are Spanish-based
+
+6. URL STRUCTURE (IMPORTANT)
+- Replace English URLs with Spanish-friendly slugs:
+  - /about → /nosotros
+  - /contact → /contacto
+  - /delivery → /entrega
+- Keep URLs clean, lowercase, and SEO-friendly
+
+7. BLOG & ARTICLES
+- Ensure all blog titles and content are in Spanish
+- Remove or rewrite any English articles
+- Keep tone natural (not translated word-for-word)
+
+8. FOOTER
+- Remove any English links or mixed language sections
+- Keep everything consistent with Spanish structure
+
+9. ERROR MESSAGES & SYSTEM TEXT
+- Translate all system messages:
+  - "Required field" → "Campo obligatorio"
+  - "Invalid email" → "Correo electrónico no válido"
+
+10. FINAL CHECK
+- Ensure 0% English remains (except brand names if needed)
+- Ensure tone feels natural for Spain (not Latin American mix unless intended)
+- Maintain premium, professional style
+
+DO NOT:
+- Do not translate brand name "paraisodeaves"
+- Do not break existing layout or design
+- Do not remove content, only correct language
+
+FINAL RESULT:
+A fully Spanish-native website with consistent tone, improved trust, and better SEO for Spain and European markets.
