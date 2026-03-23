@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://paraisodeloros.com/sitemap.xml
+Sitemap: https://paraisodeaves.com/sitemap.xml
