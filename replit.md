@@ -1,78 +1,85 @@
-# ParaisoDeAves — Exotic Parrot Breeder Website
+# paraisodeaves — Criador de Loros y Aves Exóticas
 
-A bilingual (Spanish + English) static HTML website for ParaisoDeAves — an exotic parrot breeder in Spain serving buyers across Europe.
+Sitio web estático completamente en español para paraisodeaves — criador de loros y aves exóticas en España con envíos a toda Europa.
 
-## Project Structure
+## Información Clave
 
-### Homepage
-- `index.html` — Homepage (bilingual SEO: English title/meta, Spanish content preserved)
+- **Dominio:** `https://paraisodeaves.com`
+- **Email:** `info@paraisodeaves.com`
+- **WhatsApp:** `+34 632 16 59 55`
+- **Facebook:** `https://www.facebook.com/profile.php?id=100089916354629`
+- **Google Site Verification:** `8Du7IU5_y0w0vZeaz0bjDdLNdbzb35CubsG1YKISK8c`
 
-### English SEO Landing Pages
-- `parrots-for-sale-spain.html` — "Parrots for sale Spain" (primary keyword page)
-- `buy-parrots-europe.html` — "Buy parrots Europe" (EU market page)
-- `african-grey-parrot-for-sale.html` — African Grey species page
-- `macaw-parrots-for-sale.html` — Macaw species page
-- `cockatoo-parrots-for-sale.html` — Cockatoo species page
+## Diseño / Estilo
 
-### Trust & Authority Pages (English)
-- `about-us.html` — Organization schema, trust signals
-- `delivery-shipping.html` — Transport methods and process
-- `parrot-care-health.html` — Comprehensive care guide
-- `faq.html` — FAQPage schema, 15+ questions
+- Fuentes: **Poppins** (títulos) + **Open Sans** (cuerpo) vía Google Fonts
+- Paleta tropical: verde `#2e7d32` / `#1b5e20`, amarillo `#f9a825`, rojo `#e53935`
+- Fondo claro: `#f7fdf5` (casi blanco con toque verde)
+- Hero con gradiente verde tropical
+- Footer verde oscuro `#1b5e20`
+- Tarjetas blancas con sombra sutil y bordes verdes
 
-### English Blog Posts (`blog/`)
-- `how-to-buy-a-parrot-in-spain.html`
-- `best-parrots-for-beginners.html`
-- `african-grey-parrot-price-europe.html`
-- `macaw-vs-cockatoo.html`
-- `parrot-care-guide.html`
-- `where-to-buy-exotic-birds-europe.html`
+## Estructura del Proyecto
 
-### Spanish Content (Existing, Preserved)
-- `adopcion-de-loros.html`, `tipos-de-loros-domesticos.html`, etc.
-- `available-birds/` — Individual bird pages in Spanish
-- `blog/como-alimentar-un-loro-bebe.html`
+### Página Principal
+- `index.html` — Homepage (diseño original, branding paraisodeaves)
 
-### Other Files
-- `sitemap.xml` — Full sitemap covering all 30+ pages with priorities
-- `assets/img/` — Gallery images
-- `images/` — Bird photos
+### Páginas de Aterrizaje (Español)
+- `parrots-for-sale-spain.html` — Loros en Venta en España
+- `buy-parrots-europe.html` — Comprar Loros en Europa
+- `african-grey-parrot-for-sale.html` — Loro Gris Africano (Yaco) en Venta
+- `macaw-parrots-for-sale.html` — Guacamayos en Venta
+- `cockatoo-parrots-for-sale.html` — Cacatúas en Venta
 
-## Running Locally
+### Páginas Informativas
+- `about-us.html` — Sobre Nosotros (schema Organization)
+- `delivery-shipping.html` — Envíos y Entrega
+- `parrot-care-health.html` — Cuidados y Salud del Loro
+- `faq.html` — Preguntas Frecuentes (schema FAQPage)
 
-Served via Python's built-in HTTP server on port 5000:
+### Blog (`blog/`)
+- `how-to-buy-a-parrot-in-spain.html` — Cómo comprar un loro en España
+- `best-parrots-for-beginners.html` — Mejores loros para principiantes
+- `african-grey-parrot-price-europe.html` — Precio del Yaco en Europa
+- `macaw-vs-cockatoo.html` — Guacamayo vs Cacatúa
+- `parrot-care-guide.html` — Guía de cuidados del loro
+- `where-to-buy-exotic-birds-europe.html` — Dónde comprar aves exóticas en Europa
+- `como-alimentar-un-loro-bebe.html` — (original en español)
+
+### Páginas de Aves Disponibles (`available-birds/`)
+- `index.html`, `loro-gris-africano.html`, `guacamayo-azul-amarillo.html`, `guacamayo-escarlata.html`, `guacamayo-jacinto.html`, `cacatua.html`, `loro-amazonico.html`, `eclectus.html`, `conuro.html`, `huevos-fertiles.html`
+
+### Páginas Informativas Españolas (Originales)
+- `adopcion-de-loros.html`, `tipos-de-loros-domesticos.html`, `cuidados-basicos-de-un-loro.html`, `cuanto-cuesta-mantener-un-loro.html`, `errores-comunes-al-adoptar-un-loro.html`, `documentos-legales-para-adoptar-un-loro.html`
+
+### Otros
+- `sitemap.xml` — Sitemap completo (30+ URLs, dominio paraisodeaves.com)
+- `assets/img/galeria/` — Imágenes de galería
+- `images/` — Fotos de aves
+
+## Tecnología
+
+- HTML/CSS estático puro (sin sistema de compilación)
+- CSS inline por página + Google Fonts
+- Formulario de contacto compatible con Netlify (`data-netlify="true"`)
+- WhatsApp CTA: `https://wa.me/34632165955`
+- Integración Facebook SDK (carga diferida)
+
+## Ejecutar en Local
 
 ```
 python3 -m http.server 5000 --bind 0.0.0.0
 ```
 
-## Deployment
+## Despliegue
 
-Configured as a **static** deployment with `publicDir: "."`.
+Configurado como despliegue **estático** con `publicDir: "."`.
 
-## Technologies
+## Estrategia SEO
 
-- Pure static HTML/CSS (inline styles, no build system)
-- Inter font via Google Fonts
-- Dark design theme: bg `#0a0a0a`, gradients (red `#ff4757`, blue `#3742fa`, orange `#ff9900`)
-- Netlify-compatible contact form (`data-netlify="true"`)
-- WhatsApp CTA: `https://wa.me/34632165955`
-- Facebook page integration (deferred SDK load)
-
-## SEO Strategy
-
-- Homepage: English title/meta targeting "parrots for sale Spain / Europe"
-- 5 English landing pages targeting high-intent commercial keywords
-- 6 English blog posts targeting informational keywords (buying guides, price guides, care guides)
-- 4 trust/authority pages (About, FAQ with FAQPage schema, Delivery, Care)
+- Todo el contenido en **español**
 - Schema markup: Organization, Product, FAQPage, Article
-- Gallery image alt texts updated with bilingual descriptive text
-- Sitemap covers all 30+ URLs with correct priorities and changefreq
-
-## Key Information
-
-- Domain: `https://www.paraisodeloros.com`
-- Email: `info@paraisodeloros.com`
-- Phone/WhatsApp: `+34 632 16 59 55`
-- Facebook: `https://www.facebook.com/profile.php?id=100089916354629`
-- Google Site Verification: `8Du7IU5_y0w0vZeaz0bjDdLNdbzb35CubsG1YKISK8c`
+- Sitemap cubre 30+ URLs con prioridades y changefreq correctos
+- Alt texts descriptivos y bilingües en imágenes de galería
+- Breadcrumbs en todas las páginas
+- Canonical URLs apuntando a `paraisodeaves.com`
