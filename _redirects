@@ -1,1 +1,3 @@
-/adopcion-de-loros.html  /adopcion-de-loros  301!
+# Netlify redirects
+# Note: redirect pages (old English slugs) are handled via meta-refresh in the HTML files
+# with noindex tags — no server-level redirects needed.
