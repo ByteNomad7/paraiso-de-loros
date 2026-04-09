@@ -173,3 +173,22 @@ footer a:hover,
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--gold); }
+
+/* ── Email CTA button (replaces WhatsApp button globally) ── */
+.btn-email {
+  display: inline-block;
+  padding: .8rem 1.7rem;
+  border-radius: 999px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #D4A94F, #B8933E);
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: .95rem;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.btn-email:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(212, 169, 79, .40);
+  color: #fff;
+}
