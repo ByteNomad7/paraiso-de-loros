@@ -192,3 +192,22 @@ footer a:hover,
   box-shadow: 0 10px 24px rgba(212, 169, 79, .40);
   color: #fff;
 }
+
+/* ── Media Protection ── */
+img, video {
+  -webkit-user-drag: none;
+  user-drag: none;
+  -webkit-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+/* Re-enable pointer events only on interactive elements that contain images */
+a img, button img,
+.card-thumb, .gallery-dot-img,
+video.hero-video,
+.card-img-wrap picture,
+.card-img-wrap picture img {
+  pointer-events: auto;
+}
+/* Block long-press highlight on mobile */
+img { -webkit-touch-callout: none; touch-callout: none; }

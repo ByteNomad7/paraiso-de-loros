@@ -623,7 +623,9 @@
           autoplay muted loop playsinline
           preload="metadata"
           aria-label="Vídeo de loros en el criadero paraisodeaves"
-          class="hero-video">
+          class="hero-video"
+          controlsList="nodownload" disablePictureInPicture
+          oncontextmenu="return false">
         </video>
         <div class="video-overlay-badge">🦜 Criadero registrado · Llíria, Valencia</div>
       </div>
@@ -1056,6 +1058,27 @@ donde explicamos cada paso con detalle.
   window.addEventListener("scroll", () => {
     if (window.scrollY > 600) loadFacebookSDK();
   }, { passive: true });
+</script>
+
+<script>
+/* ── Media Protection ── */
+(function(){
+  document.addEventListener('contextmenu', function(e){
+    if(e.target.tagName==='IMG'||e.target.tagName==='VIDEO'||e.target.tagName==='SOURCE'){
+      e.preventDefault(); return false;
+    }
+  });
+  document.addEventListener('dragstart', function(e){
+    if(e.target.tagName==='IMG'||e.target.tagName==='VIDEO'){
+      e.preventDefault(); return false;
+    }
+  });
+  document.addEventListener('selectstart', function(e){
+    if(e.target.tagName==='IMG'||e.target.tagName==='VIDEO'){
+      e.preventDefault(); return false;
+    }
+  });
+})();
 </script>
 </body>
 </html> 

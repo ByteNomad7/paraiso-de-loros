@@ -990,7 +990,9 @@
 <div class="video-modal-overlay" id="videoModalOverlay" role="dialog" aria-modal="true" aria-label="Vídeo del ave">
   <div class="video-modal-inner">
     <button class="video-modal-close" id="videoModalClose" aria-label="Cerrar vídeo">✕</button>
-    <video id="videoModalPlayer" controls playsinline preload="metadata"></video>
+    <video id="videoModalPlayer" controls playsinline preload="metadata"
+      controlsList="nodownload nofullscreen" disablePictureInPicture
+      oncontextmenu="return false"></video>
   </div>
 </div>
 
@@ -1642,6 +1644,27 @@ document.addEventListener('keydown', e => {
 renderGrid();
 renderCart();
 updateCartButton();
+</script>
+
+<script>
+/* ── Media Protection ── */
+(function(){
+  document.addEventListener('contextmenu', function(e){
+    if(e.target.tagName==='IMG'||e.target.tagName==='VIDEO'||e.target.tagName==='SOURCE'){
+      e.preventDefault(); return false;
+    }
+  });
+  document.addEventListener('dragstart', function(e){
+    if(e.target.tagName==='IMG'||e.target.tagName==='VIDEO'){
+      e.preventDefault(); return false;
+    }
+  });
+  document.addEventListener('selectstart', function(e){
+    if(e.target.tagName==='IMG'||e.target.tagName==='VIDEO'){
+      e.preventDefault(); return false;
+    }
+  });
+})();
 </script>
 </body>
 </html>
