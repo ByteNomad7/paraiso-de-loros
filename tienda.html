@@ -584,6 +584,124 @@
     .footer a { color: var(--gold); text-decoration: none; }
     .footer a:hover { text-decoration: underline; }
 
+    /* ── GALLERY THUMBNAILS ── */
+    .card-thumbs {
+      display: flex;
+      gap: 5px;
+      padding: 8px 12px 0;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .card-thumbs::-webkit-scrollbar { display: none; }
+    .card-thumb {
+      width: 44px;
+      height: 44px;
+      border-radius: 6px;
+      object-fit: cover;
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: border-color .18s, transform .15s;
+      flex-shrink: 0;
+    }
+    .card-thumb:hover { border-color: var(--gold); transform: scale(1.06); }
+    .card-thumb.active { border-color: var(--primary); }
+
+    /* ── GALLERY LIGHTBOX ── */
+    .gallery-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.88);
+      z-index: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 16px;
+      padding: 20px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .22s;
+    }
+    .gallery-overlay.open { opacity: 1; pointer-events: all; }
+    .gallery-overlay .g-title {
+      color: rgba(255,255,255,.8);
+      font-family: 'Poppins', sans-serif;
+      font-size: .9rem;
+      font-weight: 600;
+    }
+    .gallery-main-wrap {
+      position: relative;
+      max-width: min(700px, 90vw);
+      width: 100%;
+    }
+    .gallery-main {
+      width: 100%;
+      max-height: 65vh;
+      object-fit: contain;
+      border-radius: 12px;
+      display: block;
+    }
+    .gallery-nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(255,255,255,.15);
+      border: none;
+      color: #fff;
+      font-size: 1.4rem;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background .15s;
+    }
+    .gallery-nav:hover { background: rgba(255,255,255,.3); }
+    .gallery-nav.prev { left: -52px; }
+    .gallery-nav.next { right: -52px; }
+    .gallery-strip {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .gallery-dot-img {
+      width: 64px;
+      height: 64px;
+      object-fit: cover;
+      border-radius: 8px;
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: border-color .15s, transform .15s;
+      opacity: .7;
+    }
+    .gallery-dot-img:hover { opacity: 1; }
+    .gallery-dot-img.active { border-color: var(--gold); opacity: 1; }
+    .gallery-close {
+      position: fixed;
+      top: 16px;
+      right: 16px;
+      background: rgba(255,255,255,.15);
+      border: none;
+      color: #fff;
+      font-size: 1.3rem;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background .15s;
+    }
+    .gallery-close:hover { background: rgba(255,255,255,.3); }
+    @media(max-width:640px) {
+      .gallery-nav.prev { left: 4px; }
+      .gallery-nav.next { right: 4px; }
+    }
+
     /* ── TOAST ── */
     .toast {
       position: fixed;
@@ -806,6 +924,18 @@
   </div>
 </div>
 
+<!-- GALLERY LIGHTBOX -->
+<div class="gallery-overlay" id="galleryOverlay" role="dialog" aria-modal="true" aria-label="Galería de fotos">
+  <button class="gallery-close" id="galleryClose" aria-label="Cerrar galería">✕</button>
+  <div class="g-title" id="galleryTitle"></div>
+  <div class="gallery-main-wrap">
+    <button class="gallery-nav prev" id="galleryPrev" aria-label="Foto anterior">‹</button>
+    <img class="gallery-main" id="galleryMain" src="" alt="">
+    <button class="gallery-nav next" id="galleryNext" aria-label="Foto siguiente">›</button>
+  </div>
+  <div class="gallery-strip" id="galleryStrip"></div>
+</div>
+
 <!-- TOAST -->
 <div class="toast" id="toast" aria-live="polite"></div>
 
@@ -817,20 +947,26 @@
 // ═══════════════════════════════════════════════
 const PRODUCTS = [
   {
-    id: 'yaco-001',
-    name: 'Loro Gris Africano (Yaco)',
-    subtitle: 'Psittacus erithacus',
+    id: 'yaco-shinda-daphne',
+    name: 'Shinda y Daphne — Pareja de Yacos',
+    subtitle: 'Psittacus erithacus · 8 meses · Pareja vinculada',
     category: 'loro',
     categoryLabel: 'Loro',
-    desc: 'El loro más inteligente del mundo. Extraordinaria capacidad de habla y comprensión contextual. Criado a mano desde polluelo en nuestro criadero de Llíria.',
+    desc: 'Shinda y Daphne son una pareja de Loros Grises Africanos de 8 meses, criados a mano en nuestro criadero. A esta edad están en pleno período de socialización — la ventana ideal para establecer un vínculo profundo con su nuevo hogar. Se venden juntos como pareja inseparable.',
     price: 'Consultar',
     priceNum: null,
-    status: 'available',
-    statusLabel: 'Disponible',
-    badges: ['CITES Apéndice I', 'Criado a mano', 'Revisión veterinaria'],
-    img: '/images/loro-gris-01.webp',
-    imgFallback: '/images/loro-gris-01.jpg',
-    imgAlt: 'Loro Gris Africano criado a mano — paraisodeaves',
+    status: 'limited',
+    statusLabel: 'Pareja disponible',
+    badges: ['CITES Apéndice I', 'Criados a mano', 'Pareja vinculada', '8 meses'],
+    img: '/images/shinda-daphne-03.webp',
+    imgFallback: '/images/shinda-daphne-03.jpg',
+    imgAlt: 'Shinda y Daphne — Pareja de Loros Grises Africanos 8 meses — paraisodeaves',
+    photos: [
+      { webp: '/images/shinda-daphne-01.webp', jpg: '/images/shinda-daphne-01.jpg', alt: 'Shinda — Loro Gris Africano 8 meses de cerca' },
+      { webp: '/images/shinda-daphne-02.webp', jpg: '/images/shinda-daphne-02.jpg', alt: 'Shinda y Daphne jugando en el aviario' },
+      { webp: '/images/shinda-daphne-03.webp', jpg: '/images/shinda-daphne-03.jpg', alt: 'Shinda y Daphne — pareja en su entorno' },
+      { webp: '/images/shinda-daphne-04.webp', jpg: '/images/shinda-daphne-04.jpg', alt: 'Shinda y Daphne — los dos Yacos juntos' },
+    ],
   },
   {
     id: 'guac-azul-001',
@@ -1053,15 +1189,34 @@ function renderGrid() {
       limited: 'status-limited',
     }[p.status] || 'status-available';
 
+    const hasGallery = p.photos && p.photos.length > 1;
+    const thumbsHTML = hasGallery
+      ? `<div class="card-thumbs">
+          ${p.photos.map((ph, i) => `
+            <img class="card-thumb${i === 0 ? ' active' : ''}"
+              src="${ph.jpg}" alt="${ph.alt}" loading="lazy"
+              onclick="swapCardImg(this,'${p.id}','${ph.webp}','${ph.jpg}')">
+          `).join('')}
+        </div>`
+      : '';
+    const galleryBtn = hasGallery
+      ? `<button class="btn-add" style="background:var(--surface);color:var(--primary);border:1.5px solid var(--border);"
+           onclick="openGallery('${p.id}')" aria-label="Ver todas las fotos">
+           📷 ${p.photos.length} fotos
+         </button>`
+      : '';
+
     return `
     <article class="product-card${soldOut ? ' sold-out' : ''}" data-id="${p.id}" data-category="${p.category}">
-      <div class="card-img-wrap">
-        <picture>
-          <source srcset="${p.img}" type="image/webp">
-          <img class="card-img" src="${p.imgFallback}" alt="${p.imgAlt}" loading="lazy">
+      <div class="card-img-wrap" id="img-wrap-${p.id}">
+        <picture id="main-pic-${p.id}">
+          <source srcset="${p.img}" type="image/webp" id="main-src-${p.id}">
+          <img class="card-img" src="${p.imgFallback}" alt="${p.imgAlt}" loading="lazy" id="main-img-${p.id}">
         </picture>
         <span class="card-status ${statusClass}">${p.statusLabel}</span>
+        ${hasGallery ? `<div style="position:absolute;bottom:10px;right:10px;background:rgba(0,0,0,.55);color:#fff;font-size:.72rem;font-weight:700;padding:3px 9px;border-radius:999px;cursor:pointer;" onclick="openGallery('${p.id}')">📷 ${p.photos.length} fotos</div>` : ''}
       </div>
+      ${thumbsHTML}
       <div class="card-body">
         <span class="card-category">${p.categoryLabel}</span>
         <h2 class="card-name">${p.name}</h2>
@@ -1077,13 +1232,16 @@ function renderGrid() {
             ? '<span style="font-size:.85rem;color:var(--muted);font-weight:600">Precio a consultar</span>'
             : p.price + ' <span>€</span>'}
         </div>
-        <button
-          class="btn-add${inCart ? ' in-cart' : ''}"
-          onclick="addToCart('${p.id}')"
-          ${soldOut ? 'disabled' : ''}
-          aria-label="Añadir ${p.name} al carrito">
-          ${soldOut ? 'No disponible' : inCart ? '✓ En carrito' : '+ Añadir'}
-        </button>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end">
+          ${galleryBtn}
+          <button
+            class="btn-add${inCart ? ' in-cart' : ''}"
+            onclick="addToCart('${p.id}')"
+            ${soldOut ? 'disabled' : ''}
+            aria-label="Añadir ${p.name} al carrito">
+            ${soldOut ? 'No disponible' : inCart ? '✓ En carrito' : '+ Añadir'}
+          </button>
+        </div>
       </div>
     </article>`;
   }).join('');
@@ -1294,7 +1452,89 @@ document.getElementById('modalOverlay').addEventListener('click', function(e) {
   if (e.target === this) closeModal();
 });
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') { closeCart(); closeModal(); }
+  if (e.key === 'Escape' && !document.getElementById('galleryOverlay').classList.contains('open')) {
+    closeCart(); closeModal();
+  }
+});
+
+// ═══════════════════════════════════════════════
+//  THUMBNAIL SWAP (card level)
+// ═══════════════════════════════════════════════
+function swapCardImg(thumbEl, productId, webp, jpg) {
+  const srcEl = document.getElementById('main-src-' + productId);
+  const imgEl = document.getElementById('main-img-' + productId);
+  if (srcEl) srcEl.srcset = webp;
+  if (imgEl) imgEl.src = jpg;
+  const allThumbs = thumbEl.closest('.card-thumbs').querySelectorAll('.card-thumb');
+  allThumbs.forEach(t => t.classList.remove('active'));
+  thumbEl.classList.add('active');
+}
+
+// ═══════════════════════════════════════════════
+//  GALLERY LIGHTBOX
+// ═══════════════════════════════════════════════
+let galleryPhotos = [];
+let galleryIdx = 0;
+
+function openGallery(productId) {
+  const p = PRODUCTS.find(p => p.id === productId);
+  if (!p || !p.photos) return;
+  galleryPhotos = p.photos;
+  galleryIdx = 0;
+  document.getElementById('galleryTitle').textContent = p.name;
+  renderGalleryImg();
+  renderGalleryStrip();
+  document.getElementById('galleryOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeGallery() {
+  document.getElementById('galleryOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function renderGalleryImg() {
+  const ph = galleryPhotos[galleryIdx];
+  const main = document.getElementById('galleryMain');
+  main.src = ph.jpg;
+  main.alt = ph.alt;
+  document.querySelectorAll('.gallery-dot-img').forEach((el, i) => {
+    el.classList.toggle('active', i === galleryIdx);
+  });
+  document.getElementById('galleryPrev').style.opacity = galleryPhotos.length > 1 ? '1' : '0';
+  document.getElementById('galleryNext').style.opacity = galleryPhotos.length > 1 ? '1' : '0';
+}
+
+function renderGalleryStrip() {
+  document.getElementById('galleryStrip').innerHTML = galleryPhotos.map((ph, i) =>
+    `<img class="gallery-dot-img${i === 0 ? ' active' : ''}"
+       src="${ph.jpg}" alt="${ph.alt}"
+       onclick="setGalleryIdx(${i})" loading="lazy">`
+  ).join('');
+}
+
+function setGalleryIdx(i) {
+  galleryIdx = i;
+  renderGalleryImg();
+}
+
+document.getElementById('galleryPrev').addEventListener('click', () => {
+  galleryIdx = (galleryIdx - 1 + galleryPhotos.length) % galleryPhotos.length;
+  renderGalleryImg();
+});
+document.getElementById('galleryNext').addEventListener('click', () => {
+  galleryIdx = (galleryIdx + 1) % galleryPhotos.length;
+  renderGalleryImg();
+});
+document.getElementById('galleryClose').addEventListener('click', closeGallery);
+document.getElementById('galleryOverlay').addEventListener('click', function(e) {
+  if (e.target === this) closeGallery();
+});
+document.addEventListener('keydown', e => {
+  if (!document.getElementById('galleryOverlay').classList.contains('open')) return;
+  if (e.key === 'ArrowRight') { galleryIdx = (galleryIdx+1) % galleryPhotos.length; renderGalleryImg(); }
+  if (e.key === 'ArrowLeft') { galleryIdx = (galleryIdx-1+galleryPhotos.length) % galleryPhotos.length; renderGalleryImg(); }
+  if (e.key === 'Escape') closeGallery();
 });
 
 // ═══════════════════════════════════════════════

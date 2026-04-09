@@ -18,6 +18,7 @@ Sitio web estático completamente en español para paraisodeaves — criadero le
 6. **Meta robots=index,follow** en todas las páginas indexables
 7. **WhatsApp eliminado** de todo el sitio — solo email `info@paraisodeaves.com`
 8. **Formulario de contacto mejorado** — campos: Nombre, Email, País, Producto, Mensaje
+9. **tienda.html — primera listado real:** Shinda y Daphne (pareja de Yacos, 8 meses) con 4 fotos WebP, galería lightbox + miniaturas en tarjeta, badge "Pareja disponible"
 
 ## Información Técnica Clave
 
