@@ -795,6 +795,104 @@
       .modal-head { padding: 20px; }
     }
   </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "paraisodeaves",
+      "description": "Criadero registrado de loros y aves exóticas en Llíria, Valencia. Venta legal con documentación CITES y envíos a España y Europa.",
+      "url": "https://www.paraisodeaves.com/tienda.html",
+      "email": "info@paraisodeaves.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Llíria",
+        "addressRegion": "Valencia",
+        "addressCountry": "ES"
+      },
+      "areaServed": ["ES", "EU"],
+      "priceRange": "€€€",
+      "image": "https://www.paraisodeaves.com/images/shinda-daphne-03.jpg"
+    },
+    {
+      "@type": "ItemList",
+      "name": "Aves Exóticas y Huevos Fértiles en Venta",
+      "description": "Catálogo de loros criados a mano con documentación CITES completa. Envíos seguros a España y Europa.",
+      "url": "https://www.paraisodeaves.com/tienda.html",
+      "numberOfItems": 9,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Product",
+            "name": "Shinda y Daphne — Pareja de Yacos",
+            "description": "Pareja de Loros Grises Africanos de 8 meses, criados a mano en Llíria, Valencia. CITES Apéndice I. Pareja vinculada.",
+            "image": "https://www.paraisodeaves.com/images/shinda-daphne-03.jpg",
+            "brand": {"@type": "Brand", "name": "paraisodeaves"},
+            "offers": {
+              "@type": "Offer",
+              "availability": "https://schema.org/InStock",
+              "priceCurrency": "EUR",
+              "seller": {"@type": "Organization", "name": "paraisodeaves"},
+              "url": "https://www.paraisodeaves.com/tienda.html"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Product",
+            "name": "Guacamayo Azul y Amarillo",
+            "description": "Ara ararauna criado a mano con CITES. Sociable, enérgico y con gran capacidad de aprendizaje.",
+            "brand": {"@type": "Brand", "name": "paraisodeaves"},
+            "offers": {
+              "@type": "Offer",
+              "availability": "https://schema.org/InStock",
+              "priceCurrency": "EUR",
+              "seller": {"@type": "Organization", "name": "paraisodeaves"}
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Product",
+            "name": "Guacamayo Escarlata",
+            "description": "Ara macao, uno de los guacamayos más vibrantes. Criado a mano con documentación CITES completa.",
+            "brand": {"@type": "Brand", "name": "paraisodeaves"},
+            "offers": {
+              "@type": "Offer",
+              "availability": "https://schema.org/LimitedAvailability",
+              "priceCurrency": "EUR",
+              "seller": {"@type": "Organization", "name": "paraisodeaves"}
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Product",
+            "name": "Huevos Fértiles de Loro",
+            "description": "Huevos fértiles de diversas especies de loros. Envío refrigerado con garantía de fertilidad a España y Europa.",
+            "brand": {"@type": "Brand", "name": "paraisodeaves"},
+            "offers": {
+              "@type": "Offer",
+              "availability": "https://schema.org/InStock",
+              "priceCurrency": "EUR",
+              "seller": {"@type": "Organization", "name": "paraisodeaves"}
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -1265,11 +1363,7 @@ function renderGrid() {
     const hasGallery = p.photos && p.photos.length > 1;
     const thumbsHTML = hasGallery
       ? `<div class="card-thumbs">
-          ${p.photos.map((ph, i) => `
-            <img class="card-thumb${i === 0 ? ' active' : ''}"
-              src="${ph.jpg}" alt="${ph.alt}" loading="lazy"
-              onclick="swapCardImg(this,'${p.id}','${ph.webp}','${ph.jpg}')">
-          `).join('')}
+          ${p.photos.map((ph, i) => `<img class="card-thumb${i === 0 ? ' active' : ''}" src="${ph.jpg}" alt="${ph.alt}" loading="lazy" onclick="swapCardImg(this,'${p.id}','${ph.webp}','${ph.jpg}')">`).join('')}
         </div>`
       : '';
     const galleryBtn = hasGallery
@@ -1608,9 +1702,7 @@ function renderGalleryImg() {
 
 function renderGalleryStrip() {
   document.getElementById('galleryStrip').innerHTML = galleryPhotos.map((ph, i) =>
-    `<img class="gallery-dot-img${i === 0 ? ' active' : ''}"
-       src="${ph.jpg}" alt="${ph.alt}"
-       onclick="setGalleryIdx(${i})" loading="lazy">`
+    `<img class="gallery-dot-img${i === 0 ? ' active' : ''}" src="${ph.jpg}" alt="${ph.alt}" onclick="setGalleryIdx(${i})" loading="lazy">`
   ).join('');
 }
 
