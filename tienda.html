@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda — Aves y Huevos Disponibles | paraisodeaves</title>
+  <meta name="description" content="Compra loros y aves exóticas criadas a mano con documentación CITES completa. Guacamayos, Loros Grises, Amazónicas, Cacatúas y huevos fértiles. Envío a toda España y Europa.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://www.paraisodeaves.com/tienda.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4007YHH4H9"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-4007YHH4H9');</script>
+
+  <style>
+    :root {
+      --primary: #1F3D2B;
+      --secondary: #2B533C;
+      --gold: #D4A94F;
+      --gold-hover: #B8933E;
+      --cream: #F8F5F0;
+      --surface: #FFFFFF;
+      --text: #1A1A1A;
+      --muted: #5C5C5C;
+      --border: #E7E0D2;
+      --green-light: #EAF2ED;
+      --red: #C0392B;
+      --shadow: 0 2px 16px rgba(31,61,43,.10);
+      --shadow-lg: 0 8px 40px rgba(31,61,43,.16);
+      --radius: 12px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Open Sans', sans-serif; background: var(--cream); color: var(--text); min-height: 100vh; }
+
+    /* ── NAV ── */
+    .topnav {
+      background: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 5%;
+      height: 54px;
+      position: sticky;
+      top: 0;
+      z-index: 200;
+      box-shadow: 0 2px 12px rgba(0,0,0,.18);
+    }
+    .topnav__brand { color: #fff; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 1.1rem; text-decoration: none; display: flex; align-items: center; gap: 7px; }
+    .topnav__links { display: flex; align-items: center; gap: 4px; }
+    .topnav__links a { color: rgba(255,255,255,.88); font-size: .875rem; font-weight: 600; text-decoration: none; padding: 6px 12px; border-radius: 6px; transition: background .18s, color .18s; }
+    .topnav__links a:hover, .topnav__links a.active { color: var(--gold); background: rgba(255,255,255,.07); }
+    .cart-btn {
+      background: var(--gold);
+      color: var(--primary);
+      border: none;
+      border-radius: 8px;
+      font-family: 'Poppins', sans-serif;
+      font-size: .85rem;
+      font-weight: 700;
+      padding: 7px 16px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      transition: background .18s, transform .12s;
+      position: relative;
+      margin-left: 8px;
+    }
+    .cart-btn:hover { background: var(--gold-hover); transform: translateY(-1px); }
+    .cart-count {
+      background: var(--primary);
+      color: #fff;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      font-size: .72rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      display: none;
+    }
+    .cart-count.visible { display: flex; }
+
+    /* ── HERO ── */
+    .shop-hero {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+      padding: 56px 5% 48px;
+      text-align: center;
+    }
+    .shop-hero__badge {
+      display: inline-block;
+      background: rgba(212,169,79,.18);
+      border: 1px solid var(--gold);
+      color: var(--gold);
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      padding: 4px 16px;
+      border-radius: 999px;
+      margin-bottom: 16px;
+    }
+    .shop-hero h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 900;
+      color: #fff;
+      line-height: 1.15;
+      margin-bottom: 14px;
+    }
+    .shop-hero p {
+      color: rgba(255,255,255,.78);
+      font-size: 1.05rem;
+      max-width: 560px;
+      margin: 0 auto 28px;
+      line-height: 1.6;
+    }
+    .trust-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+    .trust-pill {
+      background: rgba(255,255,255,.1);
+      border: 1px solid rgba(255,255,255,.2);
+      color: rgba(255,255,255,.9);
+      font-size: .82rem;
+      font-weight: 600;
+      padding: 5px 14px;
+      border-radius: 999px;
+    }
+
+    /* ── FILTERS ── */
+    .filter-bar {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 54px;
+      z-index: 100;
+    }
+    .filter-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 5%;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+    }
+    .filter-inner::-webkit-scrollbar { display: none; }
+    .filter-tab {
+      flex-shrink: 0;
+      background: none;
+      border: 1.5px solid var(--border);
+      color: var(--muted);
+      font-family: 'Open Sans', sans-serif;
+      font-size: .85rem;
+      font-weight: 600;
+      padding: 8px 18px;
+      border-radius: 999px;
+      cursor: pointer;
+      margin: 10px 0;
+      transition: all .18s;
+      white-space: nowrap;
+    }
+    .filter-tab:hover { border-color: var(--primary); color: var(--primary); }
+    .filter-tab.active { background: var(--primary); border-color: var(--primary); color: #fff; }
+
+    /* ── PRODUCT GRID ── */
+    .shop-main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 5% 80px;
+    }
+    .results-info {
+      font-size: .88rem;
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 28px;
+    }
+
+    /* ── PRODUCT CARD ── */
+    .product-card {
+      background: var(--surface);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      transition: box-shadow .22s, transform .22s;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+    .product-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-3px); }
+    .product-card.sold-out { opacity: .7; }
+
+    .card-img {
+      width: 100%;
+      aspect-ratio: 4/3;
+      object-fit: cover;
+      display: block;
+    }
+    .card-img-wrap { position: relative; overflow: hidden; }
+    .card-img-wrap picture { display: block; }
+
+    .card-status {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      font-size: .73rem;
+      font-weight: 700;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 999px;
+    }
+    .status-available { background: #E8F5E9; color: #2E7D32; }
+    .status-reserved { background: #FFF8E1; color: #F57F17; }
+    .status-sold { background: #FFEBEE; color: var(--red); }
+    .status-limited { background: rgba(31,61,43,.85); color: var(--gold); }
+
+    .card-body { padding: 20px; flex: 1; display: flex; flex-direction: column; gap: 10px; }
+    .card-category { font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--gold); }
+    .card-name { font-family: 'Poppins', sans-serif; font-size: 1.15rem; font-weight: 800; color: var(--primary); line-height: 1.25; }
+    .card-subtitle { font-size: .83rem; color: var(--muted); font-style: italic; }
+    .card-desc { font-size: .9rem; color: var(--text); line-height: 1.65; flex: 1; }
+
+    .card-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .badge {
+      font-size: .73rem;
+      font-weight: 700;
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: var(--green-light);
+      color: var(--secondary);
+    }
+    .badge-gold { background: rgba(212,169,79,.15); color: var(--gold-hover); }
+
+    .card-footer {
+      padding: 16px 20px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .card-price {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: var(--primary);
+    }
+    .card-price span { font-size: .8rem; font-weight: 500; color: var(--muted); font-family: 'Open Sans', sans-serif; }
+
+    .btn-add {
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-family: 'Poppins', sans-serif;
+      font-size: .875rem;
+      font-weight: 700;
+      padding: 10px 18px;
+      cursor: pointer;
+      transition: background .18s, transform .12s;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .btn-add:hover { background: var(--secondary); transform: translateY(-1px); }
+    .btn-add:disabled { background: var(--border); color: var(--muted); cursor: not-allowed; transform: none; }
+    .btn-add.in-cart { background: var(--gold); color: var(--primary); }
+
+    /* ── EMPTY STATE ── */
+    .empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      display: none;
+    }
+    .empty-state .icon { font-size: 3rem; margin-bottom: 16px; }
+    .empty-state h3 { font-family: 'Poppins', sans-serif; color: var(--primary); margin-bottom: 8px; }
+    .empty-state p { color: var(--muted); font-size: .95rem; }
+
+    /* ── CART DRAWER ── */
+    .cart-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.45);
+      z-index: 400;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .25s;
+    }
+    .cart-overlay.open { opacity: 1; pointer-events: all; }
+
+    .cart-drawer {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: min(420px, 100vw);
+      background: var(--surface);
+      z-index: 401;
+      display: flex;
+      flex-direction: column;
+      transform: translateX(100%);
+      transition: transform .28s cubic-bezier(.4,0,.2,1);
+      box-shadow: -8px 0 40px rgba(0,0,0,.18);
+    }
+    .cart-drawer.open { transform: translateX(0); }
+
+    .cart-header {
+      background: var(--primary);
+      color: #fff;
+      padding: 18px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .cart-header h2 { font-family: 'Poppins', sans-serif; font-size: 1.1rem; font-weight: 700; }
+    .cart-close {
+      background: none;
+      border: none;
+      color: #fff;
+      font-size: 1.4rem;
+      cursor: pointer;
+      line-height: 1;
+      padding: 4px 8px;
+      border-radius: 6px;
+      transition: background .15s;
+    }
+    .cart-close:hover { background: rgba(255,255,255,.15); }
+
+    .cart-items { flex: 1; overflow-y: auto; padding: 16px; display: flex; flex-direction: column; gap: 12px; }
+    .cart-empty-msg { text-align: center; padding: 40px 20px; color: var(--muted); font-size: .95rem; }
+    .cart-empty-msg .icon { font-size: 2.5rem; display: block; margin-bottom: 12px; }
+
+    .cart-item {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      background: var(--cream);
+      border-radius: 10px;
+      padding: 12px;
+    }
+    .cart-item-img { width: 60px; height: 60px; object-fit: cover; border-radius: 8px; flex-shrink: 0; }
+    .cart-item-info { flex: 1; min-width: 0; }
+    .cart-item-name { font-family: 'Poppins', sans-serif; font-size: .9rem; font-weight: 700; color: var(--primary); }
+    .cart-item-sub { font-size: .78rem; color: var(--muted); margin-top: 2px; }
+    .cart-item-price { font-family: 'Poppins', sans-serif; font-size: .9rem; font-weight: 700; color: var(--gold-hover); margin-top: 4px; }
+
+    .cart-qty {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 8px;
+    }
+    .qty-btn {
+      background: var(--surface);
+      border: 1.5px solid var(--border);
+      width: 26px;
+      height: 26px;
+      border-radius: 6px;
+      font-size: .9rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: border-color .15s;
+    }
+    .qty-btn:hover { border-color: var(--primary); }
+    .qty-val { font-size: .88rem; font-weight: 600; min-width: 18px; text-align: center; }
+
+    .cart-item-remove {
+      background: none;
+      border: none;
+      font-size: 1.1rem;
+      cursor: pointer;
+      color: var(--muted);
+      padding: 2px 4px;
+      border-radius: 4px;
+      transition: color .15s;
+      flex-shrink: 0;
+      line-height: 1;
+    }
+    .cart-item-remove:hover { color: var(--red); }
+
+    .cart-footer {
+      border-top: 1px solid var(--border);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .cart-total { display: flex; justify-content: space-between; align-items: baseline; }
+    .cart-total-label { font-weight: 600; color: var(--muted); font-size: .9rem; }
+    .cart-total-amount { font-family: 'Poppins', sans-serif; font-size: 1.35rem; font-weight: 800; color: var(--primary); }
+    .cart-note { font-size: .8rem; color: var(--muted); text-align: center; line-height: 1.5; }
+
+    .btn-checkout {
+      background: var(--gold);
+      color: var(--primary);
+      border: none;
+      border-radius: 10px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1rem;
+      font-weight: 800;
+      padding: 14px;
+      cursor: pointer;
+      width: 100%;
+      transition: background .18s, transform .12s;
+    }
+    .btn-checkout:hover { background: var(--gold-hover); transform: translateY(-1px); }
+
+    /* ── CHECKOUT MODAL ── */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.55);
+      z-index: 500;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .25s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .modal-overlay.open { opacity: 1; pointer-events: all; }
+
+    .modal {
+      background: var(--surface);
+      border-radius: 16px;
+      width: 100%;
+      max-width: 540px;
+      max-height: 90vh;
+      overflow-y: auto;
+      box-shadow: var(--shadow-lg);
+      transform: scale(.96) translateY(12px);
+      transition: transform .25s cubic-bezier(.4,0,.2,1);
+    }
+    .modal-overlay.open .modal { transform: scale(1) translateY(0); }
+
+    .modal-head {
+      background: var(--primary);
+      color: #fff;
+      padding: 24px 28px 20px;
+      border-radius: 16px 16px 0 0;
+      position: relative;
+    }
+    .modal-head h2 { font-family: 'Poppins', sans-serif; font-size: 1.25rem; font-weight: 800; margin-bottom: 4px; }
+    .modal-head p { font-size: .88rem; color: rgba(255,255,255,.75); }
+    .modal-close {
+      position: absolute;
+      top: 16px;
+      right: 20px;
+      background: rgba(255,255,255,.15);
+      border: none;
+      color: #fff;
+      font-size: 1.2rem;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background .15s;
+    }
+    .modal-close:hover { background: rgba(255,255,255,.3); }
+
+    .modal-body { padding: 24px 28px; }
+
+    .order-summary {
+      background: var(--cream);
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 24px;
+    }
+    .order-summary h3 { font-family: 'Poppins', sans-serif; font-size: .9rem; font-weight: 700; color: var(--primary); margin-bottom: 12px; text-transform: uppercase; letter-spacing: .04em; }
+    .order-line { display: flex; justify-content: space-between; font-size: .88rem; margin-bottom: 8px; color: var(--text); }
+    .order-line:last-child { margin-bottom: 0; font-weight: 700; border-top: 1px solid var(--border); padding-top: 8px; margin-top: 4px; }
+
+    .payment-info {
+      background: var(--green-light);
+      border: 1.5px solid rgba(31,61,43,.2);
+      border-radius: 10px;
+      padding: 16px 18px;
+      margin-bottom: 24px;
+    }
+    .payment-info__title { font-family: 'Poppins', sans-serif; font-size: .9rem; font-weight: 700; color: var(--primary); margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
+    .payment-info p { font-size: .86rem; color: var(--secondary); line-height: 1.6; }
+
+    .form-grid { display: flex; flex-direction: column; gap: 14px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .form-group { display: flex; flex-direction: column; gap: 5px; }
+    .form-group label { font-size: .82rem; font-weight: 600; color: var(--primary); }
+    .form-group input, .form-group select, .form-group textarea {
+      border: 1.5px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: .9rem;
+      color: var(--text);
+      background: var(--surface);
+      transition: border-color .18s;
+      width: 100%;
+    }
+    .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+      outline: none;
+      border-color: var(--primary);
+    }
+    .form-group textarea { resize: vertical; min-height: 80px; }
+    .form-group select { appearance: none; cursor: pointer; }
+
+    .btn-submit {
+      background: var(--gold);
+      color: var(--primary);
+      border: none;
+      border-radius: 10px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1rem;
+      font-weight: 800;
+      padding: 14px;
+      cursor: pointer;
+      width: 100%;
+      margin-top: 6px;
+      transition: background .18s, transform .12s;
+    }
+    .btn-submit:hover { background: var(--gold-hover); transform: translateY(-1px); }
+    .form-legal { font-size: .76rem; color: var(--muted); text-align: center; margin-top: 8px; line-height: 1.5; }
+
+    /* Success state */
+    .success-state { display: none; text-align: center; padding: 32px 20px 24px; }
+    .success-icon { font-size: 3.5rem; margin-bottom: 16px; }
+    .success-state h3 { font-family: 'Poppins', sans-serif; color: var(--primary); font-size: 1.3rem; font-weight: 800; margin-bottom: 10px; }
+    .success-state p { color: var(--muted); font-size: .92rem; line-height: 1.6; }
+    .success-ref { background: var(--cream); border-radius: 8px; padding: 10px 16px; margin: 16px 0; font-family: monospace; font-size: .95rem; font-weight: 700; color: var(--primary); letter-spacing: .05em; }
+
+    /* ── TRUST SECTION ── */
+    .trust-section {
+      background: var(--primary);
+      padding: 48px 5%;
+      text-align: center;
+    }
+    .trust-section h2 { font-family: 'Poppins', sans-serif; font-size: 1.3rem; font-weight: 800; color: #fff; margin-bottom: 28px; }
+    .trust-grid {
+      max-width: 900px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 24px;
+    }
+    .trust-item { color: rgba(255,255,255,.9); }
+    .trust-item .ti-icon { font-size: 2rem; margin-bottom: 10px; }
+    .trust-item strong { display: block; font-family: 'Poppins', sans-serif; font-size: .95rem; font-weight: 700; margin-bottom: 4px; }
+    .trust-item p { font-size: .83rem; color: rgba(255,255,255,.65); line-height: 1.5; }
+
+    /* ── FOOTER ── */
+    .footer {
+      background: var(--primary);
+      border-top: 1px solid rgba(255,255,255,.07);
+      padding: 20px 5%;
+      text-align: center;
+      color: rgba(255,255,255,.6);
+      font-size: .82rem;
+    }
+    .footer a { color: var(--gold); text-decoration: none; }
+    .footer a:hover { text-decoration: underline; }
+
+    /* ── TOAST ── */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(80px);
+      background: var(--primary);
+      color: #fff;
+      padding: 12px 22px;
+      border-radius: 999px;
+      font-size: .9rem;
+      font-weight: 600;
+      box-shadow: var(--shadow-lg);
+      z-index: 600;
+      transition: transform .28s cubic-bezier(.4,0,.2,1), opacity .28s;
+      opacity: 0;
+      white-space: nowrap;
+    }
+    .toast.show { transform: translateX(-50%) translateY(0); opacity: 1; }
+    .toast .toast-gold { color: var(--gold); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 640px) {
+      .topnav { padding: 0 4%; }
+      .topnav__links a:not(.cart-btn) { display: none; }
+      .mobile-menu-btn { display: flex; }
+      .form-row { grid-template-columns: 1fr; }
+      .modal-body { padding: 20px; }
+      .modal-head { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="topnav" role="navigation" aria-label="Navegación principal">
+  <a href="/" class="topnav__brand">🦜 paraisodeaves</a>
+  <div class="topnav__links">
+    <a href="/">Inicio</a>
+    <a href="/available-birds/">Aves</a>
+    <a href="/blog/">Blog</a>
+    <a href="/#contacto">Contacto</a>
+    <button class="cart-btn" id="cartToggle" aria-label="Ver carrito">
+      🛒 Carrito
+      <span class="cart-count" id="cartCount">0</span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="shop-hero">
+  <div class="shop-hero__badge">🦜 Criadero Registrado · CITES Oficial</div>
+  <h1>Aves y Huevos Disponibles</h1>
+  <p>Todas nuestras aves son criadas a mano en Llíria, Valencia. Documentación CITES completa incluida. Envíos seguros a toda España y Europa.</p>
+  <div class="trust-pills">
+    <span class="trust-pill">✓ CITES incluido</span>
+    <span class="trust-pill">✓ Criados a mano</span>
+    <span class="trust-pill">✓ Revisión veterinaria</span>
+    <span class="trust-pill">✓ Envío Europa</span>
+    <span class="trust-pill">✓ Soporte post-venta</span>
+  </div>
+</section>
+
+<!-- FILTER BAR -->
+<div class="filter-bar" role="navigation" aria-label="Filtrar productos">
+  <div class="filter-inner">
+    <button class="filter-tab active" data-filter="all">Todos</button>
+    <button class="filter-tab" data-filter="guacamayo">Guacamayos</button>
+    <button class="filter-tab" data-filter="loro">Loros</button>
+    <button class="filter-tab" data-filter="cacatua">Cacatúas</button>
+    <button class="filter-tab" data-filter="huevos">Huevos Fértiles</button>
+  </div>
+</div>
+
+<!-- SHOP MAIN -->
+<main class="shop-main">
+  <p class="results-info" id="resultsInfo">Mostrando <strong id="resultsCount">0</strong> productos</p>
+
+  <div class="product-grid" id="productGrid"></div>
+  <div class="empty-state" id="emptyState">
+    <div class="icon">🔍</div>
+    <h3>No hay resultados</h3>
+    <p>Prueba con otro filtro o contáctanos para consultar disponibilidad.</p>
+  </div>
+</main>
+
+<!-- TRUST SECTION -->
+<section class="trust-section">
+  <h2>¿Por qué comprar en paraisodeaves?</h2>
+  <div class="trust-grid">
+    <div class="trust-item">
+      <div class="ti-icon">📋</div>
+      <strong>Documentación CITES</strong>
+      <p>Cada ave incluye certificado CITES oficial y anilla identificativa. Tenencia 100% legal.</p>
+    </div>
+    <div class="trust-item">
+      <div class="ti-icon">🤲</div>
+      <strong>Criadas a mano</strong>
+      <p>Socializadas desde el nido para un vínculo óptimo con el propietario.</p>
+    </div>
+    <div class="trust-item">
+      <div class="ti-icon">🏥</div>
+      <strong>Revisión veterinaria</strong>
+      <p>Informe de salud incluido antes de la entrega en todos los ejemplares.</p>
+    </div>
+    <div class="trust-item">
+      <div class="ti-icon">🌍</div>
+      <strong>Envío seguro Europa</strong>
+      <p>Transportistas especializados en aves vivas. Seguimiento hasta la entrega.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2026 <strong>paraisodeaves</strong> — Criadero de loros en España |
+    <a href="/">Inicio</a> · <a href="/available-birds/">Aves</a> · <a href="/tienda.html">Tienda</a> · <a href="/blog/">Blog</a> · <a href="/#contacto">Contacto</a>
+  </p>
+</footer>
+
+<!-- CART OVERLAY + DRAWER -->
+<div class="cart-overlay" id="cartOverlay" aria-hidden="true"></div>
+<aside class="cart-drawer" id="cartDrawer" role="complementary" aria-label="Carrito de compra">
+  <div class="cart-header">
+    <h2>🛒 Tu carrito</h2>
+    <button class="cart-close" id="cartClose" aria-label="Cerrar carrito">✕</button>
+  </div>
+  <div class="cart-items" id="cartItems">
+    <div class="cart-empty-msg">
+      <span class="icon">🛒</span>
+      Tu carrito está vacío.<br>Añade las aves que te interesen.
+    </div>
+  </div>
+  <div class="cart-footer" id="cartFooter" style="display:none">
+    <div class="cart-total">
+      <span class="cart-total-label">Total estimado</span>
+      <span class="cart-total-amount" id="cartTotal">—</span>
+    </div>
+    <p class="cart-note">Los precios son orientativos. Confirmaremos disponibilidad y precio final antes del pago.</p>
+    <button class="btn-checkout" id="checkoutBtn">Solicitar compra →</button>
+  </div>
+</aside>
+
+<!-- CHECKOUT MODAL -->
+<div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal" id="checkoutModal">
+    <div class="modal-head">
+      <h2 id="modalTitle">Solicitar compra</h2>
+      <p>Te enviaremos los datos de pago SEPA Instant por email</p>
+      <button class="modal-close" id="modalClose" aria-label="Cerrar">✕</button>
+    </div>
+    <div class="modal-body" id="modalBody">
+      <!-- Order summary inserted by JS -->
+      <div class="payment-info">
+        <div class="payment-info__title">⚡ Pago por SEPA Instant</div>
+        <p>Una vez recibamos tu solicitud, te enviaremos los datos bancarios por email para que puedas realizar el pago de forma inmediata. Tu reserva se confirma al recibir el pago.</p>
+      </div>
+
+      <form id="orderForm" name="solicitud-compra" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+        <input type="hidden" name="form-name" value="solicitud-compra">
+        <input type="hidden" name="bot-field">
+        <input type="hidden" name="carrito" id="hiddenCart">
+        <input type="hidden" name="referencia" id="hiddenRef">
+
+        <div class="form-grid">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nombre">Nombre *</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required autocomplete="given-name">
+            </div>
+            <div class="form-group">
+              <label for="apellidos">Apellidos *</label>
+              <input type="text" id="apellidos" name="apellidos" placeholder="Tus apellidos" required autocomplete="family-name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" placeholder="tu@email.com" required autocomplete="email">
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="pais">País *</label>
+              <select id="pais" name="pais" required>
+                <option value="">Seleccionar…</option>
+                <option value="España">España</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Francia">Francia</option>
+                <option value="Alemania">Alemania</option>
+                <option value="Italia">Italia</option>
+                <option value="Países Bajos">Países Bajos</option>
+                <option value="Bélgica">Bélgica</option>
+                <option value="Reino Unido">Reino Unido</option>
+                <option value="Suiza">Suiza</option>
+                <option value="Otro">Otro país</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="telefono">Teléfono (opcional)</label>
+              <input type="tel" id="telefono" name="telefono" placeholder="+34 000 000 000" autocomplete="tel">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje (opcional)</label>
+            <textarea id="mensaje" name="mensaje" placeholder="¿Alguna pregunta sobre el ave? ¿Preferencia de fecha de entrega?"></textarea>
+          </div>
+        </div>
+
+        <button type="submit" class="btn-submit">Enviar solicitud →</button>
+        <p class="form-legal">Al enviar aceptas que nos pongamos en contacto contigo por email con los detalles del pago. Sin compromiso hasta confirmar disponibilidad.</p>
+      </form>
+
+      <div class="success-state" id="successState">
+        <div class="success-icon">✅</div>
+        <h3>¡Solicitud enviada!</h3>
+        <p>Hemos recibido tu solicitud. Te enviamos por email los datos bancarios SEPA Instant en las próximas horas.</p>
+        <div class="success-ref" id="successRef"></div>
+        <p>Guarda tu número de referencia para el seguimiento de tu pedido.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast" aria-live="polite"></div>
+
+<script>
+// ═══════════════════════════════════════════════
+//  PRODUCT DATA
+//  To add a new listing: copy one product object,
+//  change the fields, and add it to this array.
+// ═══════════════════════════════════════════════
+const PRODUCTS = [
+  {
+    id: 'yaco-001',
+    name: 'Loro Gris Africano (Yaco)',
+    subtitle: 'Psittacus erithacus',
+    category: 'loro',
+    categoryLabel: 'Loro',
+    desc: 'El loro más inteligente del mundo. Extraordinaria capacidad de habla y comprensión contextual. Criado a mano desde polluelo en nuestro criadero de Llíria.',
+    price: 'Consultar',
+    priceNum: null,
+    status: 'available',
+    statusLabel: 'Disponible',
+    badges: ['CITES Apéndice I', 'Criado a mano', 'Revisión veterinaria'],
+    img: '/images/loro-gris-01.webp',
+    imgFallback: '/images/loro-gris-01.jpg',
+    imgAlt: 'Loro Gris Africano criado a mano — paraisodeaves',
+  },
+  {
+    id: 'guac-azul-001',
+    name: 'Guacamayo Azul y Amarillo',
+    subtitle: 'Ara ararauna',
+    category: 'guacamayo',
+    categoryLabel: 'Guacamayo',
+    desc: 'El guacamayo más popular de España. Plumaje espectacular, carácter juguetón y afectuoso. Excelente con familias. Criado a mano, socializado desde el nido.',
+    price: 'Consultar',
+    priceNum: null,
+    status: 'available',
+    statusLabel: 'Disponible',
+    badges: ['CITES Apéndice II', 'Criado a mano', 'Revisión veterinaria'],
+    img: '/images/guacamayo-azul-01.webp',
+    imgFallback: '/images/guacamayo-azul-01.jpg',
+    imgAlt: 'Guacamayo Azul y Amarillo criado a mano — paraisodeaves',
+  },
+  {
+    id: 'guac-escarlata-001',
+    name: 'Guacamayo Escarlata',
+    subtitle: 'Ara macao',
+    category: 'guacamayo',
+    categoryLabel: 'Guacamayo',
+    desc: 'Colores vibrantes rojo, amarillo y azul. Carácter independiente y majestuoso. Uno de los guacamayos más llamativos del mundo, criado a mano en nuestro criadero.',
+    price: 'Consultar',
+    priceNum: null,
+    status: 'limited',
+    statusLabel: 'Alta demanda',
+    badges: ['CITES Apéndice I', 'Criado a mano', 'Revisión veterinaria'],
+    img: '/images/guacamayo-escarlata-01.webp',
+    imgFallback: '/images/guacamayo-escarlata-01.jpg',
+    imgAlt: 'Guacamayo Escarlata criado a mano — paraisodeaves',
+  },
+  {
+    id: 'guac-jacinto-001',
+    name: 'Guacamayo Jacinto',
+    subtitle: 'Anodorhynchus hyacinthinus',
+    category: 'guacamayo',
+    categoryLabel: 'Guacamayo',
+    desc: 'El loro más grande del mundo. Plumaje azul cobalto impresionante, carácter noble y tranquilo. Apéndice I CITES. Disponibilidad muy limitada — consulta por encargo.',
+    price: 'Consultar',
+    priceNum: null,
+    status: 'limited',
+    statusLabel: 'Por encargo',
+    badges: ['CITES Apéndice I', 'Criado a mano', 'Por encargo'],
+    img: '/images/guacamayo-jacinto-01.webp',
+    imgFallback: '/images/guacamayo-jacinto-01.jpg',
+    imgAlt: 'Guacamayo Jacinto criado a mano — paraisodeaves',
+  },
+  {
+    id: 'cacatua-001',
+    name: 'Cacatúa',
+    subtitle: 'Cacatua spp.',
+    category: 'cacatua',
+    categoryLabel: 'Cacatúa',
+    desc: 'Las aves más afectuosas del mundo psitácida. Vínculo emocional muy intenso con el propietario. Varias especies disponibles. Consulta disponibilidad actual.',
+    price: 'Consultar',
+    priceNum: null,
+    status: 'available',
+    statusLabel: 'Disponible',
+    badges: ['CITES incluido', 'Criada a mano', 'Varias especies'],
+    img: '/images/cacatua-01.webp',
+    imgFallback: '/images/cacatua-01.jpg',
+    imgAlt: 'Cacatúa criada a mano — paraisodeaves',
+  },
+  {
+    id: 'amazonico-001',
+    name: 'Loro Amazónico',
+    subtitle: 'Amazona spp.',
+    category: 'loro',
+    categoryLabel: 'Loro',
+    desc: 'Carismático, sociable y excelente hablador. Ideal para familias. Varias subespecies disponibles: frente azul, mejillas amarillas, real. Consulta disponibilidad.',
+    price: 'Consultar',
+    priceNum: null,
+    status: 'available',
+    statusLabel: 'Disponible',
+    badges: ['CITES Apéndice II', 'Criado a mano', 'Varias subespecies'],
+    img: '/images/loro-amazonico-01.webp',
+    imgFallback: '/images/loro-amazonico-01.jpg',
+    imgAlt: 'Loro Amazónico criado a mano — paraisodeaves',
+  },
+  {
+    id: 'eclectus-001',
+    name: 'Eclectus',
+    subtitle: 'Eclectus roratus',
+    category: 'loro',
+    categoryLabel: 'Loro',
+    desc: 'El loro más elegante por su dimorfismo sexual extremo — macho verde, hembra roja. Carácter tranquilo y afectuoso. Apto para propietarios con experiencia media.',
+    price: 'Consultar',
+    priceNum: null,
+    status: 'available',
+    statusLabel: 'Disponible',
+    badges: ['CITES Apéndice II', 'Criado a mano', 'Revisión veterinaria'],
+    img: '/images/eclectus-01.webp',
+    imgFallback: '/images/eclectus-01.jpg',
+    imgAlt: 'Eclectus criado a mano — paraisodeaves',
+  },
+  {
+    id: 'conuro-001',
+    name: 'Conuro',
+    subtitle: 'Pyrrhura / Aratinga spp.',
+    category: 'loro',
+    categoryLabel: 'Loro',
+    desc: 'Pequeño en tamaño, enorme en personalidad. El compañero perfecto para pisos y familias con niños. Juguetón, curioso y muy afectuoso. Varias especies disponibles.',
+    price: 'Consultar',
+    priceNum: null,
+    status: 'available',
+    statusLabel: 'Disponible',
+    badges: ['CITES Apéndice II', 'Criado a mano', 'Ideal principiantes'],
+    img: '/images/conuro-01.webp',
+    imgFallback: '/images/conuro-01.jpg',
+    imgAlt: 'Conuro criado a mano — paraisodeaves',
+  },
+  {
+    id: 'huevos-001',
+    name: 'Huevos Fértiles de Loro',
+    subtitle: 'Varias especies disponibles',
+    category: 'huevos',
+    categoryLabel: 'Huevos',
+    desc: 'Huevos fértiles de psitácidas con documentación CITES. Para criadores con incubadora y experiencia en cría a mano. Consulta disponibilidad de especie y temporada.',
+    price: 'Consultar',
+    priceNum: null,
+    status: 'limited',
+    statusLabel: 'Temporada',
+    badges: ['CITES incluido', 'Por especie', 'Solo criadores'],
+    img: '/images/huevos-fertiles-01.webp',
+    imgFallback: '/images/huevos-fertiles-01.jpg',
+    imgAlt: 'Huevos fértiles de loro — paraisodeaves',
+  },
+];
+
+// ═══════════════════════════════════════════════
+//  CART STATE
+// ═══════════════════════════════════════════════
+let cart = JSON.parse(localStorage.getItem('pda_cart') || '[]');
+let currentFilter = 'all';
+
+function saveCart() {
+  localStorage.setItem('pda_cart', JSON.stringify(cart));
+}
+
+function getCartItem(id) {
+  return cart.find(i => i.id === id);
+}
+
+function addToCart(id) {
+  const product = PRODUCTS.find(p => p.id === id);
+  if (!product) return;
+  const existing = getCartItem(id);
+  if (existing) {
+    existing.qty = Math.min(existing.qty + 1, 3);
+  } else {
+    cart.push({ id, qty: 1 });
+  }
+  saveCart();
+  renderCart();
+  updateCartButton();
+  openCart();
+  showToast(`<span class="toast-gold">✓</span> ${product.name} añadido al carrito`);
+}
+
+function removeFromCart(id) {
+  cart = cart.filter(i => i.id !== id);
+  saveCart();
+  renderCart();
+  updateCartButton();
+  renderGrid();
+}
+
+function changeQty(id, delta) {
+  const item = getCartItem(id);
+  if (!item) return;
+  item.qty = Math.max(1, Math.min(3, item.qty + delta));
+  saveCart();
+  renderCart();
+}
+
+function getTotalText() {
+  const hasNumericPrices = cart.some(ci => {
+    const p = PRODUCTS.find(p => p.id === ci.id);
+    return p && p.priceNum !== null;
+  });
+  if (!hasNumericPrices) return 'A confirmar';
+  let total = 0;
+  cart.forEach(ci => {
+    const p = PRODUCTS.find(p => p.id === ci.id);
+    if (p && p.priceNum) total += p.priceNum * ci.qty;
+  });
+  return total.toLocaleString('es-ES') + ' €';
+}
+
+// ═══════════════════════════════════════════════
+//  RENDER PRODUCT GRID
+// ═══════════════════════════════════════════════
+function renderGrid() {
+  const grid = document.getElementById('productGrid');
+  const empty = document.getElementById('emptyState');
+  const countEl = document.getElementById('resultsCount');
+
+  const filtered = currentFilter === 'all'
+    ? PRODUCTS
+    : PRODUCTS.filter(p => p.category === currentFilter);
+
+  countEl.textContent = filtered.length;
+
+  if (!filtered.length) {
+    grid.innerHTML = '';
+    empty.style.display = 'block';
+    return;
+  }
+  empty.style.display = 'none';
+
+  grid.innerHTML = filtered.map(p => {
+    const inCart = !!getCartItem(p.id);
+    const soldOut = p.status === 'sold';
+    const statusClass = {
+      available: 'status-available',
+      reserved: 'status-reserved',
+      sold: 'status-sold',
+      limited: 'status-limited',
+    }[p.status] || 'status-available';
+
+    return `
+    <article class="product-card${soldOut ? ' sold-out' : ''}" data-id="${p.id}" data-category="${p.category}">
+      <div class="card-img-wrap">
+        <picture>
+          <source srcset="${p.img}" type="image/webp">
+          <img class="card-img" src="${p.imgFallback}" alt="${p.imgAlt}" loading="lazy">
+        </picture>
+        <span class="card-status ${statusClass}">${p.statusLabel}</span>
+      </div>
+      <div class="card-body">
+        <span class="card-category">${p.categoryLabel}</span>
+        <h2 class="card-name">${p.name}</h2>
+        <p class="card-subtitle">${p.subtitle}</p>
+        <p class="card-desc">${p.desc}</p>
+        <div class="card-badges">
+          ${p.badges.map(b => `<span class="badge">${b}</span>`).join('')}
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="card-price">
+          ${p.price === 'Consultar'
+            ? '<span style="font-size:.85rem;color:var(--muted);font-weight:600">Precio a consultar</span>'
+            : p.price + ' <span>€</span>'}
+        </div>
+        <button
+          class="btn-add${inCart ? ' in-cart' : ''}"
+          onclick="addToCart('${p.id}')"
+          ${soldOut ? 'disabled' : ''}
+          aria-label="Añadir ${p.name} al carrito">
+          ${soldOut ? 'No disponible' : inCart ? '✓ En carrito' : '+ Añadir'}
+        </button>
+      </div>
+    </article>`;
+  }).join('');
+}
+
+// ═══════════════════════════════════════════════
+//  RENDER CART DRAWER
+// ═══════════════════════════════════════════════
+function renderCart() {
+  const itemsEl = document.getElementById('cartItems');
+  const footerEl = document.getElementById('cartFooter');
+  const totalEl = document.getElementById('cartTotal');
+
+  if (!cart.length) {
+    itemsEl.innerHTML = `<div class="cart-empty-msg"><span class="icon">🛒</span>Tu carrito está vacío.<br>Añade las aves que te interesen.</div>`;
+    footerEl.style.display = 'none';
+    return;
+  }
+
+  footerEl.style.display = 'flex';
+  totalEl.textContent = getTotalText();
+
+  itemsEl.innerHTML = cart.map(ci => {
+    const p = PRODUCTS.find(p => p.id === ci.id);
+    if (!p) return '';
+    return `
+    <div class="cart-item" data-id="${ci.id}">
+      <picture>
+        <source srcset="${p.img}" type="image/webp">
+        <img class="cart-item-img" src="${p.imgFallback}" alt="${p.imgAlt}">
+      </picture>
+      <div class="cart-item-info">
+        <div class="cart-item-name">${p.name}</div>
+        <div class="cart-item-sub">${p.subtitle}</div>
+        <div class="cart-item-price">${p.price === 'Consultar' ? 'Precio a consultar' : p.price + ' €'}</div>
+        <div class="cart-qty">
+          <button class="qty-btn" onclick="changeQty('${ci.id}',-1)" aria-label="Reducir cantidad">−</button>
+          <span class="qty-val">${ci.qty}</span>
+          <button class="qty-btn" onclick="changeQty('${ci.id}',1)" aria-label="Aumentar cantidad">+</button>
+        </div>
+      </div>
+      <button class="cart-item-remove" onclick="removeFromCart('${ci.id}')" aria-label="Eliminar del carrito">✕</button>
+    </div>`;
+  }).join('');
+}
+
+function updateCartButton() {
+  const total = cart.reduce((s, i) => s + i.qty, 0);
+  const countEl = document.getElementById('cartCount');
+  countEl.textContent = total;
+  countEl.classList.toggle('visible', total > 0);
+}
+
+// ═══════════════════════════════════════════════
+//  CART OPEN / CLOSE
+// ═══════════════════════════════════════════════
+function openCart() {
+  document.getElementById('cartDrawer').classList.add('open');
+  document.getElementById('cartOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeCart() {
+  document.getElementById('cartDrawer').classList.remove('open');
+  document.getElementById('cartOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// ═══════════════════════════════════════════════
+//  CHECKOUT MODAL
+// ═══════════════════════════════════════════════
+function generateRef() {
+  const d = new Date();
+  const dateStr = d.getFullYear().toString().slice(-2) +
+    String(d.getMonth()+1).padStart(2,'0') +
+    String(d.getDate()).padStart(2,'0');
+  const rand = Math.random().toString(36).substring(2,6).toUpperCase();
+  return `PDA-${dateStr}-${rand}`;
+}
+
+function openCheckout() {
+  closeCart();
+  const ref = generateRef();
+
+  // Populate summary
+  const summaryLines = cart.map(ci => {
+    const p = PRODUCTS.find(p => p.id === ci.id);
+    if (!p) return '';
+    const priceText = p.priceNum ? (p.priceNum * ci.qty).toLocaleString('es-ES') + ' €' : 'A consultar';
+    return `<div class="order-line"><span>${p.name} × ${ci.qty}</span><span>${priceText}</span></div>`;
+  }).join('');
+
+  const summaryHTML = `
+  <div class="order-summary" id="orderSummary">
+    <h3>Resumen del pedido · <span style="color:var(--gold-hover);font-family:monospace">${ref}</span></h3>
+    ${summaryLines}
+    <div class="order-line"><span>Total estimado</span><span>${getTotalText()}</span></div>
+  </div>`;
+
+  // Insert summary before payment-info
+  const existingSummary = document.getElementById('orderSummary');
+  if (existingSummary) existingSummary.remove();
+  document.querySelector('.payment-info').insertAdjacentHTML('beforebegin', summaryHTML);
+
+  // Set hidden fields
+  const cartData = cart.map(ci => {
+    const p = PRODUCTS.find(p => p.id === ci.id);
+    return p ? `${p.name} (${p.subtitle}) × ${ci.qty}` : '';
+  }).join(' | ');
+  document.getElementById('hiddenCart').value = cartData;
+  document.getElementById('hiddenRef').value = ref;
+
+  // Reset form state
+  document.getElementById('orderForm').style.display = '';
+  document.getElementById('successState').style.display = 'none';
+  document.getElementById('successRef').textContent = '';
+
+  document.getElementById('modalOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// ═══════════════════════════════════════════════
+//  FORM SUBMIT
+// ═══════════════════════════════════════════════
+document.getElementById('orderForm').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  const form = this;
+  const btn = form.querySelector('.btn-submit');
+
+  // Basic validation
+  const required = form.querySelectorAll('[required]');
+  let valid = true;
+  required.forEach(el => {
+    if (!el.value.trim()) { el.style.borderColor = 'var(--red)'; valid = false; }
+    else el.style.borderColor = '';
+  });
+  if (!valid) return;
+
+  btn.textContent = 'Enviando…';
+  btn.disabled = true;
+
+  try {
+    const data = new FormData(form);
+    await fetch('/', { method: 'POST', body: data });
+
+    // Show success
+    form.style.display = 'none';
+    const successEl = document.getElementById('successState');
+    const ref = document.getElementById('hiddenRef').value;
+    document.getElementById('successRef').textContent = 'Ref: ' + ref;
+    successEl.style.display = 'block';
+
+    // Clear cart
+    cart = [];
+    saveCart();
+    renderCart();
+    updateCartButton();
+    renderGrid();
+
+    // GA4 event
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'purchase_request', { currency: 'EUR', value: 0 });
+    }
+  } catch(err) {
+    btn.textContent = 'Enviar solicitud →';
+    btn.disabled = false;
+    alert('Ha habido un error. Por favor envíanos un email a info@paraisodeaves.com.');
+  }
+});
+
+// ═══════════════════════════════════════════════
+//  TOAST
+// ═══════════════════════════════════════════════
+let toastTimer;
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.innerHTML = msg;
+  t.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.classList.remove('show'), 2800);
+}
+
+// ═══════════════════════════════════════════════
+//  FILTERS
+// ═══════════════════════════════════════════════
+document.querySelectorAll('.filter-tab').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-tab').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentFilter = btn.dataset.filter;
+    renderGrid();
+  });
+});
+
+// ═══════════════════════════════════════════════
+//  EVENT LISTENERS
+// ═══════════════════════════════════════════════
+document.getElementById('cartToggle').addEventListener('click', openCart);
+document.getElementById('cartClose').addEventListener('click', closeCart);
+document.getElementById('cartOverlay').addEventListener('click', closeCart);
+document.getElementById('checkoutBtn').addEventListener('click', openCheckout);
+document.getElementById('modalClose').addEventListener('click', closeModal);
+document.getElementById('modalOverlay').addEventListener('click', function(e) {
+  if (e.target === this) closeModal();
+});
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') { closeCart(); closeModal(); }
+});
+
+// ═══════════════════════════════════════════════
+//  INIT
+// ═══════════════════════════════════════════════
+renderGrid();
+renderCart();
+updateCartButton();
+</script>
+</body>
+</html>
