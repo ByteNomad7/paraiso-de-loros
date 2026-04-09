@@ -1,99 +1,82 @@
-# paraisodeaves — Criador de Loros y Aves Exóticas
+# paraisodeaves — Criadero de Loros y Aves Exóticas
 
-Sitio web estático completamente en español para paraisodeaves — criador de loros y aves exóticas en España con envíos a toda Europa.
+Sitio web estático completamente en español para paraisodeaves — criadero legal de loros y aves exóticas en Llíria, Valencia (España). Envíos a toda España y Europa.
 
-## Blog SEO — 40 Artículos en 5 Clusters
+## Estado Actual del SEO (Abril 2026)
 
-El blog cuenta con **40 artículos en español** organizados en 5 clusters de autoridad temática:
+- **GSC:** 48 clics / 700 impresiones / 6.9% CTR / posición media 15.8
+- **Objetivo:** Mover de página 2 a página 1 para las queries principales de compra de loros en España
+- **80 páginas HTML totales:** 72 indexables (en sitemap), 8 noindex (gracias.html + stubs antiguos)
 
-| Cluster | Artículos | Objetivo |
-|---|---|---|
-| **Compra** | 7 | Capturar intención de compra alta |
-| **Precios** | 7 | Capturar búsquedas de precio/comparativa |
-| **Cuidados** | 11 | Autoridad educativa y retención |
-| **Especies** | 7 | Tráfico informacional de especie |
-| **Legalidad** | 6 | Diferenciación y confianza |
+## Últimas Actualizaciones Realizadas
 
-Todos los artículos: 800-1200 palabras, H1/H2/H3, keywords naturales, links internos a product pages, CTA hacia WhatsApp, JSON-LD Article schema, `global.css` aplicado, meta title + description.
+1. **31 blog posts expandidos** a 700+ palabras (0 posts thin restantes)
+2. **18 imágenes JPG → WebP** con `<picture>` element y fallback JPG (55% más ligeras)
+3. **Author bio E-E-A-T** añadido a los 33 posts del blog
+4. **Nueva página** `/criadero-de-loros-espana.html` (1.530 palabras, schema LocalBusiness + FAQ)
+5. **Sitemap actualizado** — 72 URLs, lastmod 2026-04-09 en 42 páginas recién modificadas
+6. **Meta robots=index,follow** en todas las páginas indexables
+7. **WhatsApp eliminado** de todo el sitio — solo email `info@paraisodeaves.com`
+8. **Formulario de contacto mejorado** — campos: Nombre, Email, País, Producto, Mensaje
 
-## Información Clave
+## Información Técnica Clave
 
-- **Dominio:** `https://paraisodeaves.com`
-- **Email:** `info@paraisodeaves.com`
-- **WhatsApp:** `+34 632 16 59 55`
-- **Facebook:** `https://www.facebook.com/profile.php?id=100089916354629`
-- **Google Site Verification:** `8Du7IU5_y0w0vZeaz0bjDdLNdbzb35CubsG1YKISK8c`
+- **Dominio canonical:** `https://www.paraisodeaves.com` (www)
+- **Email:** `info@paraisodeaves.com` (sin WhatsApp ni teléfono en ninguna página)
+- **GA4:** `G-4007YHH4H9`
+- **GSC tags:** `8Du7IU5_y0w0vZeaz0bjDdLNdbzb35CubsG1YKISK8c` + `rEssv_QHGO0TDZMwuv94A5v-LQM4OkXtuffGFAbcRq4`
+- **Formulario Netlify** → `/gracias.html`
+- **`_redirects`** vacío (sin redirects activos)
+- **`llms.txt`** en la raíz
 
-## Diseño / Estilo
+## Diseño / Paleta de Colores
 
-- Fuentes: **Poppins** (títulos) + **Open Sans** (cuerpo) vía Google Fonts
-- Paleta tropical: verde `#2e7d32` / `#1b5e20`, amarillo `#f9a825`, rojo `#e53935`
-- Fondo claro: `#f7fdf5` (casi blanco con toque verde)
-- Hero con gradiente verde tropical
-- Footer verde oscuro `#1b5e20`
-- Tarjetas blancas con sombra sutil y bordes verdes
+- **Primario:** `#1F3D2B` (verde oscuro)
+- **Secundario:** `#2B533C`
+- **Dorado:** `#D4A94F` / `#E0B75F` (footer)
+- **Fondo:** `#F8F5F0` (crema)
+- **Texto:** `#1A1A1A`
+- **Muted:** `#5C5C5C`
+- **Borde:** `#E7E0D2`
+- **Fuentes:** Poppins (títulos) + Open Sans (cuerpo) vía Google Fonts
 
-## Estructura del Proyecto
+## Estructura del Sitio
 
-### Página Principal
-- `index.html` — Homepage (diseño original, branding paraisodeaves)
+### Páginas Principales
+- `index.html` — Homepage
+- `nosotros.html` — Sobre el criadero
+- `faq.html` — Preguntas frecuentes (FAQPage schema)
+- `adopcion-de-loros.html` — Adoptar loros en España
+- `criadero-de-loros-espana.html` — Criadero (keyword gap page, NUEVA)
+- `gracias.html` — Página de confirmación del formulario (noindex)
 
-### Páginas de Aterrizaje (Español)
-- `parrots-for-sale-spain.html` — Loros en Venta en España
-- `buy-parrots-europe.html` — Comprar Loros en Europa
-- `african-grey-parrot-for-sale.html` — Loro Gris Africano (Yaco) en Venta
-- `macaw-parrots-for-sale.html` — Guacamayos en Venta
-- `cockatoo-parrots-for-sale.html` — Cacatúas en Venta
+### Aves Disponibles (`available-birds/`)
+- `loro-gris-africano.html`, `guacamayo-azul-amarillo.html`, `guacamayo-escarlata.html`
+- `guacamayo-jacinto.html`, `cacatua.html`, `loro-amazonico.html`
+- `eclectus.html`, `conuro.html`, `huevos-fertiles.html`
 
-### Páginas Informativas
-- `about-us.html` — Sobre Nosotros (schema Organization)
-- `delivery-shipping.html` — Envíos y Entrega
-- `parrot-care-health.html` — Cuidados y Salud del Loro
-- `faq.html` — Preguntas Frecuentes (schema FAQPage)
+### Blog (`blog/`) — 40 artículos en 5 clusters
+- **Compra:** comprar-un-loro-en-espana, comprar-loro-legal-espana, comprar-cacatua-espana, comprar-guacamayo-espana, donde-comprar-loro-gris-africano, donde-comprar-aves-exoticas-europa, comprar-loro-europa-envio
+- **Precios:** precio-de-un-loro-en-espana, precio-cacatua-espana, precio-guacamayo-espana, precio-loro-gris-africano-europa, precio-loro-amazonico, precio-huevos-fertiles-loro, coste-mantener-loro-mes, presupuesto-primer-loro
+- **Cuidados:** guia-cuidados-loro, cuidados-cacatua-guia, cuidados-guacamayo-guia, cuidado-loro-gris-africano, jaula-ideal-loro-tamano, estimulacion-mental-loros, socializar-loro-recien-adoptado, alimentacion-loro-adulto, como-alimentar-un-loro-bebe, plumafagia-loros-causas, como-ensenar-a-hablar-un-loro, veterinario-aves-exoticas-espana
+- **Especies:** tipos-guacamayos-espana, guacamayo-jacinto-caracteristicas, guacamayo-vs-cacatua, loro-gris-africano-vs-amazonico, eclectus-loro-guia, conuro-loro-familia, mejores-loros-para-principiantes
+- **Legalidad:** documentacion-loro-espana, registrar-loro-espana, cites-loros-espana, detectar-venta-ilegal-loros, importar-loro-europa-requisitos, como-elegir-criador-loros-espana
 
-### Blog (`blog/`)
-- `how-to-buy-a-parrot-in-spain.html` — Cómo comprar un loro en España
-- `best-parrots-for-beginners.html` — Mejores loros para principiantes
-- `african-grey-parrot-price-europe.html` — Precio del Yaco en Europa
-- `macaw-vs-cockatoo.html` — Guacamayo vs Cacatúa
-- `parrot-care-guide.html` — Guía de cuidados del loro
-- `where-to-buy-exotic-birds-europe.html` — Dónde comprar aves exóticas en Europa
-- `como-alimentar-un-loro-bebe.html` — (original en español)
-
-### Páginas de Aves Disponibles (`available-birds/`)
-- `index.html`, `loro-gris-africano.html`, `guacamayo-azul-amarillo.html`, `guacamayo-escarlata.html`, `guacamayo-jacinto.html`, `cacatua.html`, `loro-amazonico.html`, `eclectus.html`, `conuro.html`, `huevos-fertiles.html`
-
-### Páginas Informativas Españolas (Originales)
-- `adopcion-de-loros.html`, `tipos-de-loros-domesticos.html`, `cuidados-basicos-de-un-loro.html`, `cuanto-cuesta-mantener-un-loro.html`, `errores-comunes-al-adoptar-un-loro.html`, `documentos-legales-para-adoptar-un-loro.html`
-
-### Otros
-- `sitemap.xml` — Sitemap completo (30+ URLs, dominio paraisodeaves.com)
-- `assets/img/galeria/` — Imágenes de galería
-- `images/` — Fotos de aves
+### Imágenes (`images/`)
+- 18 archivos JPG (originales, fallback) + 18 WebP (optimizados, cargados por defecto)
+- Implementación `<picture>` con `<source type="image/webp">` + `<img>` fallback JPG
 
 ## Tecnología
 
-- HTML/CSS estático puro (sin sistema de compilación)
-- CSS inline por página + Google Fonts
-- Formulario de contacto compatible con Netlify (`data-netlify="true"`)
-- WhatsApp CTA: `https://wa.me/34632165955`
-- Integración Facebook SDK (carga diferida)
+- HTML/CSS estático puro (sin framework, sin compilador)
+- `global.css` compartido en la raíz
+- Formulario de contacto Netlify (`data-netlify="true"`)
+- Schema markup: LocalBusiness, BreadcrumbList, Article, FAQPage, Product
+- Servidor de desarrollo: `python3 -m http.server 5000 --bind 0.0.0.0`
+- Desplegado en Netlify (estático, `publicDir: "."`)
 
-## Ejecutar en Local
+## Pendiente (Prioridad Alta)
 
-```
-python3 -m http.server 5000 --bind 0.0.0.0
-```
-
-## Despliegue
-
-Configurado como despliegue **estático** con `publicDir: "."`.
-
-## Estrategia SEO
-
-- Todo el contenido en **español**
-- Schema markup: Organization, Product, FAQPage, Article
-- Sitemap cubre 30+ URLs con prioridades y changefreq correctos
-- Alt texts descriptivos y bilingües en imágenes de galería
-- Breadcrumbs en todas las páginas
-- Canonical URLs apuntando a `paraisodeaves.com`
+1. **Backlinks** — El factor limitante principal para pasar de página 2 a página 1
+2. **GSC: Request Indexing** — Para las 42 páginas con lastmod 2026-04-09 (manual por el propietario)
+3. **Keyword gap pages** — "comprar loro legal españa" como landing separada ya existe; evaluar más gaps en GSC
