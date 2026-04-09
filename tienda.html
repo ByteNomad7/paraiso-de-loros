@@ -702,6 +702,68 @@
       .gallery-nav.next { right: 4px; }
     }
 
+    /* ── VIDEO MODAL ── */
+    .video-modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.92);
+      z-index: 750;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .22s;
+    }
+    .video-modal-overlay.open { opacity: 1; pointer-events: all; }
+    .video-modal-inner {
+      position: relative;
+      width: 100%;
+      max-width: 780px;
+    }
+    .video-modal-inner video {
+      width: 100%;
+      border-radius: 14px;
+      display: block;
+      max-height: 80vh;
+      background: #000;
+    }
+    .video-modal-close {
+      position: absolute;
+      top: -44px;
+      right: 0;
+      background: rgba(255,255,255,.15);
+      border: none;
+      color: #fff;
+      font-size: 1.2rem;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background .15s;
+    }
+    .video-modal-close:hover { background: rgba(255,255,255,.3); }
+    .btn-video {
+      background: var(--primary);
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      padding: 10px 18px;
+      font-family: 'Poppins', sans-serif;
+      font-size: .88rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background .18s, transform .15s;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .btn-video:hover { background: var(--secondary); transform: translateY(-1px); }
+
     /* ── TOAST ── */
     .toast {
       position: fixed;
@@ -924,6 +986,14 @@
   </div>
 </div>
 
+<!-- VIDEO MODAL -->
+<div class="video-modal-overlay" id="videoModalOverlay" role="dialog" aria-modal="true" aria-label="Vídeo del ave">
+  <div class="video-modal-inner">
+    <button class="video-modal-close" id="videoModalClose" aria-label="Cerrar vídeo">✕</button>
+    <video id="videoModalPlayer" controls playsinline preload="metadata"></video>
+  </div>
+</div>
+
 <!-- GALLERY LIGHTBOX -->
 <div class="gallery-overlay" id="galleryOverlay" role="dialog" aria-modal="true" aria-label="Galería de fotos">
   <button class="gallery-close" id="galleryClose" aria-label="Cerrar galería">✕</button>
@@ -967,6 +1037,7 @@ const PRODUCTS = [
       { webp: '/images/shinda-daphne-03.webp', jpg: '/images/shinda-daphne-03.jpg', alt: 'Shinda y Daphne — pareja en su entorno' },
       { webp: '/images/shinda-daphne-04.webp', jpg: '/images/shinda-daphne-04.jpg', alt: 'Shinda y Daphne — los dos Yacos juntos' },
     ],
+    video: '/images/shinda-daphne.mp4',
   },
   {
     id: 'guac-azul-001',
@@ -1234,6 +1305,7 @@ function renderGrid() {
         </div>
         <div style="display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end">
           ${galleryBtn}
+          ${p.video ? `<button class="btn-video" onclick="openVideoModal('${p.video}')" aria-label="Ver vídeo de ${p.name}">▶ Ver vídeo</button>` : ''}
           <button
             class="btn-add${inCart ? ' in-cart' : ''}"
             onclick="addToCart('${p.id}')"
@@ -1452,9 +1524,36 @@ document.getElementById('modalOverlay').addEventListener('click', function(e) {
   if (e.target === this) closeModal();
 });
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape' && !document.getElementById('galleryOverlay').classList.contains('open')) {
+  if (e.key === 'Escape') {
+    if (document.getElementById('galleryOverlay').classList.contains('open')) return;
+    if (document.getElementById('videoModalOverlay').classList.contains('open')) { closeVideoModal(); return; }
     closeCart(); closeModal();
   }
+});
+
+// ═══════════════════════════════════════════════
+//  VIDEO MODAL
+// ═══════════════════════════════════════════════
+function openVideoModal(src) {
+  const overlay = document.getElementById('videoModalOverlay');
+  const player  = document.getElementById('videoModalPlayer');
+  player.src = src;
+  player.load();
+  player.play().catch(() => {});
+  overlay.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeVideoModal() {
+  const overlay = document.getElementById('videoModalOverlay');
+  const player  = document.getElementById('videoModalPlayer');
+  overlay.classList.remove('open');
+  player.pause();
+  player.src = '';
+  document.body.style.overflow = '';
+}
+document.getElementById('videoModalClose').addEventListener('click', closeVideoModal);
+document.getElementById('videoModalOverlay').addEventListener('click', function(e) {
+  if (e.target === this) closeVideoModal();
 });
 
 // ═══════════════════════════════════════════════
