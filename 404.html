@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Página no encontrada · paraisodeaves</title>
+  <meta name="robots" content="noindex, follow" />
+  <link rel="canonical" href="https://www.paraisodeaves.com/" />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&family=Open+Sans:wght@400;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" /></noscript>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --primary: #1F3D2B;
+      --secondary: #2B533C;
+      --gold: #D4A94F;
+      --bg: #F8F5F0;
+      --text: #1A1A1A;
+      --muted: #5C5C5C;
+      --border: #E7E0D2;
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── Header ── */
+    .header {
+      background: var(--primary);
+      padding: 0 5%;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 900;
+      font-size: 1.25rem;
+      color: #fff;
+      text-decoration: none;
+      letter-spacing: -.01em;
+    }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 1.5rem; list-style: none; }
+    .nav-links a { color: rgba(255,255,255,.85); text-decoration: none; font-size: .9rem; font-weight: 600; transition: color .15s; }
+    .nav-links a:hover { color: var(--gold); }
+
+    /* ── 404 Content ── */
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 4rem 5%;
+      text-align: center;
+    }
+    .error-wrap { max-width: 560px; }
+    .error-code {
+      font-family: 'Poppins', sans-serif;
+      font-size: 7rem;
+      font-weight: 900;
+      line-height: 1;
+      color: var(--primary);
+      opacity: .12;
+      user-select: none;
+    }
+    .error-icon { font-size: 3.5rem; margin: -1rem 0 1rem; display: block; }
+    .error-title {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: .75rem;
+    }
+    .error-desc {
+      font-size: 1rem;
+      color: var(--muted);
+      line-height: 1.7;
+      margin-bottom: 2.5rem;
+    }
+    .btn-row { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+    .btn-primary {
+      display: inline-block;
+      background: linear-gradient(135deg, var(--gold), #B8933E);
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: .95rem;
+      padding: 13px 28px;
+      border-radius: 999px;
+      text-decoration: none;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 32px rgba(212,169,79,.4); }
+    .btn-ghost {
+      display: inline-block;
+      border: 2px solid var(--border);
+      color: var(--primary);
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: .95rem;
+      padding: 11px 24px;
+      border-radius: 999px;
+      text-decoration: none;
+      transition: border-color .2s, background .2s;
+    }
+    .btn-ghost:hover { border-color: var(--primary); background: rgba(31,61,43,.06); }
+
+    .quick-links {
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+    }
+    .quick-links p { font-size: .85rem; color: var(--muted); margin-bottom: 1rem; }
+    .quick-links ul { list-style: none; display: flex; flex-wrap: wrap; gap: .5rem; justify-content: center; }
+    .quick-links a {
+      display: inline-block;
+      background: #fff;
+      border: 1px solid var(--border);
+      color: var(--primary);
+      font-size: .85rem;
+      font-weight: 600;
+      padding: 6px 16px;
+      border-radius: 999px;
+      text-decoration: none;
+      transition: background .15s, border-color .15s;
+    }
+    .quick-links a:hover { background: rgba(31,61,43,.06); border-color: var(--primary); }
+
+    /* ── Footer ── */
+    .footer {
+      background: var(--primary);
+      text-align: center;
+      padding: 1.5rem 5%;
+      color: rgba(255,255,255,.6);
+      font-size: .82rem;
+    }
+    .footer a { color: rgba(255,255,255,.7); text-decoration: none; }
+    .footer a:hover { color: var(--gold); }
+
+    @media (max-width: 480px) {
+      .nav-links { display: none; }
+      .error-code { font-size: 5rem; }
+      .error-title { font-size: 1.4rem; }
+      .btn-row { flex-direction: column; align-items: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <a href="/" class="logo">🦜 paraiso<span>deaves</span></a>
+    <nav aria-label="Navegación principal">
+      <ul class="nav-links">
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/tienda.html">Tienda</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="error-wrap">
+      <div class="error-code" aria-hidden="true">404</div>
+      <span class="error-icon">🦜</span>
+      <h1 class="error-title">Página no encontrada</h1>
+      <p class="error-desc">
+        El loro ha volado… y esta página no existe o fue movida.<br>
+        Prueba volviendo al inicio o explorando nuestras aves disponibles.
+      </p>
+      <div class="btn-row">
+        <a href="/" class="btn-primary">Volver al inicio</a>
+        <a href="/tienda.html" class="btn-ghost">Ver aves disponibles</a>
+      </div>
+      <div class="quick-links">
+        <p>También puedes ir directamente a:</p>
+        <ul>
+          <li><a href="/available-birds/loro-gris-africano.html">Loro Gris Africano</a></li>
+          <li><a href="/available-birds/guacamayo-azul-amarillo.html">Guacamayo Azul</a></li>
+          <li><a href="/available-birds/cacatua.html">Cacatúa</a></li>
+          <li><a href="/available-birds/huevos-fertiles.html">Huevos Fértiles</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 paraisodeaves · Criador registrado de loros y aves exóticas · Llíria, Valencia · <a href="mailto:info@paraisodeaves.com">info@paraisodeaves.com</a></p>
+  </footer>
+
+</body>
+</html>
