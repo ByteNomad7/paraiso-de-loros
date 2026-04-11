@@ -1,0 +1,148 @@
+Integrate the following Spanish SEO keywords into my bird website by creating structured, high-quality pages.
+
+GOAL:
+Transform my keyword list into a clean SEO system that attracts serious buyers in Spain.
+
+STEP 1 — CLEAN & GROUP KEYWORDS
+
+Group keywords into logical pages:
+
+PAGE 1:
+Slug: /comprar-loros-espana
+Keywords:
+- comprar loros
+- donde comprar loros
+- loros en venta
+- aves a la venta
+- loros en venta de particulares
+
+PAGE 2:
+Slug: /loros-papilleros
+Keywords:
+- loros papilleros
+- loros y cotorras papilleros
+- guacamayos y loros papilleros
+
+PAGE 3:
+Slug: /criadero-loros-espana
+Keywords:
+- criadero de loros en españa
+- criadero loros madrid
+- criaderos de loros en andalucía
+
+PAGE 4:
+Slug: /loros-especies
+Keywords:
+- loros amazona leucocephala
+- loros amazonas real
+- loros alejandrinos
+
+PAGE 5:
+Slug: /loro-hablador
+Keywords:
+- comprar loro hablador
+
+PAGE 6:
+Slug: /parejas-reproductoras-loros
+Keywords:
+- pareja reproductora de loros
+
+PAGE 7:
+Slug: /compra-venta-loros
+Keywords:
+- compramos loros
+- compramos loros con documentacion
+- compramos loros y cacatuas
+
+IMPORTANT:
+Do NOT create pages for:
+- “gratis”
+- “150 euros”
+- low trust or unrealistic pricing keywords
+
+-------------------------------------
+
+STEP 2 — CREATE SEO PAGES
+
+For EACH page:
+
+- Write 1000–1300 words in Spanish
+- Natural human tone (not robotic)
+- Include:
+
+H1 title
+Intro (include main keyword)
+5–7 H2 sections
+Bullet points
+FAQ (3–5 questions)
+Conclusion + CTA
+
+-------------------------------------
+
+STEP 3 — SEO OPTIMIZATION
+
+For each page:
+- Use keyword naturally
+- Add variations
+- No keyword stuffing
+
+Generate:
+- Meta title (max 60 chars)
+- Meta description (max 155 chars)
+
+-------------------------------------
+
+STEP 4 — INTERNAL LINKING
+
+Each page must:
+- Link to homepage (/)
+- Link to contact page
+- Link to other SEO pages where relevant
+
+-------------------------------------
+
+STEP 5 — CTA (ADD TO ALL PAGES)
+
+Add at the end:
+
+“¿Buscas disponibilidad, precios o más información?
+📩 Contáctanos por correo y le responderemos lo antes posible.”
+
+-------------------------------------
+
+STEP 6 — SITE INTEGRATION
+
+- Add pages to blog or SEO section
+- Use existing React/Vite routing
+- Keep current design (do not redesign)
+- Ensure mobile responsiveness
+
+-------------------------------------
+
+STEP 7 — TRUST POSITIONING
+
+Throughout content:
+- Emphasize:
+  - crianza a mano
+  - envío seguro en España
+  - asesoramiento al cliente
+
+Avoid:
+- unrealistic promises
+- “barato” positioning
+- spammy language
+
+-------------------------------------
+
+OUTPUT:
+
+- 7 high-quality SEO pages
+- Proper keyword grouping
+- Clean URLs
+- Ready for Google indexing
+
+IMPORTANT:
+- Spanish only
+- Real content only
+- No placeholders
+- No duplicate pages
