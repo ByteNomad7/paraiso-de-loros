@@ -9,6 +9,7 @@
   --gold:      #D4A94F;
   --gold-rich: #E0B75F;
   --gold-hover:#B8933E;
+  --gold-text: #7A5800; /* Accessible gold for text on light backgrounds — 5.5:1 on white */
   --bg:        #F8F5F0;
   --surface:   #FFFFFF;
   --border:    #E7E0D2;
@@ -34,6 +35,13 @@ a:hover {
 }
 a:visited {
   color: var(--primary);
+}
+
+/* ── Content links — underline for distinguishability (WCAG 1.4.1) ── */
+p a, li a:not([class]), article a:not([class]),
+.faq-answer a, .content-body a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 /* ── Headings — only in content areas, not in hero/dark sections ── */

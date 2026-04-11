@@ -20,6 +20,7 @@
       --secondary: #2B533C;
       --gold: #D4A94F;
       --gold-hover: #B8933E;
+      --gold-text: #7A5800;
       --cream: #F8F5F0;
       --surface: #FFFFFF;
       --text: #1A1A1A;
@@ -230,7 +231,7 @@
     .status-limited { background: rgba(31,61,43,.85); color: var(--gold); }
 
     .card-body { padding: 20px; flex: 1; display: flex; flex-direction: column; gap: 10px; }
-    .card-category { font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--gold); }
+    .card-category { font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--gold-text); }
     .card-name { font-family: 'Poppins', sans-serif; font-size: 1.15rem; font-weight: 800; color: var(--primary); line-height: 1.25; }
     .card-subtitle { font-size: .83rem; color: var(--muted); font-style: italic; }
     .card-desc { font-size: .9rem; color: var(--text); line-height: 1.65; flex: 1; }
@@ -248,7 +249,7 @@
       background: var(--green-light);
       color: var(--secondary);
     }
-    .badge-gold { background: rgba(212,169,79,.15); color: var(--gold-hover); }
+    .badge-gold { background: rgba(212,169,79,.15); color: var(--gold-text); }
 
     .card-footer {
       padding: 16px 20px;
@@ -881,7 +882,7 @@
   <div class="product-grid" id="productGrid"></div>
   <div class="empty-state" id="emptyState">
     <div class="icon">🔍</div>
-    <h3>No hay resultados</h3>
+    <h2>No hay resultados</h2>
     <p>Prueba con otro filtro o contáctanos para consultar disponibilidad.</p>
   </div>
 </main>
