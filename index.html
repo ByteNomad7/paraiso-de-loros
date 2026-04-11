@@ -976,17 +976,24 @@ donde explicamos cada paso con detalle.
       });
     });
 
-    // Header on scroll
-    window.addEventListener('scroll',()=>{
-      const h=document.querySelector('.header');
-      if(window.scrollY>100){
-        h.style.background='rgba(10,10,15,0.98)';
-        h.style.boxShadow='0 5px 20px rgba(0,0,0,0.3)';
-      } else {
-        h.style.background='rgba(15,15,20,0.95)';
-        h.style.boxShadow='none';
+    // Header on scroll — use rAF to avoid forced reflow
+    const _hdr = document.querySelector('.header');
+    let _scrollTick = false;
+    window.addEventListener('scroll', () => {
+      if (!_scrollTick) {
+        window.requestAnimationFrame(() => {
+          if (window.scrollY > 100) {
+            _hdr.style.background = 'rgba(10,10,15,0.98)';
+            _hdr.style.boxShadow = '0 5px 20px rgba(0,0,0,0.3)';
+          } else {
+            _hdr.style.background = 'rgba(15,15,20,0.95)';
+            _hdr.style.boxShadow = 'none';
+          }
+          _scrollTick = false;
+        });
+        _scrollTick = true;
       }
-    });
+    }, { passive: true });
 
     // Contact form — show success message on submit
     const contactForm = document.querySelector('.contact-form');
