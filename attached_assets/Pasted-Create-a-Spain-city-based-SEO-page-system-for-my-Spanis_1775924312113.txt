@@ -1,0 +1,129 @@
+Create a Spain city-based SEO page system for my Spanish bird website.
+
+GOAL:
+Build local SEO landing pages targeting buyers searching for parrots in major cities across Spain.
+
+TARGET CITIES:
+- Madrid
+- Barcelona
+- Valencia
+- Sevilla
+- Málaga
+- Granada
+- Alicante
+- Murcia
+- Zaragoza
+- Bilbao
+- Palma de Mallorca
+- Las Palmas
+- Córdoba
+- Valladolid
+- Vigo
+
+MAIN PAGE STRUCTURE:
+Create one SEO page per city with clean URLs like:
+- /ciudades/comprar-loros-madrid
+- /ciudades/comprar-loros-barcelona
+- /ciudades/comprar-loros-valencia
+etc.
+
+TARGET KEYWORD FORMAT:
+- comprar loros en [ciudad]
+- loros papilleros en [ciudad]
+- aves exóticas en [ciudad]
+- donde comprar loros en [ciudad]
+
+TASKS:
+
+1. PAGE GENERATION
+- Create one unique landing page per city
+- Each page must be indexable and use the existing website structure
+- Keep the current design and do not redesign the website
+
+2. CONTENT REQUIREMENTS
+For each city page:
+- Write in natural Spanish
+- Minimum 900–1200 words
+- Unique wording for every city page
+- No duplicate city pages with only the city name swapped
+- Include the city naturally throughout the content
+
+3. PAGE STRUCTURE
+Each page must include:
+- H1 title using the city keyword
+- Intro focused on buyers in that city
+- 4 to 6 H2 sections
+- Section about available bird types
+- Section about hand-fed parrots
+- Section about delivery / transport in Spain
+- Section about how to request availability by email
+- FAQ section with 3 to 5 questions using the city naturally
+- Strong CTA at the end
+
+4. CTA TO ADD ON ALL CITY PAGES
+Use this exact CTA:
+“¿Busca loros disponibles en [CIUDAD]?
+📩 Contáctenos por correo para recibir información, disponibilidad y entrega en su zona.”
+
+5. LOCAL SEO META TAGS
+Generate for each page:
+- Meta title under 60 characters
+- Meta description under 155 characters
+Both must include the city name naturally
+
+6. INTERNAL LINKING
+Each city page must link to:
+- homepage (/)
+- contact page
+- main SEO pages such as:
+  - /comprar-loros-espana
+  - /loros-papilleros
+  - /criadero-loros-espana
+  - /available-birds/huevos-fertiles
+- Link between related city pages where relevant
+
+7. TRUST POSITIONING
+In each city page, naturally mention:
+- envío seguro en España
+- atención por correo electrónico
+- aves criadas a mano según disponibilidad
+- orientación sobre adaptación y cuidados
+
+Do NOT mention:
+- WhatsApp
+- phone calls
+- unrealistic guarantees
+- fake urgency
+
+8. AVAILABLE BIRDS SECTION
+On each city page include a section that mentions examples such as:
+- Yaco
+- Amazona
+- Ararauna
+- Loros papilleros
+
+Do not claim all are always in stock.
+Use wording like:
+“según disponibilidad actual”
+
+9. ROUTING AND INDEXING
+- Integrate all pages into the current React/Vite routing
+- Add them to sitemap if a sitemap exists
+- Add them to internal navigation only if it fits the current structure
+- Make pages ready for Google indexing
+
+10. QUALITY CONTROL
+- Spanish only
+- No placeholder text
+- No duplicate content
+- No thin pages
+- Preserve mobile responsiveness
+
+BONUS:
+Create a city index page at:
+/ciudades
+
+This page should list all city pages with short descriptions and links.
+
+IMPORTANT:
+These pages must feel local, trustworthy, and written for real buyers in Spain.
