@@ -86,6 +86,16 @@
 /where-to-buy-exotic-birds-europe.html             /blog/donde-comprar-aves-exoticas-europa.html           301
 /where-to-buy-exotic-birds-europe                  /blog/donde-comprar-aves-exoticas-europa.html           301
 
+# ---------- Specific 404s reported by GSC (27 abr 2026) ----------
+# URLs that Google has indexed but never existed as files on this site.
+# Each is 301'd to the closest existing canonical page.
+/centros-adopcion-aves-espana                      /adopcion-de-loros.html                                 301
+/centros-adopcion-aves-espana.html                 /adopcion-de-loros.html                                 301
+/mejores-especies-loros-adoptar                    /loros-especies.html                                    301
+/mejores-especies-loros-adoptar.html               /loros-especies.html                                    301
+/guacamayo-escarlata                               /guacamayos.html                                        301
+/guacamayo-escarlata.html                          /guacamayos.html                                        301
+
 # ---------- Common SEO-discovered legacy patterns ----------
 # WordPress / Yoast leftovers — redirect to canonical sitemap
 /sitemap_index.xml                                 /sitemap.xml                                            301

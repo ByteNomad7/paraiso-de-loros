@@ -31,6 +31,10 @@ Sitio web estático completamente en español para paraisodeaves — criadero le
    - **Causa probable:** 6 URLs en inglés que vivían en la raíz se movieron a `/blog/` en versiones anteriores y seguían indexadas (p. ej. `/parrot-care-guide.html`, `/macaw-vs-cockatoo.html`, `/best-parrots-for-beginners.html`, `/how-to-buy-a-parrot-in-spain.html`, `/african-grey-parrot-price-europe.html`, `/where-to-buy-exotic-birds-europe.html`).
    - **Causa secundaria:** 22 URLs limpias del sitemap (canonical sin `.html`) dependían de "Pretty URLs" de Netlify; ahora tienen rewrites 200 explícitos.
    - El usuario debe abrir GSC → Indexación → Páginas → "Not found (404)" y comprobar que las URLs específicas listadas estén ahora cubiertas; si aparece alguna URL fuera de estos patrones, añadirla manualmente al `_redirects`.
+   - **URLs específicas confirmadas por GSC (27 abr 2026)** y mapeo 301 aplicado:
+     - `/centros-adopcion-aves-espana` → `/adopcion-de-loros.html`
+     - `/mejores-especies-loros-adoptar` → `/loros-especies.html`
+     - `/guacamayo-escarlata` → `/guacamayos.html`
 
 ### Anterior
 
