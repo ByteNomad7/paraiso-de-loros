@@ -1,0 +1,91 @@
+Update the Paraiso de Aves website to expand SEO targeting beyond Spain into all remaining Spanish-speaking countries.
+
+Goal:
+Create a scalable Spanish-speaking country SEO structure for bird adoption, parrots, macaws, African grey parrots, cockatoos, parakeets, and exotic birds.
+
+Important:
+Keep Spain pages exactly as they are. Do not delete, rename, or break existing Spain SEO pages.
+
+Add country landing pages for the following Spanish-speaking countries:
+Mexico, Argentina, Colombia, Chile, Peru, Ecuador, Bolivia, Paraguay, Uruguay, Venezuela, Guatemala, Honduras, El Salvador, Nicaragua, Costa Rica, Panama, Dominican Republic, Cuba, Puerto Rico, and Equatorial Guinea.
+
+For each country, create a localized SEO page with:
+1. SEO title
+2. Meta description
+3. H1 heading
+4. Local introduction
+5. Bird adoption / purchase guidance
+6. Legal and documentation notice
+7. Popular birds section
+8. Delivery / transport information
+9. FAQ section
+10. CTA button linking to WhatsApp/contact form
+
+Use Spanish language only.
+
+URL structure:
+- /mexico/adoptar-loros
+- /argentina/adoptar-loros
+- /colombia/adoptar-loros
+- /chile/adoptar-loros
+- /peru/adoptar-loros
+- /ecuador/adoptar-loros
+- /bolivia/adoptar-loros
+- /paraguay/adoptar-loros
+- /uruguay/adoptar-loros
+- /venezuela/adoptar-loros
+- /guatemala/adoptar-loros
+- /honduras/adoptar-loros
+- /el-salvador/adoptar-loros
+- /nicaragua/adoptar-loros
+- /costa-rica/adoptar-loros
+- /panama/adoptar-loros
+- /republica-dominicana/adoptar-loros
+- /cuba/adoptar-loros
+- /puerto-rico/adoptar-loros
+- /guinea-ecuatorial/adoptar-loros
+
+Each page must be unique. Do not copy and paste the same text with only the country name changed.
+
+For each country, naturally include keywords such as:
+- adoptar loros en [country]
+- loros en venta en [country]
+- comprar loro papillero en [country]
+- guacamayos en [country]
+- yacos en [country]
+- aves exóticas en [country]
+- criadores de loros en [country]
+- documentación para loros en [country]
+
+Add internal links:
+- Link each country page back to the main Spanish bird adoption guide.
+- Add a “Países disponibles” section linking all country pages together.
+- Add breadcrumbs.
+
+Add sitemap entries for all new pages.
+
+Add a new page:
+/la-adopcion-de-loros-en-latinoamerica
+
+This should be a hub page titled:
+“Adopción de Loros en Latinoamérica: Guía por País”
+
+The hub page must link to every country page and include a short unique paragraph for each country.
+
+Add SEO schema:
+- Article schema for each country page
+- FAQ schema for FAQs
+- Breadcrumb schema
+
+Make sure all pages are mobile responsive, fast loading, and follow the current design style of the website.
+
+Do not add fake guarantees. Use compliant wording:
+“Disponibilidad sujeta a confirmación”
+“Documentación según normativa local”
+“El comprador debe verificar los requisitos legales de importación o tenencia en su país”
+
+After implementation, show me:
+1. List of created pages
+2. Updated routing structure
+3. Sitemap update confirmation
+4. Any files modified

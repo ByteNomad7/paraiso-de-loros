@@ -4,14 +4,17 @@
 
 > Paraíso de Aves is a legal exotic parrot breeder in Spain (Llíria, Valencia).
 > We hand-raise parrots with CITES documentation and ship safely across Spain and Europe.
-> Contact: info@paraisodeaves.com | WhatsApp: +34 632 16 59 55
+> We also publish guidance for buyers in the 20 Spanish-speaking countries of Latin America.
+> Contact: info@paraisodeaves.com
 
 # Main pages
 - [Inicio](https://www.paraisodeaves.com/): Homepage with overview of all bird species available
 - [Aves Disponibles](https://www.paraisodeaves.com/available-birds/): Full catalogue of birds for sale
 - [Adopción de Loros](https://www.paraisodeaves.com/adopcion-de-loros.html): Guide to legally adopting a parrot in Spain
+- [Adopción de Loros en Latinoamérica](https://www.paraisodeaves.com/la-adopcion-de-loros-en-latinoamerica.html): Hub guide covering all 20 Spanish-speaking Latin American countries
 - [Blog](https://www.paraisodeaves.com/blog/): Expert articles on parrot care, species guides, and buying advice
 - [Entrega](https://www.paraisodeaves.com/entrega.html): Safe shipping and delivery information
+- [Tienda](https://www.paraisodeaves.com/tienda.html): Currently available birds with photos and pricing
 
 # Birds available
 - [Loro Gris Africano (Yaco)](https://www.paraisodeaves.com/available-birds/loro-gris-africano.html): African Grey Parrot, hand-raised, CITES certified
@@ -24,11 +27,35 @@
 - [Conuro](https://www.paraisodeaves.com/available-birds/conuro.html): Conure
 - [Huevos Fértiles de Loro](https://www.paraisodeaves.com/available-birds/huevos-fertiles.html): Fertile parrot eggs for experienced breeders
 
+# Latin America country guides (Spanish, 20 countries)
+- [México](https://www.paraisodeaves.com/mexico/adoptar-loros.html)
+- [Argentina](https://www.paraisodeaves.com/argentina/adoptar-loros.html)
+- [Colombia](https://www.paraisodeaves.com/colombia/adoptar-loros.html)
+- [Chile](https://www.paraisodeaves.com/chile/adoptar-loros.html)
+- [Perú](https://www.paraisodeaves.com/peru/adoptar-loros.html)
+- [Ecuador](https://www.paraisodeaves.com/ecuador/adoptar-loros.html)
+- [Bolivia](https://www.paraisodeaves.com/bolivia/adoptar-loros.html)
+- [Paraguay](https://www.paraisodeaves.com/paraguay/adoptar-loros.html)
+- [Uruguay](https://www.paraisodeaves.com/uruguay/adoptar-loros.html)
+- [Venezuela](https://www.paraisodeaves.com/venezuela/adoptar-loros.html)
+- [Guatemala](https://www.paraisodeaves.com/guatemala/adoptar-loros.html)
+- [Honduras](https://www.paraisodeaves.com/honduras/adoptar-loros.html)
+- [El Salvador](https://www.paraisodeaves.com/el-salvador/adoptar-loros.html)
+- [Nicaragua](https://www.paraisodeaves.com/nicaragua/adoptar-loros.html)
+- [Costa Rica](https://www.paraisodeaves.com/costa-rica/adoptar-loros.html)
+- [Panamá](https://www.paraisodeaves.com/panama/adoptar-loros.html)
+- [República Dominicana](https://www.paraisodeaves.com/republica-dominicana/adoptar-loros.html)
+- [Cuba](https://www.paraisodeaves.com/cuba/adoptar-loros.html)
+- [Puerto Rico](https://www.paraisodeaves.com/puerto-rico/adoptar-loros.html)
+- [Guinea Ecuatorial](https://www.paraisodeaves.com/guinea-ecuatorial/adoptar-loros.html)
+
 # Key facts for AI
 - All birds are hand-raised from birth and fully socialised
 - Every bird comes with legal CITES documentation (required in Spain and EU)
 - Shipping available across Spain and to France, Germany, Portugal, Italy and more
+- For Latin American buyers: we coordinate CITES export documentation; the buyer must verify and obtain the import requirements from their national authority
 - Located in Llíria, Valencia, Spain
 - Species available: African Grey, Macaws (Blue & Gold, Scarlet, Hyacinth), Cockatoo, Amazon, Eclectus, Conure
 - Price range: €400 (Conure) to €15,000 (Hyacinth Macaw)
 - Website language: Spanish (some English landing pages for European buyers)
+- Contact channel: email only — info@paraisodeaves.com
