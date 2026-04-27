@@ -1,3 +1,101 @@
-# Netlify redirects
-# Note: redirect pages (old English slugs) are handled via meta-refresh in the HTML files
-# with noindex tags — no server-level redirects needed.
+# Netlify _redirects — paraisodeaves.com
+# Updated: 2026-04-27
+#
+# Purpose: ensure every URL listed in sitemap.xml or referenced as canonical
+# returns 200, regardless of Netlify's Pretty URLs setting. Each rule below is
+# a REWRITE (status 200): the user/Googlebot stays on the clean URL while we
+# serve the underlying .html file. This eliminates the GSC "Not found (404)"
+# class for canonical clean URLs.
+#
+# Order matters in Netlify: first match wins. We list specific rewrites first,
+# then trailing-slash safety 301s.
+
+# ---------- Clean-URL rewrites (canonical = clean, file = .html) ----------
+
+# Root-level pages with clean canonical URLs
+/comprar-loros-espana                              /comprar-loros-espana.html                              200
+/loros-papilleros                                  /loros-papilleros.html                                  200
+/criadero-loros-espana                             /criadero-loros-espana.html                             200
+/loros-especies                                    /loros-especies.html                                    200
+/loro-hablador                                     /loro-hablador.html                                     200
+/parejas-reproductoras-loros                       /parejas-reproductoras-loros.html                       200
+/compra-venta-loros                                /compra-venta-loros.html                                200
+
+# City pages (ciudades/)
+/ciudades/comprar-loros-madrid                     /ciudades/comprar-loros-madrid.html                     200
+/ciudades/comprar-loros-barcelona                  /ciudades/comprar-loros-barcelona.html                  200
+/ciudades/comprar-loros-valencia                   /ciudades/comprar-loros-valencia.html                   200
+/ciudades/comprar-loros-sevilla                    /ciudades/comprar-loros-sevilla.html                    200
+/ciudades/comprar-loros-malaga                     /ciudades/comprar-loros-malaga.html                     200
+/ciudades/comprar-loros-granada                    /ciudades/comprar-loros-granada.html                    200
+/ciudades/comprar-loros-alicante                   /ciudades/comprar-loros-alicante.html                   200
+/ciudades/comprar-loros-murcia                     /ciudades/comprar-loros-murcia.html                     200
+/ciudades/comprar-loros-zaragoza                   /ciudades/comprar-loros-zaragoza.html                   200
+/ciudades/comprar-loros-bilbao                     /ciudades/comprar-loros-bilbao.html                     200
+/ciudades/comprar-loros-palma-de-mallorca          /ciudades/comprar-loros-palma-de-mallorca.html          200
+/ciudades/comprar-loros-las-palmas                 /ciudades/comprar-loros-las-palmas.html                 200
+/ciudades/comprar-loros-cordoba                    /ciudades/comprar-loros-cordoba.html                    200
+/ciudades/comprar-loros-valladolid                 /ciudades/comprar-loros-valladolid.html                 200
+/ciudades/comprar-loros-vigo                       /ciudades/comprar-loros-vigo.html                       200
+
+# ---------- Trailing-slash safety (301s) ----------
+# Make /blog and /blog/ both reach /blog/ canonically
+/blog                                              /blog/                                                  301
+/available-birds                                   /available-birds/                                       301
+/ciudades                                          /ciudades/                                              301
+
+# ---------- Common alternate URL patterns (preventive) ----------
+# .html → clean URL canonical (avoid duplicate-content / let Google consolidate)
+/comprar-loros-espana.html                         /comprar-loros-espana                                   301
+/loros-papilleros.html                             /loros-papilleros                                       301
+/criadero-loros-espana.html                        /criadero-loros-espana                                  301
+/loros-especies.html                               /loros-especies                                         301
+/loro-hablador.html                                /loro-hablador                                          301
+/parejas-reproductoras-loros.html                  /parejas-reproductoras-loros                            301
+/compra-venta-loros.html                           /compra-venta-loros                                     301
+/ciudades/comprar-loros-madrid.html                /ciudades/comprar-loros-madrid                          301
+/ciudades/comprar-loros-barcelona.html             /ciudades/comprar-loros-barcelona                       301
+/ciudades/comprar-loros-valencia.html              /ciudades/comprar-loros-valencia                        301
+/ciudades/comprar-loros-sevilla.html               /ciudades/comprar-loros-sevilla                         301
+/ciudades/comprar-loros-malaga.html                /ciudades/comprar-loros-malaga                          301
+/ciudades/comprar-loros-granada.html               /ciudades/comprar-loros-granada                         301
+/ciudades/comprar-loros-alicante.html              /ciudades/comprar-loros-alicante                        301
+/ciudades/comprar-loros-murcia.html                /ciudades/comprar-loros-murcia                          301
+/ciudades/comprar-loros-zaragoza.html              /ciudades/comprar-loros-zaragoza                        301
+/ciudades/comprar-loros-bilbao.html                /ciudades/comprar-loros-bilbao                          301
+/ciudades/comprar-loros-palma-de-mallorca.html     /ciudades/comprar-loros-palma-de-mallorca               301
+/ciudades/comprar-loros-las-palmas.html            /ciudades/comprar-loros-las-palmas                      301
+/ciudades/comprar-loros-cordoba.html               /ciudades/comprar-loros-cordoba                         301
+/ciudades/comprar-loros-valladolid.html            /ciudades/comprar-loros-valladolid                      301
+/ciudades/comprar-loros-vigo.html                  /ciudades/comprar-loros-vigo                            301
+
+# ---------- Old root-level English URLs → moved to /blog/ ----------
+# These English pages used to live at the site root in older versions of the
+# site and may still be in Google's index. They have since been moved into
+# /blog/ as noindex stubs. Redirect 301 so old indexed URLs don't 404.
+/parrot-care-guide.html                            /blog/parrot-care-guide.html                            301
+/parrot-care-guide                                 /blog/parrot-care-guide.html                            301
+/best-parrots-for-beginners.html                   /blog/best-parrots-for-beginners.html                   301
+/best-parrots-for-beginners                        /blog/best-parrots-for-beginners.html                   301
+/how-to-buy-a-parrot-in-spain.html                 /blog/how-to-buy-a-parrot-in-spain.html                 301
+/how-to-buy-a-parrot-in-spain                      /blog/how-to-buy-a-parrot-in-spain.html                 301
+/macaw-vs-cockatoo.html                            /blog/macaw-vs-cockatoo.html                            301
+/macaw-vs-cockatoo                                 /blog/macaw-vs-cockatoo.html                            301
+/african-grey-parrot-price-europe.html             /blog/african-grey-parrot-price-europe.html             301
+/african-grey-parrot-price-europe                  /blog/african-grey-parrot-price-europe.html             301
+/where-to-buy-exotic-birds-europe.html             /blog/donde-comprar-aves-exoticas-europa.html           301
+/where-to-buy-exotic-birds-europe                  /blog/donde-comprar-aves-exoticas-europa.html           301
+
+# ---------- Common SEO-discovered legacy patterns ----------
+# WordPress / Yoast leftovers — redirect to canonical sitemap
+/sitemap_index.xml                                 /sitemap.xml                                            301
+/post-sitemap.xml                                  /sitemap.xml                                            301
+/page-sitemap.xml                                  /sitemap.xml                                            301
+/feed                                              /blog/                                                  301
+/feed/                                             /blog/                                                  301
+/rss                                               /blog/                                                  301
+/rss/                                              /blog/                                                  301
+
+# ---------- Catch-all 404 ----------
+# Netlify only applies this when no static file matches.
+/*                                                 /404.html                                               404

@@ -27,6 +27,10 @@ Sitio web estático completamente en español para paraisodeaves — criadero le
 5. **llms.txt** — eliminado WhatsApp residual + añadidas 21 páginas Latam + tienda
 6. **adopcion-de-loros.html** — añadida sección "¿Compras desde fuera de España?" enlazando al nuevo hub Latam
 7. **Fix:** typo `<keywords name="keywords">` → `<meta name="keywords">` en blog/cuanto-vive-un-loro.html
+8. **Fix GSC "Not found (404)" alert (27 abr 2026)** — `_redirects` reescrito de cero:
+   - **Causa probable:** 6 URLs en inglés que vivían en la raíz se movieron a `/blog/` en versiones anteriores y seguían indexadas (p. ej. `/parrot-care-guide.html`, `/macaw-vs-cockatoo.html`, `/best-parrots-for-beginners.html`, `/how-to-buy-a-parrot-in-spain.html`, `/african-grey-parrot-price-europe.html`, `/where-to-buy-exotic-birds-europe.html`).
+   - **Causa secundaria:** 22 URLs limpias del sitemap (canonical sin `.html`) dependían de "Pretty URLs" de Netlify; ahora tienen rewrites 200 explícitos.
+   - El usuario debe abrir GSC → Indexación → Páginas → "Not found (404)" y comprobar que las URLs específicas listadas estén ahora cubiertas; si aparece alguna URL fuera de estos patrones, añadirla manualmente al `_redirects`.
 
 ### Anterior
 
@@ -45,7 +49,7 @@ Sitio web estático completamente en español para paraisodeaves — criadero le
 - **GA4:** `G-4007YHH4H9`
 - **GSC tags:** `8Du7IU5_y0w0vZeaz0bjDdLNdbzb35CubsG1YKISK8c` + `rEssv_QHGO0TDZMwuv94A5v-LQM4OkXtuffGFAbcRq4`
 - **Formulario Netlify** → `/gracias.html`
-- **`_redirects`** vacío
+- **`_redirects`** activo (Abril 2026): rewrites 200 para 22 URLs limpias del sitemap (canonical sin `.html`), 301 desde 6 URLs antiguas en raíz que ahora viven en `/blog/`, 301 para `.html` → URL canónica limpia, 301 para patrones SEO heredados (sitemap_index.xml, /feed, /rss), y catch-all `/* → /404.html (404)`.
 - **`llms.txt`** en la raíz, sin WhatsApp, con 21 entradas Latam
 
 ## Diseño / Paleta de Colores
