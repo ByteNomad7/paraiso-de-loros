@@ -27,7 +27,16 @@ Sitio web estático completamente en español para paraisodeaves — criadero le
 5. **llms.txt** — eliminado WhatsApp residual + añadidas 21 páginas Latam + tienda
 6. **adopcion-de-loros.html** — añadida sección "¿Compras desde fuera de España?" enlazando al nuevo hub Latam
 7. **Fix:** typo `<keywords name="keywords">` → `<meta name="keywords">` en blog/cuanto-vive-un-loro.html
-8. **Fix GSC "Not found (404)" alert (27 abr 2026)** — `_redirects` reescrito de cero:
+9. **Push GSC ranking — optimización CTR + nuevo contenido (27 abr 2026)** — basado en GSC: 108 clicks, 2.3K impresiones, posición media 14.2 (3 meses).
+   - **Title/meta optimizado para 4 páginas con alta impresión + 0 clicks** (`✓` + emoji + power words + año):
+     - `criadero-loros-espana.html` (60 imp, 0 clicks → "criadero de loros")
+     - `adopcion-de-loros.html` (23 imp, 0 clicks → "adopcion loros")
+     - `blog/guacamayo-jacinto-caracteristicas.html` (50 imp, 0 clicks → "guacamayo jacinto")
+     - `blog/como-alimentar-un-loro-bebe.html` (24 imp, 0 clicks → "como alimentar un loro bebe")
+   - **Nuevo blog post:** `blog/que-comen-los-loros-bebes.html` — 1900+ palabras, dedicado a "qué comen los loros bebés" (37 imp, 0 clicks). Enfoque en alimentos (papilla, marcas, frutas, verduras, prohibidos) por edad y especie. Schema Article + Breadcrumb + FAQ.
+   - **Sitemap:** 134 → 135 URLs; lastmod 27-04-2026 en post nuevo + post hermano.
+   - **Internal linking:** card en `blog/index.html` (51 artículos), cross-link desde `blog/como-alimentar-un-loro-bebe.html`.
+10. **Fix GSC "Not found (404)" alert (27 abr 2026)** — `_redirects` reescrito de cero:
    - **Causa probable:** 6 URLs en inglés que vivían en la raíz se movieron a `/blog/` en versiones anteriores y seguían indexadas (p. ej. `/parrot-care-guide.html`, `/macaw-vs-cockatoo.html`, `/best-parrots-for-beginners.html`, `/how-to-buy-a-parrot-in-spain.html`, `/african-grey-parrot-price-europe.html`, `/where-to-buy-exotic-birds-europe.html`).
    - **Causa secundaria:** 22 URLs limpias del sitemap (canonical sin `.html`) dependían de "Pretty URLs" de Netlify; ahora tienen rewrites 200 explícitos.
    - El usuario debe abrir GSC → Indexación → Páginas → "Not found (404)" y comprobar que las URLs específicas listadas estén ahora cubiertas; si aparece alguna URL fuera de estos patrones, añadirla manualmente al `_redirects`.
