@@ -4,13 +4,29 @@ Sitio web estático completamente en español para paraisodeaves — criadero le
 
 ## Estado Actual del SEO (Abril 2026)
 
-- **GSC:** 48 clics / 700 impresiones / 6.9% CTR / posición media 15.8
+- **GSC:** 108 clics / 2.3K impresiones / 4.7% CTR / posición media 14.2 (3 meses, snapshot 27-abr-2026)
 - **Objetivo:** Mover de página 2 a página 1 para las queries principales de compra de loros en España + captar tráfico hispano de Latinoamérica
-- **134 URLs en sitemap** (eran 103 antes de la expansión Latam)
+- **137 URLs en sitemap** (134 → 135 con post "que comen los loros bebés" → 137 con cluster "criadero")
 
 ## Últimas Actualizaciones Realizadas
 
-### Abril 2026 (esta sesión)
+### 28 abril 2026 — SEO push para subir de posición 14 → top 10
+
+1. **Cluster "criadero" expandido — 2 nuevos posts pillar-satellite:**
+   - `blog/criadero-loros-valencia.html` (1.687 palabras) — geo-targeted Comunitat Valenciana, 4 schemas (Article + Breadcrumb + LocalBusiness + FAQPage)
+   - `blog/preguntas-criador-loros-antes-comprar.html` (1.769 palabras) — checklist de 25 preguntas concretas con respuestas modelo, 3 schemas (Article + Breadcrumb + FAQPage)
+2. **Internal linking del pillar `criadero-loros-espana.html`** → satellites: 2 enlaces contextuales en cuerpo (intro + sección "criadero registrado")
+3. **Internal linking sibling — `blog/como-elegir-criador-loros-espana.html`**: añadidas 2 cards a "Artículos relacionados" apuntando a los nuevos posts
+4. **Homepage schema enriquecido** — añadidos 2 nuevos JSON-LD blocks junto al PetStore existente:
+   - `WebSite` con `SearchAction` (desbloquea sitelinks search box en SERPs)
+   - `Organization` con `knowsAbout` (señal para knowledge panel)
+   - PetStore actualizado con `addressLocality: Llíria` + `addressRegion: Valencia` (antes solo país)
+5. **blog/index.html** — contador 51 → 53, insertadas 2 article-cards nuevas (posición 6-7)
+6. **sitemap.xml** — 135 → 137 URLs, lastmod 28-04-2026 en los 2 nuevos posts, priority 0.9
+7. **llms.txt** — añadidas 3 entradas en "Main pages": pillar criadero + 2 satellites con descripciones para AI search engines
+8. **Validación:** smoke-test 6 URLs (HTTP 200), parser JSON 10/10 schemas válidos
+
+### Abril 2026 (sesión previa)
 
 1. **10 nuevos posts de blog** (700+ palabras cada uno) con Article schema, OG, canonical y enlaces internos:
    agapornis-inseparable-mascota, ninfa-carolina-cockatiel-guia, periquito-mascota-guia, cotorra-argentina-mascota,

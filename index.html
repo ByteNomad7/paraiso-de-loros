@@ -516,15 +516,19 @@
   {
     "@context": "https://schema.org",
     "@type": "PetStore",
+    "@id": "https://www.paraisodeaves.com/#petstore",
     "name": "paraisodeaves",
     "alternateName": "Paraíso de Aves",
     "url": "https://www.paraisodeaves.com",
     "email": "info@paraisodeaves.com",
     "description": "Venta legal de loros en España con documentación CITES. Criador autorizado de aves exóticas: Yaco, Guacamayo, Cacatúa y más, criados a mano. Envío seguro a toda España y Europa.",
     "image": "https://www.paraisodeaves.com/uploaded-macaw.webp",
+    "logo": "https://www.paraisodeaves.com/uploaded-macaw.webp",
     "priceRange": "€€",
     "address": {
       "@type": "PostalAddress",
+      "addressLocality": "Llíria",
+      "addressRegion": "Valencia",
       "addressCountry": "ES"
     },
     "areaServed": [
@@ -536,6 +540,63 @@
     ],
     "sameAs": [
       "https://www.facebook.com/profile.php?id=100089916354629"
+    ]
+  }
+  </script>
+
+  <!-- ✅ WebSite schema with SearchAction (enables sitelinks search box in SERPs) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://www.paraisodeaves.com/#website",
+    "url": "https://www.paraisodeaves.com/",
+    "name": "paraisodeaves",
+    "alternateName": "Paraíso de Aves",
+    "description": "Criador legal de loros en España con documentación CITES. Yaco, guacamayos, cacatúas y más, criados a mano en Llíria, Valencia.",
+    "publisher": { "@id": "https://www.paraisodeaves.com/#petstore" },
+    "inLanguage": "es-ES",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://www.google.com/search?q=site%3Aparaisodeaves.com+{search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- ✅ Organization schema (knowledge panel signal) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://www.paraisodeaves.com/#organization",
+    "name": "paraisodeaves",
+    "alternateName": "Paraíso de Aves",
+    "url": "https://www.paraisodeaves.com/",
+    "logo": "https://www.paraisodeaves.com/uploaded-macaw.webp",
+    "email": "info@paraisodeaves.com",
+    "foundingLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Llíria",
+        "addressRegion": "Valencia",
+        "addressCountry": "ES"
+      }
+    },
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=100089916354629"
+    ],
+    "knowsAbout": [
+      "Cría de psitácidas",
+      "Loro gris africano",
+      "Guacamayo",
+      "Cacatúa",
+      "Documentación CITES",
+      "Núcleo zoológico"
     ]
   }
   </script>
