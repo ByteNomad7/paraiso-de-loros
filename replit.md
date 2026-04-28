@@ -109,8 +109,19 @@ Sitio web estático completamente en español para paraisodeaves — criadero le
 ### Aves Disponibles (`available-birds/`)
 9 fichas: loro-gris-africano, guacamayo-azul-amarillo, guacamayo-escarlata, guacamayo-jacinto, cacatua, loro-amazonico, eclectus, conuro, huevos-fertiles
 
-### Blog (`blog/`) — 50 artículos en 5 clusters
+### Blog (`blog/`) — 56 artículos en 5 clusters
 Compra · Precios · Cuidados · Especies · Legalidad
+
+**Cluster Criadero (Abril 2026, push SEO):**
+- `criadero-loros-valencia.html` (núcleo zoológico CV)
+- `criadero-loros-madrid.html` (Comunidad de Madrid, areaServed Madrid)
+- `criadero-loros-barcelona.html` (Catalunya, Llei 7/2023, Generalitat)
+- `diferencia-criador-tienda-mascotas.html` (comparativa 12 puntos)
+- `como-elegir-criador-loros-espana.html` (10 claves)
+- `preguntas-criador-loros-antes-comprar.html` (25 preguntas)
+- Todas enlazan al pillar `/criadero-loros-espana` y entre sí.
+
+**Política de precios (desde Abril 2026):** los precios concretos de aves se sustituyen por "bajo consulta" en todo el blog. Los costes de accesorios (jaulas, alimentación, vet, juguetes) se mantienen porque son contenido de valor para posts de presupuesto. Las multas regulatorias (200.000€) también se mantienen.
 
 ### Ciudades (`ciudades/`) — 14 fichas locales (Madrid, Barcelona, Valencia, etc.)
 
@@ -128,6 +139,10 @@ Compra · Precios · Cuidados · Especies · Legalidad
 
 ## Pendiente (Prioridad Alta)
 
-1. **Backlinks** — factor limitante principal
-2. **GSC: Request Indexing** — para las 31 URLs nuevas (manual por el propietario)
-3. **Hreflang opcional** — si se decide segmentar los países anglo equivalentes en el futuro
+1. **Backlinks** — factor limitante principal. 2 objetivos: guest article en `mascotahogar.com` o `expertoanimal.com`, alta en directorio `centralvet.es`.
+2. **GSC: Request Indexing** — para las 3 URLs nuevas de Abril 2026 (criadero-loros-madrid, criadero-loros-barcelona, diferencia-criador-tienda-mascotas) y 137 anteriores. Manual por el propietario.
+3. **Hreflang opcional** — si se decide segmentar los países anglo equivalentes en el futuro.
+
+## Sitemap
+
+140 URLs totales (Abril 2026). Lastmod 2026-04-28 para los 3 nuevos posts del cluster Criadero.
