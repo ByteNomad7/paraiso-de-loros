@@ -1,0 +1,216 @@
+Update the website to expand beyond Spain and build full Spanish-speaking country SEO depth for the parrot/bird niche.
+
+STRICT LANGUAGE RULE:
+
+* The entire website must remain 100% in Spanish.
+* Use natural, professional Spanish.
+* No English text anywhere.
+* All menus, buttons, filters, forms, labels, SEO titles, slugs, blog posts, meta descriptions, image alt text, and error messages must be Spanish.
+
+COUNTRY SEO EXPANSION:
+
+Create dedicated country hub pages for:
+
+1. España
+2. México
+3. Colombia
+4. Perú
+5. Ecuador
+6. Guatemala
+7. Panamá
+8. Chile
+9. Argentina
+
+URL structure:
+
+/loros-espana/
+/loros-mexico/
+/loros-colombia/
+/loros-peru/
+/loros-ecuador/
+/loros-guatemala/
+/loros-panama/
+/loros-chile/
+/loros-argentina/
+
+Each country hub page must include:
+
+* H1: Loros en [País]
+* Intro text written for that country
+* Legal ownership/adoption notes
+* Bird care considerations for that climate
+* Popular parrot species
+* Internal links to city pages
+* FAQ section
+* Related guides
+* CTA button: Ver loros disponibles
+* CTA button: Solicitar información
+* SEO meta title
+* SEO meta description
+* Spanish image alt text
+
+CITY PAGE EXPANSION:
+
+Create city pages under each country hub.
+
+México:
+/loros-mexico/ciudad-de-mexico/
+/loros-mexico/guadalajara/
+/loros-mexico/monterrey/
+/loros-mexico/puebla/
+/loros-mexico/tijuana/
+
+Colombia:
+/loros-colombia/bogota/
+/loros-colombia/medellin/
+/loros-colombia/cali/
+/loros-colombia/barranquilla/
+/loros-colombia/cartagena/
+
+Perú:
+/loros-peru/lima/
+/loros-peru/arequipa/
+/loros-peru/cusco/
+/loros-peru/trujillo/
+
+Ecuador:
+/loros-ecuador/quito/
+/loros-ecuador/guayaquil/
+/loros-ecuador/cuenca/
+
+Guatemala:
+/loros-guatemala/ciudad-de-guatemala/
+/loros-guatemala/quetzaltenango/
+/loros-guatemala/escuintla/
+
+Panamá:
+/loros-panama/ciudad-de-panama/
+/loros-panama/david/
+/loros-panama/colon/
+
+Chile:
+/loros-chile/santiago/
+/loros-chile/valparaiso/
+/loros-chile/concepcion/
+
+Argentina:
+/loros-argentina/buenos-aires/
+/loros-argentina/cordoba/
+/loros-argentina/rosario/
+
+Each city page must include:
+
+* H1: Loros en [Ciudad]
+* 700–1200 words of unique Spanish content
+* Mention the city naturally
+* Explain bird care, responsible ownership, transport considerations, and buyer/adoption guidance
+* Internal links back to country hub
+* Internal links to related species pages
+* Internal links to product/category pages where relevant
+* FAQ section with 5 questions
+* CTA section
+* Unique SEO title
+* Unique meta description
+* Spanish alt text for images
+
+CREATE COUNTRY BUYING GUIDES:
+
+Create these long-form guides:
+
+/blog/loro-yaco-en-mexico-precio-cuidados-requisitos/
+/blog/loro-yaco-en-colombia-precio-cuidados-requisitos/
+/blog/loro-yaco-en-peru-precio-cuidados-requisitos/
+/blog/loro-yaco-en-ecuador-precio-cuidados-requisitos/
+/blog/loro-yaco-en-guatemala-precio-cuidados-requisitos/
+/blog/loro-yaco-en-panama-precio-cuidados-requisitos/
+/blog/loro-yaco-en-chile-precio-cuidados-requisitos/
+/blog/loro-yaco-en-argentina-precio-cuidados-requisitos/
+
+Each guide must include:
+
+* 1500–2500 words
+* H1, H2, H3 structure
+* Price expectations section
+* Care requirements
+* Feeding guide
+* Cage recommendations
+* Climate considerations
+* Legal/responsible ownership disclaimer
+* Common mistakes
+* FAQ section
+* Internal links to country hub and city pages
+* Internal links to parrot species pages
+* Internal links to product pages where relevant
+* SEO meta title
+* SEO meta description
+
+IMPORTANT COMPLIANCE NOTE:
+Do not make false legal claims.
+Use careful wording such as:
+“Consulta siempre la normativa local y las autoridades competentes antes de comprar, vender, transportar o adoptar aves exóticas.”
+
+INTERNAL LINKING:
+
+Add links from existing Spain pages to:
+
+* México
+* Colombia
+* Perú
+* Ecuador
+* Guatemala
+* Panamá
+* Chile
+* Argentina
+
+Add a section called:
+“Guías de loros por país”
+
+Add breadcrumbs:
+Inicio > Loros por país > [País] > [Ciudad]
+
+Add related content blocks at the bottom of every country and city page.
+
+NAVIGATION:
+
+Add a top-level menu item:
+“Loros por país”
+
+Dropdown:
+
+* España
+* México
+* Colombia
+* Perú
+* Ecuador
+* Guatemala
+* Panamá
+* Chile
+* Argentina
+
+SEO REQUIREMENTS:
+
+All slugs must be lowercase Spanish slugs.
+No accented letters in URLs.
+Use clean URL structure.
+Add schema markup where possible:
+
+* Article schema for blog posts
+* FAQ schema for FAQ sections
+* Breadcrumb schema
+* LocalBusiness or Organization schema where appropriate
+
+QUALITY CONTROL:
+
+After implementation, scan the full project and confirm:
+
+* No English text remains
+* All links are clickable
+* No placeholder “#” links remain
+* All country pages work
+* All city pages work
+* Blog guides display correctly
+* SEO titles and descriptions are unique
+* Internal links are active
+* Images load correctly
+* Image alt text is in Spanish
+* Mobile layout works properly
