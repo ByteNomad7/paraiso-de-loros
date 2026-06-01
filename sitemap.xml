@@ -888,4 +888,40 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/especies/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/alimentacion/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/salud/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/comportamiento/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/curiosidades/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/guias/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
 </urlset>
