@@ -81,20 +81,27 @@ footer.article-footer a:hover{color:#fff}
     .author-bio__name{font-size:.95rem;margin:0 0 6px;color:var(--primary)}
     .author-bio__desc{font-size:.87rem;color:var(--text-muted,#5c5c5c);line-height:1.6;margin:0}
     
+
 /* ── Contenido dropdown ─────────────────────────── */
 .nav-dropdown{position:relative;display:inline-flex;align-items:center}
-.nav-dropdown>.dropbtn{background:none;border:none;cursor:pointer;color:rgba(255,255,255,.9);font-weight:600;font-size:.9rem;font-family:inherit;padding:0;transition:color .2s;display:flex;align-items:center;gap:4px;white-space:nowrap}
-.nav-dropdown>.dropbtn:hover,.nav-dropdown:focus-within>.dropbtn{color:var(--gold)}
-.nav-dropdown>.dropbtn .chevron{font-size:.65rem;transition:transform .2s;line-height:1}
-.nav-dropdown:hover>.dropbtn .chevron,.nav-dropdown:focus-within>.dropbtn .chevron{transform:rotate(180deg)}
-.nav-mega{position:absolute;top:calc(100% + 14px);left:50%;transform:translateX(-50%);background:#fff;border-radius:14px;box-shadow:0 12px 40px rgba(0,0,0,.18);padding:20px 24px;display:grid;grid-template-columns:1fr 1fr;gap:6px 28px;min-width:340px;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .18s,transform .18s;transform:translateX(-50%) translateY(-6px)}
-.nav-dropdown:hover .nav-mega,.nav-dropdown:focus-within .nav-mega{opacity:1;visibility:visible;pointer-events:auto;transform:translateX(-50%) translateY(0)}
-.nav-mega::before{content:'';position:absolute;top:-7px;left:50%;transform:translateX(-50%);border:7px solid transparent;border-bottom:7px solid #fff;border-top:none}
-.nav-mega a{display:flex;align-items:center;gap:8px;padding:8px 10px;border-radius:8px;color:#1F3D2B;font-size:.88rem;font-weight:600;text-decoration:none;transition:background .15s,color .15s;white-space:nowrap}
-.nav-mega a:hover{background:#f0f7f3;color:#D4A94F}
-.nav-mega .mega-icon{font-size:1.1rem;width:22px;text-align:center;flex-shrink:0}
-.nav-mega .mega-label{line-height:1.25}
-.nav-mega .mega-label small{display:block;font-weight:400;font-size:.76rem;color:#5C5C5C;margin-top:1px}
+.nav-dropdown>.dropbtn{background:none;border:none;cursor:pointer;color:rgba(255,255,255,.9);font-weight:600;font-size:.9rem;font-family:inherit;padding:6px 2px;transition:color .2s;display:flex;align-items:center;gap:5px;white-space:nowrap;-webkit-tap-highlight-color:transparent}
+.nav-dropdown>.dropbtn:hover,.nav-dropdown.is-open>.dropbtn{color:var(--gold,#D4A94F)}
+.nav-dropdown>.dropbtn .chevron{font-size:.6rem;transition:transform .22s;line-height:1;display:inline-block}
+.nav-dropdown.is-open>.dropbtn .chevron{transform:rotate(180deg)}
+.nav-mega{position:absolute;top:calc(100% + 10px);left:50%;transform:translateX(-50%) translateY(-4px);background:#fff;border-radius:14px;box-shadow:0 16px 48px rgba(0,0,0,.22);padding:18px 20px;display:grid;grid-template-columns:1fr 1fr;gap:4px 24px;min-width:320px;z-index:9999;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .18s ease,transform .18s ease,visibility .18s}
+.nav-dropdown.is-open .nav-mega{opacity:1;visibility:visible;pointer-events:auto;transform:translateX(-50%) translateY(0)}
+.nav-mega::before{content:'';position:absolute;top:-6px;left:50%;transform:translateX(-50%);border:6px solid transparent;border-bottom:6px solid #fff;border-top:none}
+.nav-mega a{display:flex;align-items:center;gap:9px;padding:9px 10px;border-radius:9px;color:#1F3D2B;font-size:.87rem;font-weight:600;text-decoration:none;transition:background .14s,color .14s;white-space:nowrap}
+.nav-mega a:hover,.nav-mega a:focus{background:#f0f7f3;color:#D4A94F;outline:none}
+.nav-mega .mega-icon{font-size:1.05rem;width:20px;text-align:center;flex-shrink:0}
+.nav-mega .mega-label{line-height:1.2}
+.nav-mega .mega-label small{display:block;font-weight:400;font-size:.74rem;color:#5C5C5C;margin-top:1px}
+@media(max-width:680px){
+  .nav-mega{left:auto;right:-8px;transform:translateY(-4px);min-width:260px;grid-template-columns:1fr}
+  .nav-mega::before{left:auto;right:28px;transform:none}
+  .nav-dropdown.is-open .nav-mega{transform:translateY(0)}
+}
+
 </style>
   <meta property="og:url" content="https://www.paraisodeaves.com/blog/donde-comprar-loro-gris-africano.html" />
   <meta property="og:image" content="https://www.paraisodeaves.com/uploaded-macaw.webp" />
@@ -211,5 +218,41 @@ footer.article-footer a:hover{color:#fff}
     </p>
     <p>© 2026 <strong>paraisodeaves</strong> — Criador de loros en España | <a href="/">Inicio</a> · <a href="/blog/">Blog</a> · <a href="/available-birds/">Aves disponibles</a> · <a href="/#contacto">Contacto</a></p>
   </footer>
+<script>
+(function(){
+  document.querySelectorAll('.nav-dropdown').forEach(function(dd){
+    var btn = dd.querySelector('.dropbtn');
+    var mega = dd.querySelector('.nav-mega');
+    if(!btn||!mega) return;
+    btn.addEventListener('click', function(e){
+      e.stopPropagation();
+      var open = dd.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded', open);
+    });
+    mega.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click', function(){
+        dd.classList.remove('is-open');
+        btn.setAttribute('aria-expanded','false');
+      });
+    });
+  });
+  document.addEventListener('click', function(){
+    document.querySelectorAll('.nav-dropdown.is-open').forEach(function(dd){
+      dd.classList.remove('is-open');
+      var btn = dd.querySelector('.dropbtn');
+      if(btn) btn.setAttribute('aria-expanded','false');
+    });
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key==='Escape'){
+      document.querySelectorAll('.nav-dropdown.is-open').forEach(function(dd){
+        dd.classList.remove('is-open');
+        var btn = dd.querySelector('.dropbtn');
+        if(btn){ btn.setAttribute('aria-expanded','false'); btn.focus(); }
+      });
+    }
+  });
+})();
+</script>
 </body>
 </html>
