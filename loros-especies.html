@@ -64,7 +64,22 @@ h1,h2,h3,h4{font-family:'Poppins',Arial,sans-serif}
 footer.site-footer{background:var(--primary);color:#fff;padding:32px 5%;text-align:center;font-size:.88rem}
 footer.site-footer a{color:var(--gold-rich);text-decoration:none}
 @media(max-width:680px){.hero-seo h1{font-size:1.6rem}.topnav{gap:.8rem}}
-  </style>
+  
+/* ── Contenido dropdown ─────────────────────────── */
+.nav-dropdown{position:relative;display:inline-flex;align-items:center}
+.nav-dropdown>.dropbtn{background:none;border:none;cursor:pointer;color:rgba(255,255,255,.9);font-weight:600;font-size:.9rem;font-family:inherit;padding:0;transition:color .2s;display:flex;align-items:center;gap:4px;white-space:nowrap}
+.nav-dropdown>.dropbtn:hover,.nav-dropdown:focus-within>.dropbtn{color:var(--gold)}
+.nav-dropdown>.dropbtn .chevron{font-size:.65rem;transition:transform .2s;line-height:1}
+.nav-dropdown:hover>.dropbtn .chevron,.nav-dropdown:focus-within>.dropbtn .chevron{transform:rotate(180deg)}
+.nav-mega{position:absolute;top:calc(100% + 14px);left:50%;transform:translateX(-50%);background:#fff;border-radius:14px;box-shadow:0 12px 40px rgba(0,0,0,.18);padding:20px 24px;display:grid;grid-template-columns:1fr 1fr;gap:6px 28px;min-width:340px;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .18s,transform .18s;transform:translateX(-50%) translateY(-6px)}
+.nav-dropdown:hover .nav-mega,.nav-dropdown:focus-within .nav-mega{opacity:1;visibility:visible;pointer-events:auto;transform:translateX(-50%) translateY(0)}
+.nav-mega::before{content:'';position:absolute;top:-7px;left:50%;transform:translateX(-50%);border:7px solid transparent;border-bottom:7px solid #fff;border-top:none}
+.nav-mega a{display:flex;align-items:center;gap:8px;padding:8px 10px;border-radius:8px;color:#1F3D2B;font-size:.88rem;font-weight:600;text-decoration:none;transition:background .15s,color .15s;white-space:nowrap}
+.nav-mega a:hover{background:#f0f7f3;color:#D4A94F}
+.nav-mega .mega-icon{font-size:1.1rem;width:22px;text-align:center;flex-shrink:0}
+.nav-mega .mega-label{line-height:1.25}
+.nav-mega .mega-label small{display:block;font-weight:400;font-size:.76rem;color:#5C5C5C;margin-top:1px}
+</style>
 </head>
 <body>
   <div class="topbar">
@@ -73,13 +88,18 @@ footer.site-footer a{color:var(--gold-rich);text-decoration:none}
       <a href="/">Inicio</a>
       <a href="/available-birds/">Aves</a>
       <a href="/tienda.html">Tienda</a>
-      <a href="/blog/">Blog</a>
-      <a href="/especies/">Especies</a>
-      <a href="/alimentacion/">Alimentación</a>
-      <a href="/salud/">Salud</a>
-      <a href="/comportamiento/">Comportamiento</a>
-      <a href="/curiosidades/">Curiosidades</a>
-      <a href="/guias/">Guías</a>
+      <div class="nav-dropdown">
+      <button class="dropbtn" aria-haspopup="true" aria-expanded="false">Contenido <span class="chevron">▾</span></button>
+      <div class="nav-mega" role="menu">
+        <a href="/blog/" role="menuitem"><span class="mega-icon">📝</span><span class="mega-label">Blog<small>Todos los artículos</small></span></a>
+        <a href="/especies/" role="menuitem"><span class="mega-icon">🦜</span><span class="mega-label">Especies<small>Por tipo de loro</small></span></a>
+        <a href="/alimentacion/" role="menuitem"><span class="mega-icon">🥦</span><span class="mega-label">Alimentación<small>Qué comen los loros</small></span></a>
+        <a href="/salud/" role="menuitem"><span class="mega-icon">🏥</span><span class="mega-label">Salud<small>Enfermedades y cuidados</small></span></a>
+        <a href="/comportamiento/" role="menuitem"><span class="mega-icon">🧠</span><span class="mega-label">Comportamiento<small>Adiestramiento y psicología</small></span></a>
+        <a href="/curiosidades/" role="menuitem"><span class="mega-icon">✨</span><span class="mega-label">Curiosidades<small>Datos y récords</small></span></a>
+        <a href="/guias/" role="menuitem"><span class="mega-icon">📋</span><span class="mega-label">Guías<small>Para nuevos dueños</small></span></a>
+      </div>
+    </div>
       <a href="/#contacto">Contacto</a>
     </nav>
   </div>
