@@ -1,0 +1,189 @@
+Upgrade paraisodeaves.com SEO structure for aggressive Spanish and Latin America organic growth.
+
+Keep the current design and do not break existing pages. Add new SEO landing pages, internal links, schema, and content clusters.
+
+Main goal:
+Increase Google Search Console impressions, clicks, CTR, and AdSense/content revenue while keeping the site focused on parrots, exotic birds, care guides, pricing, availability, and adoption/sales inquiries.
+
+Create these new page groups:
+
+1. Spanish City Pages
+Create SEO landing pages for:
+- Loros en Madrid
+- Loros en Barcelona
+- Loros en Valencia
+- Loros en Sevilla
+- Loros en Málaga
+- Loros en Zaragoza
+- Loros en Alicante
+- Loros en Murcia
+- Loros en Bilbao
+- Loros en Córdoba
+- Loros en Granada
+- Loros en Vigo
+- Loros en Valladolid
+- Loros en Santander
+- Loros en Tenerife
+- Loros en Las Palmas
+- Loros en Palma de Mallorca
+
+Each city page must include:
+- Unique Spanish content, not duplicate text
+- Localized intro
+- Available bird species section
+- Delivery/shipping info
+- CITES/documentation section
+- Care advice
+- FAQ section
+- Strong CTA to contact
+- Internal links to species pages and price pages
+
+2. Species + City Pages
+Create pages for high-intent searches:
+- Loro Gris Africano en Madrid
+- Loro Gris Africano en Barcelona
+- Loro Gris Africano en Valencia
+- Guacamayo en Madrid
+- Guacamayo en Barcelona
+- Guacamayo en Valencia
+- Cacatúa en Madrid
+- Cacatúa en Barcelona
+- Cacatúa en Málaga
+- Loro Amazónico en Madrid
+- Loro Amazónico en Barcelona
+- Eclectus en España
+- Guacamayo Jacinto en España
+
+3. Price Pages
+Create buyer-intent pricing pages:
+- Precio Loro Gris Africano en España 2026
+- Precio Guacamayo Azul y Amarillo en España 2026
+- Precio Guacamayo Escarlata en España 2026
+- Precio Guacamayo Jacinto en España 2026
+- Precio Cacatúa Alba en España 2026
+- Precio Loro Amazónico en España 2026
+- Precio Eclectus en España 2026
+- Precio Huevos Fértiles de Loros en España 2026
+
+Each price page must include:
+- Price range table
+- Factors affecting price
+- Documentation and CITES notes
+- Delivery/shipping notes
+- Buyer safety advice
+- FAQ
+- CTA to request current availability
+
+4. Availability Pages
+Create:
+- Aves Disponibles Esta Semana
+- Loros Disponibles en España
+- Guacamayos Disponibles en España
+- Cacatúas Disponibles en España
+- Loros con Documentación CITES
+- Loros Jóvenes Criados a Mano
+
+These pages should be easy to update from admin/content files later.
+
+5. Latin America Country Pages
+Create pages for:
+- Loros en México
+- Loros en Argentina
+- Loros en Chile
+- Loros en Colombia
+- Loros en Perú
+- Loros en Panamá
+- Loros en Ecuador
+- Loros en Costa Rica
+- Loros en Uruguay
+- Loros en Guatemala
+
+Each country page must include:
+- Local search intent
+- Import/export warning
+- Legal documentation reminder
+- Care guide
+- Species overview
+- FAQ
+- Contact CTA
+
+6. Comparison Articles
+Create SEO blog articles:
+- Loro Gris Africano vs Loro Amazónico
+- Guacamayo vs Cacatúa
+- Eclectus vs Yaco
+- Mejor loro para principiantes
+- Loro Gris Africano macho o hembra
+- Guacamayo Azul y Amarillo vs Guacamayo Escarlata
+- Cacatúa Alba vs Cacatúa Galerita
+- Loro Amazónico vs Eclectus
+
+7. Care Guide Cluster
+Create care articles:
+- Qué come un Loro Gris Africano
+- Cuánto vive un Loro Gris Africano
+- Cómo cuidar un Guacamayo
+- Qué come un Guacamayo
+- Cómo entrenar un loro joven
+- Cómo preparar la casa para un loro
+- Señales de estrés en loros
+- Documentación necesaria para comprar un loro en España
+
+8. Homepage Improvements
+Update the homepage with:
+- A clear section called “Loros Disponibles Actualmente”
+- CTA buttons: “Consultar disponibilidad”, “Ver especies”, “Solicitar precio”
+- Trust badges: CITES, documentación, entrega, asesoramiento
+- Internal links to price pages, city pages, and care guides
+- Keep the current adoption tone, but also support buyer-intent keywords like “loros en venta”, “comprar loro”, “guacamayos disponibles”, and “loro gris africano en España”
+
+9. SEO Technical Requirements
+For every new page:
+- Unique title tag
+- Unique meta description
+- H1
+- H2 structure
+- FAQ schema where FAQ exists
+- Breadcrumb schema
+- Internal links
+- Spanish language only
+- Clean URL slugs
+- Add all pages to sitemap.xml
+- Ensure robots.txt allows indexing
+- Add Open Graph metadata
+- Add canonical URL
+- No duplicate content
+
+10. Internal Linking
+Create automatic internal linking:
+- City pages link to species pages
+- Species pages link to price pages
+- Price pages link to availability pages
+- Blog articles link to contact page
+- Homepage links to main SEO hubs
+- Add related articles section at bottom of every article
+
+11. CTR Optimization
+Use strong SEO titles like:
+- “Loro Gris Africano en España: Precio, CITES y Disponibilidad”
+- “Guacamayo Azul y Amarillo en Venta: Guía, Precio y Cuidados”
+- “Loros en Madrid: Especies, Entrega y Documentación”
+
+Meta descriptions should include:
+- species
+- location
+- documentation
+- availability
+- contact CTA
+
+12. Important Rules
+Do not remove existing pages.
+Do not break the current design.
+Do not create thin pages with only 200 words.
+Every SEO page should feel useful, natural, and human-written in Spanish.
+Do not mention illegal or prohibited sales.
+Add legal/disclaimer language where necessary for exotic birds, CITES, transport, and local regulations.
+Make everything responsive and production-ready.
+
+Final result:
+The site should become a large Spanish SEO content hub for parrots and exotic birds, designed to grow impressions, clicks, AdSense revenue, and qualified buyer inquiries.
