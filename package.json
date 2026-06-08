@@ -1,0 +1,11 @@
+{
+  "name": "paraisodeaves",
+  "version": "1.0.0",
+  "description": "SEO tools for paraisodeaves.com",
+  "scripts": {
+    "seo:audit": "node seo-audit.js"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

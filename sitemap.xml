@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- HOMEPAGE                                        -->
+  <!-- ═══════════════════════════════════════════════ -->
   <url>
     <loc>https://www.paraisodeaves.com/</loc>
     <lastmod>2026-04-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- TIENDA / AVES DISPONIBLES                       -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <url>
+    <loc>https://www.paraisodeaves.com/tienda.html</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.paraisodeaves.com/available-birds/</loc>
@@ -13,25 +27,13 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/blog/</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/available-birds/cacatua.html</loc>
+    <loc>https://www.paraisodeaves.com/available-birds/loro-gris-africano.html</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/available-birds/conuro.html</loc>
-    <lastmod>2026-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/available-birds/eclectus.html</loc>
+    <loc>https://www.paraisodeaves.com/available-birds/guacamayo-jacinto.html</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
@@ -49,13 +51,7 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/available-birds/guacamayo-jacinto.html</loc>
-    <lastmod>2026-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/available-birds/huevos-fertiles.html</loc>
+    <loc>https://www.paraisodeaves.com/available-birds/cacatua.html</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
@@ -67,25 +63,83 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/available-birds/loro-gris-africano.html</loc>
+    <loc>https://www.paraisodeaves.com/available-birds/eclectus.html</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://www.paraisodeaves.com/available-birds/conuro.html</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/available-birds/huevos-fertiles.html</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- PÁGINAS PRINCIPALES (clean URLs where applicable) -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <url>
+    <loc>https://www.paraisodeaves.com/comprar-loros-espana</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/criadero-loros-espana</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/loros-papilleros</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.paraisodeaves.com/adopcion-de-loros.html</loc>
     <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/criadero-de-loros-espana.html</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/loros-especies</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/african-grey-parrot-for-sale.html</loc>
-    <lastmod>2026-03-23</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://www.paraisodeaves.com/loro-hablador</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/buy-parrots-europe.html</loc>
+    <loc>https://www.paraisodeaves.com/parejas-reproductoras-loros</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/compra-venta-loros</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/guacamayos.html</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -97,79 +151,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/cockatoo-parrots-for-sale.html</loc>
-    <lastmod>2026-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/cuanto-cuesta-mantener-un-loro.html</loc>
-    <lastmod>2026-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/cuidados-basicos-de-un-loro.html</loc>
-    <lastmod>2026-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/documentos-legales-para-adoptar-un-loro.html</loc>
-    <lastmod>2026-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/entrega.html</loc>
-    <lastmod>2026-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/errores-comunes-al-adoptar-un-loro.html</loc>
-    <lastmod>2026-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/faq.html</loc>
-    <lastmod>2026-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/guacamayos.html</loc>
-    <lastmod>2026-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.paraisodeaves.com/loro-gris-africano.html</loc>
-    <lastmod>2026-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/macaw-parrots-for-sale.html</loc>
-    <lastmod>2026-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/nosotros.html</loc>
-    <lastmod>2026-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/parrot-care-health.html</loc>
-    <lastmod>2026-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/parrots-for-sale-spain.html</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -181,52 +163,586 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/blog/alimentacion-loro-adulto.html</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/cites-loros-espana.html</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/como-alimentar-un-loro-bebe.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/que-comen-los-loros-bebes.html</loc>
-    <lastmod>2026-04-27</lastmod>
+    <loc>https://www.paraisodeaves.com/faq.html</loc>
+    <lastmod>2026-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/blog/como-comprar-un-loro-en-espana.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <loc>https://www.paraisodeaves.com/nosotros.html</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/entrega.html</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/cuanto-cuesta-mantener-un-loro.html</loc>
+    <lastmod>2026-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/cuidados-basicos-de-un-loro.html</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/documentos-legales-para-adoptar-un-loro.html</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/errores-comunes-al-adoptar-un-loro.html</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/es-legal-adoptar-loro-salvaje-espana.html</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- English landing pages (noindex removed, now indexable) -->
+  <url>
+    <loc>https://www.paraisodeaves.com/african-grey-parrot-for-sale.html</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/buy-parrots-europe.html</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/cockatoo-parrots-for-sale.html</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/macaw-parrots-for-sale.html</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/parrots-for-sale-spain.html</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/parrot-care-health.html</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- SECCIÓN HUB LATINOAMÉRICA                       -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <url>
+    <loc>https://www.paraisodeaves.com/la-adopcion-de-loros-en-latinoamerica.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/mexico/adoptar-loros.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/argentina/adoptar-loros.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/colombia/adoptar-loros.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/chile/adoptar-loros.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/peru/adoptar-loros.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ecuador/adoptar-loros.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/bolivia/adoptar-loros.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/paraguay/adoptar-loros.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/uruguay/adoptar-loros.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/venezuela/adoptar-loros.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/guatemala/adoptar-loros.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/honduras/adoptar-loros.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/el-salvador/adoptar-loros.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/nicaragua/adoptar-loros.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/costa-rica/adoptar-loros.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/panama/adoptar-loros.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/republica-dominicana/adoptar-loros.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/cuba/adoptar-loros.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/puerto-rico/adoptar-loros.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/guinea-ecuatorial/adoptar-loros.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- CIUDADES (clean URLs only — no .html duplicates) -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- comprar loros por ciudad -->
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-madrid</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-barcelona</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-valencia</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-sevilla</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-malaga</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-granada</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-alicante</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-murcia</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-zaragoza</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-bilbao</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-palma-de-mallorca</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-las-palmas</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-cordoba</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-valladolid</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-vigo</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-santander</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-tenerife</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- especie por ciudad -->
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/loro-gris-africano-madrid</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/loro-gris-africano-barcelona</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/loro-gris-africano-valencia</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/guacamayo-madrid</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/guacamayo-barcelona</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/guacamayo-valencia</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/cacatua-madrid</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/cacatua-barcelona</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/cacatua-malaga</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/loro-amazonico-madrid</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/loro-amazonico-barcelona</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/eclectus-espana</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/ciudades/guacamayo-jacinto-espana</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- PRECIOS (clean URLs only)                        -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <url>
+    <loc>https://www.paraisodeaves.com/precios/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/precios/precio-loro-gris-africano-espana</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/precios/precio-loro-amazonico-espana</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/precios/precio-guacamayo-jacinto-espana</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/precios/precio-guacamayo-escarlata-espana</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/precios/precio-guacamayo-azul-amarillo-espana</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/precios/precio-eclectus-espana</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/precios/precio-cacatua-alba-espana</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/precios/precio-huevos-fertiles-loros-espana</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- SECCIONES TEMÁTICAS                             -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <url>
+    <loc>https://www.paraisodeaves.com/especies/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/alimentacion/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/salud/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/comportamiento/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/curiosidades/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/guias/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/disponibles/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- BLOG — índice                                    -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- ── Cluster Criadero ── -->
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/criadero-loros-valencia.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/criadero-loros-madrid.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/criadero-loros-barcelona.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/diferencia-criador-tienda-mascotas.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.paraisodeaves.com/blog/como-elegir-criador-loros-espana.html</loc>
     <lastmod>2026-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/blog/como-ensenar-a-hablar-un-loro.html</loc>
+    <loc>https://www.paraisodeaves.com/blog/preguntas-criador-loros-antes-comprar.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- ── Cluster Compra ── -->
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/como-comprar-un-loro-en-espana.html</loc>
     <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/blog/comprar-cacatua-espana.html</loc>
+    <loc>https://www.paraisodeaves.com/blog/comprar-loro-legal-espana.html</loc>
     <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/comprar-loro-europa-envio.html</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.paraisodeaves.com/blog/comprar-guacamayo-espana.html</loc>
@@ -235,55 +751,7 @@
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/blog/comprar-loro-europa-envio.html</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/comprar-loro-legal-espana.html</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/conuro-loro-familia.html</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/coste-mantener-loro-mes.html</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/cuidado-loro-gris-africano.html</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/cuidados-cacatua-guia.html</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/cuidados-guacamayo-guia.html</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/detectar-venta-ilegal-loros.html</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/documentacion-loro-espana.html</loc>
+    <loc>https://www.paraisodeaves.com/blog/comprar-cacatua-espana.html</loc>
     <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
@@ -301,50 +769,14 @@
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/blog/eclectus-loro-guia.html</loc>
+    <loc>https://www.paraisodeaves.com/blog/detectar-venta-ilegal-loros.html</loc>
     <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/blog/estimulacion-mental-loros.html</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/guacamayo-jacinto-caracteristicas.html</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/guacamayo-vs-cacatua.html</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/guia-cuidados-loro.html</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/importar-loro-europa-requisitos.html</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/jaula-ideal-loro-tamano.html</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/loro-gris-africano-vs-amazonico.html</loc>
-    <lastmod>2026-04-09</lastmod>
+    <loc>https://www.paraisodeaves.com/blog/adoptar-loro-vs-comprar.html</loc>
+    <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
@@ -354,20 +786,16 @@
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/plumafagia-loros-causas.html</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/precio-cacatua-espana.html</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
+
+  <!-- ── Cluster Precios ── -->
   <url>
     <loc>https://www.paraisodeaves.com/blog/precio-de-un-loro-en-espana.html</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/precio-loro-gris-africano-europa.html</loc>
     <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
@@ -379,7 +807,7 @@
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/blog/precio-huevos-fertiles-loro.html</loc>
+    <loc>https://www.paraisodeaves.com/blog/precio-cacatua-espana.html</loc>
     <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
@@ -391,7 +819,7 @@
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/blog/precio-loro-gris-africano-europa.html</loc>
+    <loc>https://www.paraisodeaves.com/blog/precio-huevos-fertiles-loro.html</loc>
     <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
@@ -403,7 +831,39 @@
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/blog/registrar-loro-espana.html</loc>
+    <loc>https://www.paraisodeaves.com/blog/coste-mantener-loro-mes.html</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- ── Cluster Cuidados ── -->
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/guia-cuidados-loro.html</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/alimentacion-loro-adulto.html</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/como-alimentar-un-loro-bebe.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/que-comen-los-loros-bebes.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/jaula-ideal-loro-tamano.html</loc>
     <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
@@ -415,7 +875,43 @@
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/blog/tipos-guacamayos-espana.html</loc>
+    <loc>https://www.paraisodeaves.com/blog/estimulacion-mental-loros.html</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/como-ensenar-a-hablar-un-loro.html</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/banar-loro-guia-completa.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/loros-y-ninos-seguridad.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/loro-mordedor-como-educarlo.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/enfermedades-comunes-loros.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/plumafagia-loros-causas.html</loc>
     <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
@@ -427,202 +923,84 @@
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/es-legal-adoptar-loro-salvaje-espana.html</loc>
-    <lastmod>2026-03-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://www.paraisodeaves.com/blog/cuanto-vive-un-loro.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
   </url>
+
+  <!-- ── Cluster Especies ── -->
   <url>
-    <loc>https://www.paraisodeaves.com/criadero-de-loros-espana.html</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/tienda.html</loc>
+    <loc>https://www.paraisodeaves.com/blog/cuidado-loro-gris-africano.html</loc>
     <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/como-incubar-huevos-de-loro.html</loc>
-    <lastmod>2026-04-09</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/blog/incubadoras-para-huevos-de-loro.html</loc>
+    <loc>https://www.paraisodeaves.com/blog/loro-gris-africano-vs-amazonico.html</loc>
     <lastmod>2026-04-09</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/guacamayo-jacinto-caracteristicas.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/blog/problemas-incubacion-huevos-loro.html</loc>
+    <loc>https://www.paraisodeaves.com/blog/tipos-guacamayos-espana.html</loc>
     <lastmod>2026-04-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/blog/cuidados-huevos-fertiles-loro.html</loc>
+    <loc>https://www.paraisodeaves.com/blog/cuidados-guacamayo-guia.html</loc>
     <lastmod>2026-04-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/guacamayo-vs-cacatua.html</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/cuidados-cacatua-guia.html</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/eclectus-loro-guia.html</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/conuro-loro-familia.html</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.paraisodeaves.com/blog/amazona-loro-mascota.html</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.paraisodeaves.com/blog/caique-loro-mascota.html</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.paraisodeaves.com/blog/pionus-loro-mascota.html</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/comprar-loros-espana</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/loros-papilleros</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/criadero-loros-espana</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/loros-especies</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/loro-hablador</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/parejas-reproductoras-loros</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/compra-venta-loros</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-madrid</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-barcelona</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-valencia</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-sevilla</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-malaga</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-granada</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-alicante</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-murcia</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-zaragoza</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-bilbao</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-palma-de-mallorca</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-las-palmas</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-cordoba</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-valladolid</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-vigo</loc>
-    <lastmod>2026-04-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
   <url>
     <loc>https://www.paraisodeaves.com/blog/agapornis-inseparable-mascota.html</loc>
@@ -648,484 +1026,107 @@
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
+
+  <!-- ── Cluster Legalidad ── -->
   <url>
-    <loc>https://www.paraisodeaves.com/blog/cuanto-vive-un-loro.html</loc>
-    <lastmod>2026-04-27</lastmod>
+    <loc>https://www.paraisodeaves.com/blog/cites-loros-espana.html</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/documentacion-loro-espana.html</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/blog/loro-mordedor-como-educarlo.html</loc>
-    <lastmod>2026-04-27</lastmod>
+    <loc>https://www.paraisodeaves.com/blog/registrar-loro-espana.html</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/blog/enfermedades-comunes-loros.html</loc>
-    <lastmod>2026-04-27</lastmod>
+    <loc>https://www.paraisodeaves.com/blog/importar-loro-europa-requisitos.html</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
+
+  <!-- ── Cluster Huevos Fértiles ── -->
   <url>
-    <loc>https://www.paraisodeaves.com/blog/banar-loro-guia-completa.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/loros-y-ninos-seguridad.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/adoptar-loro-vs-comprar.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/la-adopcion-de-loros-en-latinoamerica.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/mexico/adoptar-loros.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/argentina/adoptar-loros.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/colombia/adoptar-loros.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/chile/adoptar-loros.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/peru/adoptar-loros.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ecuador/adoptar-loros.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/bolivia/adoptar-loros.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/paraguay/adoptar-loros.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/uruguay/adoptar-loros.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/venezuela/adoptar-loros.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/guatemala/adoptar-loros.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/honduras/adoptar-loros.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/el-salvador/adoptar-loros.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/nicaragua/adoptar-loros.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/costa-rica/adoptar-loros.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/panama/adoptar-loros.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/republica-dominicana/adoptar-loros.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/cuba/adoptar-loros.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/puerto-rico/adoptar-loros.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/guinea-ecuatorial/adoptar-loros.html</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/criadero-loros-valencia.html</loc>
-    <lastmod>2026-04-28</lastmod>
+    <loc>https://www.paraisodeaves.com/blog/como-incubar-huevos-de-loro.html</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/blog/preguntas-criador-loros-antes-comprar.html</loc>
-    <lastmod>2026-04-28</lastmod>
+    <loc>https://www.paraisodeaves.com/blog/incubadoras-para-huevos-de-loro.html</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/blog/criadero-loros-madrid.html</loc>
-    <lastmod>2026-04-28</lastmod>
+    <loc>https://www.paraisodeaves.com/blog/problemas-incubacion-huevos-loro.html</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/blog/criadero-loros-barcelona.html</loc>
-    <lastmod>2026-04-28</lastmod>
+    <loc>https://www.paraisodeaves.com/blog/cuidados-huevos-fertiles-loro.html</loc>
+    <lastmod>2026-04-09</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.75</priority>
   </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/diferencia-criador-tienda-mascotas.html</loc>
-    <lastmod>2026-04-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
+
+  <!-- ── Serie Loro Yaco por país ── -->
   <url>
     <loc>https://www.paraisodeaves.com/blog/loro-yaco-en-mexico-precio-cuidados-requisitos.html</loc>
     <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.paraisodeaves.com/blog/loro-yaco-en-colombia-precio-cuidados-requisitos.html</loc>
     <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.paraisodeaves.com/blog/loro-yaco-en-peru-precio-cuidados-requisitos.html</loc>
     <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.paraisodeaves.com/blog/loro-yaco-en-ecuador-precio-cuidados-requisitos.html</loc>
     <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/loro-yaco-en-guatemala-precio-cuidados-requisitos.html</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/blog/loro-yaco-en-panama-precio-cuidados-requisitos.html</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.paraisodeaves.com/blog/loro-yaco-en-chile-precio-cuidados-requisitos.html</loc>
     <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.paraisodeaves.com/blog/loro-yaco-en-argentina-precio-cuidados-requisitos.html</loc>
     <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/especies/</loc>
+    <loc>https://www.paraisodeaves.com/blog/loro-yaco-en-guatemala-precio-cuidados-requisitos.html</loc>
     <lastmod>2026-06-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://www.paraisodeaves.com/alimentacion/</loc>
+    <loc>https://www.paraisodeaves.com/blog/loro-yaco-en-panama-precio-cuidados-requisitos.html</loc>
     <lastmod>2026-06-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/salud/</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/comportamiento/</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/curiosidades/</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/guias/</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-madrid.html</loc>
-    <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-barcelona.html</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-valencia.html</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-sevilla.html</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-malaga.html</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-zaragoza.html</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-alicante.html</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-bilbao.html</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-granada.html</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-murcia.html</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-cordoba.html</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-palma-de-mallorca.html</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-las-palmas.html</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-valladolid.html</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-vigo.html</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/compra-venta-loros.html</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/comprar-loros-espana.html</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/criadero-loros-espana.html</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/loro-hablador.html</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-santander.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-tenerife.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/loro-gris-africano-madrid.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/loro-gris-africano-barcelona.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/loro-gris-africano-valencia.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/guacamayo-madrid.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/guacamayo-barcelona.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/guacamayo-valencia.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/cacatua-madrid.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/cacatua-barcelona.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/cacatua-malaga.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/loro-amazonico-madrid.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/loro-amazonico-barcelona.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/eclectus-espana.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.paraisodeaves.com/ciudades/guacamayo-jacinto-espana.html</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+
 </urlset>
