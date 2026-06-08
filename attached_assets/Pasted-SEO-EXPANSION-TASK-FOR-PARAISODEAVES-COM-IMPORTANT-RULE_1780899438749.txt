@@ -1,0 +1,176 @@
+SEO EXPANSION TASK FOR PARAISODEAVES.COM
+
+IMPORTANT RULE:
+
+Before creating ANY new page, article, category, landing page, FAQ, city page, species page, guide, or blog post:
+
+1. Crawl and analyze the entire website.
+2. Check all existing URLs.
+3. Check sitemap.xml.
+4. Check all blog posts.
+5. Check all category pages.
+6. Check all species pages.
+7. Check all city pages.
+
+IF A TOPIC ALREADY EXISTS:
+- DO NOT CREATE A DUPLICATE.
+- DO NOT CREATE A SIMILAR PAGE.
+- DO NOT CREATE A COMPETING URL.
+- SKIP IT.
+- LOG IT AS "ALREADY EXISTS".
+
+ONLY CREATE CONTENT FOR TOPICS THAT DO NOT ALREADY EXIST.
+
+----------------------------------------------------
+CONTENT CLUSTER 1 – PARROT FEEDING
+----------------------------------------------------
+
+Create only missing articles:
+
+Qué frutas pueden comer los loros
+Qué verduras pueden comer los loros
+Alimentos tóxicos para loros
+Dieta del loro yaco
+Dieta del guacamayo
+Dieta de la cacatúa
+Cómo alimentar un loro bebé
+Mejor comida para loros en España
+Calendario de alimentación para loros
+Vitaminas para loros
+
+----------------------------------------------------
+CONTENT CLUSTER 2 – PARROT HEALTH
+----------------------------------------------------
+
+Create only missing articles:
+
+¿Por qué mi loro pierde plumas?
+¿Cómo saber si un loro está enfermo?
+Enfermedades comunes en loros
+Ácaros en loros
+Primeros auxilios para loros
+Problemas respiratorios en loros
+Obesidad en loros
+Cómo cortar las uñas de un loro
+Cómo cuidar el pico de un loro
+Guía veterinaria para loros
+
+----------------------------------------------------
+CONTENT CLUSTER 3 – BEHAVIOUR
+----------------------------------------------------
+
+Create only missing articles:
+
+¿Por qué grita mi loro?
+¿Por qué muerde mi loro?
+¿Cómo enseñar a hablar a un loro?
+¿Cómo domesticar un loro?
+¿Cómo reducir el estrés en loros?
+¿Por qué mi loro me tiene miedo?
+Cómo fortalecer el vínculo con tu loro
+Cómo evitar el aburrimiento en loros
+Cómo entrenar un loro paso a paso
+Lenguaje corporal de los loros
+
+----------------------------------------------------
+CONTENT CLUSTER 4 – BUYER INTENT
+----------------------------------------------------
+
+Create only missing articles:
+
+Precio del loro yaco en España
+Precio del guacamayo azul y amarillo
+Precio de la cacatúa blanca
+Precio del amazona frente azul
+Precio del eclectus en España
+Cuánto cuesta mantener un loro al año
+Qué loro habla mejor
+Qué loro es mejor para principiantes
+Qué loro vive más años
+Qué loro es más cariñoso
+
+----------------------------------------------------
+CONTENT CLUSTER 5 – CITY SEO
+----------------------------------------------------
+
+Create only missing city pages:
+
+Loros en Murcia
+Loros en Alicante
+Loros en Granada
+Loros en Bilbao
+Loros en Vigo
+Loros en Zaragoza
+Loros en Málaga
+Loros en Palma de Mallorca
+Loros en Valladolid
+Loros en Córdoba
+Loros en Santander
+Loros en Salamanca
+Loros en Gijón
+Loros en Oviedo
+Loros en Pamplona
+
+----------------------------------------------------
+CONTENT CLUSTER 6 – SPECIES + CITY
+----------------------------------------------------
+
+Create only missing combinations:
+
+Loro Yaco en Madrid
+Loro Yaco en Barcelona
+Loro Yaco en Valencia
+Loro Yaco en Málaga
+Loro Yaco en Murcia
+
+Guacamayo en Madrid
+Guacamayo en Barcelona
+Guacamayo en Valencia
+Guacamayo en Málaga
+Guacamayo en Sevilla
+
+Cacatúas en Madrid
+Cacatúas en Barcelona
+Cacatúas en Valencia
+
+----------------------------------------------------
+CONTENT QUALITY REQUIREMENTS
+----------------------------------------------------
+
+Every page must contain:
+
+- Unique SEO title
+- Unique meta description
+- H1
+- H2 sections
+- FAQ section
+- Internal links
+- Schema markup
+- Related species links
+- Related city links
+- Breadcrumbs
+
+Minimum:
+- 1200+ words for guides
+- 800+ words for city pages
+
+----------------------------------------------------
+FINAL REPORT
+----------------------------------------------------
+
+Generate a report:
+
+EXISTING CONTENT FOUND:
+(list URLs skipped)
+
+NEW CONTENT CREATED:
+(list URLs created)
+
+DUPLICATES PREVENTED:
+(list skipped topics)
+
+INTERNAL LINKS ADDED:
+(count)
+
+SEO IMPROVEMENTS:
+(summary)
