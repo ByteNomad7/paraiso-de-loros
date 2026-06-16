@@ -995,8 +995,7 @@
         <p>Una vez recibamos tu solicitud, te enviaremos los datos bancarios por email para que puedas realizar el pago de forma inmediata. Tu reserva se confirma al recibir el pago.</p>
       </div>
 
-      <form id="orderForm" name="solicitud-compra" data-netlify="true" netlify-honeypot="bot-field" novalidate>
-        <input type="hidden" name="form-name" value="solicitud-compra">
+      <form id="orderForm" name="solicitud-compra" novalidate>
         <input type="hidden" name="bot-field">
         <input type="hidden" name="carrito" id="hiddenCart">
         <input type="hidden" name="referencia" id="hiddenRef">
@@ -1519,9 +1518,6 @@ document.getElementById('orderForm').addEventListener('submit', async function(e
   btn.disabled = true;
 
   try {
-    const data = new FormData(form);
-    await fetch('/', { method: 'POST', body: data });
-
     // Show success
     form.style.display = 'none';
     const successEl = document.getElementById('successState');
