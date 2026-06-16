@@ -224,7 +224,22 @@
 /rss/                                                /blog/                                                   301
 
 # ══════════════════════════════════════════════════════
-# SECTION 14 — CATCH-ALL 404
+# SECTION 14 — T1 THIN-CONTENT EXPANSION CLEAN URLS (Jun 2026)
+# Canonical = clean URL; .html file is the actual asset
+# ══════════════════════════════════════════════════════
+/adopcion-de-loros                                   /adopcion-de-loros.html                                  200
+/adopcion-de-loros.html                              /adopcion-de-loros                                       301
+/cuanto-cuesta-mantener-un-loro                      /cuanto-cuesta-mantener-un-loro.html                     200
+/cuanto-cuesta-mantener-un-loro.html                 /cuanto-cuesta-mantener-un-loro                          301
+/cuidados-basicos-de-un-loro                         /cuidados-basicos-de-un-loro.html                        200
+/cuidados-basicos-de-un-loro.html                    /cuidados-basicos-de-un-loro                             301
+/documentos-legales-para-adoptar-un-loro             /documentos-legales-para-adoptar-un-loro.html            200
+/documentos-legales-para-adoptar-un-loro.html        /documentos-legales-para-adoptar-un-loro                 301
+/errores-comunes-al-adoptar-un-loro                  /errores-comunes-al-adoptar-un-loro.html                 200
+/errores-comunes-al-adoptar-un-loro.html             /errores-comunes-al-adoptar-un-loro                      301
+
+# ══════════════════════════════════════════════════════
+# SECTION 15 — CATCH-ALL 404
 # Netlify only applies this when no static file matches.
 # ══════════════════════════════════════════════════════
 /*                                                   /404.html                                                404

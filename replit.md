@@ -137,6 +137,44 @@ Compra · Precios · Cuidados · Especies · Legalidad
 - Servidor de desarrollo: `python3 -m http.server 5000 --bind 0.0.0.0`
 - Desplegado en Netlify (estático, `publicDir: "."`)
 
+## Actualizaciones Junio 2026 — SEO Phase 2 Sprint (16-jun-2026)
+
+### T1 — Expansión de páginas con contenido delgado (4 páginas, ~2100 palabras cada una)
+1. **`cuanto-cuesta-mantener-un-loro.html`** — ~2038 palabras: desglose mensual/anual de gastos, tabla comparativa por especie, FAQ, schemas WebPage+BreadcrumbList+FAQPage, canonical clean URL `/cuanto-cuesta-mantener-un-loro`
+2. **`cuidados-basicos-de-un-loro.html`** — ~2148 palabras: jaula, alimentación, socialización, veterinario, checklist, FAQ, schemas WebPage+BreadcrumbList+FAQPage
+3. **`documentos-legales-para-adoptar-un-loro.html`** — ~2164 palabras: CITES, anilla, certificados, tabla por especie, FAQ, schemas WebPage+BreadcrumbList+FAQPage
+4. **`errores-comunes-al-adoptar-un-loro.html`** — ~2110 palabras: 10 errores con explicación, red flags de vendedor, checklist antes de comprar, FAQ, schemas
+
+### T2 — Mejora de páginas con muchas impresiones y 0 clics
+5. **`adopcion-de-loros.html`** — reescrito completamente: proceso de 7 pasos, grid de especies, links a T1 pages, schemas WebPage+BreadcrumbList+FAQPage, canonical clean `/adopcion-de-loros`
+6. **`comprar-loros-espana.html`** — nueva sección "Guías para nuevos propietarios" (6 cards T1), footer premium 4 cols, copyright 2025→2026
+7. **`blog/comprar-cacatua-espana.html`** — BreadcrumbList+FAQPage schemas añadidos, related grid ampliado con 4 links T1, footer premium
+8. **`blog/que-comen-los-loros-bebes.html`** — footer CSS 4→5 cols + columna "Comprar por Región", sección "Guías para nuevos propietarios" con 5 links T1, fix English→Spanish bird links
+9. **`blog/como-incubar-huevos-de-loro.html`** — article-footer simple → footer premium 4 cols con columnas Adopción, Comprar por Región, Criadero
+
+### T3 — Auditoría de enlazado interno
+- **Resultado final:** 8/8 páginas clave tienen ≥3 refs a páginas T1 (0 fallos)
+- `criadero-loros-espana.html`: 0 → 4 T1 refs (nueva sección "Guías esenciales antes de adoptar" + footer upgrade, copyright 2025→2026)
+- `nosotros.html`: 2 → 4 T1 refs (sección "Tenencia Responsable" añadida)
+
+### T4 — Footer Authority Network (red de enlaces de autoridad en pie de página)
+- **Footer CSS actualizado** en `index.html` y `nosotros.html`: `2fr 1fr 1fr 1fr` → `2fr 1fr 1fr 1fr 1fr` (5ª columna "Comprar por Región")
+- 7 páginas con footer regional verificado (≥2 refs a páginas comprar-loros-región)
+
+### T5 — E-E-A-T en nosotros.html
+- **Topbar**: links ingleses → URLs españoles limpias (`/comprar-loros-espana`, `/adopcion-de-loros`, `/loro-gris-africano.html`, etc.)
+- **Historia**: "Más de 25 Años Criando Loros" añadido en H2 y párrafo
+- **Nueva sección "Transparencia Legal y Bienestar Animal"**: núcleo zoológico registrado, CITES, Ley 42/2007, Reglamento CE 338/97
+- **Nueva sección "Tenencia Responsable"**: compromiso de asesoramiento previo + 4 links a páginas T1
+
+### T6 — Verificación del sitemap
+- 220 URLs verificadas: 0 archivos faltantes, 0 noindex inesperado
+- **5 URLs T1 actualizadas** de `.html` a clean URLs en sitemap:
+  - `/adopcion-de-loros`, `/cuanto-cuesta-mantener-un-loro`, `/cuidados-basicos-de-un-loro`, `/documentos-legales-para-adoptar-un-loro`, `/errores-comunes-al-adoptar-un-loro`
+
+### Actualizaciones `_redirects`
+- **SECTION 14 añadida**: 10 nuevas reglas para T1 clean URLs (5 × 200 rewrite + 5 × 301 .html→clean)
+
 ## Actualizaciones Junio 2026 — SEO Audit Fixes (16-jun-2026)
 
 1. **C1 — 9 URLs ciudades sin rewrite** → añadidas reglas 200 rewrite + 301 .html→clean en `_redirects` para: cacatua-valencia, comprar-loros-gijon, comprar-loros-oviedo, comprar-loros-pamplona, comprar-loros-salamanca, guacamayo-malaga, guacamayo-sevilla, loro-gris-africano-malaga, loro-gris-africano-murcia

@@ -1,0 +1,129 @@
+SEO Optimization Sprint – Phase 2
+
+Goal:
+Improve quality, internal authority, indexing readiness, and topical authority of existing pages without creating mass new pages.
+
+TASK 1 – Thin Content Expansion
+
+Expand these pages to 1200–1800+ words:
+
+- cuanto-cuesta-mantener-un-loro
+- cuidados-basicos
+- documentos-legales
+- errores-comunes
+
+Requirements:
+- Unique content
+- FAQ section
+- Internal links
+- Meta title
+- Meta description
+- H1 + H2 structure
+- FAQ Schema
+- Breadcrumb Schema
+
+------------------------------------------------
+
+TASK 2 – Improve High-Impression Pages
+
+Audit and improve:
+
+- que-comen-los-loros-bebes
+- comprar-loro
+- comprar-loros
+- huevos-de-loro
+- huevos-para-incubar-de-loros
+- comprar-cacatua
+- loros-en-adopcion
+
+Requirements:
+- Increase topical depth
+- Add FAQ
+- Add internal links
+- Add related articles section
+- Add schema markup
+- Improve CTR-focused titles and descriptions
+
+------------------------------------------------
+
+TASK 3 – Internal Linking Audit
+
+Find pages with:
+
+- fewer than 3 internal links
+- no incoming internal links
+- weak anchor text
+
+Create contextual internal links from:
+
+- blog articles
+- species pages
+- adoption pages
+- regional pages
+
+Generate a report showing:
+- links added
+- pages strengthened
+
+------------------------------------------------
+
+TASK 4 – Footer Authority Network
+
+Create footer section:
+
+"Comprar Loros por Región"
+
+Include:
+
+- Comprar Loros España
+- Comprar Loros Madrid
+- Comprar Loros Andalucía
+- Comprar Loros Cataluña
+- Comprar Loros Valencia
+- Comprar Loros Canarias
+
+Use descriptive anchor text.
+
+------------------------------------------------
+
+TASK 5 – E-E-A-T Enhancement
+
+Add:
+
+- About Paraíso de Aves references
+- Experience section
+- Responsible ownership guidance
+- Legal and welfare information
+- Author attribution where applicable
+
+------------------------------------------------
+
+TASK 6 – Sitemap Verification
+
+Verify every URL in sitemap.xml:
+
+- returns HTTP 200
+- is indexable
+- is not noindex
+- has canonical
+- has title
+- has meta description
+
+Generate report of any failures.
+
+------------------------------------------------
+
+TASK 7 – SEO Health Report
+
+After all changes provide:
+
+- Pages improved
+- Internal links added
+- Schema added
+- Sitemap status
+- Remaining SEO issues
+- Top 10 pages with highest SEO potential
+
+Do NOT create new city pages.
+Do NOT create new region pages.
+Focus entirely on strengthening and optimizing existing assets.
