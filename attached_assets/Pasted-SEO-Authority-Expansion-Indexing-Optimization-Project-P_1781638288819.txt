@@ -1,0 +1,135 @@
+SEO Authority Expansion & Indexing Optimization Project
+
+Primary Goal:
+Create high-authority regional landing pages that satisfy Google’s Helpful Content, E-E-A-T, and indexing requirements while avoiding duplicate-content, doorway-page, canonicalization, and thin-content issues.
+
+Create these pages:
+
+1. /comprar-loros-espana/
+2. /comprar-loros-madrid/
+3. /comprar-loros-andalucia/
+4. /comprar-loros-cataluna/
+5. /comprar-loros-valencia/
+6. /comprar-loros-canarias/
+
+For each page:
+
+CONTENT REQUIREMENTS
+
+* Minimum 1,500–2,500 words.
+* 100% unique content.
+* No copied sections between pages.
+* Each page must target its own search intent.
+* Include original introductions and conclusions.
+* Include region-specific information.
+* Avoid keyword stuffing.
+* Write naturally for users first and SEO second.
+
+SEO REQUIREMENTS
+
+Generate:
+
+* Unique SEO title (under 60 characters)
+* Unique meta description (140–160 characters)
+* H1
+* Multiple H2 sections
+* H3 subsections where appropriate
+* Open Graph tags
+* Twitter card metadata
+* Canonical tag pointing to itself
+
+STRUCTURED DATA
+
+Add:
+
+* Breadcrumb schema
+* FAQ schema
+* WebPage schema
+* Organization schema where applicable
+
+INTERNAL LINKING
+
+Link to:
+
+* /comprar-loro-gris-africano/
+* /comprar-guacamayo/
+* /comprar-cacatua/
+* /adopcion/
+* /huevos-fertiles-de-loro/
+* /que-comen-los-loros-bebes/
+
+Create a “Regiones de España” navigation section linking all regional pages together.
+
+USER VALUE REQUIREMENTS
+
+Each page should include:
+
+* Availability information
+* Species overview
+* Adoption process
+* Delivery information
+* Legal ownership guidance
+* Care recommendations
+* FAQ
+* Contact call-to-action
+
+INDEXING REQUIREMENTS
+
+Verify:
+
+* Page is linked from homepage or parent page.
+* Page is included in sitemap.xml.
+* Page is not blocked by robots.txt.
+* Page is not marked noindex.
+* Page contains self-referencing canonical.
+* Page is crawlable.
+
+TECHNICAL SEO AUDIT
+
+Before making changes:
+
+1. Scan site for:
+    * 404 pages
+    * redirect chains
+    * redirect loops
+    * orphan pages
+    * duplicate titles
+    * duplicate descriptions
+    * duplicate H1s
+    * thin pages under 500 words
+2. Produce audit report.
+
+CITY PAGE CONSOLIDATION
+
+Analyze all existing city pages.
+
+For each city page classify:
+
+* KEEP
+* MERGE
+* REDIRECT
+* CANONICALIZE
+
+Provide reasoning.
+
+Do not automatically delete or redirect any existing page.
+
+Generate a migration plan first.
+
+QUALITY CONTROL
+
+Reject creation of any page that:
+
+* Shares more than 25% content with another page.
+* Appears doorway-page-like.
+* Has fewer than 1,500 words.
+* Has duplicate title, meta description, H1, or FAQ.
+
+Final output:
+
+* List all files created.
+* List all files modified.
+* List all new URLs.
+* List all indexing improvements.
+* List all SEO issues discovered.
+* Provide a prioritized action plan.

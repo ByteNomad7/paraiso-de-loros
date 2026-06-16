@@ -17,6 +17,11 @@
 # Canonical = clean URL, actual file = .html
 # ══════════════════════════════════════════════════════
 /comprar-loros-espana                                /comprar-loros-espana.html                               200
+/comprar-loros-madrid                                /comprar-loros-madrid.html                               200
+/comprar-loros-andalucia                             /comprar-loros-andalucia.html                            200
+/comprar-loros-cataluna                              /comprar-loros-cataluna.html                             200
+/comprar-loros-valencia                              /comprar-loros-valencia.html                             200
+/comprar-loros-canarias                              /comprar-loros-canarias.html                             200
 /loros-papilleros                                    /loros-papilleros.html                                   200
 /criadero-loros-espana                               /criadero-loros-espana.html                              200
 /loros-especies                                      /loros-especies.html                                     200
@@ -104,6 +109,11 @@
 # SECTION 7 — .HTML → CLEAN URL (root-level, prevent duplicate indexing)
 # ══════════════════════════════════════════════════════
 /comprar-loros-espana.html                           /comprar-loros-espana                                    301
+/comprar-loros-madrid.html                           /comprar-loros-madrid                                    301
+/comprar-loros-andalucia.html                        /comprar-loros-andalucia                                 301
+/comprar-loros-cataluna.html                         /comprar-loros-cataluna                                  301
+/comprar-loros-valencia.html                         /comprar-loros-valencia                                  301
+/comprar-loros-canarias.html                         /comprar-loros-canarias                                  301
 /loros-papilleros.html                               /loros-papilleros                                        301
 /criadero-loros-espana.html                          /criadero-loros-espana                                   301
 /loros-especies.html                                 /loros-especies                                          301

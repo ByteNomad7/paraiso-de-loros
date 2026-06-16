@@ -148,6 +148,28 @@ Compra · Precios · Cuidados · Especies · Legalidad
    - compra-venta-loros + parejas-reproductoras-loros: enlazados desde ciudades/index.html y blog/index.html footer
 5. **H3 — 4 páginas sin schema** → WebPage + BreadcrumbList añadidos a: compra-venta-loros.html (+ FAQPage), loro-hablador.html, loros-especies.html, parejas-reproductoras-loros.html
 
+## Actualizaciones Junio 2026 — 6 Páginas Regionales de Compra (16-jun-2026)
+
+**SEO Authority Expansion: 5 nuevas landing pages regionales + mejora de la nacional**
+
+1. **`comprar-loros-espana.html`** (existente, mejorado): añadidos schemas BreadcrumbList + FAQPage, sección "Comprar por Región" con links a las 6 páginas regionales, copyright 2025 → 2026
+2. **`comprar-loros-madrid.html`** (NUEVO): Comunidad de Madrid — clima continental, normativa CAM, envío 3,5–4h desde Llíria, 5 FAQs únicas. Schemas: BreadcrumbList + WebPage + FAQPage
+3. **`comprar-loros-andalucia.html`** (NUEVO): Andalucía — 8 provincias, calor extremo (guía específica verano), logística por distancia, 5 FAQs únicas. Schemas: BreadcrumbList + WebPage + FAQPage
+4. **`comprar-loros-cataluna.html`** (NUEVO): Cataluña — Decret 146/2013 Generalitat, Llei 7/2023, tabla de rutas por provincia, visita a criadero, 5 FAQs únicas. Schemas: BreadcrumbList + WebPage + FAQPage
+5. **`comprar-loros-valencia.html`** (NUEVO): Comunitat Valenciana — SOMOS DE AQUÍ, entrega 24h, recogida en Llíria, clima mediterráneo ideal, 5 FAQs únicas. Schemas: BreadcrumbList + WebPage + FAQPage
+6. **`comprar-loros-canarias.html`** (NUEVO): Islas Canarias — envío aéreo IATA, 7 islas cubiertas, documentación sanitaria extra, clima subtropical perfecto, proceso paso a paso, 5 FAQs únicas. Schemas: BreadcrumbList + WebPage + FAQPage
+7. **`_redirects`**: +10 reglas (5 × 200 rewrite + 5 × 301 .html→clean) para las 5 páginas nuevas
+8. **`sitemap.xml`**: 215 → 220 URLs; 5 nuevas entradas con priority 0.85 y lastmod 2026-06-16
+9. **`index.html`**: sección "Comprar Loros por Región de España" añadida antes de `</main>` con links a las 6 páginas regionales
+10. **Audit findings**: ningún H1/title/description duplicado; city pages (ciudades/) KEEP sin merges; noindex para 6 stubs en inglés pendiente (thin content)
+
+**Keyword targets por página:**
+- Madrid: "comprar loros Madrid", "loro gris africano Madrid", "criador loros Comunidad Madrid"
+- Andalucía: "comprar loros Andalucía", "loros Sevilla CITES", "loro Málaga criador"
+- Cataluña: "comprar loros Cataluña", "loro Barcelona CITES", "criador loros registrado Cataluña"
+- Valencia: "comprar loros Valencia", "criador loros Llíria", "loro Comunitat Valenciana entrega"
+- Canarias: "comprar loros Canarias", "loros Gran Canaria", "loro Tenerife CITES"
+
 ## Pendiente (Prioridad Alta)
 
 1. **GSC: Request Indexing** — para todas las URLs nuevas (9 ciudades + 28 blog posts) y las páginas actualizadas. Manual por el propietario en GSC → Inspección de URL.

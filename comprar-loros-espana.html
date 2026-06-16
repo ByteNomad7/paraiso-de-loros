@@ -28,6 +28,8 @@
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"WebPage","name":"Comprar Loros en España — Guía Legal y Segura","description":"Dónde comprar loros en España de forma legal: criadores registrados, documentación CITES, envío seguro a toda España y Europa.","url":"https://www.paraisodeaves.com/comprar-loros-espana","publisher":{"@type":"Organization","name":"paraisodeaves","url":"https://www.paraisodeaves.com"}}
   </script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.paraisodeaves.com/"},{"@type":"ListItem","position":2,"name":"Comprar Loros en España","item":"https://www.paraisodeaves.com/comprar-loros-espana"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Es legal comprar un loro en España?","acceptedAnswer":{"@type":"Answer","text":"Sí, completamente legal, siempre que el ave cuente con la documentación CITES o el certificado de origen correspondiente. Comprar a un criador registrado te garantiza que todo está en regla."}},{"@type":"Question","name":"¿Puedo comprar un loro a un particular?","acceptedAnswer":{"@type":"Answer","text":"Puedes, pero asegúrate de que el particular tenga toda la documentación del ave. Sin documentación, te expones a sanciones y a quedarte con un ave de procedencia incierta."}},{"@type":"Question","name":"¿Cuánto tiempo tarda en llegar un loro por envío?","acceptedAnswer":{"@type":"Answer","text":"El transporte se coordina en función del destino y las condiciones de seguridad para el animal. Habitualmente entre 1 y 3 días. Te informamos del proceso con detalle antes de confirmar cualquier envío."}},{"@type":"Question","name":"¿Los loros en venta incluyen garantía de salud?","acceptedAnswer":{"@type":"Answer","text":"En paraisodeaves sí. Todas nuestras aves salen con revisión veterinaria actualizada. Si en los primeros días detectas algún problema de salud, lo gestionamos contigo."}},{"@type":"Question","name":"¿Puedo visitar el criadero antes de comprar?","acceptedAnswer":{"@type":"Answer","text":"Sí. Puedes visitar nuestras instalaciones en Llíria (Valencia) previo acuerdo. También podemos mostrarte el ave por videollamada si no puedes desplazarte."}}]}</script>
   <style>
 :root{--primary:#1F3D2B;--secondary:#2B533C;--gold:#D4A94F;--gold-rich:#E0B75F;--gold-hover:#B8933E;--bg:#F8F5F0;--surface:#FFFFFF;--border:#E7E0D2;--text:#1A1A1A;--muted:#5C5C5C}
 *{margin:0;padding:0;box-sizing:border-box}a{color:var(--primary);text-decoration:none}a:hover{color:var(--gold-hover);text-decoration:underline}
@@ -62,6 +64,15 @@ h1,h2,h3,h4{font-family:'Poppins',Arial,sans-serif}
 .cta-block a:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(212,169,79,.4);color:#fff;text-decoration:none}
 footer.site-footer{background:var(--primary);color:#fff;padding:32px 5%;text-align:center;font-size:.88rem}
 footer.site-footer a{color:var(--gold-rich);text-decoration:none}
+.regiones-section{background:var(--surface);border-top:3px solid var(--gold);border-bottom:3px solid var(--gold);padding:40px 5%;margin:32px 0}
+.regiones-section h2{font-family:'Poppins',Arial,sans-serif;font-size:1.3rem;font-weight:800;color:var(--primary);text-align:center;margin-bottom:1.2rem}
+.regiones-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;max-width:860px;margin:0 auto}
+.region-card{background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:14px 12px;text-align:center;transition:border-color .2s,background .2s}
+.region-card:hover{border-color:var(--gold);background:#fff}
+.region-card.current{border-color:var(--primary);background:var(--primary);pointer-events:none}
+.region-card.current a{color:#fff;font-weight:700}
+.region-card a{display:block;font-family:'Poppins',Arial,sans-serif;font-size:.88rem;font-weight:600;color:var(--primary);text-decoration:none}
+.region-card .flag{font-size:1.4rem;display:block;margin-bottom:6px}
 @media(max-width:680px){.hero-seo h1{font-size:1.6rem}.topnav{gap:.8rem}}
   
 
@@ -195,6 +206,18 @@ footer.site-footer a{color:var(--gold-rich);text-decoration:none}
 
   </div>
 
+  <section class="regiones-section">
+    <h2>Comprar Loros por Región de España</h2>
+    <div class="regiones-grid">
+      <div class="region-card current"><a href="/comprar-loros-espana"><span class="flag">🇪🇸</span>España Nacional</a></div>
+      <div class="region-card"><a href="/comprar-loros-madrid"><span class="flag">🏙️</span>Comunidad de Madrid</a></div>
+      <div class="region-card"><a href="/comprar-loros-andalucia"><span class="flag">🌞</span>Andalucía</a></div>
+      <div class="region-card"><a href="/comprar-loros-cataluna"><span class="flag">📍</span>Cataluña</a></div>
+      <div class="region-card"><a href="/comprar-loros-valencia"><span class="flag">🍊</span>Com. Valenciana</a></div>
+      <div class="region-card"><a href="/comprar-loros-canarias"><span class="flag">🌴</span>Canarias</a></div>
+    </div>
+  </section>
+
   <div class="faq">
     <h2>Preguntas frecuentes sobre comprar loros en España</h2>
     <div class="faq-item">
@@ -228,7 +251,7 @@ footer.site-footer a{color:var(--gold-rich);text-decoration:none}
   </main>
 
   <footer class="site-footer">
-    <p>© 2025 <a href="/">paraisodeaves</a> · Criador registrado · Llíria, Valencia · <a href="/criadero-loros-espana">Nuestro criadero</a> · <a href="/loros-papilleros">Loros papilleros</a> · <a href="/loro-hablador">Loro hablador</a></p>
+    <p>© 2026 <a href="/">paraisodeaves</a> · Criador registrado · Llíria, Valencia · <a href="/criadero-loros-espana">Nuestro criadero</a> · <a href="/loros-papilleros">Loros papilleros</a> · <a href="/loro-hablador">Loro hablador</a></p>
   </footer>
 <script>
 (function(){
