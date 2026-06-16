@@ -62,6 +62,15 @@
 /ciudades/loro-amazonico-barcelona                   /ciudades/loro-amazonico-barcelona.html                  200
 /ciudades/eclectus-espana                            /ciudades/eclectus-espana.html                           200
 /ciudades/guacamayo-jacinto-espana                   /ciudades/guacamayo-jacinto-espana.html                  200
+/ciudades/cacatua-valencia                           /ciudades/cacatua-valencia.html                          200
+/ciudades/comprar-loros-gijon                        /ciudades/comprar-loros-gijon.html                       200
+/ciudades/comprar-loros-oviedo                       /ciudades/comprar-loros-oviedo.html                      200
+/ciudades/comprar-loros-pamplona                     /ciudades/comprar-loros-pamplona.html                    200
+/ciudades/comprar-loros-salamanca                    /ciudades/comprar-loros-salamanca.html                   200
+/ciudades/guacamayo-malaga                           /ciudades/guacamayo-malaga.html                          200
+/ciudades/guacamayo-sevilla                          /ciudades/guacamayo-sevilla.html                         200
+/ciudades/loro-gris-africano-malaga                  /ciudades/loro-gris-africano-malaga.html                 200
+/ciudades/loro-gris-africano-murcia                  /ciudades/loro-gris-africano-murcia.html                 200
 
 # ══════════════════════════════════════════════════════
 # SECTION 5 — CLEAN-URL REWRITES (precios pages)
@@ -139,6 +148,15 @@
 /ciudades/loro-amazonico-barcelona.html              /ciudades/loro-amazonico-barcelona                       301
 /ciudades/eclectus-espana.html                       /ciudades/eclectus-espana                                301
 /ciudades/guacamayo-jacinto-espana.html              /ciudades/guacamayo-jacinto-espana                       301
+/ciudades/cacatua-valencia.html                      /ciudades/cacatua-valencia                               301
+/ciudades/comprar-loros-gijon.html                   /ciudades/comprar-loros-gijon                            301
+/ciudades/comprar-loros-oviedo.html                  /ciudades/comprar-loros-oviedo                           301
+/ciudades/comprar-loros-pamplona.html                /ciudades/comprar-loros-pamplona                         301
+/ciudades/comprar-loros-salamanca.html               /ciudades/comprar-loros-salamanca                        301
+/ciudades/guacamayo-malaga.html                      /ciudades/guacamayo-malaga                               301
+/ciudades/guacamayo-sevilla.html                     /ciudades/guacamayo-sevilla                              301
+/ciudades/loro-gris-africano-malaga.html             /ciudades/loro-gris-africano-malaga                      301
+/ciudades/loro-gris-africano-murcia.html             /ciudades/loro-gris-africano-murcia                      301
 
 # ══════════════════════════════════════════════════════
 # SECTION 10 — .HTML → CLEAN URL (precios pages)
@@ -180,6 +198,9 @@
 /mejores-especies-loros-adoptar.html                 /loros-especies                                          301
 /guacamayo-escarlata                                 /guacamayos.html                                         301
 /guacamayo-escarlata.html                            /guacamayos.html                                         301
+# C2 Fix — keyword cannibalization: old criadero page consolidated into new clean-URL page
+/criadero-de-loros-espana.html                       /criadero-loros-espana                                   301
+/criadero-de-loros-espana                            /criadero-loros-espana                                   301
 
 # ══════════════════════════════════════════════════════
 # SECTION 13 — LEGACY CMS PATTERNS

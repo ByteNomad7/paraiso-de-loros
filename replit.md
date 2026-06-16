@@ -137,12 +137,23 @@ Compra · Precios · Cuidados · Especies · Legalidad
 - Servidor de desarrollo: `python3 -m http.server 5000 --bind 0.0.0.0`
 - Desplegado en Netlify (estático, `publicDir: "."`)
 
+## Actualizaciones Junio 2026 — SEO Audit Fixes (16-jun-2026)
+
+1. **C1 — 9 URLs ciudades sin rewrite** → añadidas reglas 200 rewrite + 301 .html→clean en `_redirects` para: cacatua-valencia, comprar-loros-gijon, comprar-loros-oviedo, comprar-loros-pamplona, comprar-loros-salamanca, guacamayo-malaga, guacamayo-sevilla, loro-gris-africano-malaga, loro-gris-africano-murcia
+2. **C2 — Canibalización criadero** → `criadero-de-loros-espana.html` marcado noindex, canonical apuntando a `/criadero-loros-espana`, 301 redirect añadido en `_redirects`, entrada eliminada del sitemap
+3. **H1 — 28 blog posts fuera del sitemap** → todos añadidos al sitemap.xml con lastmod 2026-06-16 y priority 0.75
+4. **H2 — 17 páginas huérfanas**:
+   - blog/index.html: 6 nuevas cards (cuanto-cuesta-mantener-loro-al-ano, guia-veterinaria-loros, lenguaje-corporal-loros, obesidad-en-loros, precio-amazona-frente-azul-espana, problemas-respiratorios-loros) + contador 64→70
+   - ciudades/index.html: 4 nuevas city cards (Gijón, Oviedo, Pamplona, Salamanca) + nueva sección "Por Especie y Ciudad" con 5 fichas (cacatua-valencia, guacamayo-malaga, guacamayo-sevilla, loro-gris-africano-malaga, loro-gris-africano-murcia)
+   - compra-venta-loros + parejas-reproductoras-loros: enlazados desde ciudades/index.html y blog/index.html footer
+5. **H3 — 4 páginas sin schema** → WebPage + BreadcrumbList añadidos a: compra-venta-loros.html (+ FAQPage), loro-hablador.html, loros-especies.html, parejas-reproductoras-loros.html
+
 ## Pendiente (Prioridad Alta)
 
-1. **Backlinks** — factor limitante principal. 2 objetivos: guest article en `mascotahogar.com` o `expertoanimal.com`, alta en directorio `centralvet.es`.
-2. **GSC: Request Indexing** — para las 3 URLs nuevas de Abril 2026 (criadero-loros-madrid, criadero-loros-barcelona, diferencia-criador-tienda-mascotas) y 137 anteriores. Manual por el propietario.
+1. **GSC: Request Indexing** — para todas las URLs nuevas (9 ciudades + 28 blog posts) y las páginas actualizadas. Manual por el propietario en GSC → Inspección de URL.
+2. **Backlinks** — factor limitante principal. 2 objetivos: guest article en `mascotahogar.com` o `expertoanimal.com`, alta en directorio `centralvet.es`.
 3. **Hreflang opcional** — si se decide segmentar los países anglo equivalentes en el futuro.
 
 ## Sitemap
 
-140 URLs totales (Abril 2026). Lastmod 2026-04-28 para los 3 nuevos posts del cluster Criadero.
+215 URLs totales (Junio 2026). Lastmod 2026-06-16 para las 9 ciudades nuevas + 28 blog posts añadidos al sitemap.
