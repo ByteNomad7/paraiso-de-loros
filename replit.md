@@ -67,14 +67,14 @@ Sitio web estático completamente en español para paraisodeaves — criadero le
 2. **18 imágenes JPG → WebP** con `<picture>` + fallback JPG (55% más ligeras)
 3. **Author bio E-E-A-T** añadido a 33 posts del blog
 4. **Página `/criadero-de-loros-espana.html`** (1.530 palabras, schema LocalBusiness + FAQ)
-5. **WhatsApp eliminado** de todo el sitio — solo email `info@paraisodeaves.com`
+5. **WhatsApp eliminado** de todo el sitio — solo email `paraisodeloros@gmail.com`
 6. **Formulario contacto Netlify** con campos: Nombre, Email, País, Producto, Mensaje
 7. **tienda.html** primera ficha real (Shinda y Daphne, pareja de Yacos)
 
 ## Información Técnica Clave
 
 - **Dominio canonical:** `https://www.paraisodeaves.com` (www)
-- **Email:** `info@paraisodeaves.com` (sin WhatsApp ni teléfono en ninguna página)
+- **Email:** `paraisodeloros@gmail.com` (sin WhatsApp ni teléfono en ninguna página)
 - **GA4:** `G-4007YHH4H9`
 - **GSC tags:** `8Du7IU5_y0w0vZeaz0bjDdLNdbzb35CubsG1YKISK8c` + `rEssv_QHGO0TDZMwuv94A5v-LQM4OkXtuffGFAbcRq4`
 - **Formulario Netlify** → `/gracias.html`
