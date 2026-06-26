@@ -4,7 +4,7 @@ const fs = require('fs');
 const { NAV_CSS, NAV_JS, PT_HEADER, FR_HEADER } = require('./apply-unified-nav.js');
 
 const BASE_CSS = `<style>
-:root{--primary:#1F3D2B;--secondary:#2B533C;--gold:#D4A94F;--gold-rich:#E0B75F;--bg:#F8F5F0;--text:#1A1A1A;--muted:#5C5C5C;--border:#E7E0D2;--white:#fff}
+:root{--primary:#1F3D2B;--secondary:#2B533C;--gold:#D4A94F;--gold-rich:#E0B75F;--gold-light:#E0B75F;--bg:#F8F5F0;--text:#1A1A1A;--muted:#5C5C5C;--border:#E7E0D2;--white:#fff}
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Open Sans',Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.8}
 a{color:var(--secondary)}
@@ -22,12 +22,144 @@ a{color:var(--secondary)}
 .ph-related{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin:1.4rem 0}
 .ph-related a{background:#fff;border:1px solid var(--border);border-radius:12px;padding:1.1rem 1.2rem;text-decoration:none;color:var(--primary);font-weight:700;transition:transform .2s,box-shadow .2s}
 .ph-related a:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(0,0,0,.08)}
-.ph-foot{background:var(--primary);color:rgba(255,255,255,.75);text-align:center;padding:2.4rem 5%;font-size:.9rem}
-.ph-foot a{color:rgba(255,255,255,.8)}
+footer{background:var(--primary);color:rgba(255,255,255,.75);padding:56px 5% 28px;}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr;gap:32px;max-width:1200px;margin:0 auto 40px;}
+@media(max-width:900px){.footer-grid{grid-template-columns:1fr 1fr;}}
+@media(max-width:500px){.footer-grid{grid-template-columns:1fr;}}
+.footer-brand h3{font-family:'Poppins',sans-serif;color:var(--white);font-size:1.1rem;margin-bottom:10px;}
+.footer-brand p{font-size:.85rem;line-height:1.7;max-width:260px;}
+.footer-col h4{font-family:'Poppins',sans-serif;color:var(--gold-light);font-size:.85rem;text-transform:uppercase;letter-spacing:.8px;margin-bottom:14px;}
+.footer-col ul{list-style:none;}
+.footer-col ul li{margin-bottom:7px;}
+.footer-col ul li a{color:rgba(255,255,255,.65);font-size:.83rem;transition:color .2s;}
+.footer-col ul li a:hover{color:var(--gold);}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:22px;text-align:center;font-size:.78rem;color:rgba(255,255,255,.4);max-width:1200px;margin:0 auto;}
 @media(max-width:600px){.ph-hero h1{font-size:1.55rem}}
 </style>`;
 
-function page({ lang, slug, title, desc, esUrl, ptUrl, frUrl, h1, hero, body, related, ctaTitle, ctaText, ctaBtn, contactUrl, footText, header }) {
+const PT_FOOTER = `<footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>🦜 Paraíso de Aves</h3>
+        <p>Criador registado de papagaios exóticos em Llíria, Valência (Espanha). Mais de 25 anos de experiência. Envios seguros para todo Portugal e Europa.</p>
+        <p style="margin-top:12px;font-size:.82rem;">📧 <a href="mailto:paraisodeloros@gmail.com" style="color:var(--gold-light);">paraisodeloros@gmail.com</a></p>
+      </div>
+      <div class="footer-col">
+        <h4>Espécies</h4>
+        <ul>
+          <li><a href="../../papagaio-cinzento/">Papagaio Cinzento</a></li>
+          <li><a href="../../arara-jacinto/">Arara Jacinto</a></li>
+          <li><a href="../../arara-azul-e-amarela/">Arara Azul e Amarela</a></li>
+          <li><a href="../../arara-escarlate/">Arara Escarlate</a></li>
+          <li><a href="../../cacatua-de-crista-amarela/">Cacatua de Crista Amarela</a></li>
+          <li><a href="../../papagaio-eclectus/">Papagaio Eclectus</a></li>
+          <li><a href="../../papagaio-amazona/">Papagaio Amazona</a></li>
+          <li><a href="../../conuro/">Conuro</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Cidades</h4>
+        <ul>
+          <li><a href="../../cidades/papagaios-lisboa/">Lisboa</a></li>
+          <li><a href="../../cidades/papagaios-porto/">Porto</a></li>
+          <li><a href="../../cidades/papagaios-braga/">Braga</a></li>
+          <li><a href="../../cidades/papagaios-coimbra/">Coimbra</a></li>
+          <li><a href="../../cidades/papagaios-faro/">Faro</a></li>
+          <li><a href="../../cidades/papagaios-funchal/">Funchal</a></li>
+          <li><a href="../../cidades/">Ver todas →</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Informações</h4>
+        <ul>
+          <li><a href="../../blog/">Blog</a></li>
+          <li><a href="../../blog/documentacao-cites-portugal/">CITES em Portugal</a></li>
+          <li><a href="../../blog/quanto-custa-um-papagaio-em-portugal/">Preços e Custos</a></li>
+          <li><a href="../../blog/como-escolher-um-papagaio/">Como Escolher</a></li>
+          <li><a href="../../blog/alimentacao-papagaio-guia-completo/">Alimentação</a></li>
+          <li><a href="../../contacto/">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Comprar em Espanha</h4>
+        <ul>
+          <li><a href="https://www.paraisodeaves.com/comprar-loros-espana">Comprar Loros España</a></li>
+          <li><a href="https://www.paraisodeaves.com/comprar-loros-madrid">Madrid</a></li>
+          <li><a href="https://www.paraisodeaves.com/comprar-loros-valencia">Valencia</a></li>
+          <li><a href="https://www.paraisodeaves.com/comprar-loros-cataluna">Cataluña</a></li>
+          <li><a href="https://www.paraisodeaves.com/criadero-loros-espana">Criadero</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Paraíso de Aves · Criador Registado · CITES Oficial · Llíria, Valência, Espanha</p>
+      <p style="margin-top:6px;"><a href="https://www.paraisodeaves.com/" style="color:rgba(255,255,255,.4)">ES</a> · <a href="https://www.paraisodeaves.com/pt/" style="color:rgba(255,255,255,.4)">PT</a> · <a href="https://www.paraisodeaves.com/fr/" style="color:rgba(255,255,255,.4)">FR</a></p>
+    </div>
+  </footer>`;
+
+const FR_FOOTER = `<footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>🦜 Paraíso de Aves</h3>
+        <p>Éleveur enregistré de perroquets exotiques à Llíria, Valence (Espagne). Plus de 25 ans d'expérience. Livraisons sécurisées dans toute la France et l'Europe.</p>
+        <p style="margin-top:12px;font-size:.82rem;">📧 <a href="mailto:paraisodeloros@gmail.com" style="color:var(--gold-light);">paraisodeloros@gmail.com</a></p>
+      </div>
+      <div class="footer-col">
+        <h4>Espèces</h4>
+        <ul>
+          <li><a href="https://www.paraisodeaves.com/fr/perroquet-gris-du-gabon/">Gris du Gabon</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/ara-hyacinthe/">Ara Hyacinthe</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/ara-bleu-et-jaune/">Ara Bleu et Jaune</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/ara-macao/">Ara Macao</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/cacatoes-huppe-jaune/">Cacatoès Huppé Jaune</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/eclectus/">Éclectus</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/amazone-front-bleu/">Amazone Front Bleu</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/cacatoes-rosalbin/">Cacatoès Rosalbin</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Villes</h4>
+        <ul>
+          <li><a href="https://www.paraisodeaves.com/fr/perroquets-a-vendre-paris/">Paris</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/perroquets-a-vendre-lyon/">Lyon</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/perroquets-a-vendre-marseille/">Marseille</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/perroquets-a-vendre-nice/">Nice</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/perroquets-a-vendre-bordeaux/">Bordeaux</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/perroquets-a-vendre-toulouse/">Toulouse</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/perroquets-a-vendre-strasbourg/">Strasbourg</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/perroquets-a-vendre-lille/">Lille</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Blog</h4>
+        <ul>
+          <li><a href="https://www.paraisodeaves.com/fr/blog/guide-cites-france/">Guide CITES France</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/blog/prix-perroquet-france/">Prix d'un Perroquet</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/blog/quel-perroquet-choisir/">Quel Perroquet Choisir?</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/blog/meilleurs-perroquets-debutants/">Pour Débutants</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/blog/preparer-maison-perroquet/">Préparer sa Maison</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/blog/">Tous les articles →</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Informations</h4>
+        <ul>
+          <li><a href="https://www.paraisodeaves.com/fr/livraison/">Livraison en France</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/garantie-sante/">Garantie Santé</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/processus-adoption/">Processus d'Adoption</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/faq/">FAQ</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/a-propos/">À Propos</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/contact/">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Paraíso de Aves · Éleveur Enregistré · CITES Officiel · Llíria, Valence, Espagne</p>
+      <p style="margin-top:6px;"><a href="https://www.paraisodeaves.com/" style="color:rgba(255,255,255,.4);">ES</a> · <a href="https://www.paraisodeaves.com/pt/" style="color:rgba(255,255,255,.4);">PT</a> · <a href="https://www.paraisodeaves.com/fr/" style="color:rgba(255,255,255,.4);">FR</a></p>
+    </div>
+  </footer>`;
+
+function page({ lang, slug, title, desc, esUrl, ptUrl, frUrl, h1, hero, body, related, ctaTitle, ctaText, ctaBtn, contactUrl, footer, header }) {
   return `<!DOCTYPE html>
 <html lang="${lang}">
 <head>
@@ -67,11 +199,7 @@ ${body}
 ${related.map(([u, t]) => `    <a href="${u}">${t} →</a>`).join('\n')}
   </div>
 </main>
-<footer class="ph-foot">
-  <p>🦜 <strong>paraisodeaves</strong> — ${footText}</p>
-  <p style="margin-top:.6rem">📧 <a href="mailto:paraisodeloros@gmail.com">paraisodeloros@gmail.com</a></p>
-  <p style="margin-top:.6rem;font-size:.8rem;opacity:.6">© 2026 paraisodeaves · <a href="${contactUrl}">Contacto</a></p>
-</footer>
+${footer}
 ${NAV_JS}
 <script src="/lang-switcher.js" defer></script>
 </body>
@@ -117,7 +245,7 @@ const pages = [
       ctaTitle: 'Precisa de aconselhamento sobre gaiolas?',
       ctaText: 'Diga-nos a espécie e o espaço disponível e recomendamos a gaiola ideal sem compromisso.',
       ctaBtn: 'Solicitar Recomendação', contactUrl: '/pt/contacto/',
-      footText: 'Criador registado de papagaios e aves exóticas. Documentação CITES e envios para toda a Europa.'
+      footer: PT_FOOTER
     }
   },
   {
@@ -145,7 +273,7 @@ const pages = [
       ctaTitle: 'Dúvidas sobre o transporte do seu papagaio?',
       ctaText: 'Aconselhamos a transportadora ideal segundo a espécie e o tipo de viagem.',
       ctaBtn: 'Solicitar Aconselhamento', contactUrl: '/pt/contacto/',
-      footText: 'Criador registado de papagaios e aves exóticas. Documentação CITES e envios para toda a Europa.'
+      footer: PT_FOOTER
     }
   },
   {
@@ -173,7 +301,7 @@ const pages = [
       ctaTitle: 'Besoin de conseils sur les cages ?',
       ctaText: 'Indiquez-nous l\'espèce et l\'espace disponible et nous vous recommandons la cage idéale sans engagement.',
       ctaBtn: 'Demander une Recommandation', contactUrl: '/fr/contact/',
-      footText: 'Éleveur enregistré de perroquets et oiseaux exotiques. Documentation CITES et livraison dans toute l\'Europe.'
+      footer: FR_FOOTER
     }
   },
   {
@@ -201,7 +329,7 @@ const pages = [
       ctaTitle: 'Des questions sur le transport de votre perroquet ?',
       ctaText: 'Nous vous conseillons la caisse idéale selon l\'espèce et le type de voyage.',
       ctaBtn: 'Demander un Conseil', contactUrl: '/fr/contact/',
-      footText: 'Éleveur enregistré de perroquets et oiseaux exotiques. Documentation CITES et livraison dans toute l\'Europe.'
+      footer: FR_FOOTER
     }
   }
 ];

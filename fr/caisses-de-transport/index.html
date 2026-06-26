@@ -17,7 +17,7 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-4007YHH4H9"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-4007YHH4H9');</script>
 <style>
-:root{--primary:#1F3D2B;--secondary:#2B533C;--gold:#D4A94F;--gold-rich:#E0B75F;--bg:#F8F5F0;--text:#1A1A1A;--muted:#5C5C5C;--border:#E7E0D2;--white:#fff}
+:root{--primary:#1F3D2B;--secondary:#2B533C;--gold:#D4A94F;--gold-rich:#E0B75F;--gold-light:#E0B75F;--bg:#F8F5F0;--text:#1A1A1A;--muted:#5C5C5C;--border:#E7E0D2;--white:#fff}
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Open Sans',Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.8}
 a{color:var(--secondary)}
@@ -35,8 +35,18 @@ a{color:var(--secondary)}
 .ph-related{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin:1.4rem 0}
 .ph-related a{background:#fff;border:1px solid var(--border);border-radius:12px;padding:1.1rem 1.2rem;text-decoration:none;color:var(--primary);font-weight:700;transition:transform .2s,box-shadow .2s}
 .ph-related a:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(0,0,0,.08)}
-.ph-foot{background:var(--primary);color:rgba(255,255,255,.75);text-align:center;padding:2.4rem 5%;font-size:.9rem}
-.ph-foot a{color:rgba(255,255,255,.8)}
+footer{background:var(--primary);color:rgba(255,255,255,.75);padding:56px 5% 28px;}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr;gap:32px;max-width:1200px;margin:0 auto 40px;}
+@media(max-width:900px){.footer-grid{grid-template-columns:1fr 1fr;}}
+@media(max-width:500px){.footer-grid{grid-template-columns:1fr;}}
+.footer-brand h3{font-family:'Poppins',sans-serif;color:var(--white);font-size:1.1rem;margin-bottom:10px;}
+.footer-brand p{font-size:.85rem;line-height:1.7;max-width:260px;}
+.footer-col h4{font-family:'Poppins',sans-serif;color:var(--gold-light);font-size:.85rem;text-transform:uppercase;letter-spacing:.8px;margin-bottom:14px;}
+.footer-col ul{list-style:none;}
+.footer-col ul li{margin-bottom:7px;}
+.footer-col ul li a{color:rgba(255,255,255,.65);font-size:.83rem;transition:color .2s;}
+.footer-col ul li a:hover{color:var(--gold);}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.1);padding-top:22px;text-align:center;font-size:.78rem;color:rgba(255,255,255,.4);max-width:1200px;margin:0 auto;}
 @media(max-width:600px){.ph-hero h1{font-size:1.55rem}}
 </style>
 <style>
@@ -183,11 +193,67 @@ body{padding-top:68px}
     <a href="/fr/contact/">Contacter l'Éleveur →</a>
   </div>
 </main>
-<footer class="ph-foot">
-  <p>🦜 <strong>paraisodeaves</strong> — Éleveur enregistré de perroquets et oiseaux exotiques. Documentation CITES et livraison dans toute l'Europe.</p>
-  <p style="margin-top:.6rem">📧 <a href="mailto:paraisodeloros@gmail.com">paraisodeloros@gmail.com</a></p>
-  <p style="margin-top:.6rem;font-size:.8rem;opacity:.6">© 2026 paraisodeaves · <a href="/fr/contact/">Contacto</a></p>
-</footer>
+<footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>🦜 Paraíso de Aves</h3>
+        <p>Éleveur enregistré de perroquets exotiques à Llíria, Valence (Espagne). Plus de 25 ans d'expérience. Livraisons sécurisées dans toute la France et l'Europe.</p>
+        <p style="margin-top:12px;font-size:.82rem;">📧 <a href="mailto:paraisodeloros@gmail.com" style="color:var(--gold-light);">paraisodeloros@gmail.com</a></p>
+      </div>
+      <div class="footer-col">
+        <h4>Espèces</h4>
+        <ul>
+          <li><a href="https://www.paraisodeaves.com/fr/perroquet-gris-du-gabon/">Gris du Gabon</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/ara-hyacinthe/">Ara Hyacinthe</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/ara-bleu-et-jaune/">Ara Bleu et Jaune</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/ara-macao/">Ara Macao</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/cacatoes-huppe-jaune/">Cacatoès Huppé Jaune</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/eclectus/">Éclectus</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/amazone-front-bleu/">Amazone Front Bleu</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/cacatoes-rosalbin/">Cacatoès Rosalbin</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Villes</h4>
+        <ul>
+          <li><a href="https://www.paraisodeaves.com/fr/perroquets-a-vendre-paris/">Paris</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/perroquets-a-vendre-lyon/">Lyon</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/perroquets-a-vendre-marseille/">Marseille</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/perroquets-a-vendre-nice/">Nice</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/perroquets-a-vendre-bordeaux/">Bordeaux</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/perroquets-a-vendre-toulouse/">Toulouse</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/perroquets-a-vendre-strasbourg/">Strasbourg</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/perroquets-a-vendre-lille/">Lille</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Blog</h4>
+        <ul>
+          <li><a href="https://www.paraisodeaves.com/fr/blog/guide-cites-france/">Guide CITES France</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/blog/prix-perroquet-france/">Prix d'un Perroquet</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/blog/quel-perroquet-choisir/">Quel Perroquet Choisir?</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/blog/meilleurs-perroquets-debutants/">Pour Débutants</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/blog/preparer-maison-perroquet/">Préparer sa Maison</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/blog/">Tous les articles →</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Informations</h4>
+        <ul>
+          <li><a href="https://www.paraisodeaves.com/fr/livraison/">Livraison en France</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/garantie-sante/">Garantie Santé</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/processus-adoption/">Processus d'Adoption</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/faq/">FAQ</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/a-propos/">À Propos</a></li>
+          <li><a href="https://www.paraisodeaves.com/fr/contact/">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Paraíso de Aves · Éleveur Enregistré · CITES Officiel · Llíria, Valence, Espagne</p>
+      <p style="margin-top:6px;"><a href="https://www.paraisodeaves.com/" style="color:rgba(255,255,255,.4);">ES</a> · <a href="https://www.paraisodeaves.com/pt/" style="color:rgba(255,255,255,.4);">PT</a> · <a href="https://www.paraisodeaves.com/fr/" style="color:rgba(255,255,255,.4);">FR</a></p>
+    </div>
+  </footer>
 <script>
 (function(){
   document.querySelectorAll('.nav-dropdown').forEach(function(dd){
