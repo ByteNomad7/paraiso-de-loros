@@ -326,7 +326,18 @@
 /pt/blog/quanto-vive-um-papagaio                   /pt/blog/quanto-vive-um-papagaio/index.html                   200
 
 # ══════════════════════════════════════════════════════
-# SECTION 16 — CATCH-ALL 404
+# SECTION 16 — COMMERCIAL CATEGORY PAGES
+# ══════════════════════════════════════════════════════
+/jaulas-para-loros                       /jaulas-para-loros.html                       200
+/comida-para-loros                       /comida-para-loros.html                       200
+/juguetes-naturales-para-loros           /juguetes-naturales-para-loros.html           200
+/transportines-para-loros                /transportines-para-loros.html                200
+/jaulas-para-loros.html                  /jaulas-para-loros                            301
+/juguetes-naturales-para-loros.html      /juguetes-naturales-para-loros                301
+/transportines-para-loros.html           /transportines-para-loros                     301
+
+# ══════════════════════════════════════════════════════
+# SECTION 17 — CATCH-ALL 404
 # Netlify only applies this when no static file matches.
 # ══════════════════════════════════════════════════════
 /*                                                   /404.html                                                404

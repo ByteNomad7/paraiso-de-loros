@@ -805,84 +805,98 @@ donde explicamos cada paso con detalle.
 </section>
 
   <style>
-  .sc-section{background:#F8F5F0;padding:4rem 5%}
+  /* ── Commercial category cards ── */
+  .sc-section{background:linear-gradient(180deg,#F8F5F0 0%,#F0EBE2 100%);padding:4.5rem 5%}
   .sc-wrap{max-width:1200px;margin:0 auto}
-  .sc-header{text-align:center;margin-bottom:2.5rem}
-  .sc-header h2{font-family:'Poppins',Arial,sans-serif;font-size:clamp(1.5rem,3vw,2rem);font-weight:900;color:#1F3D2B;margin-bottom:.6rem}
+  .sc-header{text-align:center;margin-bottom:3rem}
+  .sc-header h2{font-family:'Poppins',Arial,sans-serif;font-size:clamp(1.55rem,3vw,2.1rem);font-weight:900;color:#1F3D2B;margin-bottom:.6rem}
   .sc-header p{color:#5C5C5C;font-size:1rem;max-width:68ch;margin:0 auto}
-  .sc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.4rem}
-  @media(max-width:900px){.sc-grid{grid-template-columns:repeat(2,1fr)}}
+  .sc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.6rem}
+  @media(max-width:960px){.sc-grid{grid-template-columns:repeat(2,1fr)}}
   @media(max-width:520px){.sc-grid{grid-template-columns:1fr}}
-  .sc-card{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08);border:1px solid #E7E0D2;transition:transform .25s,box-shadow .25s;display:flex;flex-direction:column;text-decoration:none;color:inherit}
-  .sc-card:hover{transform:translateY(-6px);box-shadow:0 14px 38px rgba(31,61,43,.16)}
-  .sc-collage{display:grid;grid-template-columns:1fr 1fr;gap:3px;height:156px;overflow:hidden}
-  .sc-collage img{width:100%;height:100%;object-fit:cover;display:block}
-  .sc-body{padding:1.2rem 1.3rem 1.4rem;flex:1;display:flex;flex-direction:column}
-  .sc-body h3{font-family:'Poppins',Arial,sans-serif;font-size:1rem;font-weight:800;color:#1F3D2B;margin:0 0 .45rem}
-  .sc-body p{color:#5C5C5C;font-size:.88rem;line-height:1.6;flex:1;margin-bottom:1rem}
-  .sc-btn{display:inline-block;padding:.55rem 1.2rem;border-radius:999px;background:linear-gradient(135deg,#1F3D2B,#2B533C);color:#fff;font-weight:700;font-size:.84rem;font-family:'Poppins',Arial,sans-serif;transition:background .2s;align-self:flex-start}
-  .sc-card:hover .sc-btn{background:linear-gradient(135deg,#D4A94F,#B8933E)}
+  .sc-card{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 4px 22px rgba(0,0,0,.07);border:2px solid #E7E0D2;transition:transform .28s cubic-bezier(.22,.68,0,1.2),box-shadow .28s ease,border-color .22s ease;display:flex;flex-direction:column;text-decoration:none;color:inherit;cursor:pointer}
+  .sc-card:hover{transform:translateY(-8px);box-shadow:0 20px 48px rgba(31,61,43,.18);border-color:#D4A94F;text-decoration:none}
+  .sc-photo{height:200px;overflow:hidden;position:relative}
+  .sc-photo img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s ease}
+  .sc-card:hover .sc-photo img{transform:scale(1.06)}
+  .sc-photo-placeholder{width:100%;height:100%;background:linear-gradient(135deg,#1F3D2B 0%,#2B533C 60%,#3a6e50 100%);display:flex;align-items:center;justify-content:center}
+  .sc-photo-placeholder span{font-size:3rem;opacity:.7}
+  .sc-accent{height:3px;background:linear-gradient(90deg,#D4A94F,#E0B75F);transition:opacity .22s}
+  .sc-card:hover .sc-accent{opacity:1}
+  .sc-body{padding:1.3rem 1.4rem 1.5rem;flex:1;display:flex;flex-direction:column}
+  .sc-body h3{font-family:'Poppins',Arial,sans-serif;font-size:1.05rem;font-weight:900;color:#1F3D2B;margin:0 0 .25rem;line-height:1.25}
+  .sc-subtitle{font-size:.8rem;font-weight:700;color:#D4A94F;text-transform:uppercase;letter-spacing:.06em;margin-bottom:.65rem}
+  .sc-body p{color:#5C5C5C;font-size:.875rem;line-height:1.65;flex:1;margin-bottom:1.1rem}
+  .sc-cta{display:flex;align-items:center;gap:6px;font-family:'Poppins',Arial,sans-serif;font-weight:700;font-size:.85rem;color:#1F3D2B;transition:color .2s}
+  .sc-cta .arr{display:inline-block;transition:transform .25s cubic-bezier(.22,.68,0,1.4)}
+  .sc-card:hover .sc-cta{color:#D4A94F}
+  .sc-card:hover .sc-cta .arr{transform:translateX(5px)}
   </style>
 
   <section class="sc-section">
     <div class="sc-wrap">
       <div class="sc-header">
-        <h2>Descubre el mundo completo de Paraíso de Aves</h2>
-        <p>Aves disponibles, alimentación, juguetes naturales e instalaciones preparadas para el bienestar de cada loro.</p>
+        <h2>Todo lo que necesitas para tu loro</h2>
+        <p>Jaulas, alimentación, juguetes y accesorios — selección especializada para cada especie y cada etapa de su vida.</p>
       </div>
       <div class="sc-grid">
-        <a class="sc-card" href="/aves-disponibles">
-          <div class="sc-collage">
-            <img src="/images/gallery/aves-disponibles-guacamayos-azul-amarillo-pareja-05.jpg" alt="Pareja de guacamayos azul y amarillo" width="200" height="78" loading="lazy" />
-            <img src="/images/gallery/aves-disponibles-loro-gris-africano-volando-12.jpg" alt="Loro gris africano yaco en vuelo" width="200" height="78" loading="lazy" />
-            <img src="/images/gallery/aves-disponibles-cacatua-galah-rosa-07.jpg" alt="Cacatúa galah rosa socializada" width="200" height="78" loading="lazy" />
-            <img src="/images/gallery/aves-disponibles-guacamayo-verde-papillero-14.jpg" alt="Guacamayo verde papillero" width="200" height="78" loading="lazy" />
+
+        <!-- JAULAS -->
+        <a class="sc-card" href="/jaulas-para-loros">
+          <div class="sc-photo">
+            <img src="/images/gallery/nosotros-jaula-interior-equipada-03.jpg" alt="Jaula interior equipada con perchas para loros" width="400" height="200" loading="lazy">
           </div>
+          <div class="sc-accent"></div>
           <div class="sc-body">
-            <h3>Aves disponibles</h3>
-            <p>Explora loros grises, guacamayos, cacatúas, amazonas, eclectus y conuros disponibles o bajo consulta.</p>
-            <span class="sc-btn">Ver aves disponibles</span>
+            <h3>Jaulas para Loros</h3>
+            <p class="sc-subtitle">Espacios seguros para cada especie</p>
+            <p>Jaulas amplias, resistentes y adaptadas para guacamayos, yacos, amazonas, cacatúas, eclectus y conuros. Encuentra el tamaño ideal para garantizar comodidad y bienestar.</p>
+            <span class="sc-cta">Explorar jaulas <span class="arr">→</span></span>
           </div>
         </a>
+
+        <!-- COMIDA -->
         <a class="sc-card" href="/comida-para-loros">
-          <div class="sc-collage">
-            <img src="/images/gallery/comida-para-loros-mezcla-premium-01.jpg" alt="Mezcla premium de semillas para loros" width="200" height="78" loading="lazy" />
-            <img src="/images/gallery/frutas-seguras-para-loros-03.jpg" alt="Frutas seguras para loros" width="200" height="78" loading="lazy" />
-            <img src="/images/gallery/verduras-para-loros-dieta-04.jpg" alt="Verduras frescas en la dieta del loro" width="200" height="78" loading="lazy" />
-            <img src="/images/gallery/semillas-para-loros-grandes-05.jpg" alt="Semillas para loros grandes" width="200" height="78" loading="lazy" />
+          <div class="sc-photo">
+            <img src="/images/gallery/comida-para-loros-mezcla-premium-01.jpg" alt="Mezcla premium de semillas y pellets para loros" width="400" height="200" loading="lazy">
           </div>
+          <div class="sc-accent"></div>
           <div class="sc-body">
-            <h3>Comida para loros</h3>
-            <p>Guía completa sobre semillas, pellets, frutas, verduras y alimentación segura para loros.</p>
-            <span class="sc-btn">Ver alimentación</span>
+            <h3>Comida para Loros</h3>
+            <p class="sc-subtitle">Nutrición premium para una vida saludable</p>
+            <p>Mezclas de semillas, pellets, frutas, verduras y suplementos. Recomendaciones nutricionales elaboradas para mantener a tu loro sano, activo y con plumaje brillante.</p>
+            <span class="sc-cta">Ver alimentación <span class="arr">→</span></span>
           </div>
         </a>
-        <a class="sc-card" href="/nuestras-instalaciones">
-          <div class="sc-collage">
-            <img src="/images/gallery/nosotros-zona-aviarios-multiple-05.jpg" alt="Zona de aviarios múltiples del criadero" width="200" height="78" loading="lazy" />
-            <img src="/images/gallery/nosotros-jaula-interior-equipada-03.jpg" alt="Jaula interior equipada con perchas" width="200" height="78" loading="lazy" />
-            <img src="/images/gallery/nosotros-aviario-exterior-criadero-02.jpg" alt="Aviario exterior del criadero paraisodeaves" width="200" height="78" loading="lazy" />
-            <img src="/images/gallery/nosotros-cuidador-guacamayo-socializacion-04.jpg" alt="Cuidador socializando con guacamayo" width="200" height="78" loading="lazy" />
-          </div>
-          <div class="sc-body">
-            <h3>Nuestras instalaciones</h3>
-            <p>Conoce nuestro entorno de cuidado, higiene, socialización, observación sanitaria y preparación de aves.</p>
-            <span class="sc-btn">Ver instalaciones</span>
-          </div>
-        </a>
+
+        <!-- JUGUETES -->
         <a class="sc-card" href="/juguetes-naturales-para-loros">
-          <div class="sc-collage">
-            <img src="/images/gallery/juguetes-naturales-para-loros-01.jpg" alt="Juguetes naturales para loros" width="200" height="78" loading="lazy" />
-            <img src="/images/gallery/juguete-madera-guacamayo-02.jpg" alt="Juguete de madera para guacamayo" width="200" height="78" loading="lazy" />
-            <img src="/images/gallery/juguete-forrajeo-papagayos-04.jpg" alt="Juguete de forrajeo para papagayos" width="200" height="78" loading="lazy" />
-            <img src="/images/gallery/cuerdas-naturales-loros-trepar-05.jpg" alt="Cuerdas naturales para que los loros trepen" width="200" height="78" loading="lazy" />
+          <div class="sc-photo">
+            <img src="/images/gallery/juguetes-naturales-para-loros-01.jpg" alt="Juguetes naturales de madera para loros" width="400" height="200" loading="lazy">
           </div>
+          <div class="sc-accent"></div>
           <div class="sc-body">
-            <h3>Juguetes naturales</h3>
-            <p>Enriquecimiento natural, juguetes de madera, forrajeo, perchas y estimulación diaria para loros.</p>
-            <span class="sc-btn">Ver juguetes naturales</span>
+            <h3>Juguetes Naturales</h3>
+            <p class="sc-subtitle">Estimulación física y mental</p>
+            <p>Juguetes de madera, cuerdas, columpios, forrajeo y enriquecimiento ambiental diseñados para reducir el estrés y mantener a los loros entretenidos cada día.</p>
+            <span class="sc-cta">Descubrir juguetes <span class="arr">→</span></span>
           </div>
         </a>
+
+        <!-- TRANSPORTINES -->
+        <a class="sc-card" href="/transportines-para-loros">
+          <div class="sc-photo">
+            <div class="sc-photo-placeholder"><span>🧳</span></div>
+          </div>
+          <div class="sc-accent"></div>
+          <div class="sc-body">
+            <h3>Transportines</h3>
+            <p class="sc-subtitle">Viajes cómodos y seguros</p>
+            <p>Transportines seguros y resistentes para desplazamientos, visitas veterinarias y transporte autorizado. Máxima protección durante el viaje para cada especie.</p>
+            <span class="sc-cta">Ver transportines <span class="arr">→</span></span>
+          </div>
+        </a>
+
       </div>
     </div>
   </section>

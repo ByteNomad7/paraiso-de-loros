@@ -85,6 +85,30 @@
   <!-- PÁGINAS PRINCIPALES (clean URLs where applicable) -->
   <!-- ═══════════════════════════════════════════════ -->
   <url>
+    <loc>https://www.paraisodeaves.com/jaulas-para-loros</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/comida-para-loros</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/juguetes-naturales-para-loros</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/transportines-para-loros</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
     <loc>https://www.paraisodeaves.com/comprar-loros-espana</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>monthly</changefreq>
