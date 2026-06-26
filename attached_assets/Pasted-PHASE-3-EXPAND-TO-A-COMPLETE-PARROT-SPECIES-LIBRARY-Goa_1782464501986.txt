@@ -1,0 +1,274 @@
+PHASE 3 — EXPAND TO A COMPLETE PARROT SPECIES LIBRARY
+
+Goal:
+Transform Paraíso de Aves into one of Europe’s largest multilingual parrot knowledge bases by expanding the species database.
+
+Languages:
+Spanish (default)
+/pt/ Portuguese
+/fr/ French
+
+Every species must have:
+
+• Dedicated SEO page
+• Scientific name
+• Common names
+• Gallery (minimum 10 image slots)
+• Care guide
+• Personality
+• Diet
+• Lifespan
+• Size
+• Weight
+• Noise level
+• Talking ability
+• Difficulty
+• Family suitability
+• Climate suitability
+• CITES information
+• FAQ
+• Related species
+• Internal links
+• Breadcrumbs
+• Structured Data
+• Localized metadata
+
+Each page should contain approximately 1,500–2,500 words of unique content in every language.
+
+⸻
+
+AFRICAN PARROTS
+
+African Grey (Congo)
+Timneh African Grey
+Senegal Parrot
+Meyer’s Parrot
+Red-bellied Parrot
+Cape Parrot
+Brown-headed Parrot
+Jardine’s Parrot
+Poicephalus species
+
+⸻
+
+MACAWS
+
+Hyacinth Macaw
+Blue-and-Gold Macaw
+Scarlet Macaw
+Green-winged Macaw
+Military Macaw
+Blue-throated Macaw
+Red-fronted Macaw
+Severe Macaw
+Hahn’s Macaw
+Illiger’s Macaw
+Chestnut-fronted Macaw
+Great Green Macaw
+
+⸻
+
+COCKATOOS
+
+Umbrella Cockatoo
+Sulphur-crested Cockatoo
+Major Mitchell’s Cockatoo
+Goffin’s Cockatoo
+Moluccan Cockatoo
+Palm Cockatoo
+Citron-crested Cockatoo
+Galah Cockatoo
+Little Corella
+Long-billed Corella
+
+⸻
+
+AMAZONS
+
+Blue-fronted Amazon
+Yellow-headed Amazon
+Double Yellow-headed Amazon
+Yellow-naped Amazon
+Orange-winged Amazon
+Red-lored Amazon
+Lilac-crowned Amazon
+Mealy Amazon
+Orange-fronted Amazon
+White-fronted Amazon
+
+⸻
+
+ECLECTUS
+
+Eclectus Male
+Eclectus Female
+
+⸻
+
+CONURES
+
+Sun Conure
+Green-cheeked Conure
+Jenday Conure
+Blue-crowned Conure
+Nanday Conure
+Crimson-bellied Conure
+Dusky Conure
+Half-moon Conure
+Golden Conure
+Patagonian Conure
+
+⸻
+
+RINGNECKS
+
+Indian Ringneck
+African Ringneck
+Alexandrine Parakeet
+Plum-headed Parakeet
+Derbyan Parakeet
+Moustached Parakeet
+
+⸻
+
+LOVEBIRDS
+
+Peach-faced Lovebird
+Fischer’s Lovebird
+Masked Lovebird
+Black-cheeked Lovebird
+Nyasa Lovebird
+
+⸻
+
+LORIES
+
+Rainbow Lorikeet
+Red-collared Lorikeet
+Black-capped Lory
+Chattering Lory
+Dusky Lory
+
+⸻
+
+PIONUS
+
+Blue-headed Pionus
+White-crowned Pionus
+Bronze-winged Pionus
+Maximilian’s Pionus
+Dusky Pionus
+
+⸻
+
+SMALL PARROTS
+
+Monk Parakeet
+Quaker Parrot
+Budgerigar
+Cockatiel
+Lineolated Parakeet
+Kakariki
+Bourke’s Parakeet
+Rosella
+Crimson Rosella
+Eastern Rosella
+
+⸻
+
+SPECIES PAGE TEMPLATE
+
+Each page must include:
+
+• Hero image
+• Scientific classification
+• Gallery
+• Description
+• Temperament
+• Talking ability
+• Intelligence
+• Lifespan
+• Diet
+• Housing
+• Recommended cage
+• Toys
+• Veterinary care
+• Common diseases
+• Exercise
+• Breeding information
+• CITES documentation
+• Frequently Asked Questions
+• Related articles
+• Related species
+• Call-to-action
+
+⸻
+
+COMPARISON SYSTEM
+
+Create comparison pages such as:
+
+African Grey vs Amazon
+African Grey vs Eclectus
+Hyacinth Macaw vs Blue-and-Gold Macaw
+Cockatoo vs Macaw
+Amazon vs Senegal
+Conure vs Ringneck
+Eclectus vs African Grey
+Cockatiel vs Budgie
+Quaker vs Ringneck
+Macaw species comparison
+
+⸻
+
+SEARCH FILTER
+
+Create an advanced Species Finder allowing visitors to filter by:
+
+• Size
+• Noise level
+• Talking ability
+• Family friendly
+• Apartment friendly
+• Beginner friendly
+• Experienced owners
+• Lifespan
+• Price category
+• Origin
+• Conservation status
+
+⸻
+
+SEO
+
+Every species page must include:
+
+• Unique Title
+• Meta Description
+• Canonical
+• Open Graph
+• Twitter Card
+• FAQ Schema
+• Animal Schema where applicable
+• Breadcrumb Schema
+• Internal linking
+• hreflang
+• Image ALT text
+• Localized image captions
+
+⸻
+
+FINAL CHECK
+
+Run npm run build.
+
+Provide:
+
+• Total species created
+• Total comparison pages
+• Total multilingual pages
+• Internal links created
+• Schema added
+• Sitemap updated
+• Build status
+• SEO readiness score
