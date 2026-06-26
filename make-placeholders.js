@@ -235,7 +235,13 @@ const pages = [
   <p>Recomendamos gaiolas em aço inoxidável ou com revestimento atóxico, sem zinco nem chumbo, materiais perigosos se ingeridos. O espaçamento das barras deve ser adequado ao tamanho da espécie para evitar que a cabeça ou as patas fiquem presas. Fechos seguros são essenciais — muitos papagaios aprendem rapidamente a abrir fechos simples.</p>
   <div class="ph-note">Estamos a preparar uma seleção detalhada de gaiolas recomendadas por espécie. Enquanto isso, ao adquirir um papagaio connosco, aconselhamos gratuitamente sobre a gaiola e o equipamento ideal para a sua ave.</div>
   <h2>Equipamento essencial</h2>
-  <p>Uma boa gaiola deve incluir poleiros de diâmetros variados (para exercitar as patas), comedouros e bebedouros de aço inox, brinquedos de enriquecimento e uma bandeja inferior de fácil limpeza. A localização também importa: longe de correntes de ar e da cozinha, num espaço social da casa onde a ave se sinta integrada na família.</p>`,
+  <p>Uma boa gaiola deve incluir poleiros de diâmetros variados (para exercitar as patas), comedouros e bebedouros de aço inox, brinquedos de enriquecimento e uma bandeja inferior de fácil limpeza. A localização também importa: longe de correntes de ar e da cozinha, num espaço social da casa onde a ave se sinta integrada na família.</p>
+  <h2>Tamanhos mínimos por porte</h2>
+  <p>Como referência prática: para aves pequenas (caturras, periquitos) procure uma gaiola com pelo menos 60×40×60 cm; para porte médio (papagaio cinzento, amazonas) recomenda-se 80×70×100 cm; e para grande porte (araras, cacatuas) o ideal são modelos a partir de 100×80×150 cm ou uma voadeira. Lembre-se de que estes valores são mínimos para descanso — nenhuma gaiola substitui várias horas diárias de voo e interação fora dela, fundamentais para a saúde física e mental do papagaio.</p>
+  <h2>Erros comuns ao escolher a gaiola</h2>
+  <p>Os erros mais frequentes são comprar uma gaiola pequena demais "para começar", optar por barras verticais que dificultam a trepa, escolher pintura ou soldas de baixa qualidade que libertam metais tóxicos, e colocar a gaiola num local isolado. Outro erro é encher o interior de acessórios ao ponto de a ave não conseguir abrir as asas. Prefira menos acessórios, mas de qualidade, e mantenha sempre uma zona livre para movimento.</p>
+  <h2>Acompanhamento após a compra</h2>
+  <p>Quando adquire um papagaio no nosso criadouro, ajudamo-lo a planear a instalação completa: dimensão da gaiola, tipo de poleiros, disposição dos comedouros e localização na casa. Este acompanhamento reduz o stress de adaptação da ave ao novo lar e evita gastos desnecessários em equipamento inadequado.</p>`,
       related: [
         ['/pt/comida-para-papagaios/', 'Comida para Papagaios'],
         ['/pt/brinquedos-naturais-para-papagaios/', 'Brinquedos Naturais'],
@@ -263,7 +269,13 @@ const pages = [
   <p>Um poleiro firme à altura certa evita que a ave escorregue. Cubra parcialmente a transportadora para reduzir o stress visual, mantenha uma temperatura estável e nunca deixe a ave dentro de um veículo ao sol. Para viagens longas, ofereça água e fruta com elevado teor de humidade nas paragens.</p>
   <div class="ph-note">Estamos a preparar uma seleção de transportadoras recomendadas por espécie. Ao adquirir um papagaio connosco, aconselhamos sobre o modelo de transporte mais adequado para a sua ave.</div>
   <h2>O transporte das nossas aves</h2>
-  <p>Todos os nossos papagaios viajam em transportadoras homologadas, com documentação CITES e em condições que cumprem a normativa de bem-estar animal. Aconselhamos sempre o novo dono sobre como continuar a transportar a ave em segurança após a chegada.</p>`,
+  <p>Todos os nossos papagaios viajam em transportadoras homologadas, com documentação CITES e em condições que cumprem a normativa de bem-estar animal. Aconselhamos sempre o novo dono sobre como continuar a transportar a ave em segurança após a chegada.</p>
+  <h2>Materiais e ventilação</h2>
+  <p>As transportadoras rígidas em plástico resistente, com grelhas de ventilação laterais, são as mais seguras para papagaios: mantêm a forma em caso de impacto e permitem boa circulação de ar. Evite caixas de cartão ou tecido, que a ave destrói facilmente com o bico e que não protegem em caso de queda. Verifique sempre se os fechos são firmes — muitos papagaios aprendem a abrir portas mal fechadas.</p>
+  <h2>Habituar a ave à transportadora</h2>
+  <p>Uma transportadora não deve ser apresentada apenas no dia da viagem. Deixe-a acessível em casa durante alguns dias, com um prémio no interior, para que a ave a associe a uma experiência positiva. Esta habituação reduz drasticamente o stress nas deslocações ao veterinário e torna todo o processo mais seguro tanto para a ave como para o dono.</p>
+  <h2>Viagens longas e clima</h2>
+  <p>Em trajetos longos, faça paragens para oferecer água e fruta com elevado teor de humidade, e nunca exponha a transportadora ao sol direto nem a correntes de ar frio. No verão, viaje nas horas mais frescas; no inverno, proteja a ave das mudanças bruscas de temperatura entre o exterior e o interior do veículo.</p>`,
       related: [
         ['/pt/gaiolas-para-papagaios/', 'Gaiolas para Papagaios'],
         ['/pt/comida-para-papagaios/', 'Comida para Papagaios'],
@@ -291,7 +303,13 @@ const pages = [
   <p>Nous recommandons des cages en acier inoxydable ou avec un revêtement non toxique, sans zinc ni plomb — des matériaux dangereux en cas d'ingestion. L'espacement des barreaux doit être adapté à la taille de l'espèce pour éviter que la tête ou les pattes ne se coincent. Des fermetures sécurisées sont essentielles : de nombreux perroquets apprennent vite à ouvrir les loquets simples.</p>
   <div class="ph-note">Nous préparons une sélection détaillée de cages recommandées par espèce. En attendant, lors de l'acquisition d'un perroquet chez nous, nous vous conseillons gratuitement sur la cage et l'équipement idéal pour votre oiseau.</div>
   <h2>Équipement essentiel</h2>
-  <p>Une bonne cage doit inclure des perchoirs de diamètres variés (pour exercer les pattes), des mangeoires et abreuvoirs en inox, des jouets d'enrichissement et un bac inférieur facile à nettoyer. L'emplacement compte aussi : loin des courants d'air et de la cuisine, dans un espace social du foyer où l'oiseau se sent intégré à la famille.</p>`,
+  <p>Une bonne cage doit inclure des perchoirs de diamètres variés (pour exercer les pattes), des mangeoires et abreuvoirs en inox, des jouets d'enrichissement et un bac inférieur facile à nettoyer. L'emplacement compte aussi : loin des courants d'air et de la cuisine, dans un espace social du foyer où l'oiseau se sent intégré à la famille.</p>
+  <h2>Tailles minimales par gabarit</h2>
+  <p>À titre de repère : pour les petits oiseaux (calopsittes, perruches), visez une cage d'au moins 60×40×60 cm ; pour les gabarits moyens (gris du Gabon, amazones), comptez 80×70×100 cm ; et pour les grands perroquets (aras, cacatoès), privilégiez des modèles à partir de 100×80×150 cm ou une volière. Ces dimensions sont des minimums pour le repos : aucune cage ne remplace plusieurs heures quotidiennes de vol et d'interaction en dehors, indispensables à l'équilibre physique et mental de l'oiseau.</p>
+  <h2>Les erreurs fréquentes</h2>
+  <p>Les erreurs les plus courantes sont d'acheter une cage trop petite « pour débuter », de choisir des barreaux verticaux qui empêchent l'oiseau de grimper, d'opter pour des peintures ou soudures de mauvaise qualité libérant des métaux toxiques, et d'installer la cage dans un endroit isolé. Surcharger l'intérieur d'accessoires au point d'empêcher le déploiement des ailes est également à éviter : préférez moins d'accessoires mais de qualité, en gardant toujours une zone de mouvement dégagée.</p>
+  <h2>Notre accompagnement</h2>
+  <p>Lorsque vous adoptez un perroquet dans notre élevage, nous vous aidons à planifier l'installation complète : dimensions de la cage, type de perchoirs, disposition des mangeoires et emplacement dans la maison. Cet accompagnement facilite l'adaptation de l'oiseau à son nouveau foyer et évite des dépenses inutiles en matériel inadapté.</p>`,
       related: [
         ['/fr/nourriture-pour-perroquets/', 'Nourriture pour Perroquets'],
         ['/fr/jouets-naturels-pour-perroquets/', 'Jouets Naturels'],
@@ -319,7 +337,13 @@ const pages = [
   <p>Un perchoir ferme à la bonne hauteur évite que l'oiseau ne glisse. Couvrez partiellement la caisse pour réduire le stress visuel, maintenez une température stable et ne laissez jamais l'oiseau dans un véhicule au soleil. Pour les longs trajets, proposez de l'eau et des fruits à forte teneur en eau lors des arrêts.</p>
   <div class="ph-note">Nous préparons une sélection de caisses de transport recommandées par espèce. Lors de l'acquisition d'un perroquet chez nous, nous vous conseillons sur le modèle de transport le plus adapté à votre oiseau.</div>
   <h2>Le transport de nos oiseaux</h2>
-  <p>Tous nos perroquets voyagent dans des caisses homologuées, avec leur documentation CITES et dans des conditions conformes à la réglementation sur le bien-être animal. Nous conseillons toujours le nouveau propriétaire sur la manière de continuer à transporter l'oiseau en toute sécurité après son arrivée.</p>`,
+  <p>Tous nos perroquets voyagent dans des caisses homologuées, avec leur documentation CITES et dans des conditions conformes à la réglementation sur le bien-être animal. Nous conseillons toujours le nouveau propriétaire sur la manière de continuer à transporter l'oiseau en toute sécurité après son arrivée.</p>
+  <h2>Matériaux et ventilation</h2>
+  <p>Les caisses rigides en plastique résistant, dotées de grilles d'aération latérales, sont les plus sûres pour les perroquets : elles conservent leur forme en cas de choc et assurent une bonne circulation de l'air. Évitez les caisses en carton ou en tissu, que l'oiseau détruit rapidement avec son bec et qui n'offrent aucune protection en cas de chute. Vérifiez toujours la solidité des fermetures — de nombreux perroquets apprennent à ouvrir une porte mal verrouillée.</p>
+  <h2>Habituer l'oiseau à la caisse</h2>
+  <p>Une caisse de transport ne doit pas être présentée uniquement le jour du départ. Laissez-la accessible à la maison pendant quelques jours, avec une friandise à l'intérieur, afin que l'oiseau l'associe à une expérience positive. Cette habituation réduit considérablement le stress lors des visites chez le vétérinaire et rend chaque déplacement plus sûr pour l'oiseau comme pour son propriétaire.</p>
+  <h2>Trajets longs et climat</h2>
+  <p>Sur les longs trajets, prévoyez des pauses pour proposer de l'eau et des fruits riches en eau, et n'exposez jamais la caisse au soleil direct ni aux courants d'air froid. En été, voyagez aux heures les plus fraîches ; en hiver, protégez l'oiseau des écarts brusques de température entre l'extérieur et l'habitacle du véhicule.</p>`,
       related: [
         ['/fr/cages-pour-perroquets/', 'Cages pour Perroquets'],
         ['/fr/nourriture-pour-perroquets/', 'Nourriture pour Perroquets'],
