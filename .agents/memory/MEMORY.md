@@ -1,1 +1,2 @@
 - [Lang switcher & hreflang](lang-switcher-hreflang.md) — paraisodeaves ES/PT/FR MAP schema is symmetric [es,pt,fr]; reverse rows are a trap; FR static hreflang is stale and fixed via JS upsert.
+- [Footer unification](footer-unification.md) — shared cross-language nav/footer MUST use absolute URLs (relative ../../ in /pt//fr/ subdirs → root 404s); canonical footer lives in apply-unified-footer.js (single source, imported by make-placeholders.js).
