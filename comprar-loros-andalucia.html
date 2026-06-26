@@ -88,27 +88,75 @@ footer.site-footer a{color:var(--gold-rich);text-decoration:none}
 .nav-mega .mega-label small{display:block;font-weight:400;font-size:.74rem;color:#5C5C5C;margin-top:1px}
 @media(max-width:680px){.hero-seo h1{font-size:1.6rem}.topnav{gap:.8rem}.nav-mega{left:auto;right:-8px;min-width:260px;grid-template-columns:1fr}}
   </style>
+<style>
+/* ── Mega-nav (propagated from homepage) ── */
+.header{position:fixed;top:0;width:100%;background:#1F3D2B;backdrop-filter:blur(15px);padding:.85rem 5%;display:flex;justify-content:space-between;align-items:center;z-index:1000;border-bottom:1px solid rgba(255,255,255,.12)}
+body{padding-top:68px}
+.logo{font-size:1.05rem;font-weight:800;background:linear-gradient(135deg,#D4A94F,#ffffff,#D4A94F);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;white-space:nowrap;text-decoration:none;font-family:'Poppins',Arial,sans-serif}
+.nav{display:flex;gap:1.2rem;align-items:center}
+.nav a{text-decoration:none;color:rgba(255,255,255,.9);font-weight:600;font-size:.9rem;transition:color .2s ease;position:relative}
+.nav a:hover{color:#D4A94F}
+.nav a::after{content:'';position:absolute;bottom:-5px;left:0;width:0;height:2px;background:linear-gradient(90deg,#D4A94F,#B8933E);transition:width .25s ease}
+.nav a:hover::after{width:100%}
+.nav-dropdown{position:relative;display:inline-flex;align-items:center}
+.nav-dropdown>.dropbtn{background:none;border:none;cursor:pointer;color:rgba(255,255,255,.9);font-weight:600;font-size:.9rem;font-family:inherit;padding:6px 2px;transition:color .2s;display:flex;align-items:center;gap:5px;white-space:nowrap;-webkit-tap-highlight-color:transparent}
+.nav-dropdown>.dropbtn:hover,.nav-dropdown.is-open>.dropbtn{color:#D4A94F}
+.nav-dropdown>.dropbtn .chevron{font-size:.6rem;transition:transform .22s;line-height:1;display:inline-block}
+.nav-dropdown.is-open>.dropbtn .chevron{transform:rotate(180deg)}
+.nav-mega{position:absolute;top:calc(100% + 10px);left:50%;transform:translateX(-50%) translateY(-4px);background:#fff;border-radius:14px;box-shadow:0 16px 48px rgba(0,0,0,.22);padding:18px 20px;display:grid;grid-template-columns:1fr 1fr;gap:4px 24px;min-width:320px;z-index:9999;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .18s ease,transform .18s ease,visibility .18s}
+.nav-dropdown.is-open .nav-mega{opacity:1;visibility:visible;pointer-events:auto;transform:translateX(-50%) translateY(0)}
+.nav-mega::before{content:'';position:absolute;top:-6px;left:50%;transform:translateX(-50%);border:6px solid transparent;border-bottom:6px solid #fff;border-top:none}
+.nav-mega a{display:flex;align-items:center;gap:9px;padding:9px 10px;border-radius:9px;color:#1F3D2B;font-size:.87rem;font-weight:600;text-decoration:none;transition:background .14s,color .14s;white-space:nowrap}
+.nav-mega a:hover,.nav-mega a:focus{background:#f0f7f3;color:#D4A94F;outline:none}
+.nav-mega .mega-icon{font-size:1.05rem;width:20px;text-align:center;flex-shrink:0}
+.nav-mega .mega-label{line-height:1.2}
+.nav-mega .mega-label small{display:block;font-weight:400;font-size:.74rem;color:#5C5C5C;margin-top:1px}
+@media(max-width:680px){.nav-mega{left:auto;right:-8px;transform:translateY(-4px);min-width:260px;grid-template-columns:1fr}.nav-mega::before{left:auto;right:28px;transform:none}.nav-dropdown.is-open .nav-mega{transform:translateY(0)}}
+@media(max-width:760px){.nav{gap:.7rem}}
+@media(max-width:600px){.nav{display:none}}
+</style>
 </head>
 <body>
 <div class="topbar">
   <a href="/" class="brand">🦜 paraisodeaves</a>
-  <nav class="topnav">
+  <header class="header">
+  <a class="logo" href="/">🦜 paraisodeaves</a>
+  <nav class="nav" aria-label="Navegación principal">
     <a href="/">Inicio</a>
-    <a href="/available-birds/">Aves</a>
-    <a href="/tienda.html">Tienda</a>
     <div class="nav-dropdown">
-      <button class="dropbtn" aria-haspopup="true" aria-expanded="false">Contenido <span class="chevron">▾</span></button>
+      <button class="dropbtn" aria-haspopup="true" aria-expanded="false">Aves <span class="chevron">▾</span></button>
       <div class="nav-mega" role="menu">
-        <a href="/blog/" role="menuitem"><span class="mega-icon">📝</span><span class="mega-label">Blog<small>Todos los artículos</small></span></a>
-        <a href="/especies/" role="menuitem"><span class="mega-icon">🦜</span><span class="mega-label">Especies<small>Por tipo de loro</small></span></a>
-        <a href="/alimentacion/" role="menuitem"><span class="mega-icon">🥦</span><span class="mega-label">Alimentación<small>Qué comen los loros</small></span></a>
-        <a href="/salud/" role="menuitem"><span class="mega-icon">🏥</span><span class="mega-label">Salud<small>Enfermedades y cuidados</small></span></a>
-        <a href="/comportamiento/" role="menuitem"><span class="mega-icon">🧠</span><span class="mega-label">Comportamiento<small>Adiestramiento</small></span></a>
-        <a href="/guias/" role="menuitem"><span class="mega-icon">📋</span><span class="mega-label">Guías<small>Para nuevos dueños</small></span></a>
+        <a href="/loro-gris-africano.html" role="menuitem"><span class="mega-icon">🦜</span><span class="mega-label">Loros grises<small>Yaco, Timneh</small></span></a>
+        <a href="/guacamayos.html" role="menuitem"><span class="mega-icon">🦜</span><span class="mega-label">Guacamayos<small>Azul, Jacinto, Macao</small></span></a>
+        <a href="/cacatua.html" role="menuitem"><span class="mega-icon">🦜</span><span class="mega-label">Cacatúas<small>Ninfa, Blanca, Rosa</small></span></a>
+        <a href="/loro-amazonico.html" role="menuitem"><span class="mega-icon">🦜</span><span class="mega-label">Amazonas<small>Frente azul, Real</small></span></a>
+        <a href="/eclectus.html" role="menuitem"><span class="mega-icon">🦜</span><span class="mega-label">Eclectus<small>Macho y hembra</small></span></a>
+        <a href="/conuro.html" role="menuitem"><span class="mega-icon">🦜</span><span class="mega-label">Conuros<small>Sol, Jenday, Verde</small></span></a>
       </div>
     </div>
+    <a href="/adopcion-de-loros">Adopción</a>
+    <div class="nav-dropdown">
+      <button class="dropbtn" aria-haspopup="true" aria-expanded="false">Cuidados <span class="chevron">▾</span></button>
+      <div class="nav-mega" role="menu">
+        <a href="/blog/alimentacion-loro-adulto.html" role="menuitem"><span class="mega-icon">🥦</span><span class="mega-label">Alimentación<small>Dieta y nutrición</small></span></a>
+        <a href="/blog/jaula-ideal-loro-tamano.html" role="menuitem"><span class="mega-icon">🏠</span><span class="mega-label">Jaulas<small>Tamaño y equipamiento</small></span></a>
+        <a href="/blog/enfermedades-comunes-loros.html" role="menuitem"><span class="mega-icon">🏥</span><span class="mega-label">Salud<small>Enfermedades y prevención</small></span></a>
+        <a href="/documentos-legales-para-adoptar-un-loro" role="menuitem"><span class="mega-icon">📄</span><span class="mega-label">Documentación CITES<small>Requisitos legales</small></span></a>
+      </div>
+    </div>
+    <div class="nav-dropdown">
+      <button class="dropbtn" aria-haspopup="true" aria-expanded="false">Tienda / Accesorios <span class="chevron">▾</span></button>
+      <div class="nav-mega" role="menu">
+        <a href="/tienda.html" role="menuitem"><span class="mega-icon">🏠</span><span class="mega-label">Jaulas<small>Para todas las especies</small></span></a>
+        <a href="/tienda.html" role="menuitem"><span class="mega-icon">🌿</span><span class="mega-label">Comida<small>Piensos y complementos</small></span></a>
+        <a href="/tienda.html" role="menuitem"><span class="mega-icon">🎯</span><span class="mega-label">Juguetes<small>Estimulación y enriquecimiento</small></span></a>
+        <a href="/tienda.html" role="menuitem"><span class="mega-icon">🚗</span><span class="mega-label">Transportines<small>Para viajes seguros</small></span></a>
+      </div>
+    </div>
+    <a href="/blog/">Blog</a>
     <a href="/#contacto">Contacto</a>
   </nav>
+</header>
 </div>
 
 <main>
