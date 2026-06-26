@@ -176,6 +176,20 @@ footer a:hover,
   text-decoration: none;
 }
 
+/* ── Mega-dropdown links — must override .nav a white rule ── */
+/* The .nav a rule (white) would swallow mega-menu text; this restores green. */
+/* Uses !important because .nav a:visited has higher specificity (0,2,1) than .nav-mega a (0,1,1) */
+.nav-mega a,
+.nav-mega a:visited {
+  color: var(--primary) !important;
+  text-decoration: none !important;
+}
+.nav-mega a:hover,
+.nav-mega a:focus {
+  color: var(--gold) !important;
+  text-decoration: none !important;
+}
+
 /* ── Scrollbar (cosmetic) ── */
 ::-webkit-scrollbar { width: 8px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
