@@ -244,4 +244,10 @@ Sección `/pt/` completa bajo el mismo dominio `paraisodeaves.com/pt/`. Generada
 
 ## Sitemap
 
-270 URLs totales (Junio 2026). 220 ES + 50 PT. Lastmod 2026-06-26 para todas las páginas PT.
+346 URLs totales (Junio 2026). 220 ES + 80 PT/varios + 46 FR. Lastmod 2026-06-26 para PT/FR. Incluye los 4 placeholders comerciales noindex (PT/FR jaulas + transportines) por requisito de la tarea PHASE 2E. Sección FR añadida al sitemap (antes ausente).
+
+## Actualizaciones Junio 2026 — PHASE 2E: Navegación + Footer Multilingüe Unificado
+
+- **Nav unificado** (mega-menú + acordeón móvil + switcher ES|PT|FR + hreflang) aplicado a todas las páginas PT/FR vía `apply-unified-nav.js`.
+- **Footer canónico único** (`apply-unified-footer.js`): bloque de marca + 4 columnas (Aves, Accesorios, Ciudades, Información) con URLs ABSOLUTAS, estructura idéntica en ES/PT/FR (solo etiquetas localizadas). Aplicado a las 381 páginas (ES 253 / PT 82 / FR 46). Reemplaza el ÚLTIMO `<footer>` por página (deja intactos los `article-footer` del blog). `make-placeholders.js` importa el footer desde aquí (fuente única de verdad). **Regla:** los componentes compartidos entre idiomas deben usar URLs absolutas — los enlaces relativos `../../` en subdirectorios `/pt/` `/fr/` resuelven a la raíz → 404.
+- **4 placeholders comerciales noindex** (PT/FR jaulas + transportines): intro localizada 400–600 palabras, CTA, enlaces a páginas reales; añadidos a `_redirects` y `sitemap.xml`.
