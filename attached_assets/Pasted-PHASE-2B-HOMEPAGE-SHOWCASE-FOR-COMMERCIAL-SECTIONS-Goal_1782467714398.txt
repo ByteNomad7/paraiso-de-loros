@@ -1,0 +1,138 @@
+PHASE 2B — HOMEPAGE SHOWCASE FOR COMMERCIAL SECTIONS
+
+Goal:
+Add the new commercial/content pages to the homepage in a beautiful visual way using photo previews, without slowing down the homepage.
+
+Add a new homepage section after the hero or after the available birds section.
+
+Section title:
+Descubre el mundo completo de Paraíso de Aves
+
+Subtitle:
+Aves disponibles, alimentación, juguetes naturales e instalaciones preparadas para el bienestar de cada loro.
+
+Create 4 premium visual cards:
+
+1. Aves disponibles
+URL:
+/aves-disponibles
+Image preview:
+Use 4–6 bird photos from the gallery.
+Text:
+Explora loros grises, guacamayos, cacatúas, amazonas, eclectus y conuros disponibles o bajo consulta.
+
+CTA:
+Ver aves disponibles
+
+2. Comida para loros
+URL:
+/comida-para-loros
+Image preview:
+Use 4–6 food photos from the gallery.
+Text:
+Guía completa sobre semillas, pellets, frutas, verduras y alimentación segura para loros.
+
+CTA:
+Ver alimentación
+
+3. Nuestras instalaciones
+URL:
+/nuestras-instalaciones
+Image preview:
+Use 4–6 facility photos from the gallery.
+Text:
+Conoce nuestro entorno de cuidado, higiene, socialización, observación sanitaria y preparación de aves.
+
+CTA:
+Ver instalaciones
+
+4. Juguetes naturales
+URL:
+/juguetes-naturales-para-loros
+Image preview:
+Use 4–6 toy photos from the gallery.
+Text:
+Enriquecimiento natural, juguetes de madera, forrajeo, perchas y estimulación diaria para loros.
+
+CTA:
+Ver juguetes naturales
+
+Design requirements:
+- Premium card grid
+- 4 cards on desktop
+- 2 cards on tablet
+- 1 card on mobile
+- Rounded corners
+- Soft shadow
+- Green/gold brand accents
+- Image collage or single strong hero image per card
+- Lazy-loaded images
+- Do not load all 40 photos on homepage
+- Only load optimized thumbnails
+- Add hover effects
+- Keep Core Web Vitals fast
+
+Multilingual:
+Add the same homepage showcase to:
+
+Spanish homepage: /
+Portuguese homepage: /pt/
+French homepage: /fr/
+
+Localized section titles:
+
+Spanish:
+Descubre el mundo completo de Paraíso de Aves
+
+Portuguese:
+Descubra o mundo completo da Paraíso de Aves
+
+French:
+Découvrez tout l’univers de Paraíso de Aves
+
+Each language card must link to the correct localized page:
+
+Spanish:
+/aves-disponibles
+/comida-para-loros
+/nuestras-instalaciones
+/juguetes-naturales-para-loros
+
+Portuguese:
+/pt/papagaios-disponiveis
+/pt/comida-para-papagaios
+/pt/as-nossas-instalacoes
+/pt/brinquedos-naturais-para-papagaios
+
+French:
+/fr/perroquets-disponibles
+/fr/nourriture-pour-perroquets
+/fr/nos-installations
+/fr/jouets-naturels-pour-perroquets
+
+SEO requirements:
+- Add internal links from homepage to all 4 commercial sections
+- Use descriptive anchor text
+- Add image ALT text in the correct language
+- Do not duplicate H1
+- Do not over-optimize
+- Do not create broken links
+
+Performance:
+- Use only thumbnail images on homepage
+- Do not load full gallery images
+- Use WebP
+- Lazy load below-the-fold images
+- Add width/height attributes
+- Keep layout shift low
+
+Final check:
+Run npm run build.
+
+Report:
+- Homepage sections added
+- Language versions updated
+- Images used per card
+- Internal links added
+- Build result
+- Performance risk score
