@@ -69,8 +69,7 @@
     // ── Extra equivalents (aligned [es, pt, fr]) ──────────────────
     ['/available-birds/huevos-fertiles.html', '/pt/ovos-fertilizados', '/fr/'],
     ['/loros-especies', '/pt/papagaios-disponiveis', '/fr/perroquets'],
-    ['/entrega.html', '/pt/', '/fr/livraison'],
-    ['/nosotros', '/pt/as-nossas-instalacoes', '/fr/nos-installations']
+    ['/entrega.html', '/pt/', '/fr/livraison']
   ];
 
   /* ─── LANGUAGE DETECTION ──────────────────────────────────────── */
