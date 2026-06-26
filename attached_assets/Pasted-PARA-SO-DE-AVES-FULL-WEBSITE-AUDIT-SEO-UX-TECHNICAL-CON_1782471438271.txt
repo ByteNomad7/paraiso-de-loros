@@ -1,0 +1,473 @@
+PARAÍSO DE AVES — FULL WEBSITE AUDIT (SEO + UX + TECHNICAL + CONTENT)
+
+Perform a complete production audit of the entire website.
+
+Website:
+https://paraisodeaves.com
+
+This is a production-quality audit.
+
+Do NOT modify anything until the audit is complete.
+
+Return a categorized report with PASS, WARNING, or FAIL for every item.
+
+==================================================
+
+	1	WEBSITE STRUCTURE
+    ==================================================
+
+Audit:
+
+	•	Navigation
+	•	Header
+	•	Footer
+	•	Mobile menu
+	•	Breadcrumbs
+	•	URL structure
+	•	URL consistency
+	•	Page hierarchy
+	•	Internal linking
+	•	Click depth
+
+Report:
+
+PASS / WARNING / FAIL
+
+==================================================
+2. INDEXABILITY
+
+Check:
+
+	•	robots.txt
+	•	sitemap.xml
+	•	sitemap validity
+	•	orphan pages
+	•	noindex pages
+	•	canonical tags
+	•	duplicate canonicals
+	•	duplicate URLs
+	•	redirect chains
+	•	redirect loops
+	•	crawl depth
+
+==================================================
+3. SEO AUDIT
+
+Every page:
+
+Title
+
+Meta Description
+
+H1
+
+H2 hierarchy
+
+Image ALT
+
+OpenGraph
+
+Twitter Cards
+
+Canonical
+
+Structured Data
+
+hreflang (Spanish / Portuguese / French)
+
+JSON-LD
+
+FAQ Schema
+
+Breadcrumb Schema
+
+Article Schema
+
+Product Schema
+
+Organization Schema
+
+==================================================
+4. CONTENT QUALITY
+
+Identify:
+
+Duplicate content
+
+Thin pages
+
+Empty pages
+
+Placeholder text
+
+Machine translated content
+
+Weak introductions
+
+Missing CTAs
+
+Low word count
+
+Pages under 800 words
+
+Missing FAQ
+
+Missing internal links
+
+==================================================
+5. IMAGE SEO
+
+Audit every image.
+
+Check:
+
+Missing ALT
+
+Wrong filenames
+
+Large file sizes
+
+Missing width
+
+Missing height
+
+No lazy loading
+
+Wrong formats
+
+Duplicate images
+
+Missing captions
+
+Opportunities for WebP
+
+==================================================
+6. PERFORMANCE
+
+Audit:
+
+Largest Contentful Paint
+
+CLS
+
+INP
+
+Unused JS
+
+Unused CSS
+
+Oversized bundles
+
+Image optimization
+
+Lazy loading
+
+Caching
+
+Compression
+
+Code splitting
+
+==================================================
+7. MOBILE UX
+
+Audit:
+
+Responsive layout
+
+Buttons
+
+Spacing
+
+Navigation
+
+Forms
+
+Dropdowns
+
+Photo galleries
+
+Image scaling
+
+Typography
+
+Touch targets
+
+==================================================
+8. PARROT SEO AUTHORITY
+
+Check:
+
+Species coverage
+
+Missing important species
+
+Missing care guides
+
+Missing comparison pages
+
+Missing buyer guides
+
+Missing educational pages
+
+Missing FAQs
+
+Missing commercial pages
+
+==================================================
+9. BLOG
+
+Audit:
+
+Articles
+
+Categories
+
+Internal linking
+
+Related posts
+
+Featured images
+
+Structured data
+
+Content depth
+
+Topical authority
+
+==================================================
+10. MULTILINGUAL
+
+Audit:
+
+Spanish
+
+Portuguese
+
+French
+
+Check:
+
+hreflang
+
+Canonical
+
+Translated metadata
+
+Internal links
+
+Language switcher
+
+Broken language links
+
+==================================================
+11. TRUST
+
+Check:
+
+Facility page
+
+Guarantees
+
+Shipping
+
+Health guarantee
+
+Testimonials
+
+Contact
+
+Policies
+
+Terms
+
+Privacy
+
+CITES
+
+Business information
+
+==================================================
+12. CONVERSION
+
+Audit:
+
+Homepage
+
+Species pages
+
+Contact page
+
+Buttons
+
+Forms
+
+Trust badges
+
+Call-to-actions
+
+Lead generation
+
+==================================================
+13. SECURITY
+
+Check:
+
+HTTPS
+
+Mixed content
+
+Headers
+
+Forms
+
+Spam protection
+
+==================================================
+14. ACCESSIBILITY
+
+Audit:
+
+Contrast
+
+Heading order
+
+ARIA labels
+
+Keyboard navigation
+
+Forms
+
+Alt text
+
+==================================================
+15. INTERNAL LINK GRAPH
+
+Identify:
+
+Dead ends
+
+Broken links
+
+Pages with few internal links
+
+Important pages needing more authority
+
+==================================================
+16. SITEMAPS
+
+Check:
+
+Every important page included
+
+Missing pages
+
+Broken URLs
+
+Wrong priority
+
+Wrong lastmod
+
+==================================================
+17. 404 AUDIT
+
+Find:
+
+404 pages
+
+Broken images
+
+Broken JS
+
+Broken CSS
+
+Broken links
+
+Missing assets
+
+==================================================
+18. CONTENT EXPANSION
+
+Recommend:
+
+New commercial pages
+
+New species
+
+New city pages
+
+New countries
+
+New blog topics
+
+New comparison pages
+
+New galleries
+
+==================================================
+19. HOMEPAGE
+
+Audit:
+
+Hero
+
+Sections
+
+Photos
+
+Trust
+
+Commercial opportunities
+
+Navigation
+
+Visual hierarchy
+
+Missing sections
+
+==================================================
+20. FINAL SCORECARD
+
+Return:
+
+Technical SEO score /100
+
+Content score /100
+
+Performance score /100
+
+UX score /100
+
+Authority score /100
+
+Image SEO score /100
+
+Internal Linking score /100
+
+Multilingual score /100
+
+Conversion score /100
+
+Overall Website score /100
+
+==================================================
+PRIORITY LIST
+
+Create a table:
+
+Critical (fix immediately)
+
+High Priority
+
+Medium Priority
+
+Low Priority
+
+Future Improvements
+
+==================================================
+AFTER AUDIT
+Create a Pdf file of the report
+Do NOT automatically fix anything.
+
+Only provide the report and a recommended implementation order so improvements can be applied one phase at a time without introducing regressions.

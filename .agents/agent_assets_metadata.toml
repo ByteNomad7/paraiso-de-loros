@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "AT8-bne3j_AVc7Mh84Qpi"
+uri = "file://paraisodeaves-audit-june-2026.pdf"
+type = "pdf"
+title = "paraisodeaves — Full Website Audit June 2026"
