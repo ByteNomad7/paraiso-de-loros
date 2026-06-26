@@ -1,0 +1,195 @@
+PHASE 5 — FRENCH MARKET EXPANSION (FRANCE)
+
+OBJECTIVE
+
+Expand Paraíso de Aves into France by creating a complete French-language section under:
+
+https://paraisodeaves.com/fr/
+
+This must be a fully localized French website, not a translation of Spanish pages.
+
+==================================================
+URL STRUCTURE
+==================================================
+
+/fr/
+/fr/perroquets
+/fr/contact
+/fr/a-propos
+/fr/livraison
+/fr/garantie-sante
+/fr/processus-adoption
+/fr/faq
+/fr/blog
+
+==================================================
+SPECIES PAGES
+==================================================
+
+Create high-quality pages for:
+
+/fr/perroquet-gris-du-gabon
+/fr/ara-hyacinthe
+/fr/ara-bleu-et-jaune
+/fr/ara-macao
+/fr/cacatoes-huppe-jaune
+/fr/cacatoes-rosalbin
+/fr/amazone-front-bleu
+/fr/eclectus
+
+Each page:
+
+• 2,000–3,000 words
+• Completely unique
+• French terminology
+• Care guide
+• Feeding
+• Temperament
+• Lifespan
+• Housing
+• CITES information
+• Delivery across France
+• FAQ
+• Internal links
+
+==================================================
+CITY PAGES
+==================================================
+
+Create:
+
+/fr/perroquets-a-vendre-paris
+/fr/perroquets-a-vendre-lyon
+/fr/perroquets-a-vendre-marseille
+/fr/perroquets-a-vendre-toulouse
+/fr/perroquets-a-vendre-nice
+/fr/perroquets-a-vendre-bordeaux
+/fr/perroquets-a-vendre-lille
+/fr/perroquets-a-vendre-nantes
+/fr/perroquets-a-vendre-strasbourg
+/fr/perroquets-a-vendre-montpellier
+/fr/perroquets-a-vendre-rennes
+/fr/perroquets-a-vendre-grenoble
+
+Each page includes:
+
+• Local introduction
+• Delivery information
+• Available parrots
+• Health guarantee
+• Buying guide
+• Reservation process
+• FAQ
+• Contact
+• Unique local content
+
+==================================================
+BLOG
+==================================================
+
+Create:
+
+Quel perroquet choisir ?
+
+Prix d'un perroquet en France
+
+Comment choisir un éleveur sérieux
+
+Guide CITES France
+
+Perroquet Gris du Gabon
+
+Ara Hyacinthe
+
+Eclectus
+
+Meilleurs perroquets pour débutants
+
+Comment préparer sa maison
+
+Combien vit un perroquet ?
+
+Each article:
+
+1,800–2,200 words
+
+Article Schema
+
+FAQ Schema
+
+Images with French ALT text
+
+==================================================
+SEO
+==================================================
+
+Implement:
+
+hreflang
+
+Spanish
+
+Portuguese
+
+French
+
+x-default
+
+Every equivalent page must cross-reference the others.
+
+==================================================
+SCHEMA
+==================================================
+
+WebPage
+
+FAQ
+
+Breadcrumb
+
+Organization
+
+Article
+
+LocalBusiness
+
+==================================================
+INTERNAL LINKING
+==================================================
+
+French pages must only interlink with French pages.
+
+Add language switcher linking:
+
+Spanish ↔ Portuguese ↔ French
+
+==================================================
+SITEMAP
+==================================================
+
+Automatically include every French URL.
+
+==================================================
+QUALITY
+==================================================
+
+No machine-translated content.
+
+Native French writing.
+
+No duplicate paragraphs.
+
+No duplicate metadata.
+
+==================================================
+RETURN
+
+Report:
+
+• French pages created
+• Blog articles created
+• hreflang implementation
+• Internal links
+• Schema
+• Duplicate content score
+• Estimated French topical authority

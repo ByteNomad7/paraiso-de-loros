@@ -302,6 +302,30 @@
 /pt/conuro                                       /pt/conuro/index.html                                    200
 
 # ══════════════════════════════════════════════════════
+# SECTION 17 — PORTUGUESE CITY PAGES + BLOG PHASE 4B (June 2026)
+# ══════════════════════════════════════════════════════
+/pt/papagaios-a-venda-lisboa             /pt/papagaios-a-venda-lisboa/index.html             200
+/pt/papagaios-a-venda-porto              /pt/papagaios-a-venda-porto/index.html              200
+/pt/papagaios-a-venda-braga              /pt/papagaios-a-venda-braga/index.html              200
+/pt/papagaios-a-venda-coimbra            /pt/papagaios-a-venda-coimbra/index.html            200
+/pt/papagaios-a-venda-faro               /pt/papagaios-a-venda-faro/index.html               200
+/pt/papagaios-a-venda-setubal            /pt/papagaios-a-venda-setubal/index.html            200
+/pt/papagaios-a-venda-aveiro             /pt/papagaios-a-venda-aveiro/index.html             200
+/pt/papagaios-a-venda-leiria             /pt/papagaios-a-venda-leiria/index.html             200
+/pt/papagaios-a-venda-viseu              /pt/papagaios-a-venda-viseu/index.html              200
+/pt/papagaios-a-venda-evora              /pt/papagaios-a-venda-evora/index.html              200
+/pt/papagaios-a-venda-guimaraes          /pt/papagaios-a-venda-guimaraes/index.html          200
+/pt/papagaios-a-venda-castelo-branco     /pt/papagaios-a-venda-castelo-branco/index.html     200
+
+/pt/blog/papagaio-para-apartamento-em-portugal    /pt/blog/papagaio-para-apartamento-em-portugal/index.html    200
+/pt/blog/como-escolher-um-criador-responsavel      /pt/blog/como-escolher-um-criador-responsavel/index.html      200
+/pt/blog/melhores-papagaios-para-iniciantes        /pt/blog/melhores-papagaios-para-iniciantes/index.html        200
+/pt/blog/arara-jacinto-guia-completo               /pt/blog/arara-jacinto-guia-completo/index.html               200
+/pt/blog/como-preparar-a-casa-para-um-papagaio     /pt/blog/como-preparar-a-casa-para-um-papagaio/index.html     200
+/pt/blog/alimentacao-correta-dos-papagaios         /pt/blog/alimentacao-correta-dos-papagaios/index.html         200
+/pt/blog/quanto-vive-um-papagaio                   /pt/blog/quanto-vive-um-papagaio/index.html                   200
+
+# ══════════════════════════════════════════════════════
 # SECTION 16 — CATCH-ALL 404
 # Netlify only applies this when no static file matches.
 # ══════════════════════════════════════════════════════
