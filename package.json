@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "SEO tools for paraisodeaves.com",
   "scripts": {
+    "start": "node server.js",
     "seo:audit": "node seo-audit.js"
   },
   "engines": {
