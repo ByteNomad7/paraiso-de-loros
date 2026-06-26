@@ -239,7 +239,62 @@
 /errores-comunes-al-adoptar-un-loro.html             /errores-comunes-al-adoptar-un-loro                      301
 
 # ══════════════════════════════════════════════════════
-# SECTION 15 — CATCH-ALL 404
+# SECTION 15 — PORTUGUESE /pt/ SECTION (June 2026)
+# Files live at pt/slug/index.html — rewrites for clean URLs
+# ══════════════════════════════════════════════════════
+/pt                                                  /pt/index.html                                           200
+/pt/papagaios-a-venda-portugal                       /pt/papagaios-a-venda-portugal/index.html                200
+/pt/papagaio-cinzento                                /pt/papagaio-cinzento/index.html                         200
+/pt/arara-a-venda                                    /pt/arara-a-venda/index.html                             200
+/pt/cacatua-a-venda                                  /pt/cacatua-a-venda/index.html                           200
+/pt/papagaio-eclectus                                /pt/papagaio-eclectus/index.html                         200
+/pt/amazona-a-venda                                  /pt/amazona-a-venda/index.html                           200
+/pt/ovos-fertilizados                                /pt/ovos-fertilizados/index.html                         200
+/pt/contacto                                         /pt/contacto/index.html                                  200
+/pt/cidades                                          /pt/cidades/index.html                                   200
+/pt/blog                                             /pt/blog/index.html                                      200
+/pt/cidades/papagaios-lisboa                         /pt/cidades/papagaios-lisboa/index.html                  200
+/pt/cidades/papagaios-porto                          /pt/cidades/papagaios-porto/index.html                   200
+/pt/cidades/papagaios-braga                          /pt/cidades/papagaios-braga/index.html                   200
+/pt/cidades/papagaios-coimbra                        /pt/cidades/papagaios-coimbra/index.html                 200
+/pt/cidades/papagaios-faro                           /pt/cidades/papagaios-faro/index.html                    200
+/pt/cidades/papagaios-setubal                        /pt/cidades/papagaios-setubal/index.html                 200
+/pt/cidades/papagaios-aveiro                         /pt/cidades/papagaios-aveiro/index.html                  200
+/pt/cidades/papagaios-leiria                         /pt/cidades/papagaios-leiria/index.html                  200
+/pt/cidades/papagaios-evora                          /pt/cidades/papagaios-evora/index.html                   200
+/pt/cidades/papagaios-viseu                          /pt/cidades/papagaios-viseu/index.html                   200
+/pt/cidades/papagaios-guimaraes                      /pt/cidades/papagaios-guimaraes/index.html               200
+/pt/cidades/papagaios-funchal                        /pt/cidades/papagaios-funchal/index.html                 200
+/pt/cidades/papagaios-ponta-delgada                  /pt/cidades/papagaios-ponta-delgada/index.html           200
+/pt/blog/como-escolher-um-papagaio                   /pt/blog/como-escolher-um-papagaio/index.html            200
+/pt/blog/quanto-custa-um-papagaio-em-portugal        /pt/blog/quanto-custa-um-papagaio-em-portugal/index.html 200
+/pt/blog/papagaio-cinzento-vs-eclectus               /pt/blog/papagaio-cinzento-vs-eclectus/index.html        200
+/pt/blog/melhores-papagaios-para-familias            /pt/blog/melhores-papagaios-para-familias/index.html     200
+/pt/blog/treinar-um-papagaio                         /pt/blog/treinar-um-papagaio/index.html                  200
+/pt/blog/documentacao-cites-portugal                 /pt/blog/documentacao-cites-portugal/index.html          200
+/pt/blog/alimentacao-papagaio-guia-completo          /pt/blog/alimentacao-papagaio-guia-completo/index.html   200
+/pt/blog/esperanca-de-vida-papagaios                 /pt/blog/esperanca-de-vida-papagaios/index.html          200
+/pt/blog/doencas-comuns-papagaios                    /pt/blog/doencas-comuns-papagaios/index.html             200
+/pt/blog/primeiros-dias-papagaio-em-casa             /pt/blog/primeiros-dias-papagaio-em-casa/index.html      200
+/pt/blog/papagaio-cinzento-cuidados                  /pt/blog/papagaio-cinzento-cuidados/index.html           200
+/pt/blog/arara-jacinto-caracteristicas               /pt/blog/arara-jacinto-caracteristicas/index.html        200
+/pt/blog/periquito-mascota-guia                      /pt/blog/periquito-mascota-guia/index.html               200
+/pt/blog/cacatua-ninfa-carolina-guia                 /pt/blog/cacatua-ninfa-carolina-guia/index.html          200
+/pt/blog/papagaio-amazona-mascota                    /pt/blog/papagaio-amazona-mascota/index.html             200
+/pt/blog/jaula-ideal-papagaio                        /pt/blog/jaula-ideal-papagaio/index.html                 200
+/pt/blog/banhar-papagaio                             /pt/blog/banhar-papagaio/index.html                      200
+/pt/blog/papagaio-bebe-alimentacao                   /pt/blog/papagaio-bebe-alimentacao/index.html            200
+/pt/blog/mordidas-papagaio-como-resolver             /pt/blog/mordidas-papagaio-como-resolver/index.html      200
+/pt/blog/papagaio-falar-como-ensinar                 /pt/blog/papagaio-falar-como-ensinar/index.html          200
+/pt/blog/papagaio-stress-como-reduzir                /pt/blog/papagaio-stress-como-reduzir/index.html         200
+/pt/blog/papagaio-e-criancas-seguranca               /pt/blog/papagaio-e-criancas-seguranca/index.html        200
+/pt/blog/papagaio-adocao-vs-compra                   /pt/blog/papagaio-adocao-vs-compra/index.html            200
+/pt/blog/viajar-com-papagaio                         /pt/blog/viajar-com-papagaio/index.html                  200
+/pt/blog/papagaio-inverno-portugal                   /pt/blog/papagaio-inverno-portugal/index.html            200
+/pt/blog/reproduzir-papagaios-caseiro                /pt/blog/reproduzir-papagaios-caseiro/index.html         200
+
+# ══════════════════════════════════════════════════════
+# SECTION 16 — CATCH-ALL 404
 # Netlify only applies this when no static file matches.
 # ══════════════════════════════════════════════════════
 /*                                                   /404.html                                                404

@@ -1,0 +1,254 @@
+PHASE 4 – PORTUGAL EXPANSION (paraisodeaves.com)
+
+Create a complete Portuguese (Portugal) version of the website while keeping Spanish as the primary language.
+
+IMPORTANT
+- Do NOT create a separate domain.
+- Everything must remain under paraisodeaves.com.
+- Portuguese URLs must live under /pt/.
+- Maintain the existing design system, UI, branding, animations and component library.
+- All Portuguese pages must feel native, not machine translated.
+
+==================================
+MULTI-LANGUAGE SEO
+==================================
+
+Implement:
+
+✓ hreflang
+es-ES
+pt-PT
+
+✓ canonical tags
+
+✓ language switcher (Español | Português)
+
+✓ Portuguese sitemap
+
+✓ Portuguese metadata
+
+✓ Portuguese OpenGraph
+
+✓ Portuguese JSON-LD
+
+✓ Portuguese breadcrumbs
+
+✓ Portuguese robots directives
+
+==================================
+CREATE PORTUGUESE HOMEPAGE
+==================================
+
+/pt/
+
+Completely localized.
+
+Hero
+Species
+Available birds
+Guarantees
+Shipping
+Health
+Testimonials
+FAQ
+Contact
+
+==================================
+MAIN MONEY PAGES
+==================================
+
+Create
+
+/pt/papagaios-a-venda-portugal
+
+/pt/papagaio-cinzento
+
+/pt/arara-a-venda
+
+/pt/cacatua-a-venda
+
+/pt/papagaio-eclectus
+
+/pt/amazona-a-venda
+
+/pt/ovos-fertilizados
+
+Each page should be 1200–2000 words.
+
+==================================
+CITY LANDING PAGES
+==================================
+
+Create dedicated landing pages for:
+
+Lisboa
+
+Porto
+
+Braga
+
+Coimbra
+
+Faro
+
+Setúbal
+
+Aveiro
+
+Leiria
+
+Évora
+
+Viseu
+
+Guimarães
+
+Funchal
+
+Ponta Delgada
+
+Each page should contain:
+
+Unique introduction
+
+Buying guide
+
+Delivery information
+
+Frequently asked questions
+
+Why choose Paraíso de Aves
+
+Internal links
+
+Unique metadata
+
+==================================
+BLOG
+==================================
+
+Create 30 Portuguese blog articles.
+
+Examples:
+
+Como escolher um papagaio
+
+Quanto custa um papagaio em Portugal
+
+Papagaio cinzento vs Eclectus
+
+Os melhores papagaios para famílias
+
+Treinar um papagaio
+
+Documentação CITES
+
+Alimentação
+
+Expectativa de vida
+
+Doenças
+
+Primeiros dias em casa
+
+One unique featured image per article.
+
+==================================
+PRODUCTS
+==================================
+
+Translate every bird profile.
+
+Translate:
+
+Descriptions
+
+Temperament
+
+Care
+
+Diet
+
+FAQ
+
+Pricing
+
+Availability
+
+Buttons
+
+Forms
+
+Guarantees
+
+==================================
+CONTACT
+==================================
+
+Create
+
+/pt/contacto
+
+Translate all forms.
+
+Emails continue arriving to the existing inbox.
+
+==================================
+SEO
+==================================
+
+Every Portuguese page must include:
+
+Unique Title
+
+Unique Meta Description
+
+OG Tags
+
+Twitter Cards
+
+Structured Data
+
+Breadcrumbs
+
+Canonical
+
+hreflang
+
+FAQ Schema
+
+Organization Schema
+
+==================================
+INTERNAL LINKING
+==================================
+
+Portuguese pages should only interlink with Portuguese pages.
+
+Spanish pages should continue linking to Spanish pages.
+
+==================================
+PERFORMANCE
+==================================
+
+Do not duplicate assets unnecessarily.
+
+Reuse components.
+
+Lazy-load images.
+
+Keep Core Web Vitals green.
+
+==================================
+QUALITY
+==================================
+
+This should feel like a premium Portuguese website created specifically for Portugal, not a translated copy.
+
+No broken links.
+
+No duplicate metadata.
+
+No placeholder text.
+
+Every page production-ready and SEO-ready.

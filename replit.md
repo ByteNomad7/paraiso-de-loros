@@ -1,6 +1,6 @@
 # paraisodeaves — Criadero de Loros y Aves Exóticas
 
-Sitio web estático completamente en español para paraisodeaves — criadero legal de loros y aves exóticas en Llíria, Valencia (España). Envíos a toda España y Europa, con guías SEO específicas para los 20 países hispanohablantes de Latinoamérica.
+Sitio web estático en español + sección portuguesa (`/pt/`) para paraisodeaves — criadero legal de loros y aves exóticas en Llíria, Valencia (España). Envíos a toda España, Portugal y Europa, con guías SEO para los 20 países hispanohablantes de Latinoamérica.
 
 ## Estado Actual del SEO (Abril 2026)
 
@@ -208,12 +208,40 @@ Compra · Precios · Cuidados · Especies · Legalidad
 - Valencia: "comprar loros Valencia", "criador loros Llíria", "loro Comunitat Valenciana entrega"
 - Canarias: "comprar loros Canarias", "loros Gran Canaria", "loro Tenerife CITES"
 
+## Expansión Portugal — Fase 4 (Junio 2026)
+
+Sección `/pt/` completa bajo el mismo dominio `paraisodeaves.com/pt/`. Generada con `generate-pt.js` (Node.js). 50 páginas en total.
+
+### Estructura /pt/
+- **Homepage:** `pt/index.html` — hero, species grid, trust badges, FAQ, footer 5 cols
+- **7 Money Pages:** `pt/papagaios-a-venda-portugal/`, `pt/papagaio-cinzento/`, `pt/arara-a-venda/`, `pt/cacatua-a-venda/`, `pt/papagaio-eclectus/`, `pt/amazona-a-venda/`, `pt/ovos-fertilizados/`
+- **13 City Pages + index:** `pt/cidades/` — Lisboa, Porto, Braga, Coimbra, Faro, Setúbal, Aveiro, Leiria, Évora, Viseu, Guimarães, Funchal, Ponta Delgada
+- **27 Blog Posts + index:** `pt/blog/` — cuidados, alimentación, CITES, especies, comportamiento
+- **Contact:** `pt/contacto/index.html`
+
+### Detalles Técnicos PT
+- Todas las páginas: canonical `pt-PT`, hreflang `es-ES ↔ pt-PT`, x-default → homepage ES
+- Schemas: Article / WebPage / BreadcrumbList / FAQPage / LocalBusiness según tipo de página
+- Nav: Início · Papagaios · Cidades · Blog · Contacto · **ES | PT** switcher
+- Footer: 5 columnas igual que el sitio ES
+- GA4: mismo `G-4007YHH4H9`; email: `paraisodeloros@gmail.com`
+- `_redirects` SECTION 15: 50 reglas 200 rewrite para clean URLs `/pt/slug` → `pt/slug/index.html`
+- `sitemap.xml`: +50 URLs con lastmod 2026-06-26, prioridades 0.75–0.95
+- `index.html` ES: hreflang `es-ES` + `pt-PT` + `x-default` añadido
+- Servidor local (server.js): routing directory/index.html ya funciona nativamente para `/pt/`
+
+### Keyword Targets PT
+- Homepage: "papagaios à venda Portugal", "criador papagaios Portugal", "papagaio cinzento preço"
+- Money: "arara azul à venda", "cacatua à venda", "ovos fertilizados papagaio"
+- Cities: "papagaios Lisboa CITES", "papagaios Porto", "papagaios Funchal"
+- Blog: "documentação CITES Portugal", "alimentação papagaio", "quanto custa um papagaio"
+
 ## Pendiente (Prioridad Alta)
 
-1. **GSC: Request Indexing** — para todas las URLs nuevas (9 ciudades + 28 blog posts) y las páginas actualizadas. Manual por el propietario en GSC → Inspección de URL.
+1. **GSC: Request Indexing** — para todas las URLs nuevas (PT + 9 ciudades ES + 28 blog posts ES). Manual en GSC → Inspección de URL.
 2. **Backlinks** — factor limitante principal. 2 objetivos: guest article en `mascotahogar.com` o `expertoanimal.com`, alta en directorio `centralvet.es`.
-3. **Hreflang opcional** — si se decide segmentar los países anglo equivalentes en el futuro.
+3. **GSC Portugal** — añadir `paraisodeaves.com/pt/` como propiedad de prefijo de URL en GSC para monitorear el tráfico PT por separado.
 
 ## Sitemap
 
-215 URLs totales (Junio 2026). Lastmod 2026-06-16 para las 9 ciudades nuevas + 28 blog posts añadidos al sitemap.
+270 URLs totales (Junio 2026). 220 ES + 50 PT. Lastmod 2026-06-26 para todas las páginas PT.

@@ -1,0 +1,169 @@
+PHASE 4A — PORTUGUESE SPECIES AUTHORITY CLUSTER
+
+Objective:
+Expand Paraíso de Aves into Portugal by creating a complete Portuguese species SEO cluster under /pt/.
+
+IMPORTANT
+
+- Do NOT create a new domain.
+- Keep everything under https://paraisodeaves.com/pt/
+- These are NOT translated duplicates.
+- Every page must be localized for Portugal.
+- Natural European Portuguese only (pt-PT), not Brazilian Portuguese.
+- Preserve the existing premium design, typography, animations and UI.
+
+====================================================
+CREATE THE FOLLOWING COMMERCIAL LANDING PAGES
+====================================================
+
+/pt/papagaio-cinzento
+/pt/arara-jacinto
+/pt/arara-azul-e-amarela
+/pt/arara-escarlate
+/pt/cacatua-de-crista-amarela
+/pt/cacatua-de-cabeca-nua
+/pt/papagaio-eclectus
+/pt/papagaio-amazona
+/pt/conuro
+/pt/ovos-fertilizados
+
+====================================================
+EACH PAGE MUST INCLUDE
+====================================================
+
+• Unique H1
+• 1,500–2,500 words
+• Completely localized Portuguese content
+• Purchase guide
+• Temperament
+• Intelligence
+• Lifespan
+• Diet
+• Cage recommendations
+• Daily care
+• Exercise
+• Health
+• CITES information
+• Portugal ownership guidance
+• Delivery throughout Portugal
+• Reservation process
+• Health guarantee
+• Why choose Paraíso de Aves
+• Strong CTA
+• Contact form
+
+====================================================
+FAQ
+====================================================
+
+Minimum 8 unique FAQs.
+
+Examples:
+
+Quanto custa...
+É legal...
+Quanto vive...
+Fala...
+É indicado para famílias...
+Pode viver em apartamento...
+Necessita licença...
+Qual a alimentação...
+
+Every FAQ must be unique.
+
+====================================================
+SEO
+====================================================
+
+Each page must have:
+
+Unique Title
+
+Unique Meta Description
+
+Canonical
+
+Open Graph
+
+Twitter Cards
+
+BreadcrumbList Schema
+
+FAQPage Schema
+
+Product Schema
+
+Organization Schema
+
+WebPage Schema
+
+====================================================
+IMAGES
+====================================================
+
+Reuse existing images but:
+
+• Portuguese filenames where possible
+• Portuguese ALT text
+• Portuguese captions
+• Lazy loading
+• Proper width/height
+
+====================================================
+INTERNAL LINKING
+====================================================
+
+Every Portuguese species page links to:
+
+/pt/
+/pt/papagaios-a-venda-portugal
+Portuguese city pages
+Portuguese blog
+/pt/contacto
+
+Create a "Espécies Relacionadas" section.
+
+====================================================
+BUYER CTA
+====================================================
+
+Each page should end with:
+
+Interested in adopting this species?
+
+Request availability
+
+Reserve now
+
+Delivery throughout Portugal
+
+====================================================
+QUALITY
+====================================================
+
+No duplicate Spanish text.
+
+No Google Translate wording.
+
+Natural European Portuguese.
+
+No duplicate metadata.
+
+No broken links.
+
+No placeholder text.
+
+====================================================
+FINAL REPORT
+====================================================
+
+Return:
+
+• Pages created
+• Word count per page
+• Schema implemented
+• Internal links added
+• Metadata uniqueness
+• Duplicate content risk
+• SEO readiness score
+• Portuguese topical authority score
