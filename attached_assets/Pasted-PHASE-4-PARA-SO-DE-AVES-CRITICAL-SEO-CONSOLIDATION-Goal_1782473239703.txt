@@ -1,0 +1,289 @@
+PHASE 4 — PARAÍSO DE AVES CRITICAL SEO CONSOLIDATION
+
+Goal:
+Fix the critical audit issues before adding more new content.
+
+Do NOT redesign the site.
+Do NOT remove existing working URLs.
+Do NOT change the brand style.
+Fix the foundation only.
+
+Audit source:
+Full Website Audit Report — 26 June 2026
+
+====================================
+1. UNIFY NAVIGATION
+====================================
+
+Use one premium navigation component across:
+
+- Homepage
+- Blog pages
+- City pages
+- Species pages
+- Spanish pages
+- Portuguese pages
+- French pages
+- Commercial pages
+
+Remove old blog nav/topbar.
+
+Menus must be consistent by language:
+
+ES:
+Inicio, Aves, Adopción, Cuidados, Tienda / Accesorios, Blog, Contacto, ES | PT | FR
+
+PT:
+Início, Papagaios, Adoção, Cuidados, Loja / Acessórios, Blog, Contacto, ES | PT | FR
+
+FR:
+Accueil, Perroquets, Adoption, Conseils, Boutique / Accessoires, Blog, Contact, ES | PT | FR
+
+Mobile menu must use the same structure with accordions.
+
+====================================
+2. FIX MULTILINGUAL SEO
+====================================
+
+Fix hreflang across the site.
+
+Every translated page group must include:
+
+es-ES
+pt-PT
+fr-FR
+x-default
+
+Target:
+100% hreflang coverage.
+
+If an equivalent translated page does not exist:
+- link language switcher to that language homepage
+- do not create broken links
+
+====================================
+3. FIX SITEMAP
+====================================
+
+Add all French /fr/ pages to sitemap.xml.
+
+Include:
+
+- Spanish pages
+- Portuguese pages
+- French pages
+- Blog
+- City pages
+- Species pages
+- Commercial pages
+- Legal pages
+
+No missing live pages.
+No 404 URLs.
+Use clean priority tiers:
+
+1.0 homepage
+0.9 money pages
+0.8 blog pillars and city hubs
+0.7 supporting pages
+
+====================================
+4. FIX BROKEN LINKS
+====================================
+
+Fix all broken internal links from the audit:
+
+- 9 missing comparison blog posts
+- 6 /disponibles/ pages
+- /cites-loros-espana.html
+
+Options:
+- create the missing pages properly, or
+- redirect with 301 to the closest correct page
+
+Add redirect:
+
+/cites-loros-espana.html -> /blog/cites-loros-espana.html
+
+No internal link should point to a 404.
+
+====================================
+5. FIX EMPTY STORE PAGE
+====================================
+
+Fix tienda.html showing “Mostrando 0 productos”.
+
+The store/accessories page must show:
+
+- Jaulas
+- Comida
+- Juguetes naturales
+- Transportines
+- Perchas y accesorios
+
+Each card must link to the correct category page.
+
+No empty product grid.
+
+====================================
+6. IMAGE OPTIMIZATION
+====================================
+
+Convert and compress:
+
+transportin-loro-caja-viaje-01.png
+
+Target:
+WebP under 150 KB.
+
+Also optimize:
+
+- cacatua-01.jpg
+- gallery JPG images
+
+Add:
+
+- width
+- height
+- lazy loading
+- WebP where possible
+- srcset where possible
+
+Do not break image paths.
+
+====================================
+7. SOCIAL META FIX
+====================================
+
+Add missing Twitter Cards and OpenGraph tags to all pages.
+
+Every page needs:
+
+- title
+- meta description
+- canonical
+- og:title
+- og:description
+- og:image
+- og:url
+- twitter:card
+- twitter:title
+- twitter:description
+- twitter:image
+
+No duplicate metadata.
+
+====================================
+8. LEGAL + TRUST PAGES
+====================================
+
+Create and link in footer:
+
+Spanish:
+- /politica-privacidad
+- /politica-cookies
+- /condiciones-generales
+- /garantia-salud
+- /bienestar-animal
+- /documentacion-cites
+- /politica-envios
+- /reservas-y-devoluciones
+
+Portuguese:
+- /pt/politica-privacidade
+- /pt/politica-cookies
+- /pt/termos-condicoes
+- /pt/garantia-saude
+- /pt/bem-estar-animal
+- /pt/documentacao-cites
+- /pt/politica-envios
+- /pt/reservas-devolucoes
+
+French:
+- /fr/politique-confidentialite
+- /fr/politique-cookies
+- /fr/conditions-generales
+- /fr/garantie-sante
+- /fr/bien-etre-animal
+- /fr/documentation-cites
+- /fr/politique-livraison
+- /fr/reservations-retours
+
+Use clear legal-style content, but include note:
+“Esta página no constituye asesoramiento legal.”
+
+====================================
+9. CREATE TRUST PAGES
+====================================
+
+Create:
+
+- testimonios
+- por-que-elegirnos
+- nuestras-instalaciones expanded version
+- proceso-veterinario
+- historias-clientes
+
+Also PT and FR versions where possible.
+
+Add homepage links to testimonials and facility.
+
+====================================
+10. FIX THIN MONEY PAGES
+====================================
+
+Expand these pages to at least 1,200 words:
+
+- criadero-loros-espana.html
+- comprar-loros-espana.html
+- loros-especies.html
+- nosotros.html
+
+Add:
+
+- FAQs
+- internal links
+- trust signals
+- CTAs
+- schema
+- images
+
+====================================
+11. BLOG CONSOLIDATION
+====================================
+
+All blog posts must use:
+
+- same header
+- same footer
+- same language switcher
+- related posts
+- CTA to available birds/contact
+- consistent mobile menu
+
+No old blog navbar.
+
+====================================
+12. FINAL AUDIT
+====================================
+
+Run:
+
+npm run build
+
+Then perform an internal audit and report:
+
+- Build status
+- Total pages scanned
+- Broken links remaining
+- Sitemap URL count by language
+- Hreflang coverage
+- Missing OG/Twitter tags
+- Images optimized
+- Legal pages created
+- Navigation unified
+- Store page fixed
+- Remaining issues
+- New estimated score
+
+Do not continue to new country expansion until this phase passes.

@@ -336,6 +336,12 @@
 /juguetes-naturales-para-loros.html      /juguetes-naturales-para-loros                301
 /transportines-para-loros.html           /transportines-para-loros                     301
 
+# Multilingual commercial placeholders (noindex) — PT + FR
+/pt/gaiolas-para-papagaios               /pt/gaiolas-para-papagaios/index.html         200
+/pt/transportadoras-para-papagaios       /pt/transportadoras-para-papagaios/index.html 200
+/fr/cages-pour-perroquets                /fr/cages-pour-perroquets/index.html          200
+/fr/caisses-de-transport                 /fr/caisses-de-transport/index.html           200
+
 # ══════════════════════════════════════════════════════
 # SECTION 17 — CATCH-ALL 404
 # Netlify only applies this when no static file matches.

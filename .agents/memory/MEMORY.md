@@ -1,0 +1,1 @@
+- [Lang switcher & hreflang](lang-switcher-hreflang.md) — paraisodeaves ES/PT/FR MAP schema is symmetric [es,pt,fr]; reverse rows are a trap; FR static hreflang is stale and fixed via JS upsert.

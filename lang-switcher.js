@@ -3,90 +3,74 @@
 
   /* ─── URL MAPPING TABLE ─────────────────────────────────────────────
      Each entry: [ es_canonical, pt_canonical, fr_canonical ]
-     Trailing slashes stripped for matching; /fr/ pages don't exist yet.
+     Trailing slashes stripped for matching. Empty/'/xx/' = no exact
+     equivalent, switcher falls back to that language's homepage.
   ─────────────────────────────────────────────────────────────────── */
   var MAP = [
     // Root
     ['/', '/pt/', '/fr/'],
 
     // Species pages
-    ['/loro-gris-africano', '/pt/papagaio-cinzento', '/fr/'],
-    ['/loro-gris-africano.html', '/pt/papagaio-cinzento', '/fr/'],
-    ['/guacamayos', '/pt/arara-a-venda', '/fr/'],
-    ['/guacamayos.html', '/pt/arara-a-venda', '/fr/'],
-    ['/cacatua', '/pt/cacatua-a-venda', '/fr/'],
-    ['/cacatua.html', '/pt/cacatua-a-venda', '/fr/'],
-    ['/loro-amazonico', '/pt/papagaio-amazona', '/fr/'],
-    ['/loro-amazonico.html', '/pt/papagaio-amazona', '/fr/'],
-    ['/eclectus', '/pt/papagaio-eclectus', '/fr/'],
-    ['/eclectus.html', '/pt/papagaio-eclectus', '/fr/'],
+    ['/loro-gris-africano', '/pt/papagaio-cinzento', '/fr/perroquet-gris-du-gabon'],
+    ['/loro-gris-africano.html', '/pt/papagaio-cinzento', '/fr/perroquet-gris-du-gabon'],
+    ['/guacamayos', '/pt/arara-a-venda', '/fr/ara-bleu-et-jaune'],
+    ['/guacamayos.html', '/pt/arara-a-venda', '/fr/ara-bleu-et-jaune'],
+    ['/cacatua', '/pt/cacatua-a-venda', '/fr/cacatoes-huppe-jaune'],
+    ['/cacatua.html', '/pt/cacatua-a-venda', '/fr/cacatoes-huppe-jaune'],
+    ['/loro-amazonico', '/pt/papagaio-amazona', '/fr/amazone-front-bleu'],
+    ['/loro-amazonico.html', '/pt/papagaio-amazona', '/fr/amazone-front-bleu'],
+    ['/eclectus', '/pt/papagaio-eclectus', '/fr/eclectus'],
+    ['/eclectus.html', '/pt/papagaio-eclectus', '/fr/eclectus'],
     ['/conuro', '/pt/conuro', '/fr/'],
     ['/conuro.html', '/pt/conuro', '/fr/'],
 
-    // Macaw species (PT equivalents)
-    ['/available-birds/guacamayo-azul-amarillo.html', '/pt/arara-azul-e-amarela', '/fr/'],
-    ['/available-birds/guacamayo-escarlata.html', '/pt/arara-escarlate', '/fr/'],
-    ['/available-birds/guacamayo-jacinto.html', '/pt/arara-jacinto', '/fr/'],
-    ['/available-birds/cacatua.html', '/pt/cacatua-de-crista-amarela', '/fr/'],
+    // Macaw species (PT + FR equivalents)
+    ['/available-birds/guacamayo-azul-amarillo.html', '/pt/arara-azul-e-amarela', '/fr/ara-bleu-et-jaune'],
+    ['/available-birds/guacamayo-escarlata.html', '/pt/arara-escarlate', '/fr/ara-macao'],
+    ['/available-birds/guacamayo-jacinto.html', '/pt/arara-jacinto', '/fr/ara-hyacinthe'],
+    ['/available-birds/cacatua.html', '/pt/cacatua-de-crista-amarela', '/fr/cacatoes-huppe-jaune'],
 
     // Adoption / disponibles
-    ['/adopcion-de-loros', '/pt/papagaios-a-venda-portugal', '/fr/'],
-    ['/adopcion-de-loros.html', '/pt/papagaios-a-venda-portugal', '/fr/'],
-    ['/available-birds/', '/pt/papagaios-disponiveis', '/fr/'],
-    ['/tienda', '/pt/papagaios-disponiveis', '/fr/'],
-    ['/tienda.html', '/pt/papagaios-disponiveis', '/fr/'],
+    ['/adopcion-de-loros', '/pt/papagaios-a-venda-portugal', '/fr/perroquets-disponibles'],
+    ['/adopcion-de-loros.html', '/pt/papagaios-a-venda-portugal', '/fr/perroquets-disponibles'],
+    ['/available-birds/', '/pt/papagaios-disponiveis', '/fr/perroquets-disponibles'],
+    ['/tienda', '/pt/papagaios-disponiveis', '/fr/perroquets-disponibles'],
+    ['/tienda.html', '/pt/papagaios-disponiveis', '/fr/perroquets-disponibles'],
 
-    // Commercial category pages (no PT/FR equivalents yet)
-    ['/comida-para-loros', '/pt/comida-para-papagaios', '/fr/'],
-    ['/comida-para-loros.html', '/pt/comida-para-papagaios', '/fr/'],
-    ['/jaulas-para-loros', '/pt/', '/fr/'],
-    ['/jaulas-para-loros.html', '/pt/', '/fr/'],
-    ['/juguetes-naturales-para-loros', '/pt/brinquedos-naturais-para-papagaios', '/fr/'],
-    ['/juguetes-naturales-para-loros.html', '/pt/brinquedos-naturais-para-papagaios', '/fr/'],
-    ['/transportines-para-loros', '/pt/', '/fr/'],
-    ['/transportines-para-loros.html', '/pt/', '/fr/'],
+    // Commercial category pages
+    ['/comida-para-loros', '/pt/comida-para-papagaios', '/fr/nourriture-pour-perroquets'],
+    ['/comida-para-loros.html', '/pt/comida-para-papagaios', '/fr/nourriture-pour-perroquets'],
+    ['/jaulas-para-loros', '/pt/gaiolas-para-papagaios', '/fr/cages-pour-perroquets'],
+    ['/jaulas-para-loros.html', '/pt/gaiolas-para-papagaios', '/fr/cages-pour-perroquets'],
+    ['/juguetes-naturales-para-loros', '/pt/brinquedos-naturais-para-papagaios', '/fr/jouets-naturels-pour-perroquets'],
+    ['/juguetes-naturales-para-loros.html', '/pt/brinquedos-naturais-para-papagaios', '/fr/jouets-naturels-pour-perroquets'],
+    ['/transportines-para-loros', '/pt/transportadoras-para-papagaios', '/fr/caisses-de-transport'],
+    ['/transportines-para-loros.html', '/pt/transportadoras-para-papagaios', '/fr/caisses-de-transport'],
 
     // Info / care pages
-    ['/nosotros', '/pt/as-nossas-instalacoes', '/fr/'],
-    ['/nosotros.html', '/pt/as-nossas-instalacoes', '/fr/'],
-    ['/faq', '/pt/', '/fr/'],
-    ['/faq.html', '/pt/', '/fr/'],
+    ['/nosotros', '/pt/as-nossas-instalacoes', '/fr/a-propos'],
+    ['/nosotros.html', '/pt/as-nossas-instalacoes', '/fr/a-propos'],
+    ['/faq', '/pt/', '/fr/faq'],
+    ['/faq.html', '/pt/', '/fr/faq'],
     ['/cuidados-basicos-de-un-loro', '/pt/', '/fr/'],
-    ['/cuanto-cuesta-mantener-un-loro', '/pt/quanto-custa-um-papagaio-em-portugal', '/fr/'],
-    ['/documentos-legales-para-adoptar-un-loro', '/pt/documentacao-cites-portugal', '/fr/'],
+    ['/cuanto-cuesta-mantener-un-loro', '/pt/blog/quanto-custa-um-papagaio-em-portugal', '/fr/'],
+    ['/documentos-legales-para-adoptar-un-loro', '/pt/blog/documentacao-cites-portugal', '/fr/'],
     ['/errores-comunes-al-adoptar-un-loro', '/pt/', '/fr/'],
 
     // Blog index
-    ['/blog/', '/pt/blog/', '/fr/'],
+    ['/blog/', '/pt/blog/', '/fr/blog/'],
 
     // Cities index
     ['/ciudades/', '/pt/cidades/', '/fr/'],
 
     // Contact
-    ['/contacto', '/pt/contacto', '/fr/'],
-    ['/contacto.html', '/pt/contacto', '/fr/'],
+    ['/#contacto', '/pt/contacto', '/fr/contact'],
 
-    // ── PT → ES / FR ──────────────────────────────────────────────
-    ['/pt/papagaios-a-venda-portugal', '/adopcion-de-loros', '/fr/'],
-    ['/pt/papagaio-cinzento', '/loro-gris-africano.html', '/fr/'],
-    ['/pt/arara-a-venda', '/guacamayos.html', '/fr/'],
-    ['/pt/cacatua-a-venda', '/cacatua.html', '/fr/'],
-    ['/pt/papagaio-amazona', '/loro-amazonico.html', '/fr/'],
-    ['/pt/papagaio-eclectus', '/eclectus.html', '/fr/'],
-    ['/pt/conuro', '/conuro.html', '/fr/'],
-    ['/pt/arara-azul-e-amarela', '/available-birds/guacamayo-azul-amarillo.html', '/fr/'],
-    ['/pt/arara-escarlate', '/available-birds/guacamayo-escarlata.html', '/fr/'],
-    ['/pt/arara-jacinto', '/available-birds/guacamayo-jacinto.html', '/fr/'],
-    ['/pt/papagaios-disponiveis', '/available-birds/', '/fr/'],
-    ['/pt/comida-para-papagaios', '/comida-para-loros', '/fr/'],
-    ['/pt/brinquedos-naturais-para-papagaios', '/juguetes-naturales-para-loros', '/fr/'],
-    ['/pt/as-nossas-instalacoes', '/nosotros.html', '/fr/'],
-    ['/pt/documentacao-cites-portugal', '/documentos-legales-para-adoptar-un-loro', '/fr/'],
-    ['/pt/quanto-custa-um-papagaio-em-portugal', '/cuanto-cuesta-mantener-un-loro', '/fr/'],
-    ['/pt/blog/', '/blog/', '/fr/'],
-    ['/pt/cidades/', '/ciudades/', '/fr/'],
-    ['/pt/contacto', '/contacto.html', '/fr/'],
-    ['/pt/ovos-fertilizados', '/available-birds/huevos-fertiles.html', '/fr/']
+    // ── Extra equivalents (aligned [es, pt, fr]) ──────────────────
+    ['/available-birds/huevos-fertiles.html', '/pt/ovos-fertilizados', '/fr/'],
+    ['/loros-especies', '/pt/papagaios-disponiveis', '/fr/perroquets'],
+    ['/entrega.html', '/pt/', '/fr/livraison'],
+    ['/nosotros', '/pt/as-nossas-instalacoes', '/fr/nos-installations']
   ];
 
   /* ─── LANGUAGE DETECTION ──────────────────────────────────────── */
@@ -231,29 +215,29 @@
 
   function injectHreflang(lang) {
     var base = 'https://www.paraisodeaves.com';
-    var esURL  = resolveURL('es')  || window.location.pathname;
-    var ptURL  = resolveURL('pt')  || '/pt/';
-    var frURL  = '/fr/';
-    var cur    = window.location.pathname;
-
-    // Only add if not already present in <head>
-    if (document.querySelector('link[hreflang="fr-FR"]')) return;
+    var cur  = window.location.pathname;
+    var esURL = lang === 'es' ? cur : (resolveURL('es') || cur);
+    var ptURL = lang === 'pt' ? cur : (resolveURL('pt') || '/pt/');
+    var frURL = lang === 'fr' ? cur : (resolveURL('fr') || '/fr/');
 
     var tags = [
-      { hl: 'es-ES', href: base + (lang === 'es' ? cur : esURL) },
-      { hl: 'pt-PT', href: base + (lang === 'pt' ? cur : ptURL) },
+      { hl: 'es-ES', href: base + esURL },
+      { hl: 'pt-PT', href: base + ptURL },
       { hl: 'fr-FR', href: base + frURL },
       { hl: 'x-default', href: base + '/' }
     ];
 
+    // Upsert: correct stale static alternates (many FR pages point es/pt to
+    // homepages) and add any that are missing.
     tags.forEach(function (t) {
-      if (!document.querySelector('link[hreflang="' + t.hl + '"]')) {
-        var link = document.createElement('link');
+      var link = document.querySelector('link[rel="alternate"][hreflang="' + t.hl + '"]');
+      if (!link) {
+        link = document.createElement('link');
         link.rel = 'alternate';
         link.setAttribute('hreflang', t.hl);
-        link.href = t.href;
         document.head.appendChild(link);
       }
+      link.href = t.href;
     });
   }
 
