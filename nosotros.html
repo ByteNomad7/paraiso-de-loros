@@ -57,6 +57,14 @@
     .faq-item{border:1px solid #E7E0D2;border-radius:12px;margin:.8rem 0;overflow:hidden}
     .faq-q{background:#F8F5F0;padding:1rem 1.4rem;cursor:pointer;font-weight:700;color:#1F3D2B;display:flex;justify-content:space-between;align-items:center;font-family:'Poppins',Arial,sans-serif}
     .faq-a{padding:1rem 1.4rem;color:#5C5C5C;border-top:1px solid rgba(0,100,0,.10)}
+    /* ── Photo gallery ── */
+    .gallery-section{margin:2.5rem 0}
+    .gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+    @media(max-width:640px){.gallery-grid{grid-template-columns:repeat(2,1fr)}}
+    .gallery-item{position:relative;overflow:hidden;border-radius:12px;background:#e8e2d8;aspect-ratio:4/3}
+    .gallery-item img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s ease,opacity .35s ease;opacity:0}
+    .gallery-item img.loaded{opacity:1}
+    .gallery-item:hover img{transform:scale(1.04)}
     .cta-band{background:linear-gradient(135deg,#1F3D2B,#2B533C);border-radius:18px;padding:2.5rem;text-align:center;margin:2rem 0;color:#fff}
     .cta-band h2{margin-top:0;color:#fff;border-bottom:none}
     .cta-band p{color:rgba(255,255,255,.88);max-width:60ch;margin:0 auto 1.5rem}
@@ -163,6 +171,22 @@
     <div class="card"><span class="icon">👶</span><h3>Crianza a Mano</h3><p>Cada polluelo es criado a mano desde los primeros días para garantizar una socialización óptima y un carácter tranquilo y confiado.</p></div>
     <div class="card"><span class="icon">📋</span><h3>Total Transparencia</h3><p>Te enviamos fotos y vídeos reales del ave antes de cualquier compromiso. Sin sorpresas.</p></div>
     <div class="card"><span class="icon">🏥</span><h3>Salud Garantizada</h3><p>Cada ave pasa revisión veterinaria antes de su entrega. Viaja con certificado de salud y documentación completa.</p></div>
+  </div>
+
+  <h2>Nuestro Criadero en Imágenes</h2>
+  <div class="gallery-section">
+    <div class="gallery-grid">
+      <div class="gallery-item"><img data-src="/images/gallery/nosotros-guacamayo-verde-volador-01.jpg" alt="Guacamayo verde trepando en el volador del criadero" loading="lazy" /></div>
+      <div class="gallery-item"><img data-src="/images/gallery/nosotros-aviario-exterior-criadero-02.jpg" alt="Aviario exterior con enriquecimiento ambiental para loros" loading="lazy" /></div>
+      <div class="gallery-item"><img data-src="/images/gallery/nosotros-jaula-interior-equipada-03.jpg" alt="Jaula interior equipada con perchas y juguetes" loading="lazy" /></div>
+      <div class="gallery-item"><img data-src="/images/gallery/nosotros-cuidador-guacamayo-socializacion-04.jpg" alt="Cuidador socializando con guacamayo criado a mano" loading="lazy" /></div>
+      <div class="gallery-item"><img data-src="/images/gallery/nosotros-zona-aviarios-multiple-05.jpg" alt="Zona de aviarios múltiples en el criadero paraisodeaves" loading="lazy" /></div>
+      <div class="gallery-item"><img data-src="/images/gallery/nosotros-guacamayos-percha-natural-06.jpg" alt="Guacamayo azul-amarillo y guacamayo verde en percha natural" loading="lazy" /></div>
+      <div class="gallery-item"><img data-src="/images/gallery/nosotros-amazona-loro-sociable-07.jpg" alt="Amazona sociable en el criadero" loading="lazy" /></div>
+      <div class="gallery-item"><img data-src="/images/gallery/nosotros-amazonas-pareja-curiosas-08.jpg" alt="Pareja de amazonas curiosas en sus jaulas" loading="lazy" /></div>
+      <div class="gallery-item"><img data-src="/images/gallery/nosotros-amazona-crianza-mano-09.jpg" alt="Amazona criada a mano, muy confiada y socializada" loading="lazy" /></div>
+      <div class="gallery-item"><img data-src="/images/gallery/nosotros-loros-juego-enriquecimiento-10.jpg" alt="Loros jugando con enriquecimiento natural en el criadero" loading="lazy" /></div>
+    </div>
   </div>
 
   <h2>¿Qué nos diferencia?</h2>
@@ -280,6 +304,30 @@
       });
     }
   });
+})();
+</script>
+<script>
+(function(){
+  var imgs = document.querySelectorAll('.gallery-item img[data-src]');
+  if(!imgs.length) return;
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){
+          var img = e.target;
+          img.src = img.dataset.src;
+          img.onload = function(){ img.classList.add('loaded'); };
+          io.unobserve(img);
+        }
+      });
+    },{rootMargin:'200px'});
+    imgs.forEach(function(img){ io.observe(img); });
+  } else {
+    imgs.forEach(function(img){
+      img.src = img.dataset.src;
+      img.onload = function(){ img.classList.add('loaded'); };
+    });
+  }
 })();
 </script>
 </body>
