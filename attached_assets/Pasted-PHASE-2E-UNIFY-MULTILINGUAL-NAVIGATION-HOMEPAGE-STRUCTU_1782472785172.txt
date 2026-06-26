@@ -1,0 +1,336 @@
+PHASE 2E — UNIFY MULTILINGUAL NAVIGATION + HOMEPAGE STRUCTURE
+
+Goal:
+Make Spanish, Portuguese, and French versions feel like one professional multilingual website, not three different websites.
+
+Problem:
+The ES, PT, and FR sections currently have different menus, different homepage structure, and missing key links such as available birds, accessories, care pages, and commercial sections.
+
+Fix this across the entire site.
+
+Languages:
+Spanish default: /
+Portuguese: /pt/
+French: /fr/
+
+====================================
+1. UNIFIED MENU STRUCTURE
+====================================
+
+Create the same navigation architecture for all languages.
+
+SPANISH MENU:
+
+Inicio
+Aves
+- Ver aves disponibles
+- Todas las especies
+- Yaco / Loro gris africano
+- Guacamayos
+- Cacatúas
+- Amazonas
+- Eclectus
+- Conuros
+
+Adopción
+- Proceso de adopción
+- Reserva
+- Entrega
+- Garantía sanitaria
+- Documentación CITES
+
+Cuidados
+- Alimentación
+- Jaulas
+- Juguetes naturales
+- Transportines
+- Salud
+- Preparar el hogar
+
+Tienda / Accesorios
+- Jaulas para loros
+- Comida para loros
+- Juguetes naturales
+- Transportines
+- Perchas y accesorios
+
+Blog
+Contacto
+ES | PT | FR
+
+PORTUGUESE MENU:
+
+Início
+Papagaios
+- Ver papagaios disponíveis
+- Todas as espécies
+- Papagaio-cinzento
+- Araras
+- Cacatuas
+- Amazonas
+- Eclectus
+- Conuros
+
+Adoção
+- Processo de adoção
+- Reserva
+- Entrega
+- Garantia sanitária
+- Documentação CITES
+
+Cuidados
+- Alimentação
+- Gaiolas
+- Brinquedos naturais
+- Transportadoras
+- Saúde
+- Preparar a casa
+
+Loja / Acessórios
+- Gaiolas para papagaios
+- Comida para papagaios
+- Brinquedos naturais
+- Transportadoras
+- Poleiros e acessórios
+
+Blog
+Contacto
+ES | PT | FR
+
+FRENCH MENU:
+
+Accueil
+Perroquets
+- Voir les perroquets disponibles
+- Toutes les espèces
+- Gris du Gabon
+- Aras
+- Cacatoès
+- Amazones
+- Eclectus
+- Conures
+
+Adoption
+- Processus d’adoption
+- Réservation
+- Livraison
+- Garantie santé
+- Documentation CITES
+
+Soins
+- Alimentation
+- Cages
+- Jouets naturels
+- Caisses de transport
+- Santé
+- Préparer la maison
+
+Boutique / Accessoires
+- Cages pour perroquets
+- Nourriture pour perroquets
+- Jouets naturels
+- Caisses de transport
+- Perchoirs et accessoires
+
+Blog
+Contact
+ES | PT | FR
+
+====================================
+2. URL MAPPING
+====================================
+
+Every menu item must link to the correct localized URL.
+
+Examples:
+
+Available birds:
+ES: /aves-disponibles
+PT: /pt/papagaios-disponiveis
+FR: /fr/perroquets-disponibles
+
+Food:
+ES: /comida-para-loros
+PT: /pt/comida-para-papagaios
+FR: /fr/nourriture-pour-perroquets
+
+Cages:
+ES: /jaulas-para-loros
+PT: /pt/gaiolas-para-papagaios
+FR: /fr/cages-pour-perroquets
+
+Natural toys:
+ES: /juguetes-naturales-para-loros
+PT: /pt/brinquedos-naturais-para-papagaios
+FR: /fr/jouets-naturels-pour-perroquets
+
+Transport carriers:
+ES: /transportines-para-loros
+PT: /pt/transportadoras-para-papagaios
+FR: /fr/caisses-de-transport-pour-perroquets
+
+Facility:
+ES: /nuestras-instalaciones
+PT: /pt/as-nossas-instalacoes
+FR: /fr/nos-installations
+
+Contact:
+ES: /contacto
+PT: /pt/contacto
+FR: /fr/contact
+
+Blog:
+ES: /blog
+PT: /pt/blog
+FR: /fr/blog
+
+====================================
+3. SAFE PLACEHOLDER RULE
+====================================
+
+If a localized page does not exist yet:
+
+Create a proper placeholder page with:
+- localized H1
+- short 400–600 word intro
+- CTA to contact
+- links to related live pages
+- noindex until full content is added
+
+Do NOT link to 404 pages.
+
+Do NOT leave broken menu items.
+
+====================================
+4. HOMEPAGE CONSISTENCY
+====================================
+
+Make ES, PT, and FR homepages share the same section order:
+
+1. Hero
+2. Trust badges
+3. Available birds preview
+4. Commercial category cards:
+   - Cages
+   - Food
+   - Natural toys
+   - Transport carriers
+5. Species preview
+6. Adoption process
+7. Facility preview
+8. Blog preview
+9. FAQ
+10. Contact CTA
+
+Each language must use localized copy.
+
+====================================
+5. LANGUAGE SWITCHER
+====================================
+
+Fix ES | PT | FR switcher.
+
+Requirements:
+- Same position on all languages
+- Current language highlighted
+- Desktop and mobile friendly
+- Links to equivalent localized page when available
+- Falls back to language homepage only if no equivalent exists
+- No forced redirects
+- No IP redirects
+
+====================================
+6. HREFLANG
+====================================
+
+Every translated page group must include:
+
+es-ES
+pt-PT
+fr-FR
+x-default
+
+Example group:
+
+/comida-para-loros
+/pt/comida-para-papagaios
+/fr/nourriture-pour-perroquets
+
+====================================
+7. FOOTER CONSISTENCY
+====================================
+
+Make footer structure identical across ES, PT, FR.
+
+Footer columns:
+
+Birds / Papagaios / Perroquets
+Adoption / Adoção / Adoption
+Care / Cuidados / Soins
+Accessories / Acessórios / Accessoires
+Cities / Cidades / Villes
+Languages / Idiomas / Langues
+Contact / Contacto / Contact
+
+No broken links.
+
+====================================
+8. SEO SAFETY
+====================================
+
+Preserve all existing indexed URLs.
+
+Do not remove Spanish pages.
+
+Do not change Spanish canonical URLs.
+
+Do not create duplicate H1s.
+
+Do not create duplicate metadata.
+
+No 404 links.
+
+No broken images.
+
+No broken CSS.
+
+No broken JS.
+
+====================================
+9. MOBILE MENU
+====================================
+
+Mobile menu must match desktop structure using accordions.
+
+Check:
+- ES mobile
+- PT mobile
+- FR mobile
+
+No overflow.
+No hidden links.
+No broken dropdowns.
+
+====================================
+10. FINAL AUDIT
+====================================
+
+Run:
+
+npm run build
+
+Then run a full internal link check.
+
+Report:
+
+- ES menu fixed
+- PT menu fixed
+- FR menu fixed
+- Missing pages created as noindex placeholders
+- Broken links found/fixed
+- hreflang groups verified
+- Homepage sections unified
+- Footer unified
+- Mobile menu verified
+- Build result
+- SEO risk score
