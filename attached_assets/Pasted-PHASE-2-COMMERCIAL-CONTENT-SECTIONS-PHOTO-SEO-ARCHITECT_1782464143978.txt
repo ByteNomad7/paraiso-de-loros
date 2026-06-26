@@ -1,0 +1,281 @@
+PHASE 2 — COMMERCIAL CONTENT SECTIONS + PHOTO SEO ARCHITECTURE
+
+Goal:
+Add four strong commercial/content sections to Paraíso de Aves and prepare them for large photo galleries with SEO-friendly image slugs across Spanish, Portuguese, and French.
+
+Important:
+Do not break existing pages.
+Do not remove existing URLs.
+Keep the current premium green/gold design.
+All new sections must support Spanish, Portuguese, and French.
+
+Languages:
+Spanish: /
+Portuguese: /pt/
+French: /fr/
+
+====================================
+NEW SECTIONS TO CREATE
+
+1. Food / Alimentación / Alimentation
+
+Spanish:
+/comida-para-loros
+
+Portuguese:
+/pt/comida-para-papagaios
+
+French:
+/fr/nourriture-pour-perroquets
+
+Purpose:
+Commercial and educational page about parrot food, seed mixes, pellets, fruits, vegetables, supplements, and safe feeding.
+
+Photo gallery:
+Prepare structure for 40 photos.
+
+Image SEO slug examples:
+comida-para-loros-mezcla-premium-01.webp
+semillas-para-loros-grandes-02.webp
+frutas-seguras-para-papagayos-03.webp
+pellets-para-loros-04.webp
+
+Portuguese and French must use localized image ALT text and captions.
+
+Content sections:
+
+* Best food for parrots
+* Food by species
+* Seed mixes
+* Pellets
+* Fresh fruit and vegetables
+* Foods to avoid
+* Feeding routine
+* Health and nutrition
+* FAQ
+* CTA to contact
+
+====================================
+
+2. Mixed Birds We Sell / Aves disponibles / Papagaios disponíveis / Perroquets disponibles
+
+Spanish:
+/aves-disponibles
+
+Portuguese:
+/pt/papagaios-disponiveis
+
+French:
+/fr/perroquets-disponibles
+
+Purpose:
+A rich commercial gallery page showing the different birds/species available or commonly handled.
+
+Photo gallery:
+Prepare structure for 31 photos.
+
+Image SEO slug examples:
+yaco-disponible-espana-01.webp
+guacamayo-azul-amarillo-disponible-02.webp
+cacatua-criada-a-mano-03.webp
+eclectus-macho-disponible-04.webp
+
+Content sections:
+
+* Available birds
+* Species overview
+* Hand-raised parrots
+* Health checked birds
+* CITES documentation
+* Delivery options
+* Reservation process
+* CTA to enquire
+
+Important:
+Do not mark birds as sold unless the data says so.
+Use status labels:
+Disponible
+Reservado
+Consultar disponibilidad
+
+====================================
+
+3. Our Facility / Nuestras instalaciones / As nossas instalações / Nos installations
+
+Spanish:
+/nuestras-instalaciones
+
+Portuguese:
+/pt/as-nossas-instalacoes
+
+French:
+/fr/nos-installations
+
+Purpose:
+Trust-building page showing the facility, care environment, hygiene, feeding, nursery, socialisation, and bird handling process.
+
+Photo gallery:
+Prepare structure for 25 photos.
+
+Image SEO slug examples:
+instalaciones-criadero-loros-01.webp
+zona-crianza-papagayos-02.webp
+habitacion-socializacion-loros-03.webp
+area-alimentacion-papagayos-04.webp
+
+Content sections:
+
+* Our care environment
+* Hygiene and safety
+* Feeding area
+* Bird socialisation
+* Health observation
+* Quarantine and responsible handling
+* Why our facility matters
+* FAQ
+* CTA to contact
+
+Tone:
+Premium, trustworthy, calm, professional.
+
+====================================
+
+4. Natural Toys / Juguetes naturales / Brinquedos naturais / Jouets naturels
+
+Spanish:
+/juguetes-naturales-para-loros
+
+Portuguese:
+/pt/brinquedos-naturais-para-papagaios
+
+French:
+/fr/jouets-naturels-pour-perroquets
+
+Purpose:
+Commercial and educational page about natural toys, enrichment, chewing toys, climbing toys, foraging toys, perches, and mental stimulation.
+
+Photo gallery:
+Prepare structure for at least 30 photos.
+
+Image SEO slug examples:
+juguetes-naturales-para-loros-01.webp
+juguete-madera-para-guacamayo-02.webp
+columpio-natural-para-loros-03.webp
+juguete-forrajeo-papagayos-04.webp
+
+Content sections:
+
+* Why parrots need toys
+* Natural chewing toys
+* Foraging toys
+* Climbing toys
+* Perches
+* Toys by species
+* Safety tips
+* FAQ
+* CTA to enquire
+
+====================================
+PHOTO SYSTEM REQUIREMENTS
+
+Create a reusable gallery component that supports:
+
+* 25–40 photos per page
+* SEO-friendly filenames
+* localized ALT text
+* localized captions
+* lazy loading
+* width and height attributes
+* WebP support
+* mobile grid
+* lightbox view
+* image schema where appropriate
+
+Each image object should support:
+
+{
+src,
+altEs,
+altPt,
+altFr,
+captionEs,
+captionPt,
+captionFr,
+width,
+height,
+category,
+slug
+}
+
+====================================
+SEO REQUIREMENTS
+
+Each new page must include:
+
+* Unique H1
+* Unique title
+* Unique meta description
+* Canonical
+* Open Graph
+* Twitter Card
+* BreadcrumbList schema
+* FAQPage schema
+* WebPage schema
+* Product/CollectionPage schema where suitable
+* hreflang for Spanish, Portuguese, French, and x-default
+
+====================================
+INTERNAL LINKING
+
+Add links between:
+
+Food page ↔ Species pages
+Food page ↔ Care guides
+Toys page ↔ Species pages
+Facility page ↔ Adoption process
+Available birds page ↔ Contact
+Available birds page ↔ Species pages
+
+Add these new sections into:
+
+* Main menu where appropriate
+* Footer
+* Related content blocks
+* Sitemap
+
+Do not create broken links.
+
+====================================
+CONTENT QUALITY
+
+Each page should have rich content:
+
+Spanish: 1,500–2,500 words
+Portuguese: 1,500–2,500 words
+French: 1,500–2,500 words
+
+No machine-translation feel.
+No duplicate paragraphs.
+No thin content.
+No placeholder text visible to users.
+
+====================================
+FINAL CHECK
+
+Run:
+
+npm run build
+
+Then report:
+
+* Pages created
+* Language versions created
+* Gallery structure created
+* Number of image slots per page
+* SEO metadata added
+* Schema added
+* Sitemap updated
+* Internal links added
+* Broken links found/fixed
+* Build result
+* SEO readiness score
