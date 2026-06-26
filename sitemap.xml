@@ -145,6 +145,30 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.paraisodeaves.com/cacatua.html</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/eclectus.html</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/conuro.html</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/loro-amazonico.html</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://www.paraisodeaves.com/loro-gris-africano.html</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>weekly</changefreq>

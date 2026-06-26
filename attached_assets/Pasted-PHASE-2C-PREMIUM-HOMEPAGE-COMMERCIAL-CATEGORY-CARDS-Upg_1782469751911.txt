@@ -1,0 +1,153 @@
+PHASE 2C — PREMIUM HOMEPAGE COMMERCIAL CATEGORY CARDS
+
+Upgrade the commercial category cards on the homepage.
+
+Keep the current green/gold premium design.
+
+Each card should become fully clickable and link to its corresponding category page.
+
+⸻
+
+1. JAULAS
+
+Title:
+Jaulas para Loros
+
+Subtitle:
+Espacios seguros para cada especie.
+
+Description:
+Descubre una selección de jaulas amplias, resistentes y adaptadas para guacamayos, yacos, amazonas, cacatúas, eclectus, conuros y muchas otras especies. Encuentra el tamaño ideal para garantizar comodidad, seguridad y bienestar.
+
+CTA:
+Explorar jaulas →
+
+Destination:
+/jaulas-para-loros
+
+⸻
+
+2. COMIDA
+
+Title:
+Comida para Loros
+
+Subtitle:
+Nutrición premium para una vida saludable.
+
+Description:
+Aprende qué alimentos son adecuados para cada especie. Descubre mezclas de semillas, pellets, frutas, verduras, suplementos y recomendaciones nutricionales elaboradas para mantener a tu loro sano y activo.
+
+CTA:
+Ver alimentación →
+
+Destination:
+/comida-para-loros
+
+⸻
+
+3. JUGUETES
+
+Title:
+Juguetes Naturales
+
+Subtitle:
+Estimulación física y mental.
+
+Description:
+Explora juguetes naturales de madera, cuerdas, columpios, forrajeo y enriquecimiento ambiental diseñados para reducir el estrés y mantener a los loros entretenidos cada día.
+
+CTA:
+Descubrir juguetes →
+
+Destination:
+/juguetes-naturales-para-loros
+
+⸻
+
+4. TRANSPORTINES
+
+Title:
+Transportines
+
+Subtitle:
+Viajes cómodos y seguros.
+
+Description:
+Conoce transportines seguros y resistentes para desplazamientos, visitas veterinarias y transporte autorizado. Diseñados para ofrecer máxima protección durante el viaje.
+
+CTA:
+Ver transportines →
+
+Destination:
+/transportines-para-loros
+
+⸻
+
+DESIGN
+
+Make every card:
+
+• Entire card clickable
+• Premium hover animation
+• Small arrow animation on hover
+• Soft shadow
+• Rounded corners
+• Green accent
+• Gold hover border
+• Mobile friendly
+• Equal card heights
+• Nice spacing
+• Smooth transition (250–300ms)
+
+⸻
+
+SEO
+
+Each destination page must have:
+
+Unique H1
+
+Unique Title
+
+Unique Meta Description
+
+CollectionPage schema
+
+Breadcrumb schema
+
+Internal links to species pages
+
+Links to Contact page
+
+Links to Adoption Process
+
+⸻
+
+MULTILINGUAL
+
+Generate localized versions for:
+
+Spanish
+
+Portuguese
+
+French
+
+using the same premium layout and localized copy.
+
+⸻
+
+FINAL
+
+Run:
+
+npm run build
+
+Report:
+
+✓ Cards upgraded
+✓ Internal links added
+✓ Multilingual links added
+✓ Build successful
+✓ SEO structure validated
