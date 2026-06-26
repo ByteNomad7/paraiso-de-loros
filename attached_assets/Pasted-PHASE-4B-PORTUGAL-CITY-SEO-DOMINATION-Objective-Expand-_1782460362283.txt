@@ -1,0 +1,201 @@
+PHASE 4B — PORTUGAL CITY SEO DOMINATION
+
+Objective
+
+Expand Paraíso de Aves into Portugal by creating an entire Portuguese city landing page network that mirrors the successful Spanish strategy while being fully localized for Portugal.
+
+IMPORTANT
+
+• Everything must remain under:
+
+https://paraisodeaves.com/pt/
+
+• European Portuguese only (pt-PT)
+• No Brazilian Portuguese
+• No duplicate Spanish text
+• Every page must be unique.
+
+==================================================
+CREATE THESE CITY LANDING PAGES
+==================================================
+
+/pt/papagaios-a-venda-lisboa
+/pt/papagaios-a-venda-porto
+/pt/papagaios-a-venda-braga
+/pt/papagaios-a-venda-coimbra
+/pt/papagaios-a-venda-faro
+/pt/papagaios-a-venda-setubal
+/pt/papagaios-a-venda-aveiro
+/pt/papagaios-a-venda-leiria
+/pt/papagaios-a-venda-viseu
+/pt/papagaios-a-venda-evora
+/pt/papagaios-a-venda-guimaraes
+/pt/papagaios-a-venda-castelo-branco
+
+==================================================
+CONTENT
+==================================================
+
+Each page must contain
+
+• Completely unique content
+
+• 1,800–2,500 words
+
+• Local introduction
+
+• Why people in that city choose Paraíso de Aves
+
+• Delivery to that city
+
+• Transport process
+
+• Health guarantee
+
+• CITES documentation
+
+• Available species
+
+• Buying guide
+
+• Reservation process
+
+• FAQ
+
+• Contact form
+
+• Strong CTA
+
+==================================================
+LOCAL SEO
+==================================================
+
+Mention naturally:
+
+city
+
+district
+
+Portugal
+
+Portuguese regulations
+
+Delivery times
+
+Nearby areas
+
+without keyword stuffing.
+
+==================================================
+INTERNAL LINKING
+==================================================
+
+Every city page links to
+
+Portuguese homepage
+
+Portuguese species pages
+
+Portuguese blog
+
+Portuguese contact
+
+Related Portuguese cities
+
+==================================================
+SCHEMA
+==================================================
+
+Every page includes
+
+WebPage
+
+Breadcrumb
+
+FAQPage
+
+Organization
+
+LocalBusiness
+
+==================================================
+META
+==================================================
+
+Unique
+
+Title
+
+Meta Description
+
+Canonical
+
+Open Graph
+
+Twitter Cards
+
+==================================================
+PORTUGUESE BLOG
+==================================================
+
+Create these articles
+
+/pt/blog
+
+Papagaio para apartamento em Portugal
+
+Quanto custa um papagaio em Portugal
+
+Como escolher um criador responsável
+
+Documentação CITES em Portugal
+
+Melhores papagaios para iniciantes
+
+Papagaio-cinzento vs Eclectus
+
+Arara Jacinto: guia completo
+
+Como preparar a casa para um papagaio
+
+Alimentação correta dos papagaios
+
+Quanto vive um papagaio
+
+Each article:
+
+1,500–2,000 words
+
+FAQ Schema
+
+Article Schema
+
+Internal links
+
+Images with Portuguese ALT text
+
+==================================================
+SITEMAP
+==================================================
+
+Automatically include every Portuguese page.
+
+==================================================
+QUALITY CHECK
+==================================================
+
+Return
+
+• Total Portuguese pages
+
+• Total blog articles
+
+• Internal links created
+
+• Schema implemented
+
+• Duplicate content score
+
+• Portuguese topical authority score
+
+• Estimated SEO readiness

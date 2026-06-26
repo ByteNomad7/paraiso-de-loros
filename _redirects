@@ -293,6 +293,14 @@
 /pt/blog/papagaio-inverno-portugal                   /pt/blog/papagaio-inverno-portugal/index.html            200
 /pt/blog/reproduzir-papagaios-caseiro                /pt/blog/reproduzir-papagaios-caseiro/index.html         200
 
+/pt/arara-jacinto                                /pt/arara-jacinto/index.html                             200
+/pt/arara-azul-e-amarela                         /pt/arara-azul-e-amarela/index.html                      200
+/pt/arara-escarlate                              /pt/arara-escarlate/index.html                           200
+/pt/cacatua-de-crista-amarela                    /pt/cacatua-de-crista-amarela/index.html                 200
+/pt/cacatua-de-cabeca-nua                        /pt/cacatua-de-cabeca-nua/index.html                     200
+/pt/papagaio-amazona                             /pt/papagaio-amazona/index.html                          200
+/pt/conuro                                       /pt/conuro/index.html                                    200
+
 # ══════════════════════════════════════════════════════
 # SECTION 16 — CATCH-ALL 404
 # Netlify only applies this when no static file matches.
