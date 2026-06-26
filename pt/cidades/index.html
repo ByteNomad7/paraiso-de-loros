@@ -31,10 +31,6 @@
     .topnav{display:flex;gap:1.4rem;align-items:center;flex-wrap:wrap}
     .topnav a{color:rgba(255,255,255,.9);font-weight:600;font-size:.9rem;transition:color .2s;text-decoration:none}
     .topnav a:hover,.topnav a.active{color:var(--gold)}
-    .lang-switcher{margin-left:.6rem;display:flex;gap:4px;align-items:center;font-size:.8rem;font-weight:700}
-    .lang-switcher a{color:rgba(255,255,255,.55);text-decoration:none;padding:2px 5px;border-radius:4px;transition:color .2s}
-    .lang-switcher a.active,.lang-switcher a:hover{color:var(--gold)}
-    .lang-sep{color:rgba(255,255,255,.3)}
     .hero{background:linear-gradient(135deg,var(--primary),var(--secondary));padding:64px 5% 56px;text-align:center}
     .hero .wrap{max-width:860px;margin:0 auto}
     .badge{display:inline-block;background:rgba(212,169,79,.18);border:1px solid var(--gold);color:var(--gold);font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 14px;border-radius:999px;margin-bottom:18px}
@@ -106,7 +102,6 @@
     <a href="/pt/cidades/" class="active">Cidades</a>
     <a href="/pt/blog/">Blog</a>
     <a href="/pt/contacto/">Contacto</a>
-    <span class="lang-switcher"><a href="/">ES</a><span class="lang-sep">|</span><a href="/pt/" class="active">PT</a></span>
   </nav>
 </div>
 <section class="hero">
@@ -191,5 +186,6 @@
     <span><a href="/pt/cidades/">Cidades</a> · <a href="/pt/blog/">Blog</a> · <a href="/">Versão Espanhola</a></span>
   </div>
 </footer>
+<script src="/lang-switcher.js" defer></script>
 </body>
 </html>
