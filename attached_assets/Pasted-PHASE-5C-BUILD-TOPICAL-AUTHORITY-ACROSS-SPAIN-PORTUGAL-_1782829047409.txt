@@ -1,0 +1,184 @@
+PHASE 5C — BUILD TOPICAL AUTHORITY ACROSS SPAIN, PORTUGAL & FRANCE
+
+Goal:
+Transform Paraíso de Aves from a bird sales website into Europe's most authoritative multilingual parrot knowledge hub.
+
+Do NOT redesign the website.
+Do NOT remove existing URLs.
+Keep the premium green/gold branding.
+
+Languages:
+Spanish (/)
+Portuguese (/pt/)
+French (/fr/)
+
+====================================
+1. CREATE 50 HIGH-VALUE BUYER GUIDES
+====================================
+
+Create comprehensive evergreen guides.
+
+Examples:
+
+Buying
+- How to choose your first parrot
+- Best parrots for beginners
+- Best family parrots
+- Apartment parrots
+- Quiet parrots
+- Talking parrots
+- Intelligent parrots
+- Long-living parrots
+
+Care
+- Daily care
+- Feeding guide
+- Cage setup
+- First week at home
+- Socialisation
+- Training
+- Bathing
+- Nail care
+- Wing care
+- Enrichment
+
+Health
+- Common diseases
+- Vet visits
+- Stress signs
+- Molting
+- Weight monitoring
+- Safe foods
+- Dangerous foods
+- Vitamin supplements
+
+Species
+- One complete guide for every major species.
+
+Each article:
+2,000–3,500 words
+Original writing
+FAQ
+Internal links
+Schema
+Images prepared
+
+====================================
+2. CREATE 50 COMPARISON PAGES
+====================================
+
+Examples:
+
+African Grey vs Eclectus
+Macaw vs Cockatoo
+Amazon vs Eclectus
+Macaw vs African Grey
+Cockatoo vs Amazon
+Male vs Female Eclectus
+Blue and Gold vs Scarlet Macaw
+
+Each comparison includes:
+
+Temperament
+Noise
+Talking ability
+Family suitability
+Apartment suitability
+Care difficulty
+Price
+Lifespan
+Pros
+Cons
+Summary
+
+====================================
+3. CREATE SPECIES HUBS
+====================================
+
+Every species becomes a complete content hub.
+
+Include:
+
+Overview
+Diet
+Housing
+Health
+Behaviour
+Training
+FAQs
+Related articles
+Related products
+Gallery
+Cities
+Available birds
+
+====================================
+4. ADD RELATED CONTENT BLOCKS
+====================================
+
+Every page should recommend:
+
+Related guides
+Related species
+Food
+Toys
+Cages
+Transport carriers
+Available birds
+
+====================================
+5. STRENGTHEN INTERNAL LINKING
+====================================
+
+Every article should have:
+
+8–15 contextual internal links.
+
+Avoid orphan pages.
+
+====================================
+6. ADD IMAGE SEO
+====================================
+
+Every article prepared for:
+
+Hero image
+Gallery
+WebP
+Localized ALT
+Localized captions
+SEO filename
+Image schema
+
+====================================
+7. AUTHORITY SIGNALS
+====================================
+
+Every guide should reference:
+
+Responsible ownership
+Animal welfare
+CITES
+Health checks
+Experience
+Professional breeding
+
+====================================
+8. FINAL CHECK
+====================================
+
+Run:
+
+npm run build
+
+Report:
+
+• New articles created
+• Comparison pages created
+• Species hubs expanded
+• Internal links added
+• Images prepared
+• Schema added
+• Build successful
+• Estimated topical authority increase
+• Estimated organic traffic opportunity
