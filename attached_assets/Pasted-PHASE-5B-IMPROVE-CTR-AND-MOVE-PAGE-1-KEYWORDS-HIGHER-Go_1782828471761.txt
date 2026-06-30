@@ -1,0 +1,134 @@
+PHASE 5B — IMPROVE CTR AND MOVE PAGE-1 KEYWORDS HIGHER
+
+Goal:
+Improve pages already ranking in Google by rewriting titles, meta descriptions, intros, FAQs and internal links.
+
+Do NOT create new country sections.
+Do NOT redesign the site.
+Focus on pages already getting impressions.
+
+====================================
+1. IDENTIFY HIGH-OPPORTUNITY PAGES
+====================================
+
+Use Google Search Console export if available, or scan existing SEO pages.
+
+Prioritize pages with:
+- positions 4–15
+- high impressions
+- low CTR
+- commercial intent
+- species intent
+- city intent
+
+Create a report:
+URL
+Current title
+Current meta description
+Likely keyword intent
+CTR improvement opportunity
+
+====================================
+2. REWRITE TITLES
+====================================
+
+Rewrite title tags for the top 30 opportunity pages.
+
+Rules:
+- 50–58 characters where possible
+- include main keyword early
+- sound natural
+- avoid keyword stuffing
+- improve buyer trust
+
+Example style:
+Loros en Venta en España | CITES y Entrega Segura
+
+====================================
+3. REWRITE META DESCRIPTIONS
+====================================
+
+Rewrite meta descriptions for the same top 30 pages.
+
+Rules:
+- 145–155 characters
+- include trust signal
+- include CTA
+- mention CITES, salud, entrega or disponibilidad where relevant
+
+====================================
+4. IMPROVE ABOVE-THE-FOLD COPY
+====================================
+
+For each top page:
+- strengthen first paragraph
+- add trust statement
+- add CTA above fold
+- add internal links to related pages
+
+====================================
+5. ADD FAQ BLOCKS
+====================================
+
+Add 5–8 useful FAQs to each priority page.
+
+Focus on:
+- price
+- availability
+- documents
+- delivery
+- legal ownership
+- care
+- reservation
+
+Add FAQ schema.
+
+====================================
+6. ADD INTERNAL LINKS
+====================================
+
+Add contextual links from:
+- blog posts
+- species pages
+- city pages
+- commercial pages
+
+Point more internal authority to:
+- aves disponibles
+- yaco/loro gris africano
+- guacamayos
+- cacatúas
+- contacto
+- adopción
+- comida
+- jaulas
+- juguetes
+- transportines
+
+====================================
+7. RICH SNIPPET SUPPORT
+====================================
+
+Ensure priority pages include:
+- FAQ schema
+- Breadcrumb schema
+- Product or CollectionPage schema where suitable
+- Organization schema
+
+====================================
+8. FINAL CHECK
+====================================
+
+Run:
+
+npm run build
+
+Report:
+- pages optimized
+- titles rewritten
+- meta descriptions rewritten
+- FAQs added
+- schema added
+- internal links added
+- build result
+- expected CTR improvement
