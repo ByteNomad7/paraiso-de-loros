@@ -1,0 +1,414 @@
+PHASE 7 — PARAÍSO DE AVES DIGITAL ECOSYSTEM
+
+MISSION
+
+Transform Paraíso de Aves into Europe's leading multilingual parrot platform.
+
+Not simply a breeder website.
+
+Become the authority for:
+
+• Buying
+• Education
+• Care
+• Products
+• Community
+• AI
+• Photography
+• Tools
+
+Everything revolves around parrots.
+
+========================================
+1. KNOWLEDGE CENTER
+========================================
+
+Create a new top-level navigation section.
+
+Knowledge Center
+
+Languages:
+
+Spanish
+Portuguese
+French
+
+Organize articles into categories.
+
+Nutrition
+
+Behaviour
+
+Health
+
+Training
+
+Breeding
+
+CITES
+
+Housing
+
+Travel
+
+Accessories
+
+Buying
+
+Legal
+
+Beginner Guides
+
+Advanced Guides
+
+Each category becomes an authority hub.
+
+========================================
+2. BUILD 500 QUESTION PAGES
+========================================
+
+Create short answer pages.
+
+Examples:
+
+Can parrots eat bananas?
+
+Can parrots eat avocado?
+
+Can parrots eat eggs?
+
+Can parrots drink milk?
+
+Can parrots eat rice?
+
+Can parrots eat tomatoes?
+
+Why do parrots scream?
+
+Why do parrots bite?
+
+Why do parrots pluck feathers?
+
+How often should parrots bathe?
+
+How long do parrots sleep?
+
+Can parrots live alone?
+
+Can parrots recognize people?
+
+Can parrots remember faces?
+
+Can parrots travel by plane?
+
+Every page:
+
+800–1500 words
+
+FAQ
+
+Schema
+
+Images
+
+Internal links
+
+Related articles
+
+Related species
+
+========================================
+3. BUILD INTERACTIVE TOOLS
+========================================
+
+Create:
+
+Which Parrot Is Right For Me?
+
+Species comparison tool
+
+Food calculator
+
+Weight calculator
+
+Cage size calculator
+
+Monthly ownership cost calculator
+
+Life expectancy calculator
+
+Travel requirements checker
+
+Bird compatibility quiz
+
+Interactive adoption guide
+
+========================================
+4. BUILD AI ASSISTANT
+========================================
+
+Prepare AI integration.
+
+The assistant must understand:
+
+Every species
+
+Every article
+
+Food
+
+Cages
+
+Shipping
+
+Adoption
+
+CITES
+
+Countries
+
+FAQ
+
+Accessories
+
+If AI cannot answer:
+
+Escalate to:
+
+Email
+
+Live chat
+
+Reservation form
+
+========================================
+5. BUILD CUSTOMER AREA
+========================================
+
+Optional login.
+
+Saved favourites.
+
+Reservation tracking.
+
+Bird watchlist.
+
+Care reminders.
+
+Vaccination reminders.
+
+Delivery tracking.
+
+Documents.
+
+Invoices.
+
+========================================
+6. BUILD IMAGE AUTHORITY
+========================================
+
+Target:
+
+5000 original photos.
+
+Organize:
+
+Species
+
+Babies
+
+Adults
+
+Facility
+
+Food
+
+Toys
+
+Transport
+
+Health
+
+Veterinary
+
+Customer deliveries
+
+Every image:
+
+SEO filename
+
+Localized ALT
+
+Localized captions
+
+WebP
+
+Image Schema
+
+EXIF cleaned
+
+========================================
+7. BUILD VIDEO CENTER
+========================================
+
+Support:
+
+Facility tours
+
+Species videos
+
+Feeding
+
+Training
+
+Customer stories
+
+Baby parrots
+
+Health
+
+Transport
+
+Embed structured Video schema.
+
+========================================
+8. BUILD COMMUNITY
+========================================
+
+Customer stories
+
+Reviews
+
+Success stories
+
+FAQ voting
+
+Helpful articles
+
+Newsletter
+
+Bird owner tips
+
+========================================
+9. BUILD MARKETPLACE
+========================================
+
+Future categories:
+
+Birds
+
+Food
+
+Cages
+
+Toys
+
+Supplements
+
+Transport
+
+Accessories
+
+Books
+
+Gift cards
+
+Merchandise
+
+========================================
+10. BUILD BRAND AUTHORITY
+========================================
+
+Create:
+
+Press page
+
+Awards
+
+Certifications
+
+Media mentions
+
+Partnerships
+
+Veterinary partners
+
+Conservation work
+
+Mission
+
+History
+
+Timeline
+
+========================================
+11. SEO AUTOMATION
+========================================
+
+Automatically monitor:
+
+Broken links
+
+Missing ALT
+
+Missing schema
+
+Slow pages
+
+404
+
+Missing metadata
+
+Duplicate content
+
+Generate monthly SEO reports.
+
+========================================
+12. FINAL GOAL
+========================================
+
+Target:
+
+10,000+ indexed pages
+
+5,000+ original images
+
+500+ blog articles
+
+150+ species pages
+
+500+ city pages
+
+500+ AI answer pages
+
+100+ comparison pages
+
+3+ languages
+
+PageSpeed 95+
+
+Topical authority above 95%
+
+Become Europe's reference website for parrots.
+
+========================================
+
+Run:
+
+npm run build
+
+Generate ecosystem report.
+
+Estimate:
+
+SEO maturity
+
+Authority score
+
+Content coverage
+
+AI readiness
+
+Commercial readiness
+
+Overall project completion.
