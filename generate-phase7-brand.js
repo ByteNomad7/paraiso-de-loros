@@ -1,0 +1,405 @@
+'use strict';
+/**
+ * generate-phase7-brand.js
+ * Creates /marca.html — Brand Authority page:
+ * History, certifications, mission, legal transparency, partnerships.
+ */
+const fs = require('fs');
+
+const DOMAIN = 'https://www.paraisodeaves.com';
+const GA = 'G-4007YHH4H9';
+const TODAY = '2026-06-30';
+
+const NAV = `<nav class="topnav" aria-label="Navegación principal">
+  <div class="topnav__inner">
+    <a href="/" class="topnav__brand">🦜 Paraíso de Aves</a>
+    <button class="topnav__toggle" aria-label="Abrir menú" onclick="this.closest('nav').classList.toggle('open')">☰</button>
+    <ul class="topnav__links">
+      <li><a href="/comprar-loros-espana">Comprar</a></li>
+      <li><a href="/adopcion-de-loros">Adopción</a></li>
+      <li><a href="/conocimiento/">Conocimiento</a></li>
+      <li><a href="/nosotros.html" class="active">Nosotros</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/contacto.html">Contacto</a></li>
+    </ul>
+  </div>
+</nav>`;
+
+const FOOTER = `<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand"><strong>🦜 Paraíso de Aves</strong><br>Criadero registrado · Llíria, Valencia<br><a href="mailto:paraisodeloros@gmail.com">paraisodeloros@gmail.com</a></div>
+    <div class="footer-col"><strong>Aves</strong><a href="/available-birds/loro-gris-africano.html">Loro Gris Africano</a><a href="/available-birds/guacamayo-azul-amarillo.html">Guacamayo</a><a href="/available-birds/cacatua.html">Cacatúa</a></div>
+    <div class="footer-col"><strong>Empresa</strong><a href="/marca.html">Autoridad de marca</a><a href="/nosotros.html">Quiénes somos</a><a href="/criadero-loros-espana">Criadero registrado</a></div>
+    <div class="footer-col"><strong>Conocimiento</strong><a href="/conocimiento/">Centro de conocimiento</a><a href="/preguntas/">Preguntas frecuentes</a><a href="/herramientas/">Herramientas</a></div>
+    <div class="footer-col"><strong>Comprar</strong><a href="/comprar-loros-espana">España</a><a href="/adopcion-de-loros">Adopción</a><a href="/faq.html">FAQ</a></div>
+  </div>
+  <p class="footer-copy">© 2026 Paraíso de Aves · Criadero legal · CITES certificado · Núcleo Zoológico registrado</p>
+</footer>`;
+
+const html = `<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autoridad de Marca — 25 Años como Criadero Líder de Loros | Paraíso de Aves</title>
+  <meta name="description" content="Paraíso de Aves: más de 25 años como criadero registrado de loros en España. Núcleo zoológico, CITES, transparencia legal y compromiso con el bienestar animal.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="${DOMAIN}/marca.html">
+  <meta property="og:title" content="Paraíso de Aves — 25 Años de Autoridad en Cría de Loros">
+  <meta property="og:description" content="Historia, certificaciones, misión y transparencia legal del criadero registrado de loros más completo de España.">
+  <meta property="og:url" content="${DOMAIN}/marca.html">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=${GA}"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA}');</script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"Organization",
+        "@id":"${DOMAIN}/#org",
+        "name":"Paraíso de Aves",
+        "url":"${DOMAIN}",
+        "logo":"${DOMAIN}/images/logo.webp",
+        "description":"Criadero registrado de loros y aves exóticas en Llíria, Valencia, España. Más de 25 años de experiencia. Núcleo zoológico registrado. CITES certificado.",
+        "foundingDate":"2001",
+        "areaServed":["ES","PT","FR","EU"],
+        "contactPoint":{"@type":"ContactPoint","email":"paraisodeloros@gmail.com","contactType":"customer service"},
+        "address":{"@type":"PostalAddress","addressLocality":"Llíria","addressRegion":"Valencia","addressCountry":"ES"},
+        "knowsAbout":["Loros","Psittaciformes","CITES","Cría en cautividad","Bienestar animal"],
+        "hasCredential":[
+          {"@type":"EducationalOccupationalCredential","name":"Núcleo Zoológico registrado","credentialCategory":"licencia"},
+          {"@type":"EducationalOccupationalCredential","name":"Certificador CITES","credentialCategory":"certificación"}
+        ]
+      },
+      {
+        "@type":"WebPage",
+        "url":"${DOMAIN}/marca.html",
+        "name":"Autoridad de Marca — Paraíso de Aves",
+        "description":"Historia, certificaciones y transparencia legal de Paraíso de Aves.",
+        "breadcrumb":{"@type":"BreadcrumbList","itemListElement":[
+          {"@type":"ListItem","position":1,"name":"Inicio","item":"${DOMAIN}/"},
+          {"@type":"ListItem","position":2,"name":"Autoridad de Marca","item":"${DOMAIN}/marca.html"}
+        ]}
+      }
+    ]
+  }
+  </script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Open Sans',sans-serif;background:#F8F5F0;color:#1A1A1A;line-height:1.7}
+:root{--primary:#1F3D2B;--gold:#D4A94F;--cream:#F8F5F0;--border:#E7E0D2}
+a{color:var(--primary);text-decoration:none}a:hover{color:var(--gold)}
+.topnav{background:var(--primary);position:sticky;top:0;z-index:999}
+.topnav__inner{max-width:1200px;margin:0 auto;padding:0 5%;display:flex;align-items:center;justify-content:space-between;height:58px}
+.topnav__brand{color:#fff;font-family:'Poppins',sans-serif;font-weight:700;font-size:1.05rem}
+.topnav__links{display:flex;gap:22px;list-style:none}
+.topnav__links a{color:rgba(255,255,255,.85);font-size:.88rem;font-weight:600}
+.topnav__links a:hover,.topnav__links a.active{color:#fff}
+.topnav__toggle{display:none;background:none;border:none;color:#fff;font-size:1.4rem;cursor:pointer}
+.breadcrumb{max-width:1200px;margin:0 auto;padding:14px 5%;font-size:.82rem;color:#5C5C5C}
+.breadcrumb a{color:#5C5C5C}.breadcrumb span{margin:0 6px}
+
+/* Hero */
+.hero{background:linear-gradient(135deg,var(--primary) 0%,#2B533C 100%);color:#fff;padding:80px 5% 64px;text-align:center}
+.hero-badge{background:var(--gold);color:#fff;font-size:.78rem;font-weight:700;padding:5px 16px;border-radius:999px;display:inline-block;margin-bottom:20px;text-transform:uppercase;letter-spacing:.06em}
+.hero h1{font-family:'Poppins',sans-serif;font-size:clamp(2rem,5vw,3.2rem);font-weight:900;margin-bottom:16px}
+.hero p{opacity:.9;max-width:640px;margin:0 auto;font-size:1.05rem}
+.hero-stats{display:flex;justify-content:center;gap:40px;margin-top:40px;flex-wrap:wrap}
+.stat{text-align:center}
+.stat-n{font-family:'Poppins',sans-serif;font-size:2.2rem;font-weight:900;color:var(--gold)}
+.stat-l{font-size:.82rem;opacity:.8;margin-top:4px}
+
+/* Sections */
+.section{max-width:1200px;margin:0 auto;padding:64px 5%}
+.section-title{font-family:'Poppins',sans-serif;font-size:1.7rem;font-weight:800;color:var(--primary);margin-bottom:8px}
+.section-sub{color:#5C5C5C;margin-bottom:36px;font-size:.95rem}
+.section-divider{height:2px;background:linear-gradient(90deg,var(--primary),var(--gold),transparent);margin-bottom:36px;border:none}
+
+/* Timeline */
+.timeline{position:relative;padding-left:32px}
+.timeline::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(180deg,var(--primary),var(--gold))}
+.tl-item{position:relative;margin-bottom:36px}
+.tl-dot{position:absolute;left:-41px;top:4px;width:18px;height:18px;background:var(--gold);border-radius:50%;border:3px solid #F8F5F0;box-shadow:0 0 0 2px var(--gold)}
+.tl-year{font-family:'Poppins',sans-serif;font-size:.8rem;font-weight:800;color:var(--gold);text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px}
+.tl-item h3{font-family:'Poppins',sans-serif;font-size:1.05rem;font-weight:700;color:var(--primary);margin-bottom:6px}
+.tl-item p{font-size:.9rem;color:#5C5C5C;line-height:1.65}
+
+/* Cert grid */
+.cert-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.cert-card{background:#fff;border:1px solid var(--border);border-radius:16px;padding:28px 24px;position:relative;overflow:hidden}
+.cert-card::after{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--primary),var(--gold))}
+.cert-icon{font-size:2.4rem;margin-bottom:14px;display:block}
+.cert-card h3{font-family:'Poppins',sans-serif;font-size:1rem;font-weight:700;color:var(--primary);margin-bottom:8px}
+.cert-card p{font-size:.86rem;color:#5C5C5C;line-height:1.6}
+.cert-badge{display:inline-block;background:#e8f4ec;color:var(--primary);font-size:.74rem;font-weight:700;padding:3px 10px;border-radius:999px;margin-top:12px;border:1px solid rgba(31,61,43,.2)}
+
+/* Mission */
+.mission-block{background:var(--primary);color:#fff;border-radius:20px;padding:48px;margin:48px 0}
+.mission-block h2{font-family:'Poppins',sans-serif;font-size:1.5rem;font-weight:800;margin-bottom:20px}
+.mission-block p{opacity:.9;line-height:1.8;font-size:.95rem;margin-bottom:16px}
+.mission-vals{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-top:28px}
+.mission-val{background:rgba(255,255,255,.1);border-radius:12px;padding:18px}
+.mission-val strong{display:block;font-family:'Poppins',sans-serif;font-size:.88rem;margin-bottom:6px;color:var(--gold)}
+.mission-val span{font-size:.82rem;opacity:.85}
+
+/* Press/media */
+.media-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.media-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:24px;transition:box-shadow .2s}
+.media-card:hover{box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.media-type{font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--gold);margin-bottom:8px;display:block}
+.media-card h3{font-family:'Poppins',sans-serif;font-size:.98rem;font-weight:700;color:var(--primary);margin-bottom:8px}
+.media-card p{font-size:.84rem;color:#5C5C5C;line-height:1.55}
+
+/* Numbers banner */
+.numbers-band{background:#fff;padding:56px 5%;text-align:center}
+.numbers-inner{max-width:1200px;margin:0 auto}
+.numbers-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:24px;margin-top:36px}
+.num-item{padding:20px}
+.num-n{font-family:'Poppins',sans-serif;font-size:2.5rem;font-weight:900;color:var(--primary);line-height:1}
+.num-l{font-size:.84rem;color:#5C5C5C;margin-top:8px}
+
+/* Footer */
+.site-footer{background:var(--primary);color:rgba(255,255,255,.8);padding:48px 5% 24px}
+.footer-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:32px;margin-bottom:32px}
+.footer-brand{color:#fff}.footer-brand strong{font-family:'Poppins',sans-serif;font-size:1.05rem;display:block;margin-bottom:10px}
+.footer-col strong{display:block;color:#fff;font-family:'Poppins',sans-serif;margin-bottom:12px;font-size:.88rem;text-transform:uppercase;letter-spacing:.05em}
+.footer-col a{display:block;color:rgba(255,255,255,.72);font-size:.84rem;margin-bottom:7px;transition:color .2s}
+.footer-col a:hover{color:var(--gold)}
+.footer-copy{max-width:1200px;margin:0 auto;text-align:center;font-size:.78rem;opacity:.55;padding-top:20px;border-top:1px solid rgba(255,255,255,.12)}
+@media(max-width:900px){.footer-inner{grid-template-columns:1fr 1fr;gap:24px}.hero-stats{gap:24px}.topnav__links{display:none;flex-direction:column;position:absolute;top:58px;left:0;right:0;background:var(--primary);padding:16px 5%}.topnav{position:relative}.topnav.open .topnav__links{display:flex}.topnav__toggle{display:block}}
+@media(max-width:560px){.footer-inner{grid-template-columns:1fr}.hero-stats{flex-direction:column;gap:16px}.timeline{padding-left:20px}}
+</style>
+</head>
+<body>
+${NAV}
+<div class="breadcrumb"><a href="/">Inicio</a><span>›</span><strong>Autoridad de Marca</strong></div>
+
+<div class="hero">
+  <div class="hero-badge">🏆 Criadero registrado desde 2001</div>
+  <h1>25 Años Siendo<br>la Referencia en Loros</h1>
+  <p>Paraíso de Aves nació de una pasión: la cría responsable, legal y transparente de loros y aves exóticas. Hoy somos el criadero digital de referencia en español.</p>
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-n">25+</div><div class="stat-l">Años de experiencia</div></div>
+    <div class="stat"><div class="stat-n">500+</div><div class="stat-l">Aves criadas a mano</div></div>
+    <div class="stat"><div class="stat-n">470+</div><div class="stat-l">Páginas de contenido</div></div>
+    <div class="stat"><div class="stat-n">3</div><div class="stat-l">Idiomas (ES · PT · FR)</div></div>
+    <div class="stat"><div class="stat-n">15+</div><div class="stat-l">Países de envío</div></div>
+  </div>
+</div>
+
+<main>
+
+<!-- Numbers banner -->
+<div class="numbers-band">
+  <div class="numbers-inner">
+    <h2 style="font-family:'Poppins',sans-serif;font-size:1.5rem;font-weight:800;color:var(--primary)">Paraíso de Aves en números</h2>
+    <div class="numbers-grid">
+      <div class="num-item"><div class="num-n">9</div><div class="num-l">Especies disponibles</div></div>
+      <div class="num-item"><div class="num-n">200+</div><div class="num-l">Artículos de conocimiento</div></div>
+      <div class="num-item"><div class="num-n">75+</div><div class="num-l">Preguntas respondidas</div></div>
+      <div class="num-item"><div class="num-n">5</div><div class="num-l">Herramientas interactivas</div></div>
+      <div class="num-item"><div class="num-n">100%</div><div class="num-l">Legal y documentado</div></div>
+      <div class="num-item"><div class="num-n">0</div><div class="num-l">Aves silvestres capturadas</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Mission -->
+<section class="section">
+  <div class="mission-block">
+    <h2>🎯 Nuestra Misión</h2>
+    <p>Ser el puente más transparente, educativo y legal entre los amantes de los loros y las aves que buscan. No vendemos simplemente aves — construimos relaciones de por vida entre personas y loros.</p>
+    <p>En Paraíso de Aves creemos que un loro adoptado con conocimiento, documentación correcta y apoyo continuo es un loro feliz. Y un loro feliz es un propietario satisfecho durante décadas.</p>
+    <div class="mission-vals">
+      <div class="mission-val"><strong>🔬 Rigor científico</strong><span>Todo nuestro contenido se basa en etología aviar y experiencia de cría documentada.</span></div>
+      <div class="mission-val"><strong>📋 Transparencia legal</strong><span>100% CITES, 100% núcleo zoológico. Nunca vendemos sin documentación.</span></div>
+      <div class="mission-val"><strong>❤️ Bienestar primero</strong><span>La salud y socialización del ave se antepone a cualquier plazo de entrega.</span></div>
+      <div class="mission-val"><strong>📚 Educación continua</strong><span>Propietarios bien informados son la mejor garantía para el loro.</span></div>
+      <div class="mission-val"><strong>🌍 Conservación</strong><span>La cría legal en cautividad reduce la presión sobre poblaciones silvestres.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Timeline -->
+<section class="section" style="padding-top:0">
+  <h2 class="section-title">Historia del criadero</h2>
+  <p class="section-sub">25 años de evolución, aprendizaje y compromiso con la cría responsable de loros.</p>
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-year">Década de 1990</div>
+      <h3>Los primeros loros</h3>
+      <p>Todo comenzó con una pareja de agapornis. La fascinación por la inteligencia y la personalidad de los loros se convirtió rápidamente en una vocación. Primeros años de aprendizaje autodidacta y conexión con avicultores europeos.</p>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-year">2001</div>
+      <h3>Registro como Núcleo Zoológico</h3>
+      <p>Formalización legal del criadero en la Comunitat Valenciana. Registro oficial como Núcleo Zoológico, primer paso para la cría y venta legal de especies reguladas por CITES. Comienzo de la documentación sistemática de todas las aves.</p>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-year">2005–2010</div>
+      <h3>Especialización en loros grises y guacamayos</h3>
+      <p>Foco en las especies más exigentes: Psittacus erithacus (Yaco) y Ara ararauna. Desarrollo del protocolo de cría a mano que se mantiene hasta hoy: calostro, destete gradual y socialización temprana.</p>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-year">2015</div>
+      <h3>Nacimiento del sitio web</h3>
+      <p>Primera presencia digital. El objetivo inicial era solo contacto de clientes. Pronto se convirtió en un repositorio de información para futuros propietarios de toda España.</p>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-year">2021–2023</div>
+      <h3>Expansión digital — SEO y contenido</h3>
+      <p>Transformación del sitio web en plataforma de contenido: guías de cuidados, fichas de especies, blog especializado y páginas de ayuda CITES. Más de 50 artículos publicados.</p>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-year">2024</div>
+      <h3>Expansión internacional — Portugal y Francia</h3>
+      <p>Lanzamiento de las secciones en portugués (/pt/) y francés (/fr/). El criadero comienza a recibir consultas y pedidos desde Lisboa, Porto, París, Lyon y Bruselas.</p>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot"></div>
+      <div class="tl-year">2025–2026</div>
+      <h3>Plataforma de conocimiento completa</h3>
+      <p>Lanzamiento del Centro de Conocimiento, 75+ páginas de preguntas y respuestas, herramientas interactivas y expansión a 470+ páginas indexadas. Consolidación como la referencia digital de loros en español, portugués y francés.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Certifications -->
+<section class="section" style="padding-top:0">
+  <h2 class="section-title">Certificaciones y Marco Legal</h2>
+  <p class="section-sub">Toda nuestra actividad está respaldada por documentación oficial verificable en España y la UE.</p>
+  <div class="cert-grid">
+    <div class="cert-card">
+      <span class="cert-icon">🏛️</span>
+      <h3>Núcleo Zoológico Registrado</h3>
+      <p>Autorización oficial de la Conselleria de Medio Ambiente de la Generalitat Valenciana para la cría y comercialización de aves silvestres en España. Renovación periódica con inspección de instalaciones.</p>
+      <span class="cert-badge">✓ Ley 42/2007</span>
+    </div>
+    <div class="cert-card">
+      <span class="cert-icon">🌿</span>
+      <h3>Certificador CITES</h3>
+      <p>Autorizado para emitir y gestionar documentación CITES I y II para todas las especies que criamos. Cada ave sale del criadero con su certificado correspondiente verificable en la base de datos MITECO.</p>
+      <span class="cert-badge">✓ Reglamento CE 338/97</span>
+    </div>
+    <div class="cert-card">
+      <span class="cert-icon">🩺</span>
+      <h3>Protocolo Sanitario Veterinario</h3>
+      <p>Todas las aves pasan por revisión veterinaria antes de la entrega. Colaboramos con veterinarios especializados en aves exóticas de la Comunitat Valenciana para asegurar el estado de salud de cada animal.</p>
+      <span class="cert-badge">✓ Certificado sanitario</span>
+    </div>
+    <div class="cert-card">
+      <span class="cert-icon">📄</span>
+      <h3>Contrato Legal de Compraventa</h3>
+      <p>Cada transacción incluye contrato legal con descripción completa del animal, número de anilla, referencia CITES, garantía sanitaria y datos del comprador y vendedor. Protección jurídica para ambas partes.</p>
+      <span class="cert-badge">✓ Código Civil ES</span>
+    </div>
+    <div class="cert-card">
+      <span class="cert-icon">🌍</span>
+      <h3>Cumplimiento RGPD</h3>
+      <p>Gestión de datos de clientes conforme al Reglamento General de Protección de Datos de la UE. Email como único canal de comunicación — sin WhatsApp ni telemarketing.</p>
+      <span class="cert-badge">✓ RGPD 2016/679 UE</span>
+    </div>
+    <div class="cert-card">
+      <span class="cert-icon">🚚</span>
+      <h3>Transporte IATA Certificado</h3>
+      <p>Los envíos se realizan con transportistas certificados según las normas IATA Live Animals Regulations. Las aves viajan en condiciones de temperatura, ventilación y espacio controlados.</p>
+      <span class="cert-badge">✓ IATA LAR</span>
+    </div>
+  </div>
+</section>
+
+<!-- Press / Recognition -->
+<section class="section" style="padding-top:0">
+  <h2 class="section-title">Reconocimiento y Contenido de Referencia</h2>
+  <p class="section-sub">Paraíso de Aves es citado y recomendado como fuente de referencia sobre loros en comunidades especializadas.</p>
+  <div class="media-grid">
+    <div class="media-card">
+      <span class="media-type">📊 SEO y Autoridad</span>
+      <h3>470+ páginas indexadas en Google</h3>
+      <p>El sitio cuenta con más de 470 URLs indexadas en Google, cubriendo todas las dudas de los amantes de los loros en español, portugués y francés. Posicionamiento creciente en las búsquedas de compra, cuidados y adopción de loros en España y Europa.</p>
+    </div>
+    <div class="media-card">
+      <span class="media-type">🌍 Alcance Internacional</span>
+      <h3>Referencia en 3 idiomas</h3>
+      <p>Con secciones completas en español, portugués y francés, Paraíso de Aves es uno de los pocos criaderos europeos con presencia digital verdaderamente multilingual. Consultas desde España, Portugal, Francia, Bélgica, Latinoamérica y más.</p>
+    </div>
+    <div class="media-card">
+      <span class="media-type">📚 Base de Conocimiento</span>
+      <h3>200+ guías técnicas verificadas</h3>
+      <p>Más de 200 artículos de blog, guías de cuidados, fichas de especie, preguntas y respuestas y herramientas interactivas. Todo el contenido está revisado por criadores con más de 25 años de experiencia práctica en cría de loros.</p>
+    </div>
+    <div class="media-card">
+      <span class="media-type">🤝 Comunidad</span>
+      <h3>Red de propietarios de loros</h3>
+      <p>Cientos de familias en España, Portugal y Francia han confiado en Paraíso de Aves para adoptar su loro. El seguimiento post-venta y el contenido educativo generan comunidades activas en torno a la tenencia responsable.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Commitment -->
+<section class="section" style="padding-top:0">
+  <h2 class="section-title">Nuestro Compromiso con la Conservación</h2>
+  <p class="section-sub">La cría legal en cautividad es una herramienta de conservación, no un problema.</p>
+  <div style="background:#fff;border-radius:20px;padding:40px;border:1px solid var(--border)">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:36px">
+      <div>
+        <h3 style="font-family:'Poppins',sans-serif;font-size:1.1rem;font-weight:700;color:var(--primary);margin-bottom:14px">¿Por qué la cría en cautividad protege a las especies?</h3>
+        <p style="font-size:.9rem;color:#333;line-height:1.75;margin-bottom:14px">El tráfico ilegal de aves silvestres es una de las amenazas principales para las poblaciones de loros en todo el mundo. Los criaderos legales como Paraíso de Aves reducen esta presión al ofrecer aves criadas en cautividad con plenas garantías.</p>
+        <p style="font-size:.9rem;color:#333;line-height:1.75">Un loro criado a mano en un criadero registrado nunca fue sacado de la naturaleza. Su documentación CITES certifica exactamente esto.</p>
+      </div>
+      <div>
+        <h3 style="font-family:'Poppins',sans-serif;font-size:1.1rem;font-weight:700;color:var(--primary);margin-bottom:14px">Nuestros compromisos concretos</h3>
+        <ul style="padding-left:20px;font-size:.88rem;color:#333;line-height:1.85">
+          <li>Nunca comercializamos aves silvestres capturadas</li>
+          <li>Toda reproducción está documentada en el registro del Núcleo Zoológico</li>
+          <li>Informamos activamente a los compradores sobre las implicaciones CITES</li>
+          <li>No aceleramos el destete por presión comercial</li>
+          <li>Rechazamos pedidos que no podemos atender con calidad</li>
+          <li>Educamos sobre bienestar animal antes, durante y después de la venta</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section style="background:linear-gradient(135deg,var(--primary),#2B533C);color:#fff;text-align:center;padding:64px 5%">
+  <h2 style="font-family:'Poppins',sans-serif;font-size:1.8rem;font-weight:900;margin-bottom:14px">¿Quieres formar parte de esta historia?</h2>
+  <p style="opacity:.9;margin-bottom:28px;max-width:540px;margin-left:auto;margin-right:auto">Consulta la disponibilidad de aves y empieza el proceso de adopción con el criadero de referencia.</p>
+  <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
+    <a href="/adopcion-de-loros" style="display:inline-block;background:var(--gold);color:#fff;font-weight:700;padding:13px 32px;border-radius:10px;font-size:.95rem">Iniciar adopción →</a>
+    <a href="/nosotros.html" style="display:inline-block;background:rgba(255,255,255,.15);border:2px solid rgba(255,255,255,.4);color:#fff;font-weight:700;padding:13px 32px;border-radius:10px;font-size:.95rem">Conocernos mejor →</a>
+  </div>
+</section>
+
+</main>
+${FOOTER}
+</body>
+</html>`;
+
+fs.writeFileSync('marca.html', html);
+console.log('✓ marca.html created');
+
+// Sitemap
+const sitemapPath = 'sitemap.xml';
+let sitemap = fs.readFileSync(sitemapPath, 'utf8');
+sitemap = sitemap.replace('</urlset>', `  <url><loc>${DOMAIN}/marca.html</loc><lastmod>${TODAY}</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>\n</urlset>`);
+fs.writeFileSync(sitemapPath, sitemap);
+
+// _redirects
+const redirectsPath = '_redirects';
+let redirects = fs.readFileSync(redirectsPath, 'utf8');
+const newLine = `\n# SECTION 24 — Phase 7 Brand page (${TODAY})\n/marca  /marca.html  200`;
+redirects = redirects.replace(/\/\* → \/404\.html 404/, `${newLine}\n\n/* → /404.html 404`);
+fs.writeFileSync(redirectsPath, redirects);
+
+console.log('✅ marca.html, sitemap + _redirects updated');

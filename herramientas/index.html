@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Herramientas para Propietarios de Loros — Calculadoras y Guías | Paraíso de Aves</title>
+  <meta name="description" content="5 herramientas interactivas gratuitas: test ¿qué loro es para mí?, calculadora de costes, jaula, esperanza de vida y porción de comida. Resultados instantáneos.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://www.paraisodeaves.com/herramientas/">
+  <meta property="og:title" content="Herramientas para Propietarios de Loros | Paraíso de Aves">
+  <meta property="og:description" content="5 herramientas interactivas gratuitas para elegir y cuidar tu loro. Calculadoras de costes, jaula y esperanza de vida.">
+  <meta property="og:url" content="https://www.paraisodeaves.com/herramientas/">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4007YHH4H9"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-4007YHH4H9');</script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {"@type":"WebPage","url":"https://www.paraisodeaves.com/herramientas/","name":"Herramientas para propietarios de loros","description":"Calculadoras y guías interactivas gratuitas para propietarios de loros.","publisher":{"@type":"Organization","@id":"https://www.paraisodeaves.com/#org","name":"Paraíso de Aves"}},
+      {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.paraisodeaves.com/"},{"@type":"ListItem","position":2,"name":"Herramientas","item":"https://www.paraisodeaves.com/herramientas/"}]}
+    ]
+  }
+  </script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Open Sans',sans-serif;background:#F8F5F0;color:#1A1A1A;line-height:1.7}
+:root{--primary:#1F3D2B;--gold:#D4A94F;--cream:#F8F5F0;--border:#E7E0D2}
+a{color:var(--primary);text-decoration:none}a:hover{color:var(--gold)}
+.topnav{background:var(--primary);position:sticky;top:0;z-index:999}
+.topnav__inner{max-width:1200px;margin:0 auto;padding:0 5%;display:flex;align-items:center;justify-content:space-between;height:58px}
+.topnav__brand{color:#fff;font-family:'Poppins',sans-serif;font-weight:700;font-size:1.05rem}
+.topnav__links{display:flex;gap:22px;list-style:none}
+.topnav__links a{color:rgba(255,255,255,.85);font-size:.88rem;font-weight:600}
+.topnav__links a:hover,.topnav__links a.active{color:#fff}
+.topnav__toggle{display:none;background:none;border:none;color:#fff;font-size:1.4rem;cursor:pointer}
+.breadcrumb{max-width:1200px;margin:0 auto;padding:14px 5%;font-size:.82rem;color:#5C5C5C}
+.breadcrumb a{color:#5C5C5C}.breadcrumb span{margin:0 6px}
+
+/* Hero */
+.hero{background:linear-gradient(135deg,var(--primary) 0%,#2B533C 100%);color:#fff;padding:64px 5% 52px;text-align:center}
+.hero h1{font-family:'Poppins',sans-serif;font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;margin-bottom:14px}
+.hero p{opacity:.9;max-width:640px;margin:0 auto 24px;font-size:1rem}
+.tool-pills{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.tool-pills a{background:rgba(255,255,255,.15);color:#fff;padding:7px 16px;border-radius:999px;font-size:.83rem;font-weight:600;border:1px solid rgba(255,255,255,.3);transition:background .2s}
+.tool-pills a:hover{background:rgba(255,255,255,.25);color:#fff}
+
+/* Tools grid */
+.tools-nav{max-width:1200px;margin:0 auto;padding:52px 5% 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+.tool-nav-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:22px;text-align:center;transition:transform .2s,box-shadow .2s;cursor:pointer;text-decoration:none;display:block}
+.tool-nav-card:hover{transform:translateY(-3px);box-shadow:0 10px 28px rgba(0,0,0,.1);color:var(--primary)}
+.tool-nav-card .icon{font-size:2rem;display:block;margin-bottom:10px}
+.tool-nav-card strong{display:block;font-family:'Poppins',sans-serif;font-size:.92rem;font-weight:700;color:var(--primary);margin-bottom:4px}
+.tool-nav-card span{font-size:.8rem;color:#5C5C5C}
+
+/* Tool sections */
+.tool-section{max-width:860px;margin:0 auto;padding:56px 5%;scroll-margin-top:70px}
+.tool-card{background:#fff;border-radius:20px;padding:40px;border:1px solid var(--border);box-shadow:0 4px 20px rgba(0,0,0,.06)}
+.tool-card h2{font-family:'Poppins',sans-serif;font-size:1.5rem;font-weight:800;color:var(--primary);margin-bottom:8px;display:flex;align-items:center;gap:10px}
+.tool-card .tool-desc{color:#5C5C5C;font-size:.92rem;margin-bottom:28px;padding-bottom:20px;border-bottom:1px solid var(--border)}
+
+/* Shared controls */
+label{display:block;font-weight:700;color:var(--primary);margin-bottom:6px;font-size:.9rem}
+select,input[type=range]{width:100%;padding:10px 14px;border:2px solid var(--border);border-radius:10px;font-family:'Open Sans',sans-serif;font-size:.92rem;background:#fff;color:var(--primary);margin-bottom:18px;transition:border-color .2s}
+select:focus,input[type=range]:focus{outline:none;border-color:var(--primary)}
+input[type=range]{padding:6px 0;cursor:pointer;accent-color:var(--primary)}
+.slider-val{font-weight:700;color:var(--primary);font-size:.88rem;text-align:right;margin-top:-12px;margin-bottom:18px}
+
+.btn-calc{background:var(--primary);color:#fff;font-family:'Poppins',sans-serif;font-weight:700;font-size:.95rem;padding:13px 32px;border-radius:10px;border:none;cursor:pointer;transition:background .2s;margin-top:8px}
+.btn-calc:hover{background:var(--gold)}
+
+.result-box{background:linear-gradient(135deg,#e8f4ec,#f0f9f3);border:2px solid var(--primary);border-radius:14px;padding:28px;margin-top:28px;display:none}
+.result-box.show{display:block}
+.result-box h3{font-family:'Poppins',sans-serif;font-size:1.15rem;font-weight:800;color:var(--primary);margin-bottom:16px}
+.result-box .result-main{font-size:2rem;font-weight:900;color:var(--primary);font-family:'Poppins',sans-serif;margin:8px 0}
+.result-box .result-sub{font-size:.88rem;color:#5C5C5C;margin-top:8px}
+.result-box .result-list{margin-top:16px;padding-left:20px}
+.result-box .result-list li{margin-bottom:7px;font-size:.9rem;color:#333}
+.result-box .cta-res{display:inline-block;background:var(--gold);color:#fff;font-weight:700;padding:10px 24px;border-radius:8px;margin-top:18px;font-size:.9rem}
+
+/* Quiz styles */
+.quiz-step{display:none}.quiz-step.active{display:block}
+.quiz-options{display:grid;gap:12px;margin-bottom:20px}
+.quiz-option{background:#fff;border:2px solid var(--border);border-radius:12px;padding:16px 20px;cursor:pointer;text-align:left;font-family:'Open Sans',sans-serif;font-size:.92rem;color:var(--primary);font-weight:600;transition:all .2s;display:flex;align-items:center;gap:12px}
+.quiz-option:hover{border-color:var(--primary);background:#e8f4ec}
+.quiz-option.selected{border-color:var(--primary);background:#e8f4ec}
+.quiz-option .opt-icon{font-size:1.4rem;flex-shrink:0}
+.quiz-progress{height:6px;background:var(--border);border-radius:99px;margin-bottom:24px;overflow:hidden}
+.quiz-bar{height:100%;background:linear-gradient(90deg,var(--primary),var(--gold));border-radius:99px;transition:width .4s}
+.quiz-step-label{font-size:.78rem;color:#5C5C5C;font-weight:700;text-transform:uppercase;letter-spacing:.05em;margin-bottom:8px}
+.quiz-question{font-family:'Poppins',sans-serif;font-size:1.2rem;font-weight:800;color:var(--primary);margin-bottom:20px}
+.quiz-nav{display:flex;gap:12px;margin-top:16px}
+.btn-back{background:transparent;border:2px solid var(--border);color:#5C5C5C;font-family:'Poppins',sans-serif;font-weight:700;font-size:.88rem;padding:10px 22px;border-radius:8px;cursor:pointer;transition:all .2s}
+.btn-back:hover{border-color:var(--primary);color:var(--primary)}
+.species-card{background:linear-gradient(135deg,var(--primary),#2B533C);color:#fff;border-radius:16px;padding:32px;text-align:center;margin-top:8px}
+.species-card .sp-icon{font-size:3rem;margin-bottom:12px}
+.species-card h3{font-family:'Poppins',sans-serif;font-size:1.5rem;font-weight:900;margin-bottom:8px}
+.species-card .sp-match{background:var(--gold);display:inline-block;padding:4px 14px;border-radius:999px;font-size:.8rem;font-weight:700;margin-bottom:16px}
+.species-card p{opacity:.9;font-size:.92rem;line-height:1.6;margin-bottom:20px}
+.species-attrs{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin:16px 0}
+.sp-attr{background:rgba(255,255,255,.12);border-radius:10px;padding:12px}
+.sp-attr strong{display:block;font-size:.75rem;text-transform:uppercase;letter-spacing:.05em;opacity:.75;margin-bottom:4px}
+.sp-attr span{font-size.9rem;font-weight:700}
+.btn-restart{background:rgba(255,255,255,.2);border:2px solid rgba(255,255,255,.5);color:#fff;font-family:'Poppins',sans-serif;font-weight:700;padding:10px 24px;border-radius:8px;cursor:pointer;font-size:.9rem;margin-top:12px;transition:all .2s}
+.btn-restart:hover{background:rgba(255,255,255,.3)}
+.sp-link{display:inline-block;background:var(--gold);color:#fff;font-weight:700;padding:11px 28px;border-radius:8px;margin-top:12px;font-size:.92rem}
+
+/* Cost table */
+.cost-table{width:100%;border-collapse:collapse;margin:16px 0;font-size:.88rem}
+.cost-table th{background:var(--primary);color:#fff;padding:10px 14px;text-align:left;font-family:'Poppins',sans-serif;font-weight:700}
+.cost-table td{padding:9px 14px;border-bottom:1px solid var(--border)}
+.cost-table tr:nth-child(even){background:#f5f2ed}
+.cost-table .total{font-weight:700;color:var(--primary);font-size:.95rem}
+
+/* Life expectancy bar */
+.life-bar-wrap{margin:20px 0}
+.life-bar-label{display:flex;justify-content:space-between;font-size:.82rem;color:#5C5C5C;margin-bottom:6px}
+.life-bar{height:28px;background:var(--border);border-radius:99px;overflow:hidden}
+.life-bar-fill{height:100%;background:linear-gradient(90deg,var(--primary),var(--gold));border-radius:99px;transition:width 1s ease-out;display:flex;align-items:center;justify-content:flex-end;padding-right:10px;font-size:.78rem;font-weight:700;color:#fff}
+
+/* Footer */
+.site-footer{background:var(--primary);color:rgba(255,255,255,.8);padding:48px 5% 24px}
+.footer-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr;gap:32px;margin-bottom:32px}
+.footer-brand{color:#fff}.footer-brand strong{font-family:'Poppins',sans-serif;font-size:1.05rem;display:block;margin-bottom:10px}
+.footer-col strong{display:block;color:#fff;font-family:'Poppins',sans-serif;margin-bottom:12px;font-size:.88rem;text-transform:uppercase;letter-spacing:.05em}
+.footer-col a{display:block;color:rgba(255,255,255,.72);font-size:.84rem;margin-bottom:7px;transition:color .2s}
+.footer-col a:hover{color:var(--gold)}
+.footer-copy{max-width:1200px;margin:0 auto;text-align:center;font-size:.78rem;opacity:.55;padding-top:20px;border-top:1px solid rgba(255,255,255,.12)}
+@media(max-width:900px){.footer-inner{grid-template-columns:1fr 1fr;gap:24px}.topnav__links{display:none;flex-direction:column;position:absolute;top:58px;left:0;right:0;background:var(--primary);padding:16px 5%}.topnav{position:relative}.topnav.open .topnav__links{display:flex}.topnav__toggle{display:block}.species-attrs{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.footer-inner{grid-template-columns:1fr}.species-attrs{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<nav class="topnav" aria-label="Navegación principal">
+  <div class="topnav__inner">
+    <a href="/" class="topnav__brand">🦜 Paraíso de Aves</a>
+    <button class="topnav__toggle" aria-label="Abrir menú" onclick="this.closest('nav').classList.toggle('open')">☰</button>
+    <ul class="topnav__links">
+      <li><a href="/comprar-loros-espana">Comprar</a></li>
+      <li><a href="/adopcion-de-loros">Adopción</a></li>
+      <li><a href="/conocimiento/">Conocimiento</a></li>
+      <li><a href="/preguntas/">Preguntas</a></li>
+      <li><a href="/herramientas/" class="active">Herramientas</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/contacto.html">Contacto</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="breadcrumb"><a href="/">Inicio</a><span>›</span><strong>Herramientas</strong></div>
+
+<div class="hero">
+  <h1>🛠️ Herramientas para Propietarios de Loros</h1>
+  <p>5 herramientas interactivas gratuitas para elegir tu loro ideal y planificar su cuidado con exactitud.</p>
+  <div class="tool-pills">
+    <a href="#quiz">🦜 ¿Qué loro es para mí?</a>
+    <a href="#coste">💶 Calculadora de costes</a>
+    <a href="#jaula">📐 Tamaño de jaula</a>
+    <a href="#vida">⏳ Esperanza de vida</a>
+    <a href="#comida">🥦 Porción de comida</a>
+  </div>
+</div>
+
+<div class="tools-nav">
+  <a href="#quiz" class="tool-nav-card"><span class="icon">🦜</span><strong>¿Qué loro es para mí?</strong><span>Test de compatibilidad · 6 preguntas</span></a>
+  <a href="#coste" class="tool-nav-card"><span class="icon">💶</span><strong>Coste mensual</strong><span>Calcula el gasto real de tu loro</span></a>
+  <a href="#jaula" class="tool-nav-card"><span class="icon">📐</span><strong>Tamaño de jaula</strong><span>Medidas mínimas por especie</span></a>
+  <a href="#vida" class="tool-nav-card"><span class="icon">⏳</span><strong>Esperanza de vida</strong><span>¿Cuántos años vivirá tu loro?</span></a>
+  <a href="#comida" class="tool-nav-card"><span class="icon">🥦</span><strong>Porción de comida</strong><span>Gramajes diarios recomendados</span></a>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════════════════════
+     TOOL 1 — QUIZ ¿Qué loro es para mí?
+══════════════════════════════════════════════════════════════════════════ -->
+<section class="tool-section" id="quiz">
+<div class="tool-card">
+  <h2>🦜 ¿Qué loro es para mí?</h2>
+  <div class="tool-desc">Responde 6 preguntas y descubre qué especie encaja con tu estilo de vida, espacio y experiencia. Resultado inmediato con perfil detallado.</div>
+
+  <div id="quiz-container">
+    <!-- Progress -->
+    <div class="quiz-progress"><div class="quiz-bar" id="quiz-bar" style="width:0%"></div></div>
+
+    <!-- Step 1 -->
+    <div class="quiz-step active" id="qs1">
+      <div class="quiz-step-label">Pregunta 1 de 6</div>
+      <div class="quiz-question">¿Cuántas horas al día puedes dedicar a tu loro?</div>
+      <div class="quiz-options">
+        <button class="quiz-option" onclick="selectOpt(1,'low')"><span class="opt-icon">⏰</span>Menos de 1 hora — muy poco tiempo libre</button>
+        <button class="quiz-option" onclick="selectOpt(1,'med')"><span class="opt-icon">🕐</span>1–3 horas — tiempo moderado en casa</button>
+        <button class="quiz-option" onclick="selectOpt(1,'high')"><span class="opt-icon">🏠</span>Más de 3 horas — mucho tiempo en casa</button>
+      </div>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="quiz-step" id="qs2">
+      <div class="quiz-step-label">Pregunta 2 de 6</div>
+      <div class="quiz-question">¿Cuánto espacio tienes disponible para la jaula?</div>
+      <div class="quiz-options">
+        <button class="quiz-option" onclick="selectOpt(2,'small')"><span class="opt-icon">🏙️</span>Piso pequeño — espacio muy limitado</button>
+        <button class="quiz-option" onclick="selectOpt(2,'med')"><span class="opt-icon">🏢</span>Piso estándar — espacio moderado</button>
+        <button class="quiz-option" onclick="selectOpt(2,'large')"><span class="opt-icon">🏡</span>Casa o piso grande — espacio amplio</button>
+      </div>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="quiz-step" id="qs3">
+      <div class="quiz-step-label">Pregunta 3 de 6</div>
+      <div class="quiz-question">¿Cuál es tu experiencia previa con loros?</div>
+      <div class="quiz-options">
+        <button class="quiz-option" onclick="selectOpt(3,'none')"><span class="opt-icon">🌱</span>Ninguna — es mi primer loro</button>
+        <button class="quiz-option" onclick="selectOpt(3,'some')"><span class="opt-icon">📚</span>Algo — he tenido aves pequeñas</button>
+        <button class="quiz-option" onclick="selectOpt(3,'exp')"><span class="opt-icon">🏆</span>Mucha — he tenido loros medianos o grandes</button>
+      </div>
+    </div>
+
+    <!-- Step 4 -->
+    <div class="quiz-step" id="qs4">
+      <div class="quiz-step-label">Pregunta 4 de 6</div>
+      <div class="quiz-question">¿Tienes vecinos o familiares sensibles al ruido?</div>
+      <div class="quiz-options">
+        <button class="quiz-option" onclick="selectOpt(4,'yes')"><span class="opt-icon">🔇</span>Sí — el ruido es un problema importante</button>
+        <button class="quiz-option" onclick="selectOpt(4,'some')"><span class="opt-icon">🔉</span>Un poco — prefiero algo tranquilo</button>
+        <button class="quiz-option" onclick="selectOpt(4,'no')"><span class="opt-icon">🔊</span>No — el ruido no me preocupa</button>
+      </div>
+    </div>
+
+    <!-- Step 5 -->
+    <div class="quiz-step" id="qs5">
+      <div class="quiz-step-label">Pregunta 5 de 6</div>
+      <div class="quiz-question">¿Qué te interesa más en un loro?</div>
+      <div class="quiz-options">
+        <button class="quiz-option" onclick="selectOpt(5,'talk')"><span class="opt-icon">💬</span>Que aprenda a hablar y sea muy inteligente</button>
+        <button class="quiz-option" onclick="selectOpt(5,'bond')"><span class="opt-icon">❤️</span>Que sea muy afectuoso y le guste el contacto</button>
+        <button class="quiz-option" onclick="selectOpt(5,'active')"><span class="opt-icon">🎪</span>Que sea activo, juguetón y entretenido</button>
+        <button class="quiz-option" onclick="selectOpt(5,'beauty')"><span class="opt-icon">🌈</span>Que sea espectacular visualmente</button>
+      </div>
+    </div>
+
+    <!-- Step 6 -->
+    <div class="quiz-step" id="qs6">
+      <div class="quiz-step-label">Pregunta 6 de 6</div>
+      <div class="quiz-question">¿Cuál es tu presupuesto aproximado para la compra?</div>
+      <div class="quiz-options">
+        <button class="quiz-option" onclick="selectOpt(6,'low')"><span class="opt-icon">💰</span>Menos de 500€</button>
+        <button class="quiz-option" onclick="selectOpt(6,'mid')"><span class="opt-icon">💰💰</span>500€ – 2.500€</button>
+        <button class="quiz-option" onclick="selectOpt(6,'high')"><span class="opt-icon">💰💰💰</span>Más de 2.500€ — invierto en calidad</button>
+      </div>
+    </div>
+
+    <!-- Result -->
+    <div class="quiz-step" id="qs-result">
+      <div id="species-result"></div>
+      <button class="btn-restart" onclick="restartQuiz()" style="margin-top:20px;display:block;width:100%;text-align:center">🔄 Hacer el test de nuevo</button>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════════════
+     TOOL 2 — CALCULADORA DE COSTE MENSUAL
+══════════════════════════════════════════════════════════════════════════ -->
+<section class="tool-section" id="coste">
+<div class="tool-card">
+  <h2>💶 Calculadora de Coste Mensual</h2>
+  <div class="tool-desc">Calcula el coste real de mantener tu loro cada mes: alimentación, veterinario, juguetes, accesorios y gastos imprevistos.</div>
+
+  <label for="cost-species">Especie de loro</label>
+  <select id="cost-species">
+    <option value="periquito">Periquito ondulado</option>
+    <option value="agapornis">Agapornis / Inseparable</option>
+    <option value="ninfa">Ninfa (Cockatiel)</option>
+    <option value="conuro">Conuro</option>
+    <option value="amazona">Amazona</option>
+    <option value="gris" selected>Loro Gris Africano (Yaco)</option>
+    <option value="cacatua">Cacatúa</option>
+    <option value="guacamayo">Guacamayo (Ara ararauna)</option>
+    <option value="jacinto">Guacamayo Jacinto</option>
+  </select>
+
+  <label for="cost-vets">Revisiones veterinarias al año</label>
+  <select id="cost-vets">
+    <option value="1" selected>1 revisión anual</option>
+    <option value="2">2 revisiones anuales</option>
+    <option value="4">Trimestral (4 al año)</option>
+  </select>
+
+  <label for="cost-toys">Presupuesto en juguetes y accesorios</label>
+  <select id="cost-toys">
+    <option value="low">Básico (mínimos)</option>
+    <option value="med" selected>Moderado (buen surtido)</option>
+    <option value="high">Premium (enriquecimiento máximo)</option>
+  </select>
+
+  <button class="btn-calc" onclick="calcCost()">Calcular coste mensual</button>
+
+  <div class="result-box" id="cost-result">
+    <h3>📊 Coste mensual estimado</h3>
+    <div class="result-main" id="cost-total">—</div>
+    <div class="result-sub">Coste mensual promedio para tu loro</div>
+    <table class="cost-table" id="cost-breakdown"></table>
+    <p style="font-size:.78rem;color:#5C5C5C;margin-top:16px">*Estimaciones orientativas basadas en mercado español 2026. No incluye el coste de compra del loro ni instalación inicial de la jaula.</p>
+    <a href="/cuanto-cuesta-mantener-un-loro" class="cta-res">Ver guía completa de costes →</a>
+  </div>
+</div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════════════
+     TOOL 3 — CALCULADORA DE JAULA
+══════════════════════════════════════════════════════════════════════════ -->
+<section class="tool-section" id="jaula">
+<div class="tool-card">
+  <h2>📐 Calculadora de Tamaño de Jaula</h2>
+  <div class="tool-desc">Introduce la especie y el número de aves para obtener las medidas mínimas recomendadas (y las óptimas) para la jaula. El bienestar de tu loro depende del espacio.</div>
+
+  <label for="cage-species">Especie</label>
+  <select id="cage-species">
+    <option value="periquito">Periquito ondulado</option>
+    <option value="agapornis">Agapornis / Inseparable</option>
+    <option value="ninfa">Ninfa (Cockatiel)</option>
+    <option value="conuro">Conuro Sol / Aratinga</option>
+    <option value="amazona">Amazona / Loro Amazónico</option>
+    <option value="gris" selected>Loro Gris Africano (Yaco)</option>
+    <option value="cacatua">Cacatúa (mediana)</option>
+    <option value="guacamayo">Guacamayo Ara ararauna</option>
+    <option value="jacinto">Guacamayo Jacinto</option>
+  </select>
+
+  <label for="cage-num">Número de aves</label>
+  <select id="cage-num">
+    <option value="1" selected>1 ave</option>
+    <option value="2">2 aves</option>
+    <option value="3">3 aves</option>
+  </select>
+
+  <button class="btn-calc" onclick="calcCage()">Ver medidas recomendadas</button>
+
+  <div class="result-box" id="cage-result">
+    <h3>📐 Medidas recomendadas</h3>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0">
+      <div style="background:#f5f2ed;border-radius:12px;padding:16px;text-align:center">
+        <div style="font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:#5C5C5C;font-weight:700;margin-bottom:8px">Mínimo recomendado</div>
+        <div style="font-size:1.4rem;font-weight:900;font-family:'Poppins',sans-serif;color:var(--primary)" id="cage-min">—</div>
+      </div>
+      <div style="background:#e8f4ec;border-radius:12px;padding:16px;text-align:center">
+        <div style="font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:#5C5C5C;font-weight:700;margin-bottom:8px">Óptimo</div>
+        <div style="font-size:1.4rem;font-weight:900;font-family:'Poppins',sans-serif;color:var(--primary)" id="cage-opt">—</div>
+      </div>
+    </div>
+    <div class="result-list" id="cage-notes"></div>
+    <a href="/jaulas-loros" class="cta-res" style="margin-top:20px;display:inline-block">Ver guía de jaulas →</a>
+  </div>
+</div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════════════
+     TOOL 4 — ESPERANZA DE VIDA
+══════════════════════════════════════════════════════════════════════════ -->
+<section class="tool-section" id="vida">
+<div class="tool-card">
+  <h2>⏳ Calculadora de Esperanza de Vida</h2>
+  <div class="tool-desc">Estima los años de vida que puede alcanzar tu loro según especie, dieta y cuidados. Una decisión informada antes de adoptar.</div>
+
+  <label for="life-species">Especie</label>
+  <select id="life-species">
+    <option value="periquito">Periquito ondulado</option>
+    <option value="agapornis">Agapornis / Inseparable</option>
+    <option value="ninfa">Ninfa (Cockatiel)</option>
+    <option value="conuro">Conuro</option>
+    <option value="amazona">Amazona</option>
+    <option value="gris" selected>Loro Gris Africano (Yaco)</option>
+    <option value="cacatua">Cacatúa</option>
+    <option value="guacamayo">Guacamayo Ara ararauna</option>
+    <option value="jacinto">Guacamayo Jacinto</option>
+  </select>
+
+  <label>Calidad de la dieta (1 = solo semillas, 5 = dieta variada completa)</label>
+  <input type="range" id="life-diet" min="1" max="5" value="3" oninput="document.getElementById('life-diet-v').textContent=this.value">
+  <div class="slider-val"><span id="life-diet-v">3</span>/5</div>
+
+  <label>Atención veterinaria (1 = nunca, 5 = revisión anual)</label>
+  <input type="range" id="life-vet" min="1" max="5" value="3" oninput="document.getElementById('life-vet-v').textContent=this.value">
+  <div class="slider-val"><span id="life-vet-v">3</span>/5</div>
+
+  <label>Enriquecimiento y ejercicio (1 = siempre en jaula, 5 = mucho tiempo libre)</label>
+  <input type="range" id="life-enrich" min="1" max="5" value="3" oninput="document.getElementById('life-enrich-v').textContent=this.value">
+  <div class="slider-val"><span id="life-enrich-v">3</span>/5</div>
+
+  <button class="btn-calc" onclick="calcLife()">Calcular esperanza de vida</button>
+
+  <div class="result-box" id="life-result">
+    <h3>⏳ Esperanza de vida estimada</h3>
+    <div class="result-main" id="life-years">—</div>
+    <div class="result-sub" id="life-sub">años en cautividad con tus cuidados actuales</div>
+    <div class="life-bar-wrap" id="life-bar-section">
+      <div class="life-bar-label"><span>Mínimo</span><span>Máximo especie</span></div>
+      <div class="life-bar"><div class="life-bar-fill" id="life-bar-fill">0%</div></div>
+    </div>
+    <ul class="result-list" id="life-tips"></ul>
+    <a href="/blog/cuanto-vive-un-loro.html" class="cta-res">Ver guía completa →</a>
+  </div>
+</div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════════════════
+     TOOL 5 — PORCIÓN DE COMIDA
+══════════════════════════════════════════════════════════════════════════ -->
+<section class="tool-section" id="comida">
+<div class="tool-card">
+  <h2>🥦 Calculadora de Porción Diaria</h2>
+  <div class="tool-desc">Calcula la cantidad de pellets, fruta y verdura que debe comer tu loro cada día según especie y peso actual.</div>
+
+  <label for="food-species">Especie</label>
+  <select id="food-species">
+    <option value="periquito">Periquito ondulado</option>
+    <option value="agapornis">Agapornis / Inseparable</option>
+    <option value="ninfa">Ninfa (Cockatiel)</option>
+    <option value="conuro">Conuro</option>
+    <option value="amazona">Amazona</option>
+    <option value="gris" selected>Loro Gris Africano (Yaco)</option>
+    <option value="cacatua">Cacatúa</option>
+    <option value="guacamayo">Guacamayo Ara ararauna</option>
+    <option value="jacinto">Guacamayo Jacinto</option>
+  </select>
+
+  <label>Peso actual del loro (gramos): <span id="food-weight-v" style="color:var(--primary);font-weight:700">400g</span></label>
+  <input type="range" id="food-weight" min="25" max="1600" value="400" step="25" oninput="document.getElementById('food-weight-v').textContent=this.value+'g'">
+
+  <button class="btn-calc" onclick="calcFood()">Calcular porción diaria</button>
+
+  <div class="result-box" id="food-result">
+    <h3>🥦 Porción diaria recomendada</h3>
+    <table class="cost-table" id="food-breakdown"></table>
+    <ul class="result-list" id="food-tips"></ul>
+    <a href="/conocimiento/nutricion/" class="cta-res">Ver guía de nutrición →</a>
+  </div>
+</div>
+</section>
+
+<!-- CTA -->
+<section style="background:linear-gradient(135deg,var(--primary),#2B533C);color:#fff;text-align:center;padding:64px 5%;margin-top:48px">
+  <h2 style="font-family:'Poppins',sans-serif;font-size:1.8rem;font-weight:900;margin-bottom:14px">¿Listo para adoptar tu loro ideal?</h2>
+  <p style="opacity:.9;margin-bottom:28px;max-width:580px;margin-left:auto;margin-right:auto">Somos criadero registrado con más de 25 años. CITES garantizado. Envío profesional a toda España y Europa.</p>
+  <a href="/adopcion-de-loros" style="display:inline-block;background:var(--gold);color:#fff;font-weight:700;padding:14px 40px;border-radius:12px;font-size:1rem;transition:background .2s">Iniciar proceso de adopción →</a>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <strong>🦜 Paraíso de Aves</strong><br>Criadero registrado · Llíria, Valencia<br>
+      <a href="mailto:paraisodeloros@gmail.com">paraisodeloros@gmail.com</a>
+    </div>
+    <div class="footer-col"><strong>Herramientas</strong>
+      <a href="/herramientas/#quiz">¿Qué loro es para mí?</a>
+      <a href="/herramientas/#coste">Calculadora de costes</a>
+      <a href="/herramientas/#jaula">Calculadora de jaula</a>
+      <a href="/herramientas/#vida">Esperanza de vida</a>
+    </div>
+    <div class="footer-col"><strong>Conocimiento</strong>
+      <a href="/conocimiento/">Centro de conocimiento</a>
+      <a href="/preguntas/">Preguntas frecuentes</a>
+      <a href="/blog/">Blog</a>
+    </div>
+    <div class="footer-col"><strong>Comprar</strong>
+      <a href="/comprar-loros-espana">España</a>
+      <a href="/adopcion-de-loros">Adopción</a>
+      <a href="/criadero-loros-espana">Criadero</a>
+    </div>
+    <div class="footer-col"><strong>Información</strong>
+      <a href="/nosotros.html">Nosotros</a>
+      <a href="/faq.html">FAQ</a>
+      <a href="/contacto.html">Contacto</a>
+    </div>
+  </div>
+  <p class="footer-copy">© 2026 Paraíso de Aves · Criadero legal núcleo zoológico · CITES certificado</p>
+</footer>
+
+<script>
+// ─────────────────────────────────────────────────────────────
+// QUIZ LOGIC
+// ─────────────────────────────────────────────────────────────
+const quizAnswers = {};
+let currentStep = 1;
+const totalSteps = 6;
+
+function selectOpt(step, val) {
+  quizAnswers[step] = val;
+  document.querySelectorAll('#qs'+step+' .quiz-option').forEach(b => b.classList.remove('selected'));
+  event.currentTarget.classList.add('selected');
+  setTimeout(() => nextStep(), 350);
+}
+
+function nextStep() {
+  document.getElementById('qs'+currentStep).classList.remove('active');
+  currentStep++;
+  if (currentStep > totalSteps) {
+    showQuizResult();
+  } else {
+    document.getElementById('qs'+currentStep).classList.add('active');
+    document.getElementById('quiz-bar').style.width = ((currentStep-1)/totalSteps*100)+'%';
+  }
+}
+
+function showQuizResult() {
+  document.getElementById('quiz-bar').style.width = '100%';
+  document.getElementById('qs-result').classList.add('active');
+
+  const species = recommendSpecies(quizAnswers);
+  document.getElementById('species-result').innerHTML = buildSpeciesCard(species);
+}
+
+function recommendSpecies(a) {
+  const db = {
+    periquito: {name:'Periquito Ondulado',icon:'🐦',match:'95% compatible',desc:'Ideal para principiantes con poco espacio. Alegre, sociable y fácil de cuidar. Aprende palabras con paciencia. Espacio mínimo, muy económico.',vida:'8–12 años',ruido:'Bajo',experiencia:'Principiante',link:'/blog/periquito-mascota-guia.html'},
+    ninfa: {name:'Ninfa (Cockatiel)',icon:'🐤',match:'92% compatible',desc:'El equilibrio perfecto entre tamaño, inteligencia y tranquilidad. Sociable, musical y muy afectuosa. Perfecta para pisos y familias.',vida:'15–20 años',ruido:'Bajo-Medio',experiencia:'Principiante',link:'/available-birds/conuro.html'},
+    conuro: {name:'Conuro Sol',icon:'🌞',match:'88% compatible',desc:'Muy juguetón, activo y afectuoso. Algo ruidoso pero de carácter extraordinario. Requiere bastante interacción diaria.',vida:'20–30 años',ruido:'Medio',experiencia:'Principiante+',link:'/available-birds/conuro.html'},
+    gris: {name:'Loro Gris Africano (Yaco)',icon:'🦜',match:'90% compatible',desc:'El loro más inteligente. Vocabulario de cientos de palabras, comprensión contextual. Exige mucha dedicación. Para propietarios comprometidos.',vida:'40–60 años',ruido:'Medio',experiencia:'Intermedio-Avanzado',link:'/available-birds/loro-gris-africano.html'},
+    amazona: {name:'Amazona',icon:'🦜',match:'87% compatible',desc:'Gran talento para el habla y la música. Personalidad fuerte y extrovertida. Muy activa y requiere espacio e interacción.',vida:'40–60 años',ruido:'Alto',experiencia:'Intermedio',link:'/available-birds/loro-amazonico.html'},
+    cacatua: {name:'Cacatúa',icon:'🤍',match:'85% compatible',desc:'Extremadamente afectuosa y necesitada de contacto. "El perro del mundo de los loros". Requiere mucho tiempo de atención.',vida:'40–60 años',ruido:'Alto',experiencia:'Intermedio',link:'/available-birds/cacatua.html'},
+    guacamayo: {name:'Guacamayo Azul y Amarillo',icon:'💙',match:'82% compatible',desc:'El loro grande por excelencia. Inteligente, espectacular y de fuerte personalidad. Requiere espacio, inversión y experiencia sólida.',vida:'50–70 años',ruido:'Muy alto',experiencia:'Avanzado',link:'/available-birds/guacamayo-azul-amarillo.html'},
+  };
+
+  const t = quizAnswers[1], sp = quizAnswers[2], ex = quizAnswers[3];
+  const noise = quizAnswers[4], interest = quizAnswers[5], budget = quizAnswers[6];
+
+  if (budget === 'low' || (sp === 'small' && noise === 'yes')) return db.periquito;
+  if (ex === 'none' && noise === 'yes') return t === 'low' ? db.periquito : db.ninfa;
+  if (ex === 'none') return noise === 'yes' ? db.ninfa : db.conuro;
+  if (ex === 'some') {
+    if (interest === 'talk') return db.gris;
+    if (interest === 'bond') return db.cacatua;
+    if (interest === 'beauty' && budget === 'high') return db.guacamayo;
+    return db.amazona;
+  }
+  if (ex === 'exp') {
+    if (budget === 'high' && interest === 'beauty') return db.guacamayo;
+    if (interest === 'talk') return db.gris;
+    return db.amazona;
+  }
+  return db.ninfa;
+}
+
+function buildSpeciesCard(s) {
+  return `<div class="species-card">
+    <div class="sp-icon">${s.icon}</div>
+    <h3>${s.name}</h3>
+    <div class="sp-match">${s.match}</div>
+    <p>${s.desc}</p>
+    <div class="species-attrs">
+      <div class="sp-attr"><strong>Esperanza de vida</strong><span>${s.vida}</span></div>
+      <div class="sp-attr"><strong>Nivel de ruido</strong><span>${s.ruido}</span></div>
+      <div class="sp-attr"><strong>Experiencia requerida</strong><span>${s.experiencia}</span></div>
+    </div>
+    <a href="${s.link}" class="sp-link">Ver ficha completa →</a>
+  </div>`;
+}
+
+function restartQuiz() {
+  Object.keys(quizAnswers).forEach(k => delete quizAnswers[k]);
+  currentStep = 1;
+  document.querySelectorAll('.quiz-step').forEach(s => s.classList.remove('active'));
+  document.getElementById('qs1').classList.add('active');
+  document.getElementById('quiz-bar').style.width = '0%';
+}
+
+// ─────────────────────────────────────────────────────────────
+// COST CALCULATOR
+// ─────────────────────────────────────────────────────────────
+const costData = {
+  periquito: {food:4,vet:[20,30,50],name:'Periquito'},
+  agapornis: {food:5,vet:[20,30,50],name:'Agapornis'},
+  ninfa: {food:8,vet:[25,40,65],name:'Ninfa'},
+  conuro: {food:15,vet:[35,55,85],name:'Conuro'},
+  amazona: {food:30,vet:[50,80,120],name:'Amazona'},
+  gris: {food:35,vet:[55,90,130],name:'Loro Gris'},
+  cacatua: {food:28,vet:[50,80,120],name:'Cacatúa'},
+  guacamayo: {food:55,vet:[65,100,150],name:'Guacamayo'},
+  jacinto: {food:80,vet:[80,120,180],name:'G. Jacinto'},
+};
+const toysCost = {low:5,med:15,high:35};
+
+function calcCost() {
+  const sp = document.getElementById('cost-species').value;
+  const vets = parseInt(document.getElementById('cost-vets').value);
+  const toys = document.getElementById('cost-toys').value;
+  const d = costData[sp];
+  const vetIdx = vets===1?0:vets===2?1:2;
+  const vetMonthly = Math.round(d.vet[vetIdx] * vets / 12);
+  const toyMonthly = toysCost[toys];
+  const misc = Math.round((d.food + vetMonthly + toyMonthly) * 0.1);
+  const total = d.food + vetMonthly + toyMonthly + misc;
+
+  document.getElementById('cost-total').textContent = total + '€ / mes';
+  document.getElementById('cost-breakdown').innerHTML = `
+    <tr><th>Concepto</th><th>€/mes</th></tr>
+    <tr><td>Alimentación (pellets + fruta/verdura)</td><td>${d.food}€</td></tr>
+    <tr><td>Veterinario (amortizado mensualmente)</td><td>${vetMonthly}€</td></tr>
+    <tr><td>Juguetes y accesorios</td><td>${toyMonthly}€</td></tr>
+    <tr><td>Imprevistos (10%)</td><td>${misc}€</td></tr>
+    <tr><td class="total">TOTAL mensual estimado</td><td class="total">${total}€</td></tr>
+    <tr><td>TOTAL anual estimado</td><td><strong>${total*12}€</strong></td></tr>
+  `;
+  document.getElementById('cost-result').classList.add('show');
+}
+
+// ─────────────────────────────────────────────────────────────
+// CAGE SIZE CALCULATOR
+// ─────────────────────────────────────────────────────────────
+const cageData = {
+  periquito: {min:'45×45×60 cm',opt:'60×60×90 cm',notes:['Separación entre barrotes: ≤ 1 cm','Barras horizontales para trepar en al menos 2 lados','Poner mínimo 2 perchas de diámetro diferente']},
+  agapornis: {min:'50×50×70 cm',opt:'70×70×100 cm',notes:['Separación entre barrotes: ≤ 1 cm','Los agapornis son destructores activos — usa jaulas robustas','Incluye columpio y juguetes masticables']},
+  ninfa: {min:'60×50×80 cm',opt:'80×60×100 cm',notes:['Separación entre barrotes: ≤ 1,5 cm','Las ninfas necesitan perchas largas para sus colas','Una jaula alargada horizontalmente favorece el movimiento']},
+  conuro: {min:'70×60×90 cm',opt:'90×70×120 cm',notes:['Separación entre barrotes: 1,5–2 cm','Los conuros escalan activamente — barras horizontales esenciales','Incluye variedad de juguetes masticables']},
+  amazona: {min:'80×70×100 cm',opt:'100×80×150 cm',notes:['Separación entre barrotes: 2–2,5 cm','Las amazonas necesitan espacio lateral amplio','Perchas de madera natural de diámetros variados']},
+  gris: {min:'80×80×120 cm',opt:'100×100×150 cm',notes:['Separación entre barrotes: 2–2,5 cm','El loro gris necesita poder extender las alas sin tocar las paredes','Preferiblemente jaula de acero inoxidable o con recubrimiento no tóxico']},
+  cacatua: {min:'80×80×120 cm',opt:'100×100×150 cm',notes:['Separación entre barrotes: 2–2,5 cm','Las cacatúas son muy destructoras — barras de acero mínimo 3 mm','Incluye juguetes de madera dura para masticar']},
+  guacamayo: {min:'100×100×150 cm',opt:'120×120×200 cm',notes:['Separación entre barrotes: 2,5–3 cm','Barras de acero grueso (≥ 4 mm) — los guacamayos tienen mucha fuerza en el pico','El espacio mínimo real: el loro con las alas abiertas no toca ninguna pared']},
+  jacinto: {min:'120×120×180 cm',opt:'150×150×220+ cm',notes:['Separación entre barrotes: 3–4 cm','El guacamayo jacinto (100 cm de largo) necesita la jaula más grande posible','Barras de acero muy grueso — pueden doblar barras de guacamayos normales']},
+};
+
+function calcCage() {
+  const sp = document.getElementById('cage-species').value;
+  const n = parseInt(document.getElementById('cage-num').value);
+  const d = cageData[sp];
+  document.getElementById('cage-min').textContent = n===1 ? d.min : 'Mayor: +30–40 cm por ave adicional';
+  document.getElementById('cage-opt').textContent = n===1 ? d.opt : 'Voladera recomendada para '+n+' aves';
+  document.getElementById('cage-notes').innerHTML = '<strong>Recomendaciones adicionales:</strong><ul style="padding-left:20px;margin-top:10px">' + d.notes.map(n=>'<li style="margin-bottom:7px;font-size:.88rem">'+n+'</li>').join('') + '</ul>';
+  document.getElementById('cage-result').classList.add('show');
+}
+
+// ─────────────────────────────────────────────────────────────
+// LIFE EXPECTANCY CALCULATOR
+// ─────────────────────────────────────────────────────────────
+const lifeData = {
+  periquito:{min:6,max:15,name:'Periquito'},
+  agapornis:{min:8,max:15,name:'Agapornis'},
+  ninfa:{min:12,max:20,name:'Ninfa'},
+  conuro:{min:15,max:30,name:'Conuro'},
+  amazona:{min:30,max:65,name:'Amazona'},
+  gris:{min:25,max:65,name:'Loro Gris'},
+  cacatua:{min:30,max:65,name:'Cacatúa'},
+  guacamayo:{min:35,max:75,name:'Guacamayo'},
+  jacinto:{min:40,max:80,name:'Guacamayo Jacinto'},
+};
+
+function calcLife() {
+  const sp = document.getElementById('life-species').value;
+  const diet = parseInt(document.getElementById('life-diet').value);
+  const vet = parseInt(document.getElementById('life-vet').value);
+  const enrich = parseInt(document.getElementById('life-enrich').value);
+  const d = lifeData[sp];
+
+  const score = (diet + vet + enrich) / 15; // 0–1
+  const expected = Math.round(d.min + (d.max - d.min) * score);
+  const pct = Math.round(((expected - d.min) / (d.max - d.min)) * 100);
+
+  document.getElementById('life-years').textContent = expected + ' años';
+  document.getElementById('life-sub').textContent = 'estimación para ' + d.name + ' con tus cuidados actuales';
+  document.getElementById('life-bar-fill').style.width = pct + '%';
+  document.getElementById('life-bar-fill').textContent = pct + '%';
+
+  const tips = [];
+  if (diet < 3) tips.push('🥦 Mejora la dieta: pellets + fruta + verdura diaria. Puede sumar años de vida.');
+  if (vet < 3) tips.push('🩺 Revisión veterinaria anual: detecta enfermedades antes de que sean graves.');
+  if (enrich < 3) tips.push('🎪 Más tiempo fuera de la jaula y juguetes rotativos mejoran la salud física y mental.');
+  if (diet >= 4 && vet >= 4 && enrich >= 4) tips.push('✅ Excelentes cuidados. Tu loro tiene todas las condiciones para una vida larga y plena.');
+
+  document.getElementById('life-tips').innerHTML = tips.map(t=>'<li style="margin-bottom:8px;font-size:.88rem">'+t+'</li>').join('');
+  document.getElementById('life-result').classList.add('show');
+}
+
+// ─────────────────────────────────────────────────────────────
+// FOOD PORTION CALCULATOR
+// ─────────────────────────────────────────────────────────────
+const foodData = {
+  periquito: {pct:0.10,pellets:60,fruit:25,veg:10,seeds:5},
+  agapornis: {pct:0.10,pellets:55,fruit:25,veg:15,seeds:5},
+  ninfa:     {pct:0.08,pellets:60,fruit:20,veg:15,seeds:5},
+  conuro:    {pct:0.08,pellets:60,fruit:20,veg:15,seeds:5},
+  amazona:   {pct:0.07,pellets:65,fruit:20,veg:12,seeds:3},
+  gris:      {pct:0.07,pellets:65,fruit:20,veg:12,seeds:3},
+  cacatua:   {pct:0.07,pellets:60,fruit:22,veg:15,seeds:3},
+  guacamayo: {pct:0.06,pellets:60,fruit:22,veg:14,seeds:4},
+  jacinto:   {pct:0.06,pellets:55,fruit:25,veg:15,seeds:5},
+};
+
+function calcFood() {
+  const sp = document.getElementById('food-species').value;
+  const w = parseInt(document.getElementById('food-weight').value);
+  const d = foodData[sp];
+  const daily = Math.round(w * d.pct);
+  const pelletsG = Math.round(daily * d.pellets/100);
+  const fruitG = Math.round(daily * d.fruit/100);
+  const vegG = Math.round(daily * d.veg/100);
+  const seedG = Math.round(daily * d.seeds/100);
+
+  document.getElementById('food-breakdown').innerHTML = `
+    <tr><th>Alimento</th><th>g/día</th><th>Porcentaje</th></tr>
+    <tr><td>🔵 Pellets de calidad</td><td>${pelletsG}g</td><td>${d.pellets}%</td></tr>
+    <tr><td>🍎 Fruta fresca variada</td><td>${fruitG}g</td><td>${d.fruit}%</td></tr>
+    <tr><td>🥦 Verdura fresca variada</td><td>${vegG}g</td><td>${d.veg}%</td></tr>
+    <tr><td>🌻 Semillas / complementos</td><td>${seedG}g</td><td>${d.seeds}%</td></tr>
+    <tr class="total"><td>TOTAL diario</td><td>${daily}g</td><td>100%</td></tr>
+  `;
+  document.getElementById('food-tips').innerHTML = `
+    <li>Divide la ración en 2 tomas: mañana y tarde. Retira la fruta fresca tras 2–3 horas.</li>
+    <li>Los pellets pueden estar disponibles ad libitum si el loro no tiende a obesidad.</li>
+    <li>Varía las frutas y verduras diariamente para asegurar todos los micronutrientes.</li>
+    <li>Agua fresca siempre disponible, cambiada mínimo 1 vez al día.</li>
+  `;
+  document.getElementById('food-result').classList.add('show');
+}
+</script>
+</body>
+</html>
