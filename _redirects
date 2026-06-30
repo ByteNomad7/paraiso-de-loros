@@ -347,3 +347,23 @@
 # Netlify only applies this when no static file matches.
 # ══════════════════════════════════════════════════════
 /*                                                   /404.html                                                404
+
+# ══════════════════════════════════════════════════════
+# SECTION 18 — PHASE 5A BROKEN LINK FIXES
+# ══════════════════════════════════════════════════════
+# Item 1a: root-level stale URL
+/cites-loros-espana.html                                  /blog/cites-loros-espana.html                              301
+
+# Item 1b: missing blog comparison posts → redirect to nearest equivalent
+/blog/loro-gris-africano-vs-loro-amazonico.html           /blog/loro-gris-africano-vs-amazonico.html                 301
+/blog/cuanto-vive-un-loro-gris-africano.html              /blog/cuanto-vive-un-loro.html                             301
+/blog/que-come-un-loro-gris-africano.html                 /blog/que-comen-los-loros-bebes.html                       301
+/blog/guacamayo-azul-amarillo-vs-guacamayo-escarlata.html /guacamayos.html                                           301
+
+# Item 1c: disponibles/ sub-pages (only index exists, sub-pages 404)
+/disponibles/aves-disponibles-esta-semana.html            /available-birds/                                          301
+/disponibles/loros-disponibles-espana.html                /available-birds/                                          301
+/disponibles/guacamayos-disponibles-espana.html           /available-birds/                                          301
+/disponibles/cacatuas-disponibles-espana.html             /available-birds/                                          301
+/disponibles/loros-con-documentacion-cites.html           /blog/cites-loros-espana.html                              301
+/disponibles/loros-jovenes-criados-a-mano.html            /available-birds/                                          301

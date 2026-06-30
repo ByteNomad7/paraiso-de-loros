@@ -758,7 +758,34 @@
   .nav-dropdown.is-open .nav-mega{transform:translateY(0)}
 }
 
-</style>
+
+    /* ── CATEGORY CARDS (Phase 5A) ── */
+    .cat-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 24px;
+      margin-bottom: 0;
+    }
+    .cat-card {
+      display: flex;
+      flex-direction: column;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px 24px;
+      text-decoration: none;
+      color: inherit;
+      transition: box-shadow .22s, transform .18s;
+      cursor: pointer;
+    }
+    .cat-card:hover { box-shadow: 0 10px 40px rgba(31,61,43,.14); transform: translateY(-3px); text-decoration: none; }
+    .cat-icon { font-size: 2.4rem; margin-bottom: 14px; }
+    .cat-card h2 { font-family: 'Poppins', sans-serif; font-size: 1.15rem; font-weight: 800; color: var(--primary); margin-bottom: 8px; }
+    .cat-card p { font-size: .92rem; color: var(--muted); line-height: 1.7; flex: 1; margin-bottom: 16px; }
+    .cat-cta { font-size: .88rem; font-weight: 700; color: var(--gold-hover); }
+    @media(max-width:600px) { .cat-grid { grid-template-columns: 1fr; } }
+
+    </style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -949,6 +976,18 @@ body{padding-top:68px}
 @media(max-width:820px){.footer-grid{grid-template-columns:1fr 1fr;row-gap:1.5rem}}
 @media(max-width:480px){.footer-grid{grid-template-columns:1fr}.footer-bottom-bar{flex-direction:column;text-align:center}}
 </style>
+  <meta property="og:title" content="Tienda — Aves y Huevos Disponibles" />
+  <meta property="og:description" content="Compra loros y aves exóticas criadas a mano con documentación CITES. Guacamayos, Loros Grises, Amazonas y Cacatúas disponibles en paraisodeaves." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:url" content="https://www.paraisodeaves.com/tienda.html" />
+  <meta property="og:image" content="https://www.paraisodeaves.com/uploaded-macaw.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Tienda — Aves y Huevos Disponibles" />
+  <meta name="twitter:description" content="Compra loros y aves exóticas criadas a mano con documentación CITES. Guacamayos, Loros Grises, Amazonas y Cacatúas disponibles en paraisodeaves." />
+  <meta name="twitter:image" content="https://www.paraisodeaves.com/uploaded-macaw.webp" />
+  <link rel="alternate" hreflang="es-ES" href="https://www.paraisodeaves.com/tienda.html" />
+  <link rel="alternate" hreflang="x-default" href="https://www.paraisodeaves.com/" />
 </head>
 <body>
 
@@ -1030,66 +1069,67 @@ body{padding-top:68px}
 <!-- HERO -->
 <section class="shop-hero">
   <div class="shop-hero__badge">🦜 Criadero Registrado · CITES Oficial</div>
-  <h1>Aves y Huevos Disponibles</h1>
-  <p>Todas nuestras aves son criadas a mano en Llíria, Valencia. Documentación CITES completa incluida. Envíos seguros a toda España y Europa.</p>
+  <h1>Tienda — Accesorios para Loros y Aves</h1>
+  <p>Todo lo que necesitas para el bienestar de tu loro: jaulas, alimentación, juguetes, transportines y perchas, con el asesoramiento de nuestro criadero registrado.</p>
   <div class="trust-pills">
-    <span class="trust-pill">✓ CITES incluido</span>
-    <span class="trust-pill">✓ Criados a mano</span>
-    <span class="trust-pill">✓ Revisión veterinaria</span>
-    <span class="trust-pill">✓ Envío Europa</span>
-    <span class="trust-pill">✓ Soporte post-venta</span>
+    <span class="trust-pill">✓ Seleccionado por criadores</span>
+    <span class="trust-pill">✓ Calidad profesional</span>
+    <span class="trust-pill">✓ Envío a toda España</span>
+    <span class="trust-pill">✓ Asesoramiento incluido</span>
   </div>
 </section>
 
-<!-- FILTER BAR -->
-<div class="filter-bar" role="navigation" aria-label="Filtrar productos">
-  <div class="filter-inner">
-    <button class="filter-tab active" data-filter="all">Todos</button>
-    <button class="filter-tab" data-filter="guacamayo">Guacamayos</button>
-    <button class="filter-tab" data-filter="loro">Loros</button>
-    <button class="filter-tab" data-filter="cacatua">Cacatúas</button>
-    <button class="filter-tab" data-filter="huevos">Huevos Fértiles</button>
+<!-- CATEGORY CARDS -->
+<main class="shop-main" style="max-width:1100px;margin:0 auto;padding:52px 5%">
+  <p style="text-align:center;color:var(--muted);font-size:.95rem;margin-bottom:40px">Selecciona una categoría para ver nuestra selección de productos recomendados</p>
+
+  <div class="cat-grid">
+
+    <a class="cat-card" href="/jaulas-para-loros">
+      <div class="cat-icon">🏠</div>
+      <h2>Jaulas para Loros</h2>
+      <p>Jaulas de acero inoxidable para todas las especies: guacamayos, yacos, cacatúas, amazonas y loros pequeños. Distintos tamaños y configuraciones.</p>
+      <span class="cat-cta">Ver jaulas →</span>
+    </a>
+
+    <a class="cat-card" href="/comida-para-loros">
+      <div class="cat-icon">🌿</div>
+      <h2>Comida para Loros</h2>
+      <p>Pellets de calidad, mezclas de semillas, frutas liofilizadas y complementos nutricionales. La base de una alimentación equilibrada y longeva.</p>
+      <span class="cat-cta">Ver comida →</span>
+    </a>
+
+    <a class="cat-card" href="/juguetes-naturales-para-loros">
+      <div class="cat-icon">🎯</div>
+      <h2>Juguetes Naturales</h2>
+      <p>Juguetes destructibles de madera natural, forrajeo, cuerdas de sisal y enriquecimiento cognitivo. Esenciales para el bienestar mental de tu loro.</p>
+      <span class="cat-cta">Ver juguetes →</span>
+    </a>
+
+    <a class="cat-card" href="/transportines-para-loros">
+      <div class="cat-icon">✈️</div>
+      <h2>Transportines</h2>
+      <p>Cajas de transporte homologadas IATA para viajes seguros en coche, tren o avión. Adaptadas a guacamayos, loros medianos y pequeños.</p>
+      <span class="cat-cta">Ver transportines →</span>
+    </a>
+
+    <a class="cat-card" href="/adopcion-de-loros">
+      <div class="cat-icon">🦜</div>
+      <h2>Aves Disponibles</h2>
+      <p>¿Buscas un loro o ave exótica? Consulta nuestras aves actuales criadas a mano en el criadero con documentación CITES completa.</p>
+      <span class="cat-cta">Ver aves →</span>
+    </a>
+
   </div>
-</div>
 
-<!-- SHOP MAIN -->
-<main class="shop-main">
-  <p class="results-info" id="resultsInfo">Mostrando <strong id="resultsCount">0</strong> productos</p>
-
-  <div class="product-grid" id="productGrid"></div>
-  <div class="empty-state" id="emptyState">
-    <div class="icon">🔍</div>
-    <h2>No hay resultados</h2>
-    <p>Prueba con otro filtro o contáctanos para consultar disponibilidad.</p>
+  <!-- CTA CONTACT -->
+  <div style="background:linear-gradient(135deg,var(--primary),#2B533C);border-radius:16px;padding:36px;margin-top:52px;text-align:center;color:#fff">
+    <h2 style="font-family:Poppins,sans-serif;font-size:1.35rem;font-weight:900;color:#fff;margin-bottom:10px">¿Necesitas Asesoramiento?</h2>
+    <p style="color:rgba(255,255,255,.82);margin-bottom:20px;font-size:.97rem">Nuestro equipo te ayuda a elegir los accesorios adecuados para la especie y edad de tu loro.</p>
+    <a href="mailto:paraisodeloros@gmail.com" style="display:inline-block;background:linear-gradient(135deg,#D4A94F,#E0B75F);color:#1F3D2B;font-weight:800;font-size:.95rem;padding:12px 28px;border-radius:999px;text-decoration:none">✉ paraisodeloros@gmail.com</a>
   </div>
 </main>
 
-<!-- TRUST SECTION -->
-<section class="trust-section">
-  <h2>¿Por qué comprar en paraisodeaves?</h2>
-  <div class="trust-grid">
-    <div class="trust-item">
-      <div class="ti-icon">📋</div>
-      <strong>Documentación CITES</strong>
-      <p>Cada ave incluye certificado CITES oficial y anilla identificativa. Tenencia 100% legal.</p>
-    </div>
-    <div class="trust-item">
-      <div class="ti-icon">🤲</div>
-      <strong>Criadas a mano</strong>
-      <p>Socializadas desde el nido para un vínculo óptimo con el propietario.</p>
-    </div>
-    <div class="trust-item">
-      <div class="ti-icon">🏥</div>
-      <strong>Revisión veterinaria</strong>
-      <p>Informe de salud incluido antes de la entrega en todos los ejemplares.</p>
-    </div>
-    <div class="trust-item">
-      <div class="ti-icon">🌍</div>
-      <strong>Envío seguro Europa</strong>
-      <p>Transportistas especializados en aves vivas. Seguimiento hasta la entrega.</p>
-    </div>
-  </div>
-</section>
 
 <!-- FOOTER -->
       <footer class="footer">

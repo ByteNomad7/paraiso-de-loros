@@ -1,0 +1,174 @@
+PHASE 5A — PARAÍSO DE AVES CRITICAL SEO FIXES FIRST
+
+Goal:
+Fix the highest-impact audit problems before creating new SEO pages.
+
+Use the audit report dated 26 June 2026 as reference.
+
+Do NOT redesign the site.
+Do NOT remove working URLs.
+Do NOT change brand style.
+Only fix critical SEO, crawl, UX and conversion issues.
+
+====================================
+1. FIX BROKEN INTERNAL LINKS
+====================================
+
+Find and fix all internal 404 links.
+
+Specifically fix:
+
+/cites-loros-espana.html
+Redirect to:
+/blog/cites-loros-espana.html
+
+Fix or redirect all /disponibles/ broken links.
+
+Fix the 9 missing comparison/content URLs:
+- eclectus-vs-yaco
+- cacatua-alba-vs-cacatua-galerita
+- guacamayo-azul-amarillo-vs-guacamayo-escarlata
+- loro-gris-africano-vs-loro-amazonico
+- loro-amazonico-vs-eclectus
+- como-cuidar-un-guacamayo
+- cuanto-vive-un-loro-gris-africano
+- que-come-un-loro-gris-africano
+- banar-loro-guia-completa
+
+Either:
+A) create proper SEO pages for them, or
+B) redirect to the closest existing relevant article.
+
+No internal links should point to 404 pages.
+
+====================================
+2. ADD ALL FRENCH PAGES TO SITEMAP
+====================================
+
+Audit all /fr/ pages.
+
+Add every live French page to sitemap.xml.
+
+Include:
+- /fr/
+- French species pages
+- French city pages
+- French blog pages
+- French commercial pages
+- French contact/legal pages
+
+No French live page should be missing from sitemap.
+
+====================================
+3. FIX HREFLANG COVERAGE
+====================================
+
+Add hreflang to all translated page groups.
+
+Use:
+es-ES
+pt-PT
+fr-FR
+x-default
+
+If equivalent page exists, link exact equivalent.
+If equivalent page does not exist, fallback to language homepage.
+
+Do not create broken hreflang URLs.
+
+====================================
+4. FIX TIENDA EMPTY PAGE
+====================================
+
+Fix tienda.html showing “Mostrando 0 productos”.
+
+The page must show useful commercial category cards:
+
+- Jaulas para loros
+- Comida para loros
+- Juguetes naturales
+- Transportines
+- Perchas y accesorios
+
+Each card must include:
+- image
+- short description
+- CTA
+- link to correct page
+
+No empty product grid.
+
+====================================
+5. OPTIMIZE LARGE IMAGES
+====================================
+
+Find and optimize:
+
+transportin-loro-caja-viaje-01.png
+
+Convert to WebP.
+Target under 150 KB.
+Update references.
+
+Also optimize:
+- cacatua-01.jpg
+- large gallery JPGs
+
+Add:
+- width
+- height
+- lazy loading
+- WebP where possible
+
+====================================
+6. UNIFY BLOG NAVIGATION
+====================================
+
+All blog pages must use the same premium header/footer as the main site.
+
+Remove old blog-only navbar.
+
+Blog pages must include:
+- same logo
+- same menu
+- same ES/PT/FR switcher
+- same footer
+- mobile hamburger
+
+====================================
+7. SOCIAL META
+====================================
+
+Add missing Twitter Cards and OpenGraph tags sitewide.
+
+Every page needs:
+- og:title
+- og:description
+- og:image
+- og:url
+- twitter:card
+- twitter:title
+- twitter:description
+- twitter:image
+
+====================================
+8. FINAL VALIDATION
+====================================
+
+Run:
+
+npm run build
+
+Then run/link-check the site.
+
+Report:
+- Broken links before/after
+- French sitemap count
+- Hreflang coverage
+- Tienda page fixed
+- Images optimized
+- Blog nav unified
+- OG/Twitter tags added
+- Build result
+- Remaining issues
+- New estimated SEO score
