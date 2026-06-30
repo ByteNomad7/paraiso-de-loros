@@ -1,0 +1,304 @@
+PHASE 6 — EUROPEAN AUTHORITY EXPANSION
+
+Goal:
+Expand Paraíso de Aves into Europe's largest multilingual parrot platform while maintaining premium quality.
+
+Existing markets:
+🇪🇸 Spain
+🇵🇹 Portugal
+🇫🇷 France
+
+Do NOT redesign.
+Do NOT remove existing URLs.
+Maintain all SEO already implemented.
+
+====================================
+1. EXPAND CITY LANDING PAGES
+====================================
+
+Create optimized city pages for every major city.
+
+Spain
+- Madrid
+- Barcelona
+- Valencia
+- Sevilla
+- Málaga
+- Zaragoza
+- Murcia
+- Bilbao
+- Alicante
+- Granada
+- Valladolid
+- Vigo
+- Gijón
+- Oviedo
+- Córdoba
+- Salamanca
+- León
+- Santander
+- Pamplona
+- Tarragona
+
+Portugal
+- Lisboa
+- Porto
+- Braga
+- Coimbra
+- Faro
+- Setúbal
+- Aveiro
+- Leiria
+- Viseu
+- Évora
+- Guimarães
+- Funchal
+
+France
+- Paris
+- Lyon
+- Marseille
+- Toulouse
+- Nice
+- Bordeaux
+- Lille
+- Nantes
+- Strasbourg
+- Rennes
+- Montpellier
+- Dijon
+
+Each page must include:
+
+• localized content
+• delivery information
+• FAQs
+• available species
+• related articles
+• commercial CTA
+• internal links
+• schema
+• localized metadata
+
+====================================
+2. SPECIES × CITY PAGES
+====================================
+
+Generate landing pages like:
+
+African Grey in Madrid
+
+Macaws in Paris
+
+Cockatoos in Porto
+
+Eclectus in Lyon
+
+Amazon parrots in Barcelona
+
+Hyacinth Macaws in Lisbon
+
+Example:
+
+/graupapagei-paris
+/yaco-madrid
+/ara-porto
+
+Avoid duplicate content.
+
+====================================
+3. BUYER INTENT PAGES
+====================================
+
+Create pages such as:
+
+Parrots under €1000
+
+Baby parrots
+
+Hand-raised parrots
+
+Talking parrots
+
+Large parrots
+
+Small parrots
+
+Family parrots
+
+Apartment parrots
+
+Luxury parrots
+
+Rare parrots
+
+CITES parrots
+
+====================================
+4. EXPAND ACCESSORIES
+====================================
+
+Create complete hubs:
+
+Cages
+
+Food
+
+Supplements
+
+Travel carriers
+
+Natural toys
+
+Perches
+
+Cleaning products
+
+Health products
+
+Each becomes a category hub with educational content.
+
+====================================
+5. PHOTO SEO
+====================================
+
+Support over 1000 optimized images.
+
+Every image:
+
+SEO filename
+
+WebP
+
+Localized ALT
+
+Localized captions
+
+Structured data
+
+Lazy loading
+
+Responsive sizes
+
+====================================
+6. IMAGE HUBS
+====================================
+
+Create galleries:
+
+Baby parrots
+
+Macaws
+
+African Grey
+
+Cockatoos
+
+Amazon parrots
+
+Facility
+
+Shipping
+
+Food
+
+Accessories
+
+====================================
+7. INTERNAL LINK GRAPH
+====================================
+
+Every page links naturally to:
+
+Species
+
+Cities
+
+Accessories
+
+Blog
+
+Guides
+
+Facility
+
+Contact
+
+Available birds
+
+Related species
+
+====================================
+8. SITEMAPS
+====================================
+
+Split sitemap into:
+
+species.xml
+
+blog.xml
+
+cities.xml
+
+fr.xml
+
+pt.xml
+
+images.xml
+
+accessories.xml
+
+index sitemap
+
+====================================
+9. AI SEO
+====================================
+
+Every page should contain:
+
+Clear entity definitions
+
+Question-answer sections
+
+Summary blocks
+
+Structured headings
+
+Schema
+
+Short answer snippets
+
+High factual accuracy
+
+Optimized for Google AI Overviews, ChatGPT, Gemini, Bing Copilot and Perplexity.
+
+====================================
+10. FINAL REPORT
+
+Run:
+
+npm run build
+
+Then report:
+
+Pages created
+
+Cities added
+
+Species pages added
+
+Image capacity
+
+Internal links
+
+Schemas
+
+Sitemaps
+
+Estimated indexed pages
+
+Estimated topical authority
+
+Estimated AI readiness
+
+Estimated SEO readiness
