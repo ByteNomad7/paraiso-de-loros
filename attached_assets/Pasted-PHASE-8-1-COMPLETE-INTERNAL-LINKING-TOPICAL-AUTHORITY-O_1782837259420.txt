@@ -1,0 +1,391 @@
+PHASE 8.1 — COMPLETE INTERNAL LINKING & TOPICAL AUTHORITY
+
+Objective:
+Perform a complete internal linking optimization across the entire Paraíso de Aves website to strengthen topical authority, improve crawlability, distribute PageRank, and increase rankings in Spain, Portugal, and France.
+
+IMPORTANT
+
+• Do NOT change existing URLs.
+• Do NOT remove pages.
+• Do NOT break navigation.
+• Preserve all existing SEO metadata.
+• Keep the premium design.
+• All new internal links must feel natural for users.
+• Prioritize contextual links over navigation links.
+
+────────────────────────────────────
+STEP 1 — FULL SITE CRAWL
+────────────────────────────────────
+
+Scan every page including:
+
+• Homepage
+• Species pages
+• Available Birds
+• Country pages
+• City pages
+• Adoption
+• Food
+• Cages
+• Toys
+• Transport
+• Facility
+• Blog
+• FAQ
+• Knowledge Center
+• Spanish pages
+• Portuguese pages
+• French pages
+
+Generate an internal link map before making changes.
+
+────────────────────────────────────
+STEP 2 — REMOVE ORPHAN PAGES
+────────────────────────────────────
+
+Detect every page with fewer than 3 incoming internal links.
+
+Automatically create relevant contextual links from authoritative pages.
+
+No important page should remain isolated.
+
+────────────────────────────────────
+STEP 3 — SPECIES HUB
+────────────────────────────────────
+
+Every species page must link naturally to:
+
+• Available Birds
+• Adoption Process
+• Food Guide
+• Natural Toys
+• Cages
+• Transport Carriers
+• Our Facility
+• Related Species
+• FAQ
+• Contact
+• Knowledge Center
+• Related Blog Articles
+
+Add a "Related Species" section containing 4–6 relevant species.
+
+────────────────────────────────────
+STEP 4 — BLOG IMPROVEMENTS
+────────────────────────────────────
+
+Every article should link naturally to:
+
+• Species mentioned
+• Food
+• Toys
+• Cages
+• Facility
+• Available Birds
+• Adoption
+• Related Articles
+• Knowledge Center
+
+Add:
+
+"Related Reading"
+
+with 4–8 intelligent recommendations.
+
+────────────────────────────────────
+STEP 5 — COUNTRY PAGES
+────────────────────────────────────
+
+Spain
+
+Portugal
+
+France
+
+Each page should link to:
+
+• Species
+• Cities
+• Available Birds
+• Food
+• Toys
+• Cages
+• Facility
+• Blog
+• FAQ
+• Contact
+
+────────────────────────────────────
+STEP 6 — CITY PAGES
+────────────────────────────────────
+
+Every city page should include sections:
+
+Related Species
+
+Birds Available
+
+Food
+
+Natural Toys
+
+Transport
+
+Cages
+
+Adoption Process
+
+Delivery Information
+
+Related Articles
+
+Contact
+
+────────────────────────────────────
+STEP 7 — COMMERCIAL PAGES
+────────────────────────────────────
+
+Food page
+
+↓
+
+Link naturally to every major species.
+
+Natural Toys
+
+↓
+
+Link to every major species.
+
+Transport
+
+↓
+
+Link to species requiring transport advice.
+
+Cages
+
+↓
+
+Link to cage recommendations by species.
+
+Facility
+
+↓
+
+Link to Adoption, Species and FAQ.
+
+────────────────────────────────────
+STEP 8 — KNOWLEDGE CENTER
+────────────────────────────────────
+
+Every FAQ or Knowledge page should link to:
+
+Species
+
+Commercial pages
+
+Blog
+
+Cities
+
+Countries
+
+Available Birds
+
+Related FAQs
+
+────────────────────────────────────
+STEP 9 — CROSS LANGUAGE
+────────────────────────────────────
+
+Every Spanish page should contain:
+
+Portuguese equivalent
+
+French equivalent
+
+using proper hreflang.
+
+Maintain synchronized internal architecture across ES, PT and FR.
+
+The navigation structure should be consistent across all three languages.
+
+────────────────────────────────────
+STEP 10 — ANCHOR TEXT
+────────────────────────────────────
+
+Replace generic anchors like:
+
+Read More
+
+Click Here
+
+Learn More
+
+with descriptive anchors such as:
+
+African Grey Care Guide
+
+Natural Toys for Macaws
+
+Healthy Food for Cockatoos
+
+Eclectus Feeding Guide
+
+Transporting a Parrot Safely
+
+Parrot Adoption Process
+
+Buying a Hyacinth Macaw
+
+Keep anchor text varied and natural.
+
+────────────────────────────────────
+STEP 11 — HOMEPAGE AUTHORITY
+────────────────────────────────────
+
+Homepage should prominently link to:
+
+Species
+
+Available Birds
+
+Food
+
+Natural Toys
+
+Transport
+
+Cages
+
+Facility
+
+Knowledge Center
+
+Blog
+
+Cities
+
+Countries
+
+FAQ
+
+Contact
+
+Use homepage authority to distribute PageRank.
+
+────────────────────────────────────
+STEP 12 — FOOTER
+────────────────────────────────────
+
+Expand footer with grouped SEO links.
+
+Species
+
+Countries
+
+Cities
+
+Commercial
+
+Knowledge Center
+
+Resources
+
+Company
+
+Keep it clean and elegant.
+
+────────────────────────────────────
+STEP 13 — BREADCRUMBS
+────────────────────────────────────
+
+Every page must contain:
+
+Home
+
+↓
+
+Country
+
+↓
+
+Category
+
+↓
+
+Current Page
+
+Include BreadcrumbList schema.
+
+────────────────────────────────────
+STEP 14 — RELATED CONTENT
+────────────────────────────────────
+
+Automatically create:
+
+You may also like
+
+Related Species
+
+Related Articles
+
+Customers also viewed
+
+based on semantic relevance.
+
+Never display random links.
+
+────────────────────────────────────
+STEP 15 — LINK HEALTH
+────────────────────────────────────
+
+Audit the entire site for:
+
+Broken internal links
+
+Redirect chains
+
+Duplicate links
+
+Incorrect canonicals
+
+Broken hreflang
+
+Missing breadcrumbs
+
+Fix everything automatically.
+
+────────────────────────────────────
+STEP 16 — BUILD
+────────────────────────────────────
+
+Run:
+
+npm run build
+
+────────────────────────────────────
+FINAL REPORT
+────────────────────────────────────
+
+Return:
+
+• Pages scanned
+• Total internal links before optimization
+• Total internal links after optimization
+• Orphan pages fixed
+• Species hub links added
+• Blog links added
+• Commercial page links added
+• Country links added
+• City links added
+• Knowledge Center links added
+• Footer improvements
+• Breadcrumb validation
+• Broken links fixed
+• hreflang validation
+• Build status
+• Estimated crawlability improvement
+• Estimated topical authority improvement
+• Overall SEO readiness score
