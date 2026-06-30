@@ -1,0 +1,288 @@
+PHASE 7B — EXPAND PARROT SPECIES (NEXT 15 HIGH-DEMAND SPECIES)
+
+Goal:
+Expand Paraíso de Aves with the next 15 popular parrot species to strengthen topical authority and long-tail SEO.
+
+IMPORTANT
+
+Do NOT redesign the website.
+
+Do NOT remove existing URLs.
+
+Maintain the existing Spanish, Portuguese and French architecture.
+
+Maintain the premium design.
+
+These pages should be production-ready for SEO even if we do not yet have all photos.
+
+=========================================
+SPECIES TO ADD
+=========================================
+
+Create complete species pages for:
+
+1. Senegal Parrot
+2. Sun Conure
+3. Green-cheeked Conure
+4. Jenday Conure
+5. Indian Ringneck
+6. Alexandrine Parakeet
+7. Rainbow Lorikeet
+8. Galah Cockatoo
+9. Umbrella Cockatoo
+10. Goffin's Cockatoo
+11. Yellow-naped Amazon
+12. Orange-winged Amazon
+13. Caique
+14. Pionus Parrot
+15. Quaker Parrot (Monk Parakeet)
+
+=========================================
+MULTILINGUAL
+=========================================
+
+Create routing for:
+
+Spanish
+
+Portuguese
+
+French
+
+Maintain proper hreflang.
+
+Spanish becomes the master version.
+
+Portuguese and French should have complete localized metadata and routing.
+
+=========================================
+PAGE STRUCTURE
+=========================================
+
+Every species page should include:
+
+Hero section
+
+Species overview
+
+Quick facts
+
+Scientific name
+
+Origin
+
+Size
+
+Weight
+
+Life expectancy
+
+Talking ability
+
+Noise level
+
+Difficulty
+
+Suitable for beginners
+
+Diet
+
+Housing
+
+Recommended cage
+
+Behaviour
+
+Training
+
+Health
+
+Common diseases
+
+Exercise
+
+Mental stimulation
+
+Breeding information
+
+Interesting facts
+
+Buying advice
+
+CITES information
+
+FAQ
+
+Related articles
+
+Related accessories
+
+Related food
+
+Related toys
+
+Related cages
+
+Related transport carriers
+
+Related available birds
+
+Contact CTA
+
+=========================================
+SEO
+=========================================
+
+Each page must have
+
+Unique H1
+
+SEO title
+
+Meta description
+
+Canonical
+
+Open Graph
+
+Twitter Card
+
+Breadcrumb schema
+
+FAQ schema
+
+Article schema
+
+WebPage schema
+
+Species entity where appropriate
+
+=========================================
+IMAGE PLACEHOLDERS
+=========================================
+
+Since we are travelling and do not yet have all original images:
+
+Prepare every page for
+
+Hero image
+
+Gallery of 20–30 future photos
+
+DO NOT show broken placeholders.
+
+Display a clean gallery section with a message such as:
+
+"More photos of this species will be added soon."
+
+Prepare image objects with SEO-friendly filenames such as:
+
+senegal-parrot-01.webp
+
+senegal-parrot-02.webp
+
+green-cheeked-conure-01.webp
+
+umbrella-cockatoo-01.webp
+
+etc.
+
+Prepare localized ALT text and captions for every future image.
+
+=========================================
+INTERNAL LINKING
+=========================================
+
+Automatically link each new species to:
+
+Food
+
+Natural Toys
+
+Transport Carriers
+
+Cages
+
+Facility
+
+Available Birds
+
+Knowledge Center
+
+Relevant blog articles
+
+Related species
+
+Comparison pages
+
+Contact
+
+=========================================
+SPECIES HUB
+=========================================
+
+Add all 15 species into:
+
+Species index
+
+Homepage featured species (where appropriate)
+
+Footer species section
+
+Search
+
+Knowledge Center
+
+XML sitemap
+
+=========================================
+BUILD QUALITY
+=========================================
+
+Every page should contain
+
+1,800–2,500 words
+
+Natural writing
+
+No duplicated paragraphs
+
+No AI filler
+
+No thin content
+
+Optimized for:
+
+Google Search
+
+Google AI Overviews
+
+ChatGPT
+
+Gemini
+
+Perplexity
+
+=========================================
+FINAL VALIDATION
+=========================================
+
+Run
+
+npm run build
+
+Then report
+
+• Species pages created
+• Spanish pages created
+• Portuguese routes created
+• French routes created
+• Internal links added
+• Sitemap updated
+• Schema added
+• Future gallery placeholders prepared
+• Build result
+• Estimated increase in topical authority
+• Estimated increase in organic keyword coverage
+
+Do not stop if one page has a minor issue. Complete all 15 species while preserving overall site quality.

@@ -346,6 +346,64 @@
 # SECTION 17 — CATCH-ALL 404
 # Netlify only applies this when no static file matches.
 # ══════════════════════════════════════════════════════
+
+# SECTION 23 — SPECIES PAGES (ES) /especies/
+/especies   /especies/index.html   200
+/especies/  /especies/index.html   200
+/especies/loro-senegal   /especies/loro-senegal/index.html   200
+/especies/conuro-del-sol   /especies/conuro-del-sol/index.html   200
+/especies/conuro-mejilla-verde   /especies/conuro-mejilla-verde/index.html   200
+/especies/conuro-jenday   /especies/conuro-jenday/index.html   200
+/especies/periquito-collar-indio   /especies/periquito-collar-indio/index.html   200
+/especies/periquito-alejandrino   /especies/periquito-alejandrino/index.html   200
+/especies/lorikeet-arcoiris   /especies/lorikeet-arcoiris/index.html   200
+/especies/cacatua-galah   /especies/cacatua-galah/index.html   200
+/especies/cacatua-blanca   /especies/cacatua-blanca/index.html   200
+/especies/cacatua-goffin   /especies/cacatua-goffin/index.html   200
+/especies/amazona-nuca-amarilla   /especies/amazona-nuca-amarilla/index.html   200
+/especies/amazona-ala-naranja   /especies/amazona-ala-naranja/index.html   200
+/especies/caique   /especies/caique/index.html   200
+/especies/loro-pionus   /especies/loro-pionus/index.html   200
+/especies/cotorra-monje   /especies/cotorra-monje/index.html   200
+
+# SECTION 24 — SPECIES PAGES (PT) /pt/especies/
+/pt/especies   /pt/especies/index.html   200
+/pt/especies/  /pt/especies/index.html   200
+/pt/especies/papagaio-senegal   /pt/especies/papagaio-senegal/index.html   200
+/pt/especies/conuro-do-sol   /pt/especies/conuro-do-sol/index.html   200
+/pt/especies/conuro-faces-verdes   /pt/especies/conuro-faces-verdes/index.html   200
+/pt/especies/conuro-jenday   /pt/especies/conuro-jenday/index.html   200
+/pt/especies/periquito-colar-indiano   /pt/especies/periquito-colar-indiano/index.html   200
+/pt/especies/periquito-alexandrino   /pt/especies/periquito-alexandrino/index.html   200
+/pt/especies/lorikeet-arco-iris   /pt/especies/lorikeet-arco-iris/index.html   200
+/pt/especies/cacatua-galah   /pt/especies/cacatua-galah/index.html   200
+/pt/especies/cacatua-branca   /pt/especies/cacatua-branca/index.html   200
+/pt/especies/cacatua-goffin   /pt/especies/cacatua-goffin/index.html   200
+/pt/especies/amazona-nuca-amarela   /pt/especies/amazona-nuca-amarela/index.html   200
+/pt/especies/amazona-asa-laranja   /pt/especies/amazona-asa-laranja/index.html   200
+/pt/especies/caique   /pt/especies/caique/index.html   200
+/pt/especies/papagaio-pionus   /pt/especies/papagaio-pionus/index.html   200
+/pt/especies/periquito-monge   /pt/especies/periquito-monge/index.html   200
+
+# SECTION 25 — SPECIES PAGES (FR) /fr/especies/
+/fr/especies   /fr/especies/index.html   200
+/fr/especies/  /fr/especies/index.html   200
+/fr/especies/perroquet-du-senegal   /fr/especies/perroquet-du-senegal/index.html   200
+/fr/especies/conure-soleil   /fr/especies/conure-soleil/index.html   200
+/fr/especies/conure-joues-vertes   /fr/especies/conure-joues-vertes/index.html   200
+/fr/especies/conure-jenday   /fr/especies/conure-jenday/index.html   200
+/fr/especies/perruche-a-collier   /fr/especies/perruche-a-collier/index.html   200
+/fr/especies/perruche-alexandre   /fr/especies/perruche-alexandre/index.html   200
+/fr/especies/loriquet-arc-en-ciel   /fr/especies/loriquet-arc-en-ciel/index.html   200
+/fr/especies/cacatoes-rosalbin   /fr/especies/cacatoes-rosalbin/index.html   200
+/fr/especies/cacatoes-blanc   /fr/especies/cacatoes-blanc/index.html   200
+/fr/especies/cacatoes-goffin   /fr/especies/cacatoes-goffin/index.html   200
+/fr/especies/amazone-nuque-jaune   /fr/especies/amazone-nuque-jaune/index.html   200
+/fr/especies/amazone-aile-orange   /fr/especies/amazone-aile-orange/index.html   200
+/fr/especies/caique   /fr/especies/caique/index.html   200
+/fr/especies/perroquet-pionus   /fr/especies/perroquet-pionus/index.html   200
+/fr/especies/perruche-moine   /fr/especies/perruche-moine/index.html   200
+
 /*                                                   /404.html                                                404
 
 # ══════════════════════════════════════════════════════
