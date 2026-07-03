@@ -97,7 +97,7 @@
 /available-birds                                     /available-birds/                                        301
 /ciudades                                            /ciudades/                                               301
 /precios                                             /precios/                                                301
-/especies                                            /especies/                                               301
+/especies                                            /especies/index.html                                      200
 /alimentacion                                        /alimentacion/                                           301
 /salud                                               /salud/                                                  301
 /comportamiento                                      /comportamiento/                                         301
@@ -200,8 +200,8 @@
 # ══════════════════════════════════════════════════════
 # SECTION 12 — GSC 404 FIXES (specific URLs Google indexed)
 # ══════════════════════════════════════════════════════
-/centros-adopcion-aves-espana                        /adopcion-de-loros.html                                  301
-/centros-adopcion-aves-espana.html                   /adopcion-de-loros.html                                  301
+/centros-adopcion-aves-espana                        /adopcion-de-loros                                       301
+/centros-adopcion-aves-espana.html                   /adopcion-de-loros                                       301
 # Fixed redirect chain: was /mejores-especies-loros-adoptar → /loros-especies.html → /loros-especies (2 hops)
 # Now direct to clean URL (1 hop)
 /mejores-especies-loros-adoptar                      /loros-especies                                          301
@@ -211,6 +211,37 @@
 # C2 Fix — keyword cannibalization: old criadero page consolidated into new clean-URL page
 /criadero-de-loros-espana.html                       /criadero-loros-espana                                   301
 /criadero-de-loros-espana                            /criadero-loros-espana                                   301
+
+# GSC audit 03-jul-2026 — double .html.html links (source bug fixed in og:url/schema)
+# Point directly at FINAL destination (1 hop) — not the intermediate .html file
+/buy-parrots-europe.html.html                        /comprar-loros-espana                                     301
+/african-grey-parrot-for-sale.html.html              /loro-gris-africano.html                                  301
+/cockatoo-parrots-for-sale.html.html                  /cacatuas.html                                            301
+/macaw-parrots-for-sale.html.html                     /guacamayos.html                                          301
+/parrot-care-health.html.html                        /cuidados-basicos-de-un-loro                              301
+/tipos-de-loros-domesticos.html.html                 /tipos-de-loros-domesticos.html                          301
+/faq.html.html                                       /faq.html                                                301
+/adopcion-de-loros.html.html                         /adopcion-de-loros                                       301
+/cuidados-basicos-de-un-loro.html.html               /cuidados-basicos-de-un-loro                             301
+/errores-comunes-al-adoptar-un-loro.html.html        /errores-comunes-al-adoptar-un-loro                      301
+
+# GSC audit 03-jul-2026 — mismatched-language blog URLs (lang-switcher previously guessed same-slug cross-language, which mostly doesn't exist)
+/pt/blog/guia-loro-gris-africano                     /blog/guia-loro-gris-africano.html                       301
+/pt/blog/precio-de-un-loro-en-espana                 /blog/precio-de-un-loro-en-espana.html                   301
+/blog/reproduzir-papagaios-caseiro.html              /pt/blog/reproduzir-papagaios-caseiro/                   301
+
+# GSC audit 03-jul-2026 — missing /pt/ prefix + orphaned ES slug variant
+/papagaio-eclectus/                                  /pt/papagaio-eclectus/                                   301
+/papagaio-eclectus                                   /pt/papagaio-eclectus/                                   301
+/adoptar-loros-en-espana                             /adopcion-de-loros                                       301
+/adoptar-loros-en-espana.html                        /adopcion-de-loros                                       301
+
+# GSC audit 03-jul-2026 — legacy English noindex stubs consolidated into real Spanish content (301 instead of noindex-forever)
+/cockatoo-parrots-for-sale.html                      /cacatuas.html                                            301
+/african-grey-parrot-for-sale.html                   /loro-gris-africano.html                                  301
+/buy-parrots-europe.html                             /comprar-loros-espana                                     301
+/macaw-parrots-for-sale.html                         /guacamayos.html                                          301
+/parrot-care-health.html                             /cuidados-basicos-de-un-loro                              301
 
 # ══════════════════════════════════════════════════════
 # SECTION 13 — LEGACY CMS PATTERNS
@@ -342,13 +373,7 @@
 /fr/cages-pour-perroquets                /fr/cages-pour-perroquets/index.html          200
 /fr/caisses-de-transport                 /fr/caisses-de-transport/index.html           200
 
-# ══════════════════════════════════════════════════════
-# SECTION 17 — CATCH-ALL 404
-# Netlify only applies this when no static file matches.
-# ══════════════════════════════════════════════════════
-
 # SECTION 23 — SPECIES PAGES (ES) /especies/
-/especies   /especies/index.html   200
 /especies/  /especies/index.html   200
 /especies/loro-senegal   /especies/loro-senegal/index.html   200
 /especies/conuro-del-sol   /especies/conuro-del-sol/index.html   200
@@ -403,8 +428,6 @@
 /fr/especies/caique   /fr/especies/caique/index.html   200
 /fr/especies/perroquet-pionus   /fr/especies/perroquet-pionus/index.html   200
 /fr/especies/perruche-moine   /fr/especies/perruche-moine/index.html   200
-
-/*                                                   /404.html                                                404
 
 # ══════════════════════════════════════════════════════
 # SECTION 18 — PHASE 5A BROKEN LINK FIXES
@@ -518,13 +541,8 @@
 /fr/perroquets-a-vendre-dijon       /fr/perroquets-a-vendre-dijon/index.html  200
 
 # Species×City
-/ciudades/loro-gris-africano-madrid   /ciudades/loro-gris-africano-madrid.html   200
-/ciudades/loro-gris-africano-barcelona   /ciudades/loro-gris-africano-barcelona.html   200
 /ciudades/loro-gris-africano-sevilla   /ciudades/loro-gris-africano-sevilla.html   200
-/ciudades/loro-gris-africano-valencia   /ciudades/loro-gris-africano-valencia.html   200
 /ciudades/loro-gris-africano-bilbao   /ciudades/loro-gris-africano-bilbao.html   200
-/ciudades/guacamayo-sevilla   /ciudades/guacamayo-sevilla.html   200
-/ciudades/guacamayo-valencia   /ciudades/guacamayo-valencia.html   200
 /ciudades/guacamayo-zaragoza   /ciudades/guacamayo-zaragoza.html   200
 /ciudades/amazona-madrid   /ciudades/amazona-madrid.html   200
 /ciudades/amazona-barcelona   /ciudades/amazona-barcelona.html   200
@@ -570,3 +588,9 @@
 /galerias/envio-aves   /galerias/envio-aves.html   200
 /galerias/alimentacion   /galerias/alimentacion.html   200
 /galerias/accesorios   /galerias/accesorios.html   200
+
+
+# ══════════════════════════════════════════════════════
+# SECTION 17 — CATCH-ALL 404 (must remain LAST — Netlify uses first match)
+# ══════════════════════════════════════════════════════
+/*                                                   /404.html                                                404

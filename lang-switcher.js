@@ -101,14 +101,17 @@
       }
     }
 
-    // Prefix fallback: /pt/blog/xxx → /blog/xxx (if going es↔pt blog)
-    if (currentLang === 'pt' && targetLang === 'es' && path.startsWith('/pt/blog/')) {
-      var slug = path.replace('/pt/blog/', '').replace(/\/$/, '');
-      return slug ? '/blog/' + slug + '.html' : '/blog/';
+    // Blog fallback: ES and PT/FR blog posts are NOT 1:1 translated (only rare
+    // exact-slug matches exist), so guessing a same-slug URL produces 404s.
+    // Safer to send the visitor to that language's blog index instead.
+    if (targetLang === 'es' && (currentLang === 'pt' && path.startsWith('/pt/blog/') || currentLang === 'fr' && path.startsWith('/fr/blog/'))) {
+      return '/blog/';
     }
-    if (currentLang === 'es' && targetLang === 'pt' && path.startsWith('/blog/')) {
-      var slug2 = path.replace('/blog/', '').replace(/\.html$/, '').replace(/\/$/, '');
-      return slug2 ? '/pt/blog/' + slug2 : '/pt/blog/';
+    if (targetLang === 'pt' && path.startsWith('/blog/')) {
+      return '/pt/blog/';
+    }
+    if (targetLang === 'fr' && path.startsWith('/blog/')) {
+      return '/fr/blog/';
     }
 
     // Language homepage fallback

@@ -1,0 +1,223 @@
+Perform a complete Google Search Console cleanup audit for paraisodeaves.com.
+
+OBJECTIVE
+
+Fix every issue that can cause:
+
+• 404 Not Found
+• Excluded by "noindex"
+• Alternate page with proper canonical
+• Sitemap inconsistencies
+• Internal links pointing to removed pages
+• Canonical conflicts
+• hreflang inconsistencies
+
+====================================
+
+STEP 1 — FULL SITE CRAWL
+
+Crawl every internal URL.
+
+Check:
+
+• Status code
+• Canonical URL
+• Meta robots
+• hreflang
+• Internal links
+• Images
+• Redirects
+
+Generate a report of every issue.
+
+====================================
+
+STEP 2 — 404 AUDIT
+
+Find every page returning:
+
+404
+410
+Soft 404
+
+For every broken URL:
+
+Determine whether it should be:
+
+A)
+Restored
+
+OR
+
+B)
+301 redirected
+
+OR
+
+C)
+Removed from:
+
+sitemap
+internal links
+language switcher
+breadcrumbs
+related posts
+
+Never leave orphaned broken links.
+
+====================================
+
+STEP 3 — NOINDEX AUDIT
+
+Find every page using:
+
+<meta name="robots" content="noindex">
+
+or
+
+X-Robots-Tag: noindex
+
+For each page decide:
+
+KEEP NOINDEX only if:
+
+search pages
+admin
+test pages
+drafts
+preview pages
+
+Otherwise:
+
+Remove noindex.
+
+Ensure:
+
+index,follow
+
+is used for every public page.
+
+====================================
+
+STEP 4 — CANONICAL AUDIT
+
+For every page verify:
+
+Canonical points to itself.
+
+Only exceptions:
+
+intentional duplicates
+language alternates
+
+Detect:
+
+wrong canonical
+multiple canonicals
+missing canonical
+canonical loops
+
+Correct them.
+
+====================================
+
+STEP 5 — HREFLANG
+
+Verify ES PT FR
+
+Every translated page must contain:
+
+es
+pt
+fr
+x-default
+
+Ensure every hreflang references an existing page.
+
+Remove broken hreflang references.
+
+====================================
+
+STEP 6 — SITEMAP VALIDATION
+
+Compare sitemap against live pages.
+
+Remove:
+
+404 pages
+redirect URLs
+noindex pages
+
+Ensure sitemap only contains:
+
+HTTP 200
+Indexable
+Canonical URLs
+
+====================================
+
+STEP 7 — INTERNAL LINK CHECK
+
+Scan every page.
+
+Replace links pointing to:
+
+old slugs
+redirect chains
+404 pages
+
+Update to canonical destination.
+
+====================================
+
+STEP 8 — REDIRECT REVIEW
+
+Check:
+
+_redirects
+
+Remove:
+
+chains
+loops
+duplicate redirects
+
+Ensure every redirect is one hop.
+
+====================================
+
+STEP 9 — INDEXABILITY
+
+Every important page should be:
+
+200
+index
+follow
+canonical to itself
+present in sitemap
+internally linked
+
+====================================
+
+STEP 10 — BUILD
+
+Run:
+
+npm run build
+
+====================================
+
+OUTPUT
+
+Report:
+
+• Number of 404s fixed
+• Number of redirects created
+• Number of noindex pages remaining
+• Canonical issues fixed
+• hreflang issues fixed
+• Sitemap cleaned
+• Internal links repaired
+• Redirect chains removed
+• Final indexable page count
+• Build result
