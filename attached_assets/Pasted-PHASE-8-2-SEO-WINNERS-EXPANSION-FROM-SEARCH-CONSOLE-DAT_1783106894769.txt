@@ -1,0 +1,204 @@
+PHASE 8.2 — SEO WINNERS EXPANSION FROM SEARCH CONSOLE DATA
+
+Goal:
+Use Google Search Console winning queries to strengthen the pages already gaining clicks and impressions.
+
+Do NOT add new countries.
+Do NOT redesign.
+Do NOT remove existing URLs.
+Focus on Spain first, then mirror the strongest pages into Portugal and France.
+
+Search Console shows strong growth for:
+- comprar loro
+- comprar guacamayo
+- adoptar loro
+- huevos de loro para incubar
+- que comen los loros bebes
+- pionus
+- guacamayo jacinto comprar
+- guacamayo jacinto precio
+- comprar loro gris africano
+- cacatúa precio
+- venta de loros en Valencia
+- criadero de loros papilleros
+- venta de aves
+- criadero de loros
+
+====================================
+1. CREATE / IMPROVE WINNER HUBS
+====================================
+
+Strengthen or create these Spanish pages:
+
+/comprar-loro
+/comprar-guacamayo
+/adoptar-loro
+/guacamayo-jacinto-precio
+/comprar-loro-gris-africano
+/cacatua-precio
+/pionus
+/loros-papilleros
+/venta-de-aves
+/criadero-de-loros
+/loros-en-valencia
+/huevos-de-loro-para-incubar
+/que-comen-los-loros-bebes
+
+Each page must include:
+- 1,800–2,800 words
+- strong H1
+- SEO title under 60 characters
+- meta description 145–155 characters
+- FAQ section
+- FAQ schema
+- Breadcrumb schema
+- internal links to related pages
+- CTA to contact
+- CTA to available birds
+- trust block: CITES, health, delivery, experience
+
+====================================
+2. EXPAND EXISTING WINNING PAGES
+====================================
+
+Improve these existing pages:
+
+/
+ /adopcion-de-loros
+ /guacamayos
+ /available-birds/
+ /available-birds/loro-gris-africano
+ /available-birds/guacamayo-jacinto.html
+ /available-birds/huevos-fertiles
+ /blog/como-alimentar-un-loro-bebe.html
+ /blog/pionus-loro-mascota.html
+ /blog/precio-cacatua-espana.html
+ /ciudades/comprar-loros-sevilla
+ /ciudades/comprar-loros-malaga
+ /peru/adoptar-loros.html
+
+Add:
+- better internal links
+- related species
+- related guides
+- related commercial pages
+- stronger FAQ
+- stronger CTA
+- updated meta where needed
+
+====================================
+3. CREATE PORTUGUESE MIRRORS
+====================================
+
+For the strongest Spanish winner pages, create Portuguese equivalents:
+
+/pt/comprar-papagaio
+/pt/comprar-arara
+/pt/adotar-papagaio
+/pt/preco-arara-jacinto
+/pt/comprar-papagaio-cinzento
+/pt/preco-cacatua
+/pt/pionus
+/pt/papagaios-criados-a-mao
+/pt/venda-de-aves
+/pt/criador-de-papagaios
+
+Use native European Portuguese.
+Do not machine-translate.
+Add hreflang to ES/PT/FR groups.
+
+====================================
+4. CREATE FRENCH MIRRORS
+====================================
+
+Create French equivalents:
+
+/fr/acheter-perroquet
+/fr/acheter-ara
+/fr/adopter-perroquet
+/fr/prix-ara-hyacinthe
+/fr/acheter-gris-du-gabon
+/fr/prix-cacatoes
+/fr/pionus
+/fr/perroquets-eleves-a-la-main
+/fr/vente-oiseaux
+/fr/eleveur-perroquets
+
+Use natural French.
+Add hreflang to ES/PT/FR groups.
+
+====================================
+5. INTERNAL LINKING
+====================================
+
+From all existing relevant pages, link to these winner hubs using natural anchors:
+
+comprar loro
+comprar guacamayo
+adoptar loro
+guacamayo jacinto precio
+comprar loro gris africano
+cacatúa precio
+pionus
+loros papilleros
+huevos fértiles
+alimentar un loro bebé
+loros en Valencia
+
+Every winner hub should receive links from:
+- homepage
+- species pages
+- blog articles
+- city pages
+- available birds pages
+- food page
+- cages page
+- toys page
+- transport page
+
+====================================
+6. CTR IMPROVEMENT
+====================================
+
+Rewrite titles and descriptions to improve CTR.
+
+Examples:
+
+Comprar Loro en España | Criador CITES y Entrega
+Comprar Guacamayo en España | Aves con Documentos
+Guacamayo Jacinto Precio en España | Guía 2026
+Comprar Loro Gris Africano | Yaco con CITES
+Cacatúa Precio en España | Guía de Compra 2026
+
+====================================
+7. SITEMAP + SCHEMA
+====================================
+
+Add all new and updated URLs to sitemap.xml.
+
+Add:
+- Article schema
+- WebPage schema
+- FAQ schema
+- Breadcrumb schema
+- CollectionPage schema where relevant
+
+====================================
+8. FINAL CHECK
+====================================
+
+Run:
+
+npm run build
+
+Then report:
+- winner hubs created
+- existing pages improved
+- PT mirrors created
+- FR mirrors created
+- internal links added
+- sitemap updated
+- hreflang updated
+- build result
+- estimated CTR improvement
+- estimated SEO impact
