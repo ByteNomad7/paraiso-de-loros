@@ -33,3 +33,11 @@ description: New Paraíso de Aves logo, favicon set, colors, and typography appl
 - Header img: `<img src="/images/logo/paraiso-de-aves-logo.webp" alt="Paraíso de Aves" width="136" height="68" loading="eager" fetchpriority="high" style="height:68px;width:auto;display:block">`
 - Footer img: same src, height:55px
 - Schema logo: `https://www.paraisodeaves.com/images/logo/paraiso-de-aves-logo.webp`
+
+## Light logo variant (2026-07-12 update)
+
+File: `images/logo/paraiso-de-aves-logo-light.webp`
+- All HTML img src attributes use the LIGHT variant (white text, gold accents, intact bird)
+- Schema JSON-LD "logo" field keeps the ORIGINAL variant (color version for Google Knowledge Panel)
+- Technique: ImageMagick -fuzz 6% -fill white -opaque "srgb(20,56,17)" — catches all text greens (≤1.4% from centre) without touching emblem leaf greens (7.5% away) or gold
+- Anti-aliasing edge residuals (srgb 0,41,0 range) are ~25px total — visually imperceptible
