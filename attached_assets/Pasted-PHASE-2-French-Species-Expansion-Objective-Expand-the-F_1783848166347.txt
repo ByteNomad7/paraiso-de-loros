@@ -1,0 +1,88 @@
+PHASE 2 – French Species Expansion
+
+Objective:
+Expand the French section into the largest and highest-quality French-language resource for exotic parrots in Europe.
+
+Create 20 premium French species pages.
+
+Requirements for EVERY page:
+
+• 2,000–3,000+ words of unique French content.
+• Native, natural French (not machine-translated).
+• Completely different wording from the Spanish pages while preserving factual accuracy.
+• Premium formatting with short paragraphs, tables, callout boxes and FAQs.
+• Optimized for EEAT and Google Helpful Content.
+
+Each page must include:
+
+- SEO title
+- Meta description
+- H1
+- Introduction
+- Scientific name
+- Origin
+- Physical characteristics
+- Temperament
+- Intelligence
+- Talking ability
+- Noise level
+- Family suitability
+- Diet
+- Housing requirements
+- Daily care
+- Lifespan
+- Health considerations
+- Training tips
+- Legal/CITES information
+- Is this species suitable for beginners?
+- Frequently Asked Questions (minimum 8)
+- Strong CTA linking to Contact and Available Birds
+- Internal links to related species, blog articles and adoption pages
+- Breadcrumb schema
+- FAQ schema
+- Article schema
+
+Create these pages:
+
+1. Gris du Gabon
+2. Ara Bleu et Jaune
+3. Ara Hyacinthe
+4. Ara Macao
+5. Ara Chloroptère
+6. Cacatoès Rosalbin
+7. Cacatoès Huppé Jaune
+8. Amazone à Front Bleu
+9. Amazone à Nuque Jaune
+10. Eclectus
+11. Conure Soleil
+12. Conure Jendaya
+13. Caique à Tête Noire
+14. Caique à Ventre Blanc
+15. Pionus
+16. Youyou du Sénégal
+17. Perruche Alexandre
+18. Loriquet Arc-en-ciel
+19. Perruche Royale
+20. Grand Alexandre
+
+SEO requirements:
+
+- Use semantic keyword clusters.
+- Avoid duplicate titles.
+- Avoid duplicate H1s.
+- Use descriptive URLs in French.
+- Every page must link to at least 10 other relevant pages.
+- Every page should be reachable within 3 clicks from the homepage.
+- Add these pages to the French sitemap.
+- Update the French species index automatically.
+- Update navigation where appropriate.
+- Validate structured data.
+- Ensure no broken links are introduced.
+
+At the end, produce a deployment report listing:
+- New URLs
+- Internal links created
+- Schema added
+- Sitemap updates
+- SEO improvements
+- Pages ready for indexing.
