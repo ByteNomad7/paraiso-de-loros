@@ -1,0 +1,181 @@
+PHASE 6E — ADD CATALINA MACAW ACROSS THE ENTIRE WEBSITE
+
+We have uploaded real Catalina Macaw photographs.
+
+Image source:
+
+/public/images/CatalinaMacaw/
+
+Objective:
+
+Integrate Catalina Macaw as a first-class species across the Spanish and French websites.
+
+IMPORTANT
+
+- Use ONLY the uploaded real photographs.
+- Do not generate AI images.
+- Do not duplicate unrelated species.
+- Optimize every uploaded image.
+- Generate WebP, AVIF and responsive sizes.
+- Generate localized ALT text and captions.
+- Preserve original files.
+
+==================================================
+1. AVAILABLE BIRDS
+==================================================
+
+Add Catalina Macaw as an available species.
+
+Spanish:
+
+/aves-disponibles
+
+French:
+
+/fr/perroquets-disponibles
+
+Create a premium species card including:
+
+• Hero image
+• Gallery (15–30 photos if available)
+• Species:
+  Ara Catalina
+  (Catalina Macaw)
+
+• Status:
+Disponible
+
+• Hand-raised
+• DNA sexing when applicable
+• CITES documentation
+• Air cargo delivery available
+• Contact CTA
+
+==================================================
+2. CREATE SPECIES PAGE
+==================================================
+
+Spanish:
+
+/guacamayo-catalina
+
+French:
+
+/fr/ara-catalina
+
+Include:
+
+• Premium hero
+• Image gallery
+• Species overview
+• Temperament
+• Intelligence
+• Talking ability
+• Family suitability
+• Care
+• Feeding
+• Cage requirements
+• Lifespan
+• FAQ
+• Contact CTA
+
+Target approximately 1500–2000 words of high-quality localized content.
+
+==================================================
+3. GALLERY
+==================================================
+
+Automatically include Catalina Macaw in:
+
+Spanish:
+
+/galeria/guacamayos
+
+French:
+
+/fr/galerie/aras
+
+Create a dedicated Catalina Macaw section.
+
+Do not mix with Hyacinth, Scarlet or Blue-and-Yellow galleries.
+
+==================================================
+4. HOMEPAGE
+==================================================
+
+Feature Catalina Macaw in:
+
+Featured Species
+
+Available Birds
+
+Homepage gallery
+
+Only use premium images.
+
+==================================================
+5. INTERNAL LINKING
+==================================================
+
+Link Catalina Macaw pages with:
+
+• Macaw hub
+• Available Birds
+• Gallery
+• Food
+• Cages
+• Adoption
+• Contact
+• Related macaw species
+
+==================================================
+6. IMAGE SEO
+==================================================
+
+Rename images using SEO-friendly filenames such as:
+
+catalina-macaw-01.webp
+catalina-macaw-hand-raised-02.webp
+catalina-macaw-close-up-03.webp
+catalina-macaw-feeding-04.webp
+catalina-macaw-young-05.webp
+
+Generate:
+
+• Spanish ALT text
+• French ALT text
+• Spanish captions
+• French captions
+
+==================================================
+7. SCHEMA
+==================================================
+
+Update:
+
+• CollectionPage
+• ImageObject
+• BreadcrumbList
+
+Add Catalina Macaw to any relevant species collections.
+
+==================================================
+8. VALIDATION
+==================================================
+
+Run:
+
+npm run build
+
+Return:
+
+• Catalina Macaw pages created
+• Available Birds updated
+• Gallery updated
+• Homepage updated
+• Images optimized
+• ALT text generated
+• Captions localized
+• Internal links added
+• Sitemap updated
+• Build successful
