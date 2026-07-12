@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- ═══════════════════════════════════════════════ -->
-  <!-- HOMEPAGE                                        -->
-  <!-- ═══════════════════════════════════════════════ -->
   <url>
     <loc>https://www.paraisodeaves.com/</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-
-  <!-- ═══════════════════════════════════════════════ -->
-  <!-- TIENDA / AVES DISPONIBLES                       -->
-  <!-- ═══════════════════════════════════════════════ -->
   <url>
     <loc>https://www.paraisodeaves.com/tienda.html</loc>
     <lastmod>2026-04-09</lastmod>
@@ -80,10 +72,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
-
-  <!-- ═══════════════════════════════════════════════ -->
-  <!-- PÁGINAS PRINCIPALES (clean URLs where applicable) -->
-  <!-- ═══════════════════════════════════════════════ -->
   <url>
     <loc>https://www.paraisodeaves.com/jaulas-para-loros</loc>
     <lastmod>2026-06-26</lastmod>
@@ -258,10 +246,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- ═══════════════════════════════════════════════ -->
-  <!-- SECCIÓN HUB LATINOAMÉRICA                       -->
-  <!-- ═══════════════════════════════════════════════ -->
   <url>
     <loc>https://www.paraisodeaves.com/la-adopcion-de-loros-en-latinoamerica.html</loc>
     <lastmod>2026-04-27</lastmod>
@@ -388,18 +372,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- ═══════════════════════════════════════════════ -->
-  <!-- CIUDADES (clean URLs only — no .html duplicates) -->
-  <!-- ═══════════════════════════════════════════════ -->
   <url>
     <loc>https://www.paraisodeaves.com/ciudades/</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
-
-  <!-- comprar loros por ciudad -->
   <url>
     <loc>https://www.paraisodeaves.com/ciudades/comprar-loros-madrid</loc>
     <lastmod>2026-06-02</lastmod>
@@ -502,8 +480,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
-
-  <!-- especie por ciudad -->
   <url>
     <loc>https://www.paraisodeaves.com/ciudades/loro-gris-africano-madrid</loc>
     <lastmod>2026-06-05</lastmod>
@@ -636,10 +612,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
-
-  <!-- ═══════════════════════════════════════════════ -->
-  <!-- PRECIOS (clean URLs only)                        -->
-  <!-- ═══════════════════════════════════════════════ -->
   <url>
     <loc>https://www.paraisodeaves.com/precios/</loc>
     <lastmod>2026-06-01</lastmod>
@@ -694,10 +666,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
-
-  <!-- ═══════════════════════════════════════════════ -->
-  <!-- SECCIONES TEMÁTICAS                             -->
-  <!-- ═══════════════════════════════════════════════ -->
   <url>
     <loc>https://www.paraisodeaves.com/alimentacion/</loc>
     <lastmod>2026-06-01</lastmod>
@@ -734,18 +702,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- ═══════════════════════════════════════════════ -->
-  <!-- BLOG — índice                                    -->
-  <!-- ═══════════════════════════════════════════════ -->
   <url>
     <loc>https://www.paraisodeaves.com/blog/</loc>
     <lastmod>2026-04-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
-
-  <!-- ── Cluster Criadero ── -->
   <url>
     <loc>https://www.paraisodeaves.com/blog/criadero-loros-valencia.html</loc>
     <lastmod>2026-04-28</lastmod>
@@ -782,8 +744,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
-
-  <!-- ── Cluster Compra ── -->
   <url>
     <loc>https://www.paraisodeaves.com/blog/como-comprar-un-loro-en-espana.html</loc>
     <lastmod>2026-04-09</lastmod>
@@ -844,8 +804,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
-
-  <!-- ── Cluster Precios ── -->
   <url>
     <loc>https://www.paraisodeaves.com/blog/precio-de-un-loro-en-espana.html</loc>
     <lastmod>2026-04-09</lastmod>
@@ -894,8 +852,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
-
-  <!-- ── Cluster Cuidados ── -->
   <url>
     <loc>https://www.paraisodeaves.com/blog/guia-cuidados-loro.html</loc>
     <lastmod>2026-04-09</lastmod>
@@ -986,8 +942,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
-
-  <!-- ── Cluster Especies ── -->
   <url>
     <loc>https://www.paraisodeaves.com/blog/cuidado-loro-gris-africano.html</loc>
     <lastmod>2026-04-09</lastmod>
@@ -1084,8 +1038,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
-
-  <!-- ── Cluster Legalidad ── -->
   <url>
     <loc>https://www.paraisodeaves.com/blog/cites-loros-espana.html</loc>
     <lastmod>2026-04-09</lastmod>
@@ -1110,8 +1062,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
-
-  <!-- ── Cluster Huevos Fértiles ── -->
   <url>
     <loc>https://www.paraisodeaves.com/blog/como-incubar-huevos-de-loro.html</loc>
     <lastmod>2026-06-16</lastmod>
@@ -1136,8 +1086,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
-
-  <!-- ── Serie Loro Yaco por país ── -->
   <url>
     <loc>https://www.paraisodeaves.com/blog/loro-yaco-en-mexico-precio-cuidados-requisitos.html</loc>
     <lastmod>2026-06-01</lastmod>
@@ -1384,11 +1332,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
-
-
-  <!-- ═══════════════════════════════════════════════ -->
-  <!-- PORTUGUESE SECTION /pt/ (June 2026)             -->
-  <!-- ═══════════════════════════════════════════════ -->
   <url><loc>https://www.paraisodeaves.com/pt/</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
   <url><loc>https://www.paraisodeaves.com/pt/papagaios-a-venda-portugal/</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
   <url><loc>https://www.paraisodeaves.com/pt/papagaio-cinzento/</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
@@ -1439,9 +1382,6 @@
   <url><loc>https://www.paraisodeaves.com/pt/blog/viajar-com-papagaio/</loc><lastmod>2026-06-26</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
   <url><loc>https://www.paraisodeaves.com/pt/blog/papagaio-inverno-portugal/</loc><lastmod>2026-06-26</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
   <url><loc>https://www.paraisodeaves.com/pt/blog/reproduzir-papagaios-caseiro/</loc><lastmod>2026-06-26</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-
-
-  <!-- PT Species Authority Pages (Phase 4A, June 2026) -->
   <url><loc>https://www.paraisodeaves.com/pt/arara-jacinto/</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
   <url><loc>https://www.paraisodeaves.com/pt/arara-azul-e-amarela/</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
   <url><loc>https://www.paraisodeaves.com/pt/arara-escarlate/</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
@@ -1449,9 +1389,6 @@
   <url><loc>https://www.paraisodeaves.com/pt/cacatua-de-cabeca-nua/</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
   <url><loc>https://www.paraisodeaves.com/pt/papagaio-amazona/</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
   <url><loc>https://www.paraisodeaves.com/pt/conuro/</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.88</priority></url>
-
-
-  <!-- PT Phase 4B — City Pages (June 2026) -->
   <url><loc>https://www.paraisodeaves.com/pt/papagaios-a-venda-lisboa/</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.88</priority></url>
   <url><loc>https://www.paraisodeaves.com/pt/papagaios-a-venda-porto/</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.88</priority></url>
   <url><loc>https://www.paraisodeaves.com/pt/papagaios-a-venda-braga/</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.88</priority></url>
@@ -1464,8 +1401,6 @@
   <url><loc>https://www.paraisodeaves.com/pt/papagaios-a-venda-evora/</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.88</priority></url>
   <url><loc>https://www.paraisodeaves.com/pt/papagaios-a-venda-guimaraes/</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.88</priority></url>
   <url><loc>https://www.paraisodeaves.com/pt/papagaios-a-venda-castelo-branco/</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.88</priority></url>
-
-  <!-- PT Phase 4B — Blog Articles (June 2026) -->
   <url><loc>https://www.paraisodeaves.com/pt/blog/papagaio-para-apartamento-em-portugal/</loc><lastmod>2026-06-26</lastmod><changefreq>monthly</changefreq><priority>0.78</priority></url>
   <url><loc>https://www.paraisodeaves.com/pt/blog/como-escolher-um-criador-responsavel/</loc><lastmod>2026-06-26</lastmod><changefreq>monthly</changefreq><priority>0.78</priority></url>
   <url><loc>https://www.paraisodeaves.com/pt/blog/melhores-papagaios-para-iniciantes/</loc><lastmod>2026-06-26</lastmod><changefreq>monthly</changefreq><priority>0.78</priority></url>
@@ -1473,9 +1408,6 @@
   <url><loc>https://www.paraisodeaves.com/pt/blog/como-preparar-a-casa-para-um-papagaio/</loc><lastmod>2026-06-26</lastmod><changefreq>monthly</changefreq><priority>0.78</priority></url>
   <url><loc>https://www.paraisodeaves.com/pt/blog/alimentacao-correta-dos-papagaios/</loc><lastmod>2026-06-26</lastmod><changefreq>monthly</changefreq><priority>0.78</priority></url>
   <url><loc>https://www.paraisodeaves.com/pt/blog/quanto-vive-um-papagaio/</loc><lastmod>2026-06-26</lastmod><changefreq>monthly</changefreq><priority>0.78</priority></url>
-
-
-  <!-- FR Phase 2E — French section + new commercial placeholders (June 2026) -->
   <url><loc>https://www.paraisodeaves.com/fr/</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
   <url><loc>https://www.paraisodeaves.com/fr/a-propos/</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.paraisodeaves.com/fr/amazone-front-bleu/</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
@@ -1524,7 +1456,6 @@
   <url><loc>https://www.paraisodeaves.com/fr/processus-adoption/</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.paraisodeaves.com/pt/gaiolas-para-papagaios</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
   <url><loc>https://www.paraisodeaves.com/pt/transportadoras-para-papagaios</loc><lastmod>2026-06-26</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
-
   <url><loc>https://www.paraisodeaves.com/blog/eclectus-vs-yaco.html</loc><lastmod>2026-06-30</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
   <url><loc>https://www.paraisodeaves.com/blog/loro-amazonico-vs-eclectus.html</loc><lastmod>2026-06-30</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
   <url><loc>https://www.paraisodeaves.com/blog/cacatua-alba-vs-cacatua-galerita.html</loc><lastmod>2026-06-30</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
@@ -1701,8 +1632,6 @@
   <url><loc>https://www.paraisodeaves.com/preguntas/salud/cuarentena-loro-nuevo/</loc><lastmod>2026-06-30</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
   <url><loc>https://www.paraisodeaves.com/herramientas/</loc><lastmod>2026-06-30</lastmod><changefreq>monthly</changefreq><priority>0.90</priority></url>
   <url><loc>https://www.paraisodeaves.com/marca.html</loc><lastmod>2026-06-30</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
-
-  <!-- PHASE 7B — 15 NEW SPECIES (ES/PT/FR) -->
   <url><loc>https://www.paraisodeaves.com/especies/</loc><lastmod>2026-06-30</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://www.paraisodeaves.com/especies/loro-senegal</loc><lastmod>2026-06-30</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
   <url><loc>https://www.paraisodeaves.com/especies/conuro-del-sol</loc><lastmod>2026-06-30</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
@@ -1784,4 +1713,496 @@
   <url><loc>https://www.paraisodeaves.com/fr/perroquets-eleves-a-la-main/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.75</priority></url>
   <url><loc>https://www.paraisodeaves.com/fr/vente-oiseaux/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.75</priority></url>
   <url><loc>https://www.paraisodeaves.com/fr/eleveur-perroquets/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/galeria/instalaciones/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/galeria/alimentacion/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/galeria/jaulas-aviarios/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/galeria/guacamayos/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/galeria/conuros/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/galeria/tucanes/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/galeria/aves-disponibles/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/galeria/crianza-socializacion/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/galeria/transporte/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/galeria/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://www.paraisodeaves.com/tucanes/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.paraisodeaves.com/galeria/vuelo-libre/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.paraisodeaves.com/galeria/guacamayo-catalina/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.paraisodeaves.com/guacamayo-catalina/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://www.paraisodeaves.com/available-birds/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.paraisodeaves.com/nuestras-instalaciones/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://www.paraisodeaves.com/african-grey-parrot-for-sale</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/buy-parrots-europe</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/cockatoo-parrots-for-sale</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/macaw-parrots-for-sale</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/parrots-for-sale-spain</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/parrot-care-health</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://www.paraisodeaves.com/about-us</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.60</priority></url>
+  <url><loc>https://www.paraisodeaves.com/delivery-shipping</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://www.paraisodeaves.com/marca</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.50</priority></url>
+  <url><loc>https://www.paraisodeaves.com/criadero-de-loros-espana</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/loros-en-venta-madrid</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.72</priority></url>
+  <url><loc>https://www.paraisodeaves.com/loros-en-venta-barcelona</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.72</priority></url>
+  <url><loc>https://www.paraisodeaves.com/loros-en-venta-valencia</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.72</priority></url>
+  <url><loc>https://www.paraisodeaves.com/loros-en-venta-sevilla</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/loros-en-venta-malaga</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/loros-en-venta-granada</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/loros-en-venta-alicante</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/loros-en-venta-murcia</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/loros-en-venta-bilbao</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/loros-en-venta-zaragoza</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/especies/perroquet-gris-du-gabon/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/especies/ara-bleu-et-jaune/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/especies/ara-hyacinthe/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/especies/ara-macao/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/especies/ara-chloroptere/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/especies/cacatoes-huppe-jaune/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/especies/amazone-front-bleu/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/especies/eclectus/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/especies/caique-ventre-blanc/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/especies/perruche-royale/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/especies/grand-alexandre/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-reims/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-le-havre/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-saint-etienne/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-toulon/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-angers/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-nimes/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-villeurbanne/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-clermont-ferrand/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-le-mans/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-aix-en-provence/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-brest/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-tours/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-amiens/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-limoges/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-annecy/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-perpignan/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-metz/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-besancon/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-orleans/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-mulhouse/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-rouen/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-caen/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-avignon/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-poitiers/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-la-rochelle/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-pau/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-chambery/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-colmar/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-valence/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-bayonne/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-lorient/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-troyes/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-cannes/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-antibes/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-narbonne/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-montauban/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/perroquets-a-vendre-beziers/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/connaissances/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.92</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/connaissances/especes/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/connaissances/prix/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.87</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/connaissances/alimentation/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.87</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/connaissances/sante/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.87</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/connaissances/comportement/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.87</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/connaissances/cites/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.87</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/connaissances/adoption/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.87</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/connaissances/livraison/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.87</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/connaissances/faq/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.87</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/galerie/installations/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/galerie/alimentation/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/galerie/cages-volieres/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/galerie/aras/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/galerie/conures/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/galerie/toucans/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/galerie/perroquets-disponibles/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/galerie/elevage-socialisation/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/galerie/transport/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/galerie/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/toucans/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/galerie/vol-libre/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/galerie/ara-catalina/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/ara-catalina/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://www.paraisodeaves.com/pt/as-nossas-instalacoes/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/pt/brinquedos-naturais-para-papagaios/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/pt/comida-para-papagaios/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/pt/papagaios-disponiveis/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.70</priority></url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/available-birds/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/species/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.88</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/african-grey/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/hyacinth-macaw/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/catalina-macaw/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/blue-and-yellow-macaw/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/scarlet-macaw/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/green-wing-macaw/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/amazon-parrots/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/cockatoos/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/eclectus/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/conures/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/caiques/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/pionus/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/gallery/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/knowledge/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/knowledge/how-to-buy-a-parrot/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/knowledge/parrot-prices/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/knowledge/choosing-the-right-parrot/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/knowledge/cites-explained/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/knowledge/air-cargo-delivery/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/knowledge/preparing-your-home/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/knowledge/best-family-parrots/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/knowledge/talking-parrots/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/knowledge/macaw-guide/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/knowledge/african-grey-guide/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/delivery/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/contact/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/parrots-for-sale-london/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/parrots-for-sale-manchester/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/parrots-for-sale-birmingham/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/parrots-for-sale-liverpool/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/parrots-for-sale-leeds/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/parrots-for-sale-glasgow/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/parrots-for-sale-edinburgh/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/parrots-for-sale-bristol/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/parrots-for-sale-cardiff/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/parrots-for-sale-belfast/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/parrots-for-sale-dublin/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/parrots-for-sale-cork/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/parrots-for-sale-galway/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/parrots-for-sale-limerick/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/parrots-for-sale-waterford/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/cockatoo-guide/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/amazon-guide/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/conure-guide/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/eclectus-guide/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/caique-guide/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/pionus-guide/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/quiet-parrots/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/large-parrots/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/small-parrots/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/first-parrot-guide/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/parrot-lifespan/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/parrot-bonding/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/parrot-training/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/parrot-cage-guide/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/parrot-diet-guide/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/parrot-health-guide/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/parrot-socialisation/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/parrot-vets-uk/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/importing-parrots-uk/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/importing-parrots-ireland/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/breeders-vs-pet-shops/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/hand-raised-vs-parent-raised/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/parrot-toys-guide/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/parrot-noise-levels/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/parrots-with-children/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/parrots-with-cats-dogs/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/parrot-insurance-uk/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/uk-parrot-laws/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/green-wing-macaw-guide/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/catalina-macaw-guide/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/hyacinth-macaw-guide/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/parrot-sleep-guide/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/parrot-bathing-guide/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/feather-plucking-guide/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/parrot-aggression-guide/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/parrot-delivery-guide/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/parrot-acclimatisation/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-much-does-african-grey-cost/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-much-does-hyacinth-macaw-cost/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-much-does-blue-and-yellow-macaw-cost/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-much-does-scarlet-macaw-cost/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-much-does-catalina-macaw-cost/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-much-does-cockatoo-cost/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-much-does-amazon-parrot-cost/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-much-does-conure-cost/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-long-do-macaws-live/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-long-do-african-greys-live/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-long-do-cockatoos-live/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-long-do-conures-live/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-long-do-amazon-parrots-live/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-long-do-caiques-live/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-long-do-eclectus-parrots-live/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/do-parrots-need-cites-documents/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/can-i-import-parrot-to-uk/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/can-parrots-be-delivered-to-ireland/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/what-is-cites/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/are-parrots-legal-in-uk/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/can-parrots-travel-by-air-cargo/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-long-does-delivery-take/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/what-cage-should-i-buy/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-big-a-cage-for-macaw/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-big-a-cage-for-african-grey/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-much-do-parrots-eat/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/what-do-parrots-eat/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/can-parrots-eat-fruit/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/what-foods-are-toxic-to-parrots/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-intelligent-are-african-greys/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/can-macaws-live-with-children/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/do-parrots-bite/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-to-tame-a-parrot/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-to-teach-parrot-to-talk/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/can-parrots-be-left-alone/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/do-parrots-need-a-companion/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/are-african-greys-good-for-beginners/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/are-cockatoos-good-pets/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/are-conures-noisy/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/do-amazon-parrots-talk/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/do-eclectus-parrots-talk/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/why-are-hyacinth-macaws-expensive/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-big-do-macaws-get/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/what-vaccinations-do-parrots-need/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/do-parrots-get-sick-easily/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-do-i-know-if-parrot-is-sick/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/what-temperature-do-parrots-need/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/can-parrots-live-outside-uk/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/how-do-i-choose-a-breeder/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/what-documents-come-with-parrot/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/price/african-grey-price/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.78</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/price/hyacinth-macaw-price/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.78</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/price/catalina-macaw-price/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.78</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/price/blue-and-yellow-macaw-price/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.78</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/price/scarlet-macaw-price/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.78</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/price/cockatoo-price/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.78</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/price/amazon-parrot-price/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.78</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/price/conure-price/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.78</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/compare/african-grey-vs-amazon/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.76</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/compare/catalina-vs-blue-and-yellow-macaw/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.76</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/compare/macaw-vs-cockatoo/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.76</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/compare/conure-vs-caique/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.76</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/compare/hyacinth-vs-scarlet-macaw/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.76</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/compare/eclectus-vs-african-grey/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.76</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/faq/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.72</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/price/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.paraisodeaves.com/en/knowledge/compare/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.74</priority></url>
+  <url>
+    <loc>https://www.paraisodeaves.com/en/about/</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.paraisodeaves.com/blog/cacatua-galah-vs-ninfa.html</loc>
+    <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
