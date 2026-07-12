@@ -10,3 +10,4 @@
 - [English Knowledge Centre Phase 8](phase8-knowledge.md) — 105 new pages: 37 buyer guides (/en/knowledge/[slug]/), 50 FAQ pages (/en/knowledge/faq/[slug]/), 8 price guides (/en/knowledge/price/[slug]/), 6 comparison pages (/en/knowledge/compare/[slug]/), + 4 index pages + updated hub; generator = generate-phase8.js; 104 URLs added to sitemap_en.xml.
 - [Phase 10 brand identity](phase10-brand.md) — new horizontal logo, favicons, Playfair Display headings, Forest Green #1B3D2F / Gold #C9A24B applied site-wide.
 - [sitemap.xml drift](sitemap-xml-drift.md) — sitemap.xml and the split sitemap_*.xml files are two separate mechanisms that can disagree; always diff live HTML tree vs sitemap.xml before trusting coverage.
+- [Product schema pricing gaps](product-schema-pricing.md) — FR/PT species pages and tienda.html had Product markup with no/incomplete offers.price; fixed. Never fabricate aggregateRating/review.
