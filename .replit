@@ -1,4 +1,4 @@
-modules = ["web", "nodejs-16", "python-base-3.13"]
+modules = ["web", "nodejs-16", "bash"]
 [agent]
 expertMode = true
 stack = "BEST_EFFORT_FALLBACK"
