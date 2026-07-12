@@ -456,5 +456,83 @@ body{padding-top:68px}
   mob.querySelectorAll('a').forEach(function(a){a.addEventListener('click',closeNav);});
 })();
 </script>
+
+<!-- ═══ RELATED ARTICLES BLOCK — injected by Phase 4 ═══ -->
+<section class="related-articles-section" aria-label="Articles recommandés">
+  <style>
+    .related-articles-section{background:#F8F5F0;border-top:3px solid #D4A94F;padding:56px 5%;font-family:'Open Sans',sans-serif;}
+    .ra-inner{max-width:1200px;margin:0 auto;}
+    .ra-heading{font-family:'Poppins',sans-serif;font-size:1.45rem;font-weight:700;color:#1F3D2B;margin-bottom:8px;}
+    .ra-sub{font-size:.9rem;color:#5C5C5C;margin-bottom:28px;}
+    .ra-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-bottom:36px;}
+    .ra-card{background:#fff;border:1px solid #E7E0D2;border-radius:12px;padding:18px 20px;display:flex;align-items:center;gap:14px;text-decoration:none;color:inherit;transition:all .2s;}
+    .ra-card:hover{box-shadow:0 4px 20px rgba(0,0,0,.1);border-color:#D4A94F;transform:translateY(-2px);}
+    .ra-icon{font-size:1.6rem;flex-shrink:0;}
+    .ra-body{flex:1;}
+    .ra-title{font-family:'Poppins',sans-serif;font-size:.92rem;font-weight:700;color:#1F3D2B;line-height:1.35;}
+    .ra-meta{font-size:.78rem;color:#5C5C5C;margin-top:3px;}
+    .ra-arrow{color:#D4A94F;font-size:1.1rem;flex-shrink:0;}
+    .ra-divider{border:none;border-top:1px solid #E7E0D2;margin:28px 0;}
+    .ra-links-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center;}
+    .ra-chips-label{font-family:'Poppins',sans-serif;font-size:.8rem;font-weight:700;color:#1F3D2B;margin-right:4px;}
+    .ra-chip{background:#1F3D2B;color:#fff;padding:6px 16px;border-radius:20px;font-size:.82rem;font-weight:600;text-decoration:none;transition:background .2s;}
+    .ra-chip:hover{background:#D4A94F;color:#1F3D2B;}
+    .ra-chip.city{background:transparent;border:2px solid #1F3D2B;color:#1F3D2B;}
+    .ra-chip.city:hover{background:#1F3D2B;color:#fff;}
+    .ra-chip.gold{background:#D4A94F;color:#1F3D2B;}
+    .ra-chip.gold:hover{background:#E0B75F;color:#1F3D2B;}
+    .ra-cat-link{font-size:.82rem;color:#1F3D2B;font-weight:600;text-decoration:none;border-bottom:1px dashed #D4A94F;padding-bottom:1px;}
+    .ra-cat-link:hover{color:#D4A94F;}
+    @media(max-width:600px){.ra-cards{grid-template-columns:1fr;}}
+  </style>
+  <div class="ra-inner">
+    <div class="ra-heading">📚 Articles recommandés</div>
+    <div class="ra-sub">Approfondir vos connaissances sur les perroquets exotiques en France</div>
+    <div class="ra-cards">
+      
+      <a href="https://www.paraisodeaves.com/fr/blog/prix-perroquet-france/" class="ra-card">
+        <div class="ra-icon">💰</div>
+        <div class="ra-body">
+          <div class="ra-title">Prix d'un Perroquet en France 2026</div>
+          <div class="ra-meta">⏱ 10 min de lecture</div>
+        </div>
+        <div class="ra-arrow">→</div>
+      </a>
+      <a href="https://www.paraisodeaves.com/fr/blog/guide-cites-france/" class="ra-card">
+        <div class="ra-icon">📋</div>
+        <div class="ra-body">
+          <div class="ra-title">CITES en France : Documents Obligatoires</div>
+          <div class="ra-meta">⏱ 8 min de lecture</div>
+        </div>
+        <div class="ra-arrow">→</div>
+      </a>
+      <a href="https://www.paraisodeaves.com/fr/blog/choisir-eleveur-serieux/" class="ra-card">
+        <div class="ra-icon">✅</div>
+        <div class="ra-body">
+          <div class="ra-title">Comment Choisir un Éleveur Sérieux</div>
+          <div class="ra-meta">⏱ 7 min de lecture</div>
+        </div>
+        <div class="ra-arrow">→</div>
+      </a>
+    </div>
+    <hr class="ra-divider"/>
+    <div class="ra-links-row">
+      <span class="ra-chips-label">🦜 Fiches espèces :</span>
+      <a href="https://www.paraisodeaves.com/fr/especies/ara-hyacinthe/" class="ra-chip">Ara Hyacinthe</a>
+        <a href="https://www.paraisodeaves.com/fr/especies/ara-bleu-et-jaune/" class="ra-chip">Ara Bleu et Jaune</a>
+      <a href="https://www.paraisodeaves.com/fr/perroquets-a-vendre-marseille/" class="ra-chip city">📍 Perroquets à Marseille</a>
+      <a href="https://www.paraisodeaves.com/fr/perroquets-disponibles/" class="ra-chip gold">Oiseaux disponibles</a>
+      <a href="https://www.paraisodeaves.com/fr/adopter-perroquet/" class="ra-chip">Adopter</a>
+      <a href="https://www.paraisodeaves.com/fr/contact/" class="ra-chip">Contact</a>
+      <a href="https://www.paraisodeaves.com/fr/connaissances/" class="ra-chip">Centre de connaissances</a>
+    </div>
+    <hr class="ra-divider"/>
+    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;">
+      <span style="font-size:.82rem;color:#5C5C5C;">Catégorie : <a href="https://www.paraisodeaves.com/fr/connaissances/especes/" class="ra-cat-link">Fiches Espèces</a></span>
+      <a href="https://www.paraisodeaves.com/fr/blog/" style="font-size:.82rem;color:#1F3D2B;font-weight:600;text-decoration:none;">← Retour au blog</a>
+    </div>
+  </div>
+</section>
+<!-- ═══ END RELATED ARTICLES BLOCK ═══ -->
 </body>
 </html>
