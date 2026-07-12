@@ -1,0 +1,114 @@
+PHASE 3 – French City SEO Expansion
+
+Objective:
+Make Paraíso de Aves the leading result for parrot purchases across France by creating premium city landing pages.
+
+Create 50 unique French city pages.
+
+Requirements:
+
+• Each page must contain 1,500–2,500+ words.
+• Native French writing (not translated literally from Spanish).
+• Every page must be unique and written specifically for that city.
+• Explain that Paraíso de Aves is based in Spain and safely delivers throughout France.
+• Emphasize legal documentation, CITES compliance, animal welfare and professional transport.
+• No duplicate content.
+
+Each city page must include:
+
+- SEO Title
+- Meta Description
+- H1
+- City-specific introduction
+- Why customers in this city choose Paraíso de Aves
+- Available parrot species
+- Secure transport to the city
+- CITES and legal information
+- Buying process
+- Reservation process
+- Delivery process
+- Frequently Asked Questions (minimum 8)
+- Strong CTA
+- Links to Contact
+- Links to Available Birds
+- Links to Adoption page
+- Links to Species pages
+- Links to Price Guides
+- Breadcrumb schema
+- FAQ schema
+- LocalBusiness + WebPage schema where appropriate
+
+Create pages for:
+
+Paris
+Marseille
+Lyon
+Toulouse
+Nice
+Nantes
+Strasbourg
+Montpellier
+Bordeaux
+Lille
+Rennes
+Reims
+Le Havre
+Saint-Étienne
+Toulon
+Grenoble
+Dijon
+Angers
+Nîmes
+Villeurbanne
+Clermont-Ferrand
+Le Mans
+Aix-en-Provence
+Brest
+Tours
+Amiens
+Limoges
+Annecy
+Perpignan
+Metz
+Besançon
+Orléans
+Mulhouse
+Rouen
+Caen
+Avignon
+Poitiers
+La Rochelle
+Pau
+Chambéry
+Colmar
+Valence
+Bayonne
+Lorient
+Troyes
+Cannes
+Antibes
+Narbonne
+Montauban
+Béziers
+
+Every page must:
+
+• Link to at least 12 relevant pages.
+• Link back to the French homepage.
+• Link to all major species.
+• Link to Contact.
+• Link to Available Birds.
+• Link to Adoption.
+• Link to the Knowledge Centre.
+• Include breadcrumb navigation.
+• Be reachable within 3 clicks from the homepage.
+
+After creation:
+
+• Update the French sitemap.
+• Update internal navigation.
+• Update city index pages.
+• Validate schema.
+• Validate canonical tags.
+• Validate hreflang.
+• Produce a deployment report listing every new URL and all SEO improvements.
