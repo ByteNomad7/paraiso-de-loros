@@ -144,6 +144,15 @@
   .lang-sw a:hover,.lang-sw a.ls-on{color:var(--gold)}
   .lang-sw a.ls-on{border-bottom:2px solid var(--gold);padding-bottom:1px}
   .lang-sw .ls-div{color:rgba(255,255,255,.22);font-size:.7rem;user-select:none}
+  /* ── Contact form ── */
+  .form-group{margin-bottom:16px}
+  .form-group label{display:block;font-size:.85rem;font-weight:700;color:var(--primary);margin-bottom:5px}
+  .form-group input,.form-group select,.form-group textarea{width:100%;padding:11px 14px;border:1.5px solid var(--border);border-radius:8px;font-family:'Open Sans',sans-serif;font-size:.92rem;color:var(--text);background:#fff;transition:border-color .18s}
+  .form-group input:focus,.form-group select:focus,.form-group textarea:focus{outline:none;border-color:var(--gold)}
+  .form-group textarea{min-height:110px;resize:vertical}
+  .form-submit{width:100%;padding:14px;background:linear-gradient(135deg,var(--gold),var(--gold-rich));color:#fff;font-family:'Poppins',Arial,sans-serif;font-weight:700;font-size:1rem;border:none;border-radius:999px;cursor:pointer;transition:transform .2s,box-shadow .2s;margin-top:4px}
+  .form-submit:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(212,169,79,.45)}
+  .form-success-msg{display:none;margin-top:18px;padding:16px 20px;background:#e8f5e9;border-left:4px solid var(--primary);border-radius:0 8px 8px 0;color:var(--primary);font-weight:600;font-size:.96rem}
 </style>
 </head>
 <body>
@@ -225,18 +234,65 @@
     </div>
 
     <div class="info-box">
-      <h2>Video Consultations</h2>
-      <p>Can't travel to Spain? We offer video call consultations via WhatsApp or email-attached video, showing you our available birds, our facility, and answering all your questions in real time. Many UK and Irish buyers prefer this before committing, and we are delighted to arrange it.</p>
+      <h2>Send Us an Enquiry</h2>
+      <p style="margin-bottom:20px">Fill in the form below and we will respond within 24 hours — often the same day for morning enquiries.</p>
+      <form
+        name="contact-en"
+        method="POST"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+        onsubmit="handleEnquiry(event)">
+        <input type="hidden" name="form-name" value="contact-en"/>
+        <p style="display:none"><label>Do not fill: <input name="bot-field"/></label></p>
+
+        <div class="form-group">
+          <label for="f-name">Full Name *</label>
+          <input id="f-name" name="name" type="text" placeholder="Your full name" required/>
+        </div>
+        <div class="form-group">
+          <label for="f-email">Email Address *</label>
+          <input id="f-email" name="email" type="email" placeholder="your@email.co.uk" required/>
+        </div>
+        <div class="form-group">
+          <label for="f-location">Your Location *</label>
+          <input id="f-location" name="location" type="text" placeholder="e.g. London, Dublin, Manchester" required/>
+        </div>
+        <div class="form-group">
+          <label for="f-species">Species of Interest</label>
+          <select id="f-species" name="species">
+            <option value="">— Select a species —</option>
+            <option>African Grey Parrot</option>
+            <option>Hyacinth Macaw</option>
+            <option>Blue &amp; Yellow Macaw</option>
+            <option>Scarlet Macaw</option>
+            <option>Catalina Macaw</option>
+            <option>Green-Wing Macaw</option>
+            <option>Cockatoo</option>
+            <option>Amazon Parrot</option>
+            <option>Eclectus Parrot</option>
+            <option>Conure</option>
+            <option>Other / Not sure yet</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="f-message">Your Message *</label>
+          <textarea id="f-message" name="message" placeholder="Tell us what you are looking for — species, age preference, budget, any experience with parrots, and any questions you have about delivery or documentation." required></textarea>
+        </div>
+        <button type="submit" class="form-submit">Send Enquiry →</button>
+        <div class="form-success-msg" id="formSuccess">
+          ✅ Thank you — your enquiry has been received. We will be in touch within 24 hours.
+        </div>
+      </form>
     </div>
   </div>
 </div>
 
 <section class="cta-band">
-  <h2>Ready to enquire?</h2>
-  <p>Email us today — we look forward to helping you find the right bird.</p>
+  <h2>Browse Available Birds</h2>
+  <p>See our current availability — hand-raised, CITES-certified, ready for delivery to the UK and Ireland.</p>
   <div class="cta-btns">
-    <a href="mailto:paraisodeloros@gmail.com" class="btn-gold">✉ paraisodeloros@gmail.com</a>
-    <a href="/en/available-birds/" class="btn-outline">View Available Birds</a>
+    <a href="/en/available-birds/" class="btn-gold">View Available Birds</a>
+    <a href="/en/delivery/" class="btn-outline">Delivery Information</a>
   </div>
 </section>
 
@@ -294,6 +350,19 @@
   h.addEventListener('click',function(){m.classList.contains('is-open')?close():open();});
   m.addEventListener('click',function(e){if(e.target===m)close();});
 })();
+function handleEnquiry(e){
+  e.preventDefault();
+  var form=e.target;
+  fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(form)).toString()})
+    .then(function(){
+      form.reset();
+      var msg=document.getElementById('formSuccess');
+      if(msg){msg.style.display='block';msg.scrollIntoView({behavior:'smooth',block:'nearest'});}
+    })
+    .catch(function(){
+      alert('Sorry, there was a problem sending your message. Please email us directly at paraisodeloros@gmail.com');
+    });
+}
 </script>
 </body>
 </html>
