@@ -591,6 +591,55 @@
 
 
 # ══════════════════════════════════════════════════════
+# SECTION 26 — PHASE 8.2 SEO WINNER HUBS (jul-2026)
+# ES clean URLs (file = .html) + PT folder rewrites
+# ══════════════════════════════════════════════════════
+/comprar-loro                                        /comprar-loro.html                                       200
+/comprar-loro.html                                   /comprar-loro                                             301
+/comprar-guacamayo                                   /comprar-guacamayo.html                                  200
+/comprar-guacamayo.html                              /comprar-guacamayo                                        301
+/adoptar-loro                                        /adoptar-loro.html                                       200
+/adoptar-loro.html                                   /adoptar-loro                                             301
+/guacamayo-jacinto-precio                            /guacamayo-jacinto-precio.html                           200
+/guacamayo-jacinto-precio.html                       /guacamayo-jacinto-precio                                301
+/comprar-loro-gris-africano                          /comprar-loro-gris-africano.html                         200
+/comprar-loro-gris-africano.html                     /comprar-loro-gris-africano                              301
+/cacatua-precio                                      /cacatua-precio.html                                     200
+/cacatua-precio.html                                 /cacatua-precio                                           301
+/pionus                                              /pionus.html                                             200
+/pionus.html                                         /pionus                                                   301
+/venta-de-aves                                       /venta-de-aves.html                                      200
+/venta-de-aves.html                                  /venta-de-aves                                            301
+/criadero-de-loros                                   /criadero-de-loros.html                                  200
+/criadero-de-loros.html                              /criadero-de-loros                                       301
+/loros-en-valencia                                   /loros-en-valencia.html                                  200
+/loros-en-valencia.html                              /loros-en-valencia                                       301
+/huevos-de-loro-para-incubar                         /huevos-de-loro-para-incubar.html                        200
+/huevos-de-loro-para-incubar.html                    /huevos-de-loro-para-incubar                             301
+/que-comen-los-loros-bebes                           /que-comen-los-loros-bebes.html                          200
+/que-comen-los-loros-bebes.html                      /que-comen-los-loros-bebes                               301
+/pt/comprar-papagaio                                 /pt/comprar-papagaio/index.html                          200
+/pt/comprar-arara                                    /pt/comprar-arara/index.html                             200
+/pt/adotar-papagaio                                  /pt/adotar-papagaio/index.html                           200
+/pt/preco-arara-jacinto                              /pt/preco-arara-jacinto/index.html                       200
+/pt/comprar-papagaio-cinzento                        /pt/comprar-papagaio-cinzento/index.html                 200
+/pt/preco-cacatua                                    /pt/preco-cacatua/index.html                             200
+/pt/pionus                                           /pt/pionus/index.html                                    200
+/pt/papagaios-criados-a-mao                          /pt/papagaios-criados-a-mao/index.html                   200
+/pt/venda-de-aves                                    /pt/venda-de-aves/index.html                             200
+/pt/criador-de-papagaios                             /pt/criador-de-papagaios/index.html                      200
+/fr/acheter-perroquet                                /fr/acheter-perroquet/index.html                         200
+/fr/acheter-ara                                      /fr/acheter-ara/index.html                               200
+/fr/adopter-perroquet                                /fr/adopter-perroquet/index.html                         200
+/fr/prix-ara-hyacinthe                               /fr/prix-ara-hyacinthe/index.html                        200
+/fr/acheter-gris-du-gabon                            /fr/acheter-gris-du-gabon/index.html                     200
+/fr/prix-cacatoes                                    /fr/prix-cacatoes/index.html                             200
+/fr/pionus                                           /fr/pionus/index.html                                    200
+/fr/perroquets-eleves-a-la-main                      /fr/perroquets-eleves-a-la-main/index.html               200
+/fr/vente-oiseaux                                    /fr/vente-oiseaux/index.html                             200
+/fr/eleveur-perroquets                               /fr/eleveur-perroquets/index.html                        200
+
+# ══════════════════════════════════════════════════════
 # SECTION 17 — CATCH-ALL 404 (must remain LAST — Netlify uses first match)
 # ══════════════════════════════════════════════════════
 /*                                                   /404.html                                                404
