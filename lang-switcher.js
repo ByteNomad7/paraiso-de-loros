@@ -105,6 +105,7 @@
   /* ─── LANGUAGE DETECTION ──────────────────────────────────────── */
   function getLang() {
     var p = window.location.pathname;
+    if (p.startsWith('/en/')) return 'en';
     if (p.startsWith('/fr/')) return 'fr';
     if (p.startsWith('/pt/')) return 'pt';
     return 'es';
@@ -118,6 +119,20 @@
     var path = window.location.pathname;
     // Normalize: strip trailing slash (except root), strip .html
     var norm = path.replace(/\/$/, '').replace(/\.html$/, '') || '/';
+
+    // ── EN page resolution ──────────────────────────────────────
+    // EN pages are not in the MAP table. From EN pages, fall back
+    // to the target language's homepage. EN city pages resolve to
+    // the equivalent city-hub in ES/PT.
+    if (currentLang === 'en') {
+      if (targetLang === 'es') return '/';
+      if (targetLang === 'pt') return '/pt/';
+      if (targetLang === 'fr') return '/fr/';
+      return '/';
+    }
+    // From any ES/FR/PT page, EN button always goes to /en/ (homepage).
+    // No MAP row exists for EN pages since they are a new parallel section.
+    if (targetLang === 'en') return '/en/';
 
     var IDX = { es: 0, pt: 1, fr: 2 };
     var srcIdx = IDX[currentLang];
@@ -193,10 +208,13 @@
   /* ─── RENDER ──────────────────────────────────────────────────── */
   function buildSwitcher() {
     var lang = getLang();
+    // EN pages have their own inline switcher — do not inject a second one
+    if (lang === 'en') return;
     var langs = [
       { code: 'es', label: 'ES', url: resolveURL('es') },
       { code: 'pt', label: 'PT', url: resolveURL('pt') },
-      { code: 'fr', label: 'FR', url: resolveURL('fr') }
+      { code: 'fr', label: 'FR', url: resolveURL('fr') },
+      { code: 'en', label: 'EN', url: resolveURL('en') }
     ];
 
     /* ── Desktop ── matches ES mega-nav (.nav) and PT simple nav (.topnav) */
@@ -215,7 +233,7 @@
         var a = document.createElement('a');
         a.className = 'ls' + (l.code === lang ? ' ls-on' : '');
         a.textContent = l.label;
-        a.setAttribute('lang', l.code === 'es' ? 'es' : l.code === 'pt' ? 'pt' : 'fr');
+        a.setAttribute('lang', l.code);
         if (l.code === lang) {
           a.href = '#';
           a.setAttribute('aria-current', 'true');

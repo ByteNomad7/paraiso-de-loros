@@ -1,0 +1,489 @@
+PHASE 7 — ENGLISH EXPANSION (UNITED KINGDOM & IRELAND)
+
+Objective
+
+Launch a complete English version of Paraíso de Aves targeting:
+
+• United Kingdom
+• Ireland
+
+Do NOT create a separate website.
+
+Build an English section under:
+
+/en/
+
+This English section should become the foundation for future expansion into other English-speaking countries.
+
+IMPORTANT
+
+• Preserve existing Spanish, French and Portuguese sections.
+• Do not modify existing URLs.
+• Do not duplicate content word-for-word.
+• Localize naturally for UK English.
+• Mention delivery throughout the UK and Ireland where appropriate.
+• Maintain premium design identical to the Spanish and French versions.
+
+==================================================
+1. LANGUAGE STRUCTURE
+==================================================
+
+Create:
+
+/en/
+
+Main navigation:
+
+Home
+Available Birds
+Species
+Knowledge Centre
+Gallery
+Delivery
+About Us
+Contact
+
+Implement hreflang correctly between:
+
+es
+fr
+pt
+en
+
+==================================================
+2. HOMEPAGE
+==================================================
+
+Create:
+
+/en/
+
+Premium homepage.
+
+Include:
+
+Hero
+
+Featured Birds
+
+Our Aviary
+
+Available Birds
+
+Macaws
+
+African Greys
+
+Cockatoos
+
+Conures
+
+Food & Nutrition
+
+Gallery
+
+Why Choose Us
+
+Latest Articles
+
+Contact
+
+==================================================
+3. AVAILABLE BIRDS
+==================================================
+
+Create:
+
+/en/available-birds
+
+Premium cards.
+
+Species:
+
+African Grey
+
+Blue-and-Yellow Macaw
+
+Hyacinth Macaw
+
+Catalina Macaw
+
+Scarlet Macaw
+
+Green-wing Macaw
+
+Amazon Parrots
+
+Cockatoos
+
+Eclectus
+
+Conures
+
+Caiques
+
+Pionus
+
+Each card:
+
+• Hero image
+• Gallery
+• Age
+• Sex
+• Hand Raised
+• CITES
+• Delivery
+• Contact CTA
+
+==================================================
+4. SPECIES
+==================================================
+
+Create premium pages.
+
+Examples:
+
+/en/african-grey
+
+/en/hyacinth-macaw
+
+/en/catalina-macaw
+
+/en/blue-and-yellow-macaw
+
+/en/scarlet-macaw
+
+/en/green-wing-macaw
+
+/en/amazon-parrots
+
+/en/conures
+
+/en/cockatoos
+
+/en/eclectus
+
+/en/caiques
+
+/en/pionus
+
+Each page:
+
+1800–2500 words
+
+Gallery
+
+FAQ
+
+Care
+
+Diet
+
+Temperament
+
+Lifespan
+
+Housing
+
+Delivery
+
+Related Species
+
+==================================================
+5. KNOWLEDGE CENTRE
+==================================================
+
+Create:
+
+/en/knowledge/
+
+Categories:
+
+Buying Guides
+
+Species Guides
+
+Nutrition
+
+Behaviour
+
+Training
+
+Health
+
+CITES
+
+Delivery
+
+FAQ
+
+==================================================
+6. GALLERY
+==================================================
+
+Create:
+
+/en/gallery
+
+Categories:
+
+Our Aviary
+
+Macaws
+
+African Greys
+
+Conures
+
+Toucans
+
+Food
+
+Cages
+
+Hand Feeding
+
+Transport
+
+Use existing real photographs.
+
+==================================================
+7. UK LOCAL LANDING PAGES
+==================================================
+
+Create premium pages:
+
+/en/parrots-for-sale-london
+
+/en/parrots-for-sale-manchester
+
+/en/parrots-for-sale-birmingham
+
+/en/parrots-for-sale-liverpool
+
+/en/parrots-for-sale-leeds
+
+/en/parrots-for-sale-glasgow
+
+/en/parrots-for-sale-edinburgh
+
+/en/parrots-for-sale-bristol
+
+/en/parrots-for-sale-cardiff
+
+/en/parrots-for-sale-belfast
+
+Each page:
+
+1000–1500 words
+
+Localized content
+
+Delivery information
+
+Species links
+
+Contact CTA
+
+==================================================
+8. IRELAND LANDING PAGES
+==================================================
+
+Create:
+
+/en/parrots-for-sale-dublin
+
+/en/parrots-for-sale-cork
+
+/en/parrots-for-sale-galway
+
+/en/parrots-for-sale-limerick
+
+/en/parrots-for-sale-waterford
+
+Same premium structure.
+
+==================================================
+9. BUYER GUIDES
+==================================================
+
+Create:
+
+How to Buy a Parrot
+
+Parrot Prices
+
+Choosing the Right Parrot
+
+CITES Explained
+
+Air Cargo Delivery
+
+Preparing Your Home
+
+Best Family Parrots
+
+Talking Parrots
+
+Macaw Guide
+
+African Grey Guide
+
+==================================================
+10. DELIVERY
+==================================================
+
+Create:
+
+/en/delivery
+
+Explain:
+
+Air Cargo
+
+Travel Crates
+
+CITES documentation
+
+Veterinary documentation
+
+Airport collection
+
+Delivery process
+
+==================================================
+11. TRUST
+==================================================
+
+Create:
+
+Why Choose Paraíso de Aves
+
+Meet Our Aviary
+
+Our Facility
+
+Hand-Raised Birds
+
+Our Feeding Programme
+
+Customer FAQ
+
+==================================================
+12. SEO
+==================================================
+
+Every English page must include:
+
+Unique Title
+
+Unique Meta Description
+
+Canonical
+
+Breadcrumbs
+
+Open Graph
+
+Twitter Cards
+
+Organization Schema
+
+Breadcrumb Schema
+
+CollectionPage where applicable
+
+ImageObject
+
+Localized ALT text
+
+Internal links
+
+==================================================
+13. UK ENGLISH
+==================================================
+
+Use British English throughout.
+
+Examples:
+
+organisation
+
+colour
+
+favourite
+
+specialised
+
+centre
+
+Do not use American spellings.
+
+==================================================
+14. INTERNAL LINKING
+==================================================
+
+Create strong linking between:
+
+Species
+
+Knowledge Centre
+
+Gallery
+
+Available Birds
+
+Delivery
+
+FAQ
+
+Buyer Guides
+
+Homepage
+
+==================================================
+15. SITEMAP
+==================================================
+
+Automatically include every English page.
+
+Generate hreflang between:
+
+Spanish
+
+French
+
+Portuguese
+
+English
+
+==================================================
+16. VALIDATION
+==================================================
+
+Run:
+
+npm run build
+
+Validate:
+
+• no broken links
+• no duplicate canonicals
+• no missing hreflang
+• mobile responsiveness
+• structured data
+• sitemap
+• Lighthouse performance
+
+Return:
+
+• English pages created
+• UK pages
+• Ireland pages
+• Species pages
+• Gallery
+• Knowledge Centre
+• Buyer Guides
+• Delivery pages
+• Sitemap updated
+• Build successful
