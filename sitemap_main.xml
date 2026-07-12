@@ -353,4 +353,7 @@
   <url><loc>https://www.paraisodeaves.com/loros-en-valencia</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.paraisodeaves.com/huevos-de-loro-para-incubar</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://www.paraisodeaves.com/que-comen-los-loros-bebes</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <!-- Phase 5 — Visual Experience pages added 2026-07-12 -->
+  <url><loc>https://www.paraisodeaves.com/galeria/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://www.paraisodeaves.com/tucanes/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
 </urlset>

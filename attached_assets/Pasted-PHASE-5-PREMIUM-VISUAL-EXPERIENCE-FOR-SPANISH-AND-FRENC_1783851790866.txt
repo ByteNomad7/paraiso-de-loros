@@ -1,0 +1,541 @@
+PHASE 5 — PREMIUM VISUAL EXPERIENCE FOR SPANISH AND FRENCH
+
+Objective:
+Transform the Spanish and French sections of Paraíso de Aves from text-heavy pages into a premium, trustworthy, image-led experience using our real photographs.
+
+Languages in scope:
+
+Spanish:
+/
+
+French:
+/fr/
+
+Do not work on Portuguese in this phase.
+
+IMPORTANT
+
+- Do not remove existing SEO content.
+- Do not change existing URLs.
+- Do not break current routing.
+- Do not reduce page word count.
+- Preserve the current premium green and gold brand style.
+- Use real uploaded photographs only.
+- Do not generate fake facility or bird photos.
+- Do not display broken image placeholders.
+- Every visual improvement must remain fast, responsive and SEO-friendly.
+- Spanish and French pages must have equivalent visual structure, but all text, ALT attributes and captions must be properly localized.
+
+==================================================
+1. CREATE A REUSABLE MULTILINGUAL MEDIA SYSTEM
+==================================================
+
+Build a reusable image gallery and media component that supports:
+
+- Spanish and French content
+- Responsive grid
+- Masonry layout where suitable
+- Mobile-friendly cards
+- Lightbox/full-screen image view
+- Keyboard navigation
+- Swipe navigation on mobile
+- Lazy loading
+- WebP and AVIF support
+- Width and height attributes
+- srcset and sizes
+- Loading skeletons
+- Graceful fallback if an image is missing
+- SEO-friendly filenames
+- Localized ALT text
+- Localized captions
+- ImageObject schema where appropriate
+
+Each image record should support:
+
+{
+  src,
+  slug,
+  category,
+  width,
+  height,
+  altEs,
+  altFr,
+  captionEs,
+  captionFr,
+  featured,
+  species,
+  location,
+  dateTaken
+}
+
+Create one central media data structure so the same real image can be reused correctly across related Spanish and French pages without duplicate hardcoding.
+
+==================================================
+2. CREATE SPANISH AND FRENCH GALLERY HUBS
+==================================================
+
+Create:
+
+Spanish:
+/galeria
+
+French:
+/fr/galerie
+
+These pages should act as premium visual hubs.
+
+Gallery categories:
+
+Spanish:
+- Nuestras instalaciones
+- Guardería y crianza
+- Alimentación
+- Jaulas y aviarios
+- Guacamayos
+- Conuros
+- Tucanes
+- Loros disponibles
+- Socialización
+- Transporte y entrega
+
+French:
+- Nos installations
+- Nurserie et élevage
+- Alimentation
+- Cages et volières
+- Aras
+- Conures
+- Toucans
+- Perroquets disponibles
+- Socialisation
+- Transport et livraison
+
+Each category card should include:
+- strong image
+- localized title
+- short localized description
+- link to category section or dedicated page
+- image count where available
+
+==================================================
+3. HOMEPAGE VISUAL UPGRADE
+==================================================
+
+Improve both:
+
+Spanish homepage:
+/
+
+French homepage:
+/fr/
+
+Add visually strong sections without removing existing SEO text.
+
+Recommended order:
+
+1. Hero section
+2. Featured available birds
+3. Our facility / Nos installations
+4. Featured species
+5. Macaw gallery
+6. Conure gallery
+7. Toucan gallery
+8. Food and nutrition
+9. Cages and aviaries
+10. Why choose us
+11. Adoption and delivery
+12. Latest guides
+13. Contact CTA
+
+Requirements:
+
+- Use large real images.
+- Add 3–6 images per visual section.
+- Keep text concise above the fold.
+- Add clear CTA buttons.
+- Avoid making the homepage feel overcrowded.
+- Maintain excellent mobile layout.
+- Link every section to relevant Spanish or French pages.
+
+==================================================
+4. FACILITY PAGE
+==================================================
+
+Strengthen:
+
+Spanish:
+/nuestras-instalaciones
+
+French:
+/fr/nos-installations
+
+Use real facility photos.
+
+Add sections:
+
+Spanish:
+- Bienvenida a nuestras instalaciones
+- Zona de crianza
+- Higiene y seguridad
+- Preparación de alimentos
+- Socialización
+- Observación sanitaria
+- Espacios de descanso
+- Preparación para el transporte
+
+French:
+- Bienvenue dans nos installations
+- Zone d’élevage
+- Hygiène et sécurité
+- Préparation des aliments
+- Socialisation
+- Suivi sanitaire
+- Espaces de repos
+- Préparation au transport
+
+Use 20–30 photos if available.
+
+Add:
+- hero image
+- alternating text/image sections
+- masonry gallery
+- captions
+- trust CTA
+- link to contact
+- link to adoption
+- link to available birds
+
+==================================================
+5. FOOD PAGE
+==================================================
+
+Improve:
+
+Spanish:
+/comida-para-loros
+
+French:
+/fr/nourriture-pour-perroquets
+
+Use real food photos.
+
+Visual sections:
+
+Spanish:
+- Frutas frescas
+- Verduras
+- Mezclas de semillas
+- Pellets
+- Suplementos
+- Preparación diaria
+- Alimentación por especie
+
+French:
+- Fruits frais
+- Légumes
+- Mélanges de graines
+- Granulés
+- Compléments
+- Préparation quotidienne
+- Alimentation selon l’espèce
+
+Use 15–25 photos if available.
+
+Add localized captions and link images to relevant species feeding guides.
+
+==================================================
+6. CAGES AND AVIARIES
+==================================================
+
+Improve or create the relevant pages:
+
+Spanish:
+/jaulas-para-loros
+
+French:
+/fr/cages-pour-perroquets
+
+Use real cage and aviary photos.
+
+Sections:
+
+Spanish:
+- Jaulas interiores
+- Aviarios exteriores
+- Jaulas para guacamayos
+- Jaulas para yacos
+- Jaulas para cacatúas
+- Jaulas para conuros
+- Transportines
+
+French:
+- Cages intérieures
+- Volières extérieures
+- Cages pour aras
+- Cages pour Gris du Gabon
+- Cages pour cacatoès
+- Cages pour conures
+- Caisses de transport
+
+Include:
+- dimensions where known
+- safety tips
+- species suitability
+- related product/content links
+- photo gallery
+
+==================================================
+7. SPECIES GALLERIES
+==================================================
+
+Add image galleries to the matching Spanish and French species pages.
+
+Priority species:
+
+- Guacamayos / Aras
+- Conuros / Conures
+- Tucanes / Toucans
+- Loro Gris Africano / Gris du Gabon
+- Amazonas / Amazones
+- Cacatúas / Cacatoès
+- Eclectus
+- Caiques
+- Pionus
+
+Each species page should include:
+
+- hero image
+- 6–12 image gallery if available
+- localized ALT text
+- localized captions
+- related species cards
+- contact CTA
+- available birds CTA
+- link to food
+- link to cages
+- link to facility
+
+Do not show empty galleries.
+
+If fewer than 4 photos exist for a species, show only the available photos in a compact section.
+
+==================================================
+8. TOUCAN CONTENT
+==================================================
+
+Create or improve:
+
+Spanish:
+/tucanes
+
+French:
+/fr/toucans
+
+Use the real toucan photos.
+
+Add rich content covering:
+- species overview
+- diet
+- housing
+- temperament
+- care requirements
+- legal considerations
+- FAQ
+- gallery
+
+Do not present toucans as currently available unless inventory data confirms availability.
+
+==================================================
+9. AVAILABLE BIRDS VISUAL UPGRADE
+==================================================
+
+Improve:
+
+Spanish:
+/aves-disponibles
+
+French:
+/fr/perroquets-disponibles
+
+Bird cards should include:
+
+- real photo
+- species
+- name
+- age
+- sex
+- status
+- short temperament summary
+- documentation status
+- CTA
+
+Spanish statuses:
+- Disponible
+- Reservado
+- Consultar disponibilidad
+
+French statuses:
+- Disponible
+- Réservé
+- Nous consulter
+
+Add filters by:
+- species
+- age
+- sex
+- availability
+
+Do not mark any bird available unless inventory confirms it.
+
+==================================================
+10. IMAGE SEO
+==================================================
+
+For every uploaded image:
+
+- rename to a descriptive SEO-friendly slug
+- use lowercase
+- use hyphens
+- avoid spaces
+- avoid random camera filenames
+- convert to WebP and AVIF where possible
+- preserve original backup
+- compress without visible quality loss
+- include width and height
+- add localized ALT text
+- add localized caption where appropriate
+
+Filename examples:
+
+Spanish:
+instalaciones-criadero-loros-valencia-01.webp
+alimentacion-loros-fruta-fresca-02.webp
+jaula-grande-guacamayo-03.webp
+guacamayo-azul-amarillo-socializado-04.webp
+conuro-sol-criado-a-mano-05.webp
+tucan-instalaciones-paraiso-06.webp
+
+French equivalents may keep the same physical file, but ALT and captions must be localized.
+
+==================================================
+11. STRUCTURED DATA
+==================================================
+
+Add where appropriate:
+
+- ImageObject
+- CollectionPage
+- WebPage
+- BreadcrumbList
+- FAQPage
+- Article
+- Product only where the page genuinely represents a specific available bird
+- Organization
+- LocalBusiness where appropriate
+
+Do not add Product schema to general educational pages.
+
+==================================================
+12. INTERNAL LINKING
+==================================================
+
+Spanish visual sections must link only to Spanish pages.
+
+French visual sections must link only to French pages.
+
+Add links between:
+
+- homepage ↔ gallery
+- facility ↔ adoption
+- food ↔ species
+- cages ↔ species
+- available birds ↔ contact
+- toucans ↔ gallery
+- macaws ↔ available birds
+- conures ↔ food and cages
+- gallery ↔ all major visual sections
+
+Maintain hreflang between equivalent Spanish and French pages.
+
+==================================================
+13. PERFORMANCE
+==================================================
+
+Protect performance.
+
+Requirements:
+
+- no oversized original images loaded directly
+- generate responsive variants
+- lazy-load below-the-fold media
+- preload only the main hero image
+- use modern formats
+- avoid layout shift
+- avoid heavy gallery libraries if a lightweight solution is possible
+- keep Lighthouse performance strong on mobile
+
+==================================================
+14. ACCESSIBILITY
+==================================================
+
+Ensure:
+
+- meaningful ALT text
+- keyboard-accessible lightbox
+- visible focus states
+- sufficient text contrast
+- captions available where useful
+- no text embedded inside images
+- gallery controls have accessible labels
+
+==================================================
+15. FINAL VALIDATION
+==================================================
+
+Run:
+
+npm run build
+
+Then perform checks for:
+
+- broken images
+- missing ALT text
+- duplicate image filenames
+- incorrect French/Spanish links
+- broken lightbox
+- mobile layout problems
+- missing captions
+- missing width/height
+- oversized files
+- invalid schema
+- broken hreflang
+- sitemap inclusion
+
+==================================================
+FINAL REPORT
+==================================================
+
+Return:
+
+- pages upgraded in Spanish
+- pages upgraded in French
+- gallery hub URLs created
+- number of real images integrated
+- facility photos integrated
+- food photos integrated
+- cage photos integrated
+- macaw photos integrated
+- conure photos integrated
+- toucan photos integrated
+- available bird profiles improved
+- localized ALT texts added
+- localized captions added
+- image files optimized
+- responsive variants generated
+- ImageObject schema added
+- internal links added
+- broken images found and fixed
+- mobile validation result
+- Lighthouse/performance result
+- build result
+- final visual readiness score

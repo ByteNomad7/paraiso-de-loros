@@ -128,4 +128,7 @@
   <url><loc>https://www.paraisodeaves.com/fr/connaissances/adoption/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.87</priority></url>
   <url><loc>https://www.paraisodeaves.com/fr/connaissances/livraison/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.87</priority></url>
   <url><loc>https://www.paraisodeaves.com/fr/connaissances/faq/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.87</priority></url>
+  <!-- Phase 5 — Visual Experience pages added 2026-07-12 -->
+  <url><loc>https://www.paraisodeaves.com/fr/galerie/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://www.paraisodeaves.com/fr/toucans/</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
 </urlset>
