@@ -106,4 +106,21 @@
 <url><loc>https://www.paraisodeaves.com/galerias/loro-gris</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
 <url><loc>https://www.paraisodeaves.com/galerias/cacatuas</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
 <url><loc>https://www.paraisodeaves.com/galerias/amazonas</loc><lastmod>2026-07-12</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
+
+  <!-- ES /especies/ subpages — added 2026-07-12 -->
+  <url><loc>https://www.paraisodeaves.com/especies/amazona-ala-naranja/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.paraisodeaves.com/especies/amazona-nuca-amarilla/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.paraisodeaves.com/especies/cacatua-blanca/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.paraisodeaves.com/especies/cacatua-galah/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.paraisodeaves.com/especies/cacatua-goffin/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.paraisodeaves.com/especies/caique/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.paraisodeaves.com/especies/conuro-del-sol/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.paraisodeaves.com/especies/conuro-jenday/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.paraisodeaves.com/especies/conuro-mejilla-verde/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.paraisodeaves.com/especies/cotorra-monje/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.paraisodeaves.com/especies/lorikeet-arcoiris/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.paraisodeaves.com/especies/loro-pionus/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.paraisodeaves.com/especies/loro-senegal/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.paraisodeaves.com/especies/periquito-alejandrino/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://www.paraisodeaves.com/especies/periquito-collar-indio/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.80</priority></url>
 </urlset>
