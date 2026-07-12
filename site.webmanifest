@@ -1,0 +1,14 @@
+{
+  "name": "Paraíso de Aves",
+  "short_name": "Paraíso de Aves",
+  "description": "Criador registrado de loros y aves exóticas. Registered parrot breeder — Spain.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#1B3D2F",
+  "theme_color": "#1B3D2F",
+  "icons": [
+    { "src": "/android-chrome-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/android-chrome-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/apple-touch-icon.png",   "sizes": "180x180", "type": "image/png", "purpose": "apple touch icon" }
+  ]
+}

@@ -2,6 +2,7 @@
 <html lang="es" dir="ltr">
 <head>
   <meta charset="UTF-8" />
+  <link rel="manifest" href="/site.webmanifest"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Conuro Jenday en España | Guía Completa | paraisodeaves</title>
   <!-- Google tag (gtag.js) -->
@@ -29,8 +30,8 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&family=Open+Sans:wght@400;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" /></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@&family=Playfair+Display:wght@400;600;700;800;900&family=Open+Sans:wght@400;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@&family=Playfair+Display:wght@400;600;700;800;900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" /></noscript>
 
   <script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -117,11 +118,11 @@
 }</script>
 
   <style>
-    :root{--primary:#1F3D2B;--secondary:#2B533C;--gold:#D4A94F;--gold-rich:#E0B75F;--gold-hover:#B8933E;--bg:#F8F5F0;--surface:#FFFFFF;--border:#E7E0D2;--text:#1A1A1A;--muted:#5C5C5C;}
+    :root{--primary:#1B3D2F;--secondary:#2B533C;--gold:#C9A24B;--gold-rich:#D4A94F;--gold-hover:#A8873A;--bg:#F8F5ED;--surface:#FFFFFF;--border:#E7E0D2;--text:#2B2B2B;--muted:#5C5C5C;}
     *{margin:0;padding:0;box-sizing:border-box}
     a{color:var(--primary);text-decoration:none}a:hover{color:var(--secondary)}
     body{font-family:'Open Sans',Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
-    h1,h2,h3,h4,h5,h6{font-family:'Poppins',Arial,sans-serif}
+    h1,h2,h3,h4,h5,h6{font-family:'Playfair Display',Georgia,serif}
     .topbar{position:sticky;top:0;z-index:50;background:var(--primary);border-bottom:2px solid var(--gold);padding:14px 5%;display:flex;align-items:center;justify-content:space-between;}
     .brand{font-weight:900;font-size:1.08rem;color:#FFF;white-space:nowrap}
     .back{color:#fff;font-weight:700;font-size:.9rem;padding:9px 18px;border-radius:999px;border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.10);transition:background .2s}
@@ -136,8 +137,8 @@
     .species-info{padding:32px 32px 28px;display:flex;flex-direction:column;border-left:1px solid var(--border)}
     .badge-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
     .badge{font-size:.75rem;font-weight:700;padding:4px 12px;border-radius:999px;letter-spacing:.4px;text-transform:uppercase}
-    .badge-cites{background:rgba(212,169,79,.09);color:#B8933E}
-    .badge-esp{background:rgba(31,61,43,.10);color:#1F3D2B}
+    .badge-cites{background:rgba(212,169,79,.09);color:#A8873A}
+    .badge-esp{background:rgba(31,61,43,.10);color:#1B3D2F}
     h1.sp-name{font-size:2rem;font-weight:900;line-height:1.15;color:var(--primary);margin-bottom:8px}
     .sp-tagline{color:var(--muted);font-size:.96rem;margin-bottom:18px;line-height:1.55}
     .chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
@@ -151,9 +152,9 @@
     .btn{display:inline-block;text-align:center;padding:13px 22px;border-radius:999px;font-weight:700;font-size:.95rem;text-decoration:none;transition:transform .2s,box-shadow .2s}
     .btn-gold{background:linear-gradient(135deg,var(--gold),var(--gold-rich));color:#fff;box-shadow:0 8px 24px rgba(212,169,79,.35)}
     .btn-gold:hover{transform:translateY(-2px);box-shadow:0 14px 36px rgba(212,169,79,.45);color:#fff}
-    .btn-email{display:inline-block;padding:.8rem 1.6rem;border-radius:999px;font-weight:800;background:linear-gradient(135deg,#D4A94F,#B8933E);color:#fff;font-family:'Poppins',Arial,sans-serif;transition:transform .2s,box-shadow .2s}
+    .btn-email{display:inline-block;padding:.8rem 1.6rem;border-radius:999px;font-weight:800;background:linear-gradient(135deg,#C9A24B,#A8873A);color:#fff;font-family:'Playfair Display',Georgia,serif;transition:transform .2s,box-shadow .2s}
     .btn-email:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(212,169,79,.40)}
-    .video-note{background:#F8F5F0;border:1px solid rgba(31,61,43,.12);border-radius:10px;padding:10px 14px;font-size:.87rem;color:#1F3D2B;font-weight:600;margin-top:4px}
+    .video-note{background:#F8F5ED;border:1px solid rgba(31,61,43,.12);border-radius:10px;padding:10px 14px;font-size:.87rem;color:#1B3D2F;font-weight:600;margin-top:4px}
     .wrap{max-width:1080px;margin:0 auto;padding:0 5% 70px}
     .trust-block{background:var(--primary);border-radius:16px;padding:28px 32px;margin-top:22px;color:#fff}
     .trust-block h2{font-size:1.2rem;font-weight:800;color:var(--gold-rich);margin-bottom:16px}
@@ -209,16 +210,16 @@
     @media(max-width:850px){.species-hero-inner{grid-template-columns:1fr}.species-info{border-left:none;border-top:1px solid var(--border);padding:24px}.trust-grid{grid-template-columns:1fr}.sections{grid-template-columns:1fr}.fit-grid{grid-template-columns:1fr 1fr}.final-cta-btns{flex-direction:column;align-items:center}h1.sp-name{font-size:1.65rem}}
     @media(max-width:540px){.fit-grid{grid-template-columns:1fr}}
     /* unified footer */
-    .footer{background:#1F3D2B;color:#F8F5F0;padding:3.5rem 5% 2.5rem;border-top:1px solid rgba(255,255,255,.10)}
-    .footer a{color:#E0B75F;text-decoration:none;transition:color .2s}.footer a:hover{color:#fff}
+    .footer{background:#1B3D2F;color:#F8F5ED;padding:3.5rem 5% 2.5rem;border-top:1px solid rgba(255,255,255,.10)}
+    .footer a{color:#D4A94F;text-decoration:none;transition:color .2s}.footer a:hover{color:#fff}
     .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr 1fr;gap:2rem;max-width:1200px;margin:0 auto 2.5rem}
-    .footer-brand-name{font-family:'Poppins',Arial,sans-serif;font-size:1.1rem;font-weight:700;color:#FFFFFF;display:block;margin-bottom:.7rem}
+    .footer-brand-name{font-family:'Playfair Display',Georgia,serif;font-size:1.1rem;font-weight:700;color:#FFFFFF;display:block;margin-bottom:.7rem}
     .footer-tagline{font-size:.86rem;color:rgba(255,255,255,.60);line-height:1.5;margin-bottom:.8rem}
     .footer-contact{font-size:.83rem;color:rgba(245,245,245,.85);line-height:1.9}
-    .footer-col h4{font-family:'Poppins',Arial,sans-serif;font-size:.72rem;font-weight:800;letter-spacing:.11em;text-transform:uppercase;color:#E0B75F;margin-bottom:1rem}
+    .footer-col h4{font-family:'Playfair Display',Georgia,serif;font-size:.72rem;font-weight:800;letter-spacing:.11em;text-transform:uppercase;color:#D4A94F;margin-bottom:1rem}
     .footer-col ul{list-style:none;padding:0;margin:0}
     .footer-col ul li{margin-bottom:.55rem}
-    .footer-col ul li a{color:#F8F5F0;font-size:.86rem}
+    .footer-col ul li a{color:#F8F5ED;font-size:.86rem}
     .footer-bottom-bar{max-width:1200px;margin:0 auto;border-top:1px solid rgba(255,255,255,.12);padding-top:1.2rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem;font-size:.78rem;color:rgba(245,245,245,.60)}
     @media(max-width:820px){.footer-grid{grid-template-columns:1fr 1fr;row-gap:1.5rem}}
     @media(max-width:480px){.footer-grid{grid-template-columns:1fr}}
@@ -226,7 +227,7 @@
 </head>
 <body>
   <div class="topbar">
-    <div class="brand">🦜 paraisodeaves</div>
+    <div class="brand"><img src="/images/logo/paraiso-de-aves-logo.webp" alt="Paraíso de Aves" width="110" height="55" loading="lazy" style="height:55px;width:auto;display:block"></div>
     <a class="back" href="/">← Inicio</a>
   </div>
 
@@ -236,7 +237,7 @@
         <div class="species-img-col">
           <div class="species-img-placeholder">
             <span class="big-emoji">🦜</span>
-            <strong style="font-family:'Poppins',sans-serif;color:#1F3D2B;font-size:1.1rem">Conuro Jenday</strong>
+            <strong style="font-family:'Playfair Display',Georgia,serif,sans-serif;color:#1B3D2F;font-size:1.1rem">Conuro Jenday</strong>
             <p>Fotos próximamente · Escríbenos para imágenes reales</p>
           </div>
         </div>
@@ -401,7 +402,7 @@
   <footer class="footer">
     <div class="footer-grid">
       <div>
-        <span class="footer-brand-name">🦜 paraisodeaves</span>
+        <span class="footer-brand-name"><img src="/images/logo/paraiso-de-aves-logo.webp" alt="Paraíso de Aves" width="110" height="55" loading="lazy" style="height:55px;width:auto;display:block"></span>
         <p class="footer-tagline">Criadero legal de loros y aves exóticas en Llíria, Valencia (España). Más de 25 años criando con CITES.</p>
         <p class="footer-contact">✉ <a href="mailto:paraisodeloros@gmail.com">paraisodeloros@gmail.com</a></p>
       </div>

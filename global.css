@@ -4,16 +4,16 @@
    ═══════════════════════════════════════════════════════════ */
 
 :root {
-  --primary:   #1F3D2B;
+  --primary:   #1B3D2F;
   --secondary: #2B533C;
-  --gold:      #D4A94F;
-  --gold-rich: #E0B75F;
-  --gold-hover:#B8933E;
+  --gold:      #C9A24B;
+  --gold-rich: #D4A94F;
+  --gold-hover:#A8873A;
   --gold-text: #7A5800; /* Accessible gold for text on light backgrounds — 5.5:1 on white */
-  --bg:        #F8F5F0;
+  --bg:        #F8F5ED;
   --surface:   #FFFFFF;
   --border:    #E7E0D2;
-  --text:      #1A1A1A;
+  --text:      #2B2B2B;
   --muted:     #5C5C5C;
   --red:       #E63946;
 }
@@ -51,6 +51,9 @@ p a, li a:not([class]), article a:not([class]),
 article h1, article h2, article h3 {
   color: var(--primary);
 }
+
+/* ── Brand Typography — Playfair Display headings ── */
+h1,h2,h3,h4,h5,.brand-heading{font-family:'Playfair Display',Georgia,'Times New Roman',serif!important}
 
 /* ── Buttons — enforce gold primary ── */
 .btn-primary,
