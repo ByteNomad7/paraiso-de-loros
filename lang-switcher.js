@@ -144,6 +144,22 @@
       return '/fr/blog/';
     }
 
+    // City page pattern fallbacks
+    // PT and FR city pages cover different countries; there is no 1:1 city
+    // equivalent across languages. Resolve to the language's city-hub instead.
+    if (currentLang === 'pt' && path.startsWith('/pt/cidades/')) {
+      if (targetLang === 'es') return '/ciudades/';
+      if (targetLang === 'fr') return '/fr/';
+    }
+    if (currentLang === 'fr' && /^\/fr\/perroquets-a-vendre-/.test(path)) {
+      if (targetLang === 'es') return '/ciudades/';
+      if (targetLang === 'pt') return '/pt/cidades/';
+    }
+    if (currentLang === 'es' && path.startsWith('/ciudades/') && path !== '/ciudades/') {
+      if (targetLang === 'pt') return '/pt/cidades/';
+      if (targetLang === 'fr') return '/fr/';
+    }
+
     // Language homepage fallback
     if (targetLang === 'pt') return '/pt/';
     if (targetLang === 'fr') return '/fr/';
