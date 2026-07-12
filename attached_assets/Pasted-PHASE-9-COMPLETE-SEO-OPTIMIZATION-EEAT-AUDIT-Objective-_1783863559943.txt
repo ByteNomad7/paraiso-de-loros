@@ -1,0 +1,382 @@
+PHASE 9 — COMPLETE SEO OPTIMIZATION & EEAT AUDIT
+
+Objective
+
+Perform a complete technical, on-page, structured data, internal linking, content quality, accessibility and performance audit across the entire Paraíso de Aves website.
+
+Languages:
+
+Spanish
+French
+Portuguese
+English
+
+Goal:
+
+Meet or exceed Google's current SEO best practices.
+
+DO NOT remove existing content.
+
+DO NOT change existing URLs.
+
+DO NOT reduce page quality.
+
+Automatically improve wherever possible.
+
+==================================================
+1. COMPLETE WEBSITE CRAWL
+==================================================
+
+Crawl every page.
+
+Detect:
+
+• Broken links
+• Redirect chains
+• Missing pages
+• Duplicate pages
+• Thin pages
+• Orphan pages
+• Pages deeper than 3 clicks
+• Missing canonical
+• Incorrect canonical
+• Missing hreflang
+• Broken hreflang
+• Duplicate titles
+• Duplicate H1
+• Duplicate meta descriptions
+• Missing OG tags
+• Missing Twitter tags
+• Missing robots directives
+• Missing sitemap entries
+
+==================================================
+2. TITLE TAGS
+==================================================
+
+Review every title.
+
+Improve:
+
+• uniqueness
+• click-through rate
+• keyword relevance
+• branding
+
+Avoid:
+
+keyword stuffing
+
+==================================================
+3. META DESCRIPTIONS
+==================================================
+
+Rewrite where necessary.
+
+Requirements:
+
+Natural
+
+Compelling
+
+Localized
+
+Keyword relevant
+
+Unique
+
+==================================================
+4. HEADINGS
+==================================================
+
+Validate:
+
+One H1 only
+
+Logical H2
+
+Logical H3
+
+No skipped heading levels
+
+==================================================
+5. INTERNAL LINKING
+==================================================
+
+Automatically strengthen internal linking.
+
+Every important page should receive contextual links.
+
+Species pages should connect to:
+
+Food
+
+Gallery
+
+Available Birds
+
+Knowledge Centre
+
+Facility
+
+Contact
+
+Adoption
+
+Related species
+
+Price guides
+
+==================================================
+6. IMAGE SEO
+==================================================
+
+Check every image.
+
+Validate:
+
+ALT
+
+captions
+
+lazy loading
+
+responsive
+
+WebP
+
+AVIF
+
+width
+
+height
+
+ImageObject schema
+
+descriptive filename
+
+==================================================
+7. SCHEMA
+==================================================
+
+Validate every page.
+
+Automatically improve:
+
+Organization
+
+WebSite
+
+SearchAction
+
+BreadcrumbList
+
+WebPage
+
+CollectionPage
+
+Article
+
+FAQPage
+
+ImageObject
+
+Product (only where appropriate)
+
+LocalBusiness
+
+==================================================
+8. EEAT
+==================================================
+
+Strengthen expertise.
+
+Automatically improve:
+
+About page
+
+Contact page
+
+Facility
+
+Experience
+
+Bird welfare
+
+Veterinary care
+
+Responsible breeding
+
+CITES information
+
+Delivery process
+
+==================================================
+9. CONTENT QUALITY
+==================================================
+
+Detect:
+
+duplicate paragraphs
+
+AI-like repetition
+
+weak introductions
+
+weak conclusions
+
+missing FAQs
+
+missing CTAs
+
+missing trust sections
+
+Improve naturally.
+
+==================================================
+10. PAGE EXPERIENCE
+==================================================
+
+Validate:
+
+CLS
+
+LCP
+
+INP
+
+responsive layout
+
+mobile spacing
+
+tap targets
+
+font sizes
+
+contrast
+
+accessibility
+
+==================================================
+11. PERFORMANCE
+==================================================
+
+Optimize:
+
+JavaScript
+
+CSS
+
+Images
+
+Fonts
+
+Preloading
+
+Lazy loading
+
+Code splitting
+
+==================================================
+12. INDEXABILITY
+==================================================
+
+Check:
+
+robots.txt
+
+XML sitemap
+
+canonicals
+
+hreflang
+
+noindex pages
+
+duplicate URLs
+
+==================================================
+13. SEARCH CONSOLE READINESS
+==================================================
+
+Generate a report of URLs that should be manually requested for indexing.
+
+Prioritize:
+
+new species
+
+new galleries
+
+new city pages
+
+new buyer guides
+
+new English pages
+
+==================================================
+14. TOPICAL AUTHORITY
+==================================================
+
+Identify missing content clusters.
+
+Recommend:
+
+new guides
+
+new FAQs
+
+new comparison pages
+
+new legal pages
+
+new city pages
+
+new species
+
+==================================================
+15. FINAL REPORT
+==================================================
+
+Return:
+
+SEO score (/100)
+
+Technical SEO score
+
+On-page SEO score
+
+Content quality score
+
+Internal linking score
+
+Schema score
+
+Performance score
+
+Accessibility score
+
+Core Web Vitals score
+
+EEAT score
+
+International SEO score
+
+Image SEO score
+
+Top 50 remaining improvements
+
+Critical issues
+
+High priority
+
+Medium priority
+
+Low priority
+
+Estimated SEO readiness percentage
+
+Run:
+
+npm run build
+
+Verify zero build errors before completion.
