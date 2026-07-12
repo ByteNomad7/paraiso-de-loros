@@ -1,0 +1,354 @@
+PHASE 13 — GOOGLE INDEX RECOVERY (CRAWLED BUT NOT INDEXED)
+
+OBJECTIVE
+
+Google has crawled these pages but decided not to keep them in the index.
+
+The goal is NOT to manipulate Google.
+
+The goal is to make every affected page significantly more useful, more original, more authoritative and more valuable than competing pages.
+
+DO NOT
+
+- create duplicate pages
+- stuff keywords
+- rewrite URLs
+- remove existing rankings
+- generate AI filler
+- repeat paragraphs
+- change slugs
+- create doorway pages
+
+==========================================================
+STEP 1
+==========================================================
+
+Create a dedicated "Index Recovery Audit".
+
+Scan every URL currently listed as:
+
+"Crawled – currently not indexed"
+
+Produce a report containing:
+
+- URL
+- page type
+- primary keyword
+- search intent
+- estimated content quality
+- estimated uniqueness
+- internal links
+- external references
+- image count
+- FAQ count
+- schema
+- last updated
+- recommendations
+
+Sort by:
+
+HIGH
+MEDIUM
+LOW
+
+priority.
+
+==========================================================
+STEP 2
+==========================================================
+
+For every affected page calculate:
+
+Content Quality Score /100
+
+based on:
+
+Originality
+Depth
+Images
+Internal Links
+Heading Structure
+Helpful Content
+Comparison Value
+Entity Coverage
+Schema
+Trust Signals
+
+==========================================================
+STEP 3
+==========================================================
+
+Automatically improve every page using ONLY genuine information already available on the website.
+
+Enhance each page by adding where appropriate:
+
+✓ Executive summary
+
+✓ Key facts box
+
+✓ Better introduction
+
+✓ Comparison tables
+
+✓ Related species
+
+✓ FAQ section
+
+✓ Internal links
+
+✓ Related articles
+
+✓ Gallery links
+
+✓ About links
+
+✓ Delivery links
+
+✓ Contact CTA
+
+✓ Related birds available
+
+✓ Care checklist
+
+✓ "Common mistakes"
+
+✓ "Things to know before buying"
+
+✓ "Who is this bird suitable for?"
+
+✓ Maintenance difficulty
+
+✓ Noise level
+
+✓ Talking ability
+
+✓ Lifespan
+
+✓ Diet summary
+
+✓ Housing summary
+
+✓ Legal documentation guidance
+
+==========================================================
+STEP 4
+==========================================================
+
+IMAGE IMPROVEMENTS
+
+Where appropriate automatically insert REAL photographs already stored in:
+
+/public/images/
+
+Never use placeholders.
+
+Prefer:
+
+facility
+
+food
+
+cages
+
+babyfeeding
+
+macaws
+
+conures
+
+toucans
+
+available birds
+
+socialization
+
+transport
+
+Every page should contain enough relevant original images.
+
+Add:
+
+localized ALT
+
+captions
+
+ImageObject schema
+
+lazy loading
+
+==========================================================
+STEP 5
+==========================================================
+
+INTERNAL LINKING
+
+Increase contextual internal links.
+
+Target:
+
+15–25 contextual links
+
+per important page.
+
+Connect:
+
+Species
+
+Blog
+
+Gallery
+
+Available Birds
+
+About
+
+Delivery
+
+Nutrition
+
+Behaviour
+
+FAQ
+
+Knowledge Centre
+
+Rare Birds
+
+==========================================================
+STEP 6
+==========================================================
+
+PAGE UNIQUENESS
+
+Run similarity detection.
+
+If two pages are too similar:
+
+DO NOT delete them.
+
+Instead:
+
+expand
+
+specialise
+
+add unique sections
+
+different FAQs
+
+different images
+
+different comparisons
+
+different tables
+
+different buyer advice
+
+==========================================================
+STEP 7
+==========================================================
+
+EEAT
+
+Strengthen:
+
+Experience
+
+Expertise
+
+Authority
+
+Trust
+
+using:
+
+real facility
+
+real bird photos
+
+real care routines
+
+established 2015
+
+multilingual support
+
+transparent adoption process
+
+==========================================================
+STEP 8
+==========================================================
+
+SCHEMA
+
+Ensure every page has correct:
+
+Breadcrumb
+
+Article
+
+CollectionPage
+
+FAQ
+
+ImageObject
+
+Organization reference
+
+WebPage
+
+==========================================================
+STEP 9
+==========================================================
+
+REQUEST INDEXING QUEUE
+
+Create:
+
+npm run index-recovery
+
+This command should generate a report listing ONLY pages that were materially improved and are ready to be manually submitted for indexing in Google Search Console.
+
+==========================================================
+STEP 10
+==========================================================
+
+VALIDATION
+
+Run:
+
+npm run build
+
+Check:
+
+no broken links
+
+no duplicate canonicals
+
+no missing images
+
+no schema errors
+
+no orphan pages
+
+no thin sections
+
+==========================================================
+FINAL REPORT
+
+Return:
+
+✓ Pages audited
+
+✓ Pages improved
+
+✓ New images added
+
+✓ New FAQs added
+
+✓ Internal links added
+
+✓ Quality score before/after
+
+✓ Pages ready for indexing
+
+✓ Estimated indexing improvement
