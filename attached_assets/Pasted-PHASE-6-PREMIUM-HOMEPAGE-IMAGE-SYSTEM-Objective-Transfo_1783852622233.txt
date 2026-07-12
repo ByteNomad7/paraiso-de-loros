@@ -1,0 +1,233 @@
+PHASE 6 — PREMIUM HOMEPAGE IMAGE SYSTEM
+
+Objective:
+Transform the homepage of Paraíso de Aves into a premium visual experience using a curated collection of our very best real photographs.
+
+IMPORTANT
+
+Do not use random images.
+
+Create a dedicated homepage image library:
+
+/public/images/homepage/
+
+This folder will contain only the highest quality photographs that represent the Paraíso de Aves brand.
+
+=========================================
+IMAGE MANAGEMENT
+=========================================
+
+Use only premium images for the homepage.
+
+Recommended number:
+
+15–25 carefully selected photographs.
+
+These should include:
+
+• Facility exterior
+• Beautiful aviaries
+• Hand-feeding
+• Socialised parrots
+• Hyacinth Macaw
+• Blue-and-Yellow Macaw
+• Scarlet Macaw
+• African Grey
+• Cockatoo
+• Amazon Parrot
+• Conure
+• Toucan
+• Premium cages
+• Healthy food preparation
+• Professional transport carrier
+• Bird interacting with handler
+
+Do not use blurry photos.
+
+Do not stretch images.
+
+Crop intelligently while preserving the bird.
+
+=========================================
+HOMEPAGE VISUAL BLOCKS
+=========================================
+
+Build reusable homepage sections.
+
+1. Hero
+
+Large premium hero image.
+
+Overlay:
+
+Premium headline
+
+Call To Action
+
+Secondary CTA
+
+2. Featured Species
+
+Display 6 premium cards.
+
+Each card contains:
+
+Large photo
+
+Species name
+
+Short description
+
+Learn More button
+
+3. Discover Our Aviary
+
+Display a premium masonry gallery.
+
+Minimum:
+
+15 photographs.
+
+Button:
+
+"View Full Gallery"
+
+4. Hand Raised With Care
+
+Beautiful alternating image and text layout.
+
+5. Food & Nutrition
+
+Horizontal image gallery.
+
+6. Cages & Aviaries
+
+Premium slider.
+
+7. Available Birds
+
+Premium bird cards.
+
+8. Customer Confidence
+
+Large photography section.
+
+9. Delivery Across Europe
+
+Use transport photographs.
+
+10. Final CTA
+
+Large full-width image with contact button.
+
+=========================================
+IMAGE REQUIREMENTS
+=========================================
+
+Every homepage image must support:
+
+SEO filename
+
+Localized ALT text
+
+Spanish caption
+
+French caption
+
+Responsive versions
+
+WebP
+
+AVIF
+
+Lazy loading
+
+ImageObject schema
+
+Width
+
+Height
+
+Dominant color placeholder
+
+=========================================
+SEO
+=========================================
+
+Every homepage image should help Google understand the website.
+
+Use filenames like:
+
+paraiso-de-aves-facility-valencia.webp
+
+hand-raised-hyacinth-macaw.webp
+
+premium-african-grey.webp
+
+professional-parrot-nursery.webp
+
+blue-and-yellow-macaw.webp
+
+healthy-parrot-food.webp
+
+luxury-outdoor-aviary.webp
+
+professional-parrot-transport.webp
+
+=========================================
+PERFORMANCE
+=========================================
+
+Do NOT preload every image.
+
+Preload ONLY:
+
+Hero image.
+
+Everything else:
+
+Lazy load.
+
+Generate responsive sizes automatically.
+
+=========================================
+SPANISH + FRENCH
+=========================================
+
+The homepage image system must work on:
+
+/
+
+and
+
+/fr/
+
+using the SAME photographs but with:
+
+• localized ALT text
+• localized captions
+• localized CTAs
+• localized section headings
+
+=========================================
+FINAL VALIDATION
+=========================================
+
+Run:
+
+npm run build
+
+Return:
+
+• Homepage gallery completed
+• Number of homepage images
+• Hero image configured
+• Gallery sections created
+• Responsive image system
+• ALT text added
+• Captions localized
+• WebP generated
+• AVIF generated
+• Lighthouse performance
+• Mobile validation
+• Build successful
