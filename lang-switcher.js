@@ -9,6 +9,36 @@
   var MAP = [
     // Root
     ['/', '/pt/', '/fr/'],
+    // ── Especies species pages ──────────────────────────────
+    ['/especies/amazona-ala-naranja', '/pt/especies/amazona-asa-laranja', '/fr/especies/amazone-aile-orange'],
+    ['/especies/amazona-nuca-amarilla', '/pt/especies/amazona-nuca-amarela', '/fr/especies/amazone-nuque-jaune'],
+    ['/especies/cacatua-blanca', '/pt/especies/cacatua-branca', '/fr/especies/cacatoes-blanc'],
+    ['/especies/cacatua-galah', '/pt/especies/cacatua-galah', '/fr/especies/cacatoes-rosalbin'],
+    ['/especies/cacatua-goffin', '/pt/especies/cacatua-goffin', '/fr/especies/cacatoes-goffin'],
+    ['/especies/caique', '/pt/especies/caique', '/fr/especies/caique'],
+    ['/especies/conuro-del-sol', '/pt/especies/conuro-do-sol', '/fr/especies/conure-soleil'],
+    ['/especies/conuro-jenday', '/pt/especies/conuro-jenday', '/fr/especies/conure-jenday'],
+    ['/especies/conuro-mejilla-verde', '/pt/especies/conuro-faces-verdes', '/fr/especies/conure-joues-vertes'],
+    ['/especies/cotorra-monje', '/pt/especies/periquito-monge', '/fr/especies/perruche-moine'],
+    ['/especies/lorikeet-arcoiris', '/pt/especies/lorikeet-arco-iris', '/fr/especies/loriquet-arc-en-ciel'],
+    ['/especies/loro-pionus', '/pt/especies/papagaio-pionus', '/fr/especies/perroquet-pionus'],
+    ['/especies/loro-senegal', '/pt/especies/papagaio-senegal', '/fr/especies/perroquet-du-senegal'],
+    ['/especies/periquito-alejandrino', '/pt/especies/periquito-alexandrino', '/fr/especies/perruche-alexandre'],
+    ['/especies/periquito-collar-indio', '/pt/especies/periquito-colar-indiano', '/fr/especies/perruche-a-collier'],
+    ['/guacamayos', '/pt/arara-a-venda', '/fr/especies/ara-bleu-et-jaune'],
+    ['/guacamayos', '/pt/arara-a-venda', '/fr/especies/ara-chloroptere'],
+    ['/guia-guacamayo-jacinto', '/pt/arara-jacinto', '/fr/especies/ara-hyacinthe'],
+    ['/guacamayos', '/pt/arara-escarlate', '/fr/especies/ara-macao'],
+    ['/cacatua', '/pt/cacatua-de-crista-amarela', '/fr/especies/cacatoes-huppe-jaune'],
+    // Especies hub (must precede any row that uses /especies/ as source)
+    ['/especies/', '/pt/especies/', '/fr/especies/'],
+    ['/eclectus', '/pt/papagaio-eclectus', '/fr/especies/eclectus'],
+    // caique-ventre-blanc, grand-alexandre, perruche-royale are FR-only subtypes with no
+    // dedicated ES/PT page; no MAP row to avoid source-key conflicts. Visitors clicking
+    // ES/PT from those pages fall back to the language homepage (acceptable — no ES equivalent).
+    // Their static hreflang points to /especies/ hub for Google's crawl signal.
+    ['/loro-gris-africano', '/pt/papagaio-cinzento', '/fr/especies/perroquet-gris-du-gabon'],
+    ['/loro-amazonico', '/pt/amazona-a-venda', '/fr/especies/amazone-front-bleu'],
 
     // Species pages
     ['/loro-gris-africano', '/pt/papagaio-cinzento', '/fr/perroquet-gris-du-gabon'],
