@@ -1,0 +1,199 @@
+PHASE 8 — ENGLISH KNOWLEDGE CENTRE & TOPICAL AUTHORITY
+
+Objective
+
+Transform the English section into the most comprehensive English-language parrot knowledge hub serving customers in the United Kingdom and Ireland.
+
+IMPORTANT
+
+Do not modify existing Spanish, French or Portuguese pages.
+
+Do not create duplicate content.
+
+Use British English throughout.
+
+Maintain the premium design.
+
+==================================================
+1. KNOWLEDGE CENTRE
+==================================================
+
+Create:
+
+/en/knowledge/
+
+This becomes the central hub for all educational English content.
+
+Categories:
+
+• Species Guides
+• Buying Guides
+• Care Guides
+• Behaviour
+• Nutrition
+• Health
+• CITES & Legal
+• Delivery
+• FAQ
+
+==================================================
+2. CREATE 50 BUYER GUIDES
+==================================================
+
+Examples:
+
+How to Buy a Parrot
+
+Choosing Your First Parrot
+
+Best Family Parrots
+
+Best Talking Parrots
+
+Quiet Parrots
+
+Large Parrots
+
+Small Parrots
+
+Macaw Buying Guide
+
+African Grey Guide
+
+Cockatoo Guide
+
+Amazon Guide
+
+Conure Guide
+
+Eclectus Guide
+
+Caique Guide
+
+Pionus Guide
+
+==================================================
+3. CREATE 50 FAQ PAGES
+==================================================
+
+Examples:
+
+How much does an African Grey cost?
+
+Can parrots travel by air cargo?
+
+How long do macaws live?
+
+Do parrots need CITES documents?
+
+Can I import a parrot into the UK?
+
+Can parrots be delivered to Ireland?
+
+What cage should I buy?
+
+How much do parrots eat?
+
+How intelligent are African Greys?
+
+Can macaws live with children?
+
+==================================================
+4. PRICE GUIDES
+==================================================
+
+Create premium pages:
+
+African Grey Price
+
+Hyacinth Macaw Price
+
+Catalina Macaw Price
+
+Blue-and-Yellow Macaw Price
+
+Scarlet Macaw Price
+
+Cockatoo Price
+
+Amazon Price
+
+Conure Price
+
+==================================================
+5. COMPARISON PAGES
+==================================================
+
+Create:
+
+African Grey vs Amazon
+
+Catalina vs Blue-and-Yellow
+
+Macaw vs Cockatoo
+
+Conure vs Caique
+
+Hyacinth vs Scarlet
+
+Eclectus vs African Grey
+
+==================================================
+6. INTERNAL LINKING
+==================================================
+
+Every article must link naturally to:
+
+• Species pages
+• Gallery
+• Available Birds
+• Delivery
+• Knowledge Centre
+• Contact
+
+==================================================
+7. SEO
+==================================================
+
+Every page requires:
+
+Unique H1
+
+Unique title
+
+Unique meta description
+
+Canonical
+
+Breadcrumbs
+
+FAQ schema
+
+Article schema
+
+ImageObject schema
+
+Open Graph
+
+Twitter Cards
+
+British English
+
+==================================================
+8. FINAL VALIDATION
+==================================================
+
+Run:
+
+npm run build
+
+Return:
+
+• Articles created
+• FAQ pages
+• Buyer guides
+• Comparison pages
+• Price guides
+• Internal links
+• Sitemap updates
+• Build successful
