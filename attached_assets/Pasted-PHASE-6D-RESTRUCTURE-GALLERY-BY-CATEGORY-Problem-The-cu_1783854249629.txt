@@ -1,0 +1,313 @@
+PHASE 6D — RESTRUCTURE GALLERY BY CATEGORY
+
+Problem:
+The current Spanish and French gallery pages display mixed images randomly in one masonry grid. This looks disorganized and does not help visitors understand the facility, birds, food, cages, or care standards.
+
+Goal:
+Rebuild the gallery into clearly separated visual categories with short explanatory text, proper headings, and category-specific galleries.
+
+IMPORTANT
+
+- Do not display all images in one mixed gallery.
+- Do not mix bird species, food, cages and facility photos together.
+- Keep the premium green and gold design.
+- Preserve lightbox, lazy loading and responsive image optimization.
+- Use the same real photos, but organize them correctly.
+- Spanish and French must have equivalent structure with localized text.
+- Do not show an empty category.
+- Do not mislabel any image.
+
+========================================
+1. GALLERY LANDING PAGE
+========================================
+
+Spanish:
+/galeria
+
+French:
+/fr/galerie
+
+Replace the current random masonry wall with a category landing page.
+
+Create premium category cards:
+
+Spanish:
+- Nuestras instalaciones
+- Alimentación y nutrición
+- Jaulas y aviarios
+- Guacamayos
+- Conuros
+- Tucanes
+- Loros disponibles
+- Crianza y socialización
+- Transporte y entrega
+
+French:
+- Nos installations
+- Alimentation et nutrition
+- Cages et volières
+- Aras
+- Conures
+- Toucans
+- Perroquets disponibles
+- Élevage et socialisation
+- Transport et livraison
+
+Each category card must contain:
+
+- one strong featured photo
+- category title
+- short description of 30–60 words
+- actual number of photos in the category
+- localized CTA:
+  Spanish: Ver fotos
+  French: Voir les photos
+- link to the dedicated category section/page
+
+Do not show more than 9 category cards on the main gallery landing page.
+
+========================================
+2. CREATE DEDICATED CATEGORY PAGES
+========================================
+
+Create:
+
+Spanish:
+/galeria/instalaciones
+/galeria/alimentacion
+/galeria/jaulas-aviarios
+/galeria/guacamayos
+/galeria/conuros
+/galeria/tucanes
+/galeria/aves-disponibles
+/galeria/crianza-socializacion
+/galeria/transporte
+
+French:
+/fr/galerie/installations
+/fr/galerie/alimentation
+/fr/galerie/cages-volieres
+/fr/galerie/aras
+/fr/galerie/conures
+/fr/galerie/toucans
+/fr/galerie/perroquets-disponibles
+/fr/galerie/elevage-socialisation
+/fr/galerie/transport
+
+Each category page must include:
+
+1. Breadcrumbs
+2. H1
+3. Short premium introduction
+4. Optional trust text block
+5. Category-specific photo gallery
+6. Localized captions
+7. Related categories
+8. Contact CTA
+9. Link to available birds where relevant
+
+========================================
+3. CATEGORY INTRODUCTION TEXT
+========================================
+
+Write concise, natural text.
+
+Example Spanish — Instalaciones:
+
+"Conozca los espacios donde cuidamos, alimentamos y socializamos a nuestras aves. Esta selección muestra nuestras zonas de crianza, aviarios, áreas de descanso y preparación diaria."
+
+Example French — Installations:
+
+"Découvrez les espaces dans lesquels nos oiseaux sont élevés, nourris et socialisés. Cette sélection présente nos zones d’élevage, volières, espaces de repos et installations de préparation quotidienne."
+
+Food category should explain:
+- fresh foods
+- fruit and vegetables
+- seed mixes
+- feeding preparation
+- species-specific nutrition
+
+Bird categories should explain:
+- species shown
+- temperament
+- socialisation
+- care
+- availability disclaimer
+
+========================================
+4. IMAGE CLASSIFICATION
+========================================
+
+Classify each image according to its actual folder and content.
+
+Folder mapping:
+
+/public/images/facility/
+→ instalaciones / installations
+
+/public/images/food/
+→ alimentación / alimentation
+
+/public/images/cages/
+→ jaulas-aviarios / cages-volieres
+
+/public/images/macaws/
+→ guacamayos / aras
+
+/public/images/conures/
+→ conuros / conures
+
+/public/images/toucans/
+→ tucanes / toucans
+
+/public/images/available-birds/
+→ aves-disponibles / perroquets-disponibles
+
+/public/images/nursery/
+/public/images/socialization/
+→ crianza-socializacion / elevage-socialisation
+
+/public/images/transport/
+→ transporte / transport
+
+Do not use AI visual recognition as the primary classification method when the folder already identifies the category.
+
+Do not place:
+- food photos inside bird galleries
+- toucans inside macaw galleries
+- cages inside facility unless clearly relevant
+- stock photography alongside real facility photography without labeling
+
+========================================
+5. GALLERY LAYOUT
+========================================
+
+On category pages:
+
+- show 12–18 photos initially
+- add "Ver todas las fotos" / "Voir toutes les photos"
+- expand or load more progressively
+- keep masonry layout only inside each category
+- preserve consistent spacing
+- use clean captions
+- avoid oversized random image heights
+- use stable card aspect ratios where possible
+- no chaotic visual ordering
+
+Order images intelligently:
+
+1. strongest hero image
+2. overview photos
+3. detail photos
+4. close-ups
+5. supporting images
+
+========================================
+6. PHOTO CAPTIONS
+========================================
+
+Every visible image should have a useful caption.
+
+Examples Spanish:
+- Zona interior de crianza y descanso
+- Preparación diaria de frutas y verduras
+- Jaula amplia para guacamayos
+- Guacamayo socializado en nuestras instalaciones
+- Tucán durante la alimentación
+
+Examples French:
+- Espace intérieur d’élevage et de repos
+- Préparation quotidienne de fruits et légumes
+- Grande cage adaptée aux aras
+- Ara socialisé dans nos installations
+- Toucan pendant son alimentation
+
+Do not use generic captions like:
+- Imagen 1
+- Foto de loro
+- Galería
+- Bird photo
+
+========================================
+7. NAVIGATION
+========================================
+
+Add a category navigation bar near the top:
+
+Spanish:
+Instalaciones | Alimentación | Jaulas | Guacamayos | Conuros | Tucanes | Crianza | Transporte
+
+French:
+Installations | Alimentation | Cages | Aras | Conures | Toucans | Élevage | Transport
+
+Highlight the current category.
+
+Add a "Volver a la galería" / "Retour à la galerie" link.
+
+========================================
+8. SEO
+========================================
+
+Each category page needs:
+
+- unique title
+- unique meta description
+- unique H1
+- canonical
+- hreflang ES/FR
+- BreadcrumbList schema
+- CollectionPage schema
+- ImageObject schema
+- Open Graph image
+- internal links
+
+Add category pages to the sitemap.
+
+========================================
+9. HOMEPAGE INTEGRATION
+========================================
+
+On Spanish and French homepages, show a compact gallery preview:
+
+- 6 category cards maximum
+- one featured image each
+- short title
+- short description
+- CTA to gallery category
+
+Do not place 30 random images on the homepage.
+
+========================================
+10. FINAL VALIDATION
+========================================
+
+Run:
+
+npm run build
+
+Check:
+
+- no mixed random gallery remains
+- every image belongs to the correct category
+- no empty categories
+- no broken images
+- captions localized
+- correct ES/FR links
+- mobile layout
+- lightbox
+- sitemap
+- canonicals
+- hreflang
+- schema
+
+Return:
+
+- category pages created
+- images classified
+- images moved or remapped
+- Spanish text added
+- French text added
+- mixed gallery removed
+- navigation added
+- sitemap updated
+- build result
