@@ -1,0 +1,253 @@
+PHASE 10 — IMPLEMENT THE NEW PARAÍSO DE AVES BRAND IDENTITY
+
+Objective
+
+Replace the old Paraíso de Aves branding throughout the entire website with the new premium horizontal logo.
+
+The new logo has already been approved and should become the official brand identity.
+
+IMPORTANT
+
+• Do not change any URLs.
+• Do not change page layouts.
+• Do not affect SEO.
+• Keep all existing functionality.
+• Preserve responsive behaviour.
+
+==================================================
+1. REPLACE HEADER LOGO
+==================================================
+
+Replace the current website logo with the new horizontal logo.
+
+Requirements:
+
+• Transparent background
+• SVG preferred
+• PNG fallback
+• Crisp on Retina displays
+• Maximum height: 72px
+• Automatically scale on mobile
+
+Desktop:
+
+Height: 68–72px
+
+Tablet:
+
+Height: 60px
+
+Mobile:
+
+Height: 50px
+
+==================================================
+2. FAVICON
+==================================================
+
+Create favicon versions from the circular bird emblem.
+
+Generate:
+
+favicon.ico
+
+favicon-32.png
+
+favicon-16.png
+
+apple-touch-icon.png
+
+android-chrome-192.png
+
+android-chrome-512.png
+
+webmanifest
+
+==================================================
+3. HEADER
+==================================================
+
+Adjust spacing so the new logo is perfectly aligned.
+
+Vertically center it.
+
+Keep navigation balanced.
+
+Do not stretch or distort the logo.
+
+==================================================
+4. FOOTER
+==================================================
+
+Replace the footer logo.
+
+Use the compact horizontal version.
+
+Maximum height:
+
+55px
+
+==================================================
+5. CONTACT PAGE
+==================================================
+
+Replace any old branding.
+
+Use the new logo above the contact information.
+
+==================================================
+6. EMAIL TEMPLATE
+==================================================
+
+Update every email template.
+
+Use the Gmail-optimized horizontal logo.
+
+Maximum width:
+
+300px
+
+Transparent PNG
+
+==================================================
+7. PDF DOCUMENTS
+==================================================
+
+Update:
+
+Contracts
+
+Invoices
+
+Reservation forms
+
+Certificates
+
+Adoption agreements
+
+Use the circular seal at the top of every PDF.
+
+==================================================
+8. SOCIAL META
+==================================================
+
+Replace Open Graph logo.
+
+Replace Twitter Card logo.
+
+Use the horizontal version.
+
+==================================================
+9. STRUCTURED DATA
+==================================================
+
+Update Organization schema.
+
+Use the new logo URL.
+
+Keep the same Organization information.
+
+==================================================
+10. BRAND COLOURS
+==================================================
+
+Set brand variables:
+
+Forest Green
+#1B3D2F
+
+Premium Gold
+#C9A24B
+
+Ivory
+#F8F5ED
+
+Dark Charcoal
+#2B2B2B
+
+==================================================
+11. TYPOGRAPHY
+==================================================
+
+Logo typography:
+
+Cormorant Garamond
+
+Website headings:
+
+Playfair Display
+
+Body:
+
+Inter
+
+Do not replace body typography unless already configured.
+
+==================================================
+12. IMAGE OPTIMIZATION
+==================================================
+
+Optimize the logo.
+
+Create:
+
+SVG
+
+Transparent PNG
+
+WebP
+
+AVIF
+
+Preserve transparency.
+
+==================================================
+13. RESPONSIVE TESTING
+==================================================
+
+Verify:
+
+Desktop
+
+Tablet
+
+Mobile
+
+Dark Mode
+
+Light Mode
+
+High DPI screens
+
+==================================================
+14. CLEANUP
+==================================================
+
+Remove old logo assets that are no longer referenced.
+
+Update imports.
+
+Update asset references.
+
+==================================================
+15. FINAL VALIDATION
+==================================================
+
+Run:
+
+npm run build
+
+Verify:
+
+• No broken images
+• Logo displays correctly on every page
+• Favicon updated
+• Footer updated
+• Email template updated
+• PDF templates updated
+• Organization schema updated
+• Open Graph updated
+• Responsive layout verified
+• Build successful
+
+Return a summary of every file modified.
