@@ -112,4 +112,16 @@
   <url><loc>https://www.paraisodeaves.com/pt/brinquedos-naturais-para-papagaios/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.70</priority></url>
   <url><loc>https://www.paraisodeaves.com/pt/comida-para-papagaios/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.70</priority></url>
   <url><loc>https://www.paraisodeaves.com/pt/papagaios-disponiveis/</loc><lastmod>2026-07-12</lastmod><changefreq>weekly</changefreq><priority>0.70</priority></url>
+
+  <!-- pt/conhecimento/ — knowledge hub + 9 sections added 2026-07-19 -->
+  <url><loc>https://www.paraisodeaves.com/pt/conhecimento/</loc><lastmod>2026-07-19</lastmod><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.paraisodeaves.com/pt/conhecimento/comprar/</loc><lastmod>2026-07-19</lastmod><changefreq>monthly</changefreq><priority>0.78</priority></url>
+  <url><loc>https://www.paraisodeaves.com/pt/conhecimento/documentacao-cites/</loc><lastmod>2026-07-19</lastmod><changefreq>monthly</changefreq><priority>0.78</priority></url>
+  <url><loc>https://www.paraisodeaves.com/pt/conhecimento/saude/</loc><lastmod>2026-07-19</lastmod><changefreq>monthly</changefreq><priority>0.78</priority></url>
+  <url><loc>https://www.paraisodeaves.com/pt/conhecimento/nutricao/</loc><lastmod>2026-07-19</lastmod><changefreq>monthly</changefreq><priority>0.78</priority></url>
+  <url><loc>https://www.paraisodeaves.com/pt/conhecimento/comportamento/</loc><lastmod>2026-07-19</lastmod><changefreq>monthly</changefreq><priority>0.78</priority></url>
+  <url><loc>https://www.paraisodeaves.com/pt/conhecimento/adestramento/</loc><lastmod>2026-07-19</lastmod><changefreq>monthly</changefreq><priority>0.78</priority></url>
+  <url><loc>https://www.paraisodeaves.com/pt/conhecimento/instalacoes/</loc><lastmod>2026-07-19</lastmod><changefreq>monthly</changefreq><priority>0.78</priority></url>
+  <url><loc>https://www.paraisodeaves.com/pt/conhecimento/acessorios/</loc><lastmod>2026-07-19</lastmod><changefreq>monthly</changefreq><priority>0.78</priority></url>
+  <url><loc>https://www.paraisodeaves.com/pt/conhecimento/guias-iniciantes/</loc><lastmod>2026-07-19</lastmod><changefreq>monthly</changefreq><priority>0.78</priority></url>
 </urlset>
