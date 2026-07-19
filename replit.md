@@ -123,7 +123,7 @@ Sitio web estático multilingüe (ES + PT + FR) para paraisodeaves — criadero 
 
 ## User Preferences
 
-- Respuestas en español
+- Respond in English
 - Scripts de generación en Node.js (nunca Python)
 - Sin emojis en código salvo los ya presentes en el diseño (🦜)
 - Mantener diseño premium existente — no cambiar paleta ni tipografía
