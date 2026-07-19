@@ -429,6 +429,35 @@
 /fr/especies/perroquet-pionus   /fr/especies/perroquet-pionus/index.html   200
 /fr/especies/perruche-moine   /fr/especies/perruche-moine/index.html   200
 
+# trailing-slash variants (avoid Netlify pretty-URL 301)
+/fr/especies/amazone-aile-orange/   /fr/especies/amazone-aile-orange/index.html   200
+/fr/especies/amazone-front-bleu/   /fr/especies/amazone-front-bleu/index.html   200
+/fr/especies/amazone-nuque-jaune/   /fr/especies/amazone-nuque-jaune/index.html   200
+/fr/especies/ara-bleu-et-jaune/   /fr/especies/ara-bleu-et-jaune/index.html   200
+/fr/especies/ara-chloroptere/   /fr/especies/ara-chloroptere/index.html   200
+/fr/especies/ara-hyacinthe/   /fr/especies/ara-hyacinthe/index.html   200
+/fr/especies/ara-macao/   /fr/especies/ara-macao/index.html   200
+/fr/especies/cacatoes-blanc/   /fr/especies/cacatoes-blanc/index.html   200
+/fr/especies/cacatoes-goffin/   /fr/especies/cacatoes-goffin/index.html   200
+/fr/especies/cacatoes-huppe-jaune/   /fr/especies/cacatoes-huppe-jaune/index.html   200
+/fr/especies/cacatoes-rosalbin/   /fr/especies/cacatoes-rosalbin/index.html   200
+/fr/especies/caique/   /fr/especies/caique/index.html   200
+/fr/especies/caique-ventre-blanc/   /fr/especies/caique-ventre-blanc/index.html   200
+/fr/especies/conure-jenday/   /fr/especies/conure-jenday/index.html   200
+/fr/especies/conure-joues-vertes/   /fr/especies/conure-joues-vertes/index.html   200
+/fr/especies/conure-soleil/   /fr/especies/conure-soleil/index.html   200
+/fr/especies/eclectus/   /fr/especies/eclectus/index.html   200
+/fr/especies/grand-alexandre/   /fr/especies/grand-alexandre/index.html   200
+/fr/especies/loriquet-arc-en-ciel/   /fr/especies/loriquet-arc-en-ciel/index.html   200
+/fr/especies/perroquet-du-senegal/   /fr/especies/perroquet-du-senegal/index.html   200
+/fr/especies/perroquet-gris-du-gabon/   /fr/especies/perroquet-gris-du-gabon/index.html   200
+/fr/especies/perroquet-pionus/   /fr/especies/perroquet-pionus/index.html   200
+/fr/especies/perruche-a-collier/   /fr/especies/perruche-a-collier/index.html   200
+/fr/especies/perruche-alexandre/   /fr/especies/perruche-alexandre/index.html   200
+/fr/especies/perruche-moine/   /fr/especies/perruche-moine/index.html   200
+/fr/especies/perruche-royale/   /fr/especies/perruche-royale/index.html   200
+
+
 # ══════════════════════════════════════════════════════
 # SECTION 18 — PHASE 5A BROKEN LINK FIXES
 # ══════════════════════════════════════════════════════
@@ -642,4 +671,19 @@
 # ══════════════════════════════════════════════════════
 # SECTION 17 — CATCH-ALL 404 (must remain LAST — Netlify uses first match)
 # ══════════════════════════════════════════════════════
+
+# SECTION — PT BLOG SPANISH-SLUG REDIRECTS (→ ES equivalents)
+/pt/blog/pionus-loro-mascota                                /blog/pionus-loro-mascota   301
+/pt/blog/loro-yaco-en-ecuador-precio-cuidados-requisitos    /blog/loro-yaco-en-ecuador-precio-cuidados-requisitos   301
+/pt/blog/como-alimentar-un-loro-bebe                        /blog/como-alimentar-un-loro-bebe   301
+/pt/blog/comprar-loro-europa-envio                          /blog/comprar-loro-europa-envio   301
+/pt/blog/loro-amazonico-vs-eclectus                         /blog/loro-amazonico-vs-eclectus   301
+/pt/blog/amazona-loro-mascota                               /blog/amazona-loro-mascota   301
+/pt/blog/eclectus-vs-amazona                                /blog/eclectus-vs-amazona   301
+/pt/blog/cuidado-alas-loros                                 /blog/cuidado-alas-loros   301
+/pt/blog/como-socializar-loro                               /blog/como-socializar-loro   301
+/blog/banhar-papagaio.html                                  /pt/blog/banhar-papagaio   301
+/pt/blog/cuidacion-enfermedades-loros                       /blog/enfermedades-comunes-loros   301
+/blog/mejores-especies-loros-para-adoptar                   /blog/mejores-loros-principiantes   301
+
 /*                                                   /404.html                                                404
