@@ -499,11 +499,21 @@ const SPECIES = [
 
 // ─── Page template ─────────────────────────────────────────────────────────────
 function makePage(sp) {
-  const relatedCards = sp.relatedSlugs.map((slug, i) => `
+  // Build slug → image lookup from SPECIES array
+  const slugToImg = {};
+  SPECIES.forEach(s => { slugToImg[s.slug] = { img: s.img, alt: s.imgAlt }; });
+
+  const relatedCards = sp.relatedSlugs.map((slug, i) => {
+    const thumb = slugToImg[slug];
+    const thumbSrc = thumb ? thumb.img : '/images/logo/paraiso-de-aves-logo-light.webp';
+    const thumbAlt = thumb ? thumb.alt : sp.relatedSpeciesLabels[i];
+    return `
       <a class="es-rel-card" href="/es/especies/${slug}/">
+        <img class="es-rel-thumb" src="${thumbSrc}" alt="${thumbAlt}" width="52" height="52" loading="lazy">
         <span class="es-rel-name">${sp.relatedSpeciesLabels[i]}</span>
         <span class="es-rel-arrow">→</span>
-      </a>`).join('');
+      </a>`;
+  }).join('');
 
   const faqItems = sp.faqs.map(f => `
         <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
@@ -663,11 +673,15 @@ function makePage(sp) {
   .es-rel-section{margin-top:2.5rem;padding-top:2rem;border-top:1px solid var(--border)}
   .es-rel-section h2{font-size:1.5rem;color:var(--primary);margin-bottom:1rem}
   .es-rel-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem}
-  @media(max-width:600px){.es-rel-grid{grid-template-columns:1fr}}
-  .es-rel-card{display:flex;justify-content:space-between;align-items:center;background:#fff;border:1px solid var(--border);border-radius:12px;padding:.9rem 1.1rem;text-decoration:none;color:var(--primary);font-weight:700;font-size:.95rem;transition:background .2s,box-shadow .2s}
-  .es-rel-card:hover{background:var(--primary);color:#fff;text-decoration:none;box-shadow:0 4px 16px rgba(27,61,47,.2)}
+  @media(max-width:640px){.es-rel-grid{grid-template-columns:1fr}}
+  .es-rel-card{display:flex;align-items:center;gap:.8rem;background:#fff;border:1px solid var(--border);border-radius:14px;padding:.65rem .9rem .65rem .65rem;text-decoration:none;color:var(--primary);font-weight:700;font-size:.9rem;transition:background .25s,box-shadow .25s,transform .2s}
+  .es-rel-card:hover{background:var(--primary);color:#fff;text-decoration:none;box-shadow:0 6px 22px rgba(27,61,47,.22);transform:translateY(-2px)}
   .es-rel-card:hover .es-rel-arrow{color:var(--gold)}
-  .es-rel-arrow{color:var(--gold)}
+  .es-rel-card:hover .es-rel-thumb{border-color:rgba(255,255,255,.35)}
+  .es-rel-thumb{width:52px;height:52px;border-radius:50%;object-fit:cover;object-position:center top;flex-shrink:0;border:2px solid var(--border);box-shadow:0 2px 10px rgba(0,0,0,.13);transition:border-color .25s}
+  @media(max-width:900px){.es-rel-thumb{width:44px;height:44px}}
+  .es-rel-name{flex:1;font-family:'Playfair Display',Georgia,serif;font-size:.92rem}
+  .es-rel-arrow{color:var(--gold);flex-shrink:0;font-size:1.1rem;line-height:1}
   /* Footer */
   footer{background:var(--primary);color:#fff;padding:2.5rem 5%;font-size:.88rem;text-align:center}
   footer a{color:var(--gold);text-decoration:none}

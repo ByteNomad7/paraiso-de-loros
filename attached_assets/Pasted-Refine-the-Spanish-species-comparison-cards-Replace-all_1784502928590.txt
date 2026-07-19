@@ -1,0 +1,50 @@
+Refine the Spanish species comparison cards.
+
+Replace all generic emoji or symbolic icons such as hearts, puzzle pieces, brains, controllers and similar decorative icons with a small real image of the matching bird species.
+
+Examples:
+
+- Cacatúa Blanca card → use a small thumbnail of a White/Umbrella Cockatoo
+- Cacatúa de Goffin card → use a small thumbnail of a Goffin’s Cockatoo
+- Yaco card → use a small thumbnail of an African Grey
+- Guacamayo Azul y Amarillo card → use a matching Blue-and-Gold Macaw thumbnail
+- Amazona card → use the correct Amazon parrot species image
+
+DESIGN
+
+- Place the bird thumbnail to the left of the species name.
+- Use a circular or softly rounded image.
+- Recommended size: 48–56 px desktop and 42–48 px mobile.
+- Use object-fit: cover.
+- Keep the bird’s head and upper body clearly visible.
+- Add a subtle border and soft shadow.
+- Do not stretch, distort or crop the bird awkwardly.
+- Keep all card headers aligned consistently.
+- Maintain enough space between the image, title and scientific name.
+
+IMAGE ACCURACY
+
+- Every image must match the exact species named on the card.
+- Do not use a generic parrot image for multiple species.
+- Reuse existing approved website images when available.
+- Do not invent or use unrelated species.
+- If no verified species image is available, use the existing Paraíso de Aves logo mark temporarily rather than an emoji.
+
+ACCESSIBILITY
+
+- Add descriptive Spanish alt text, for example:
+  - “Cacatúa blanca”
+  - “Cacatúa de Goffin”
+  - “Yaco africano”
+- Decorative image wrappers must not interfere with keyboard navigation.
+
+PERFORMANCE
+
+- Use optimized WebP or AVIF thumbnails.
+- Define explicit width and height.
+- Lazy-load below-the-fold images.
+- Avoid layout shift.
+
+Keep the small descriptive trait pills below the text, but remove emoji characters from those pills as well. Replace them with clean text-only labels or subtle professional SVG icons.
+
+The final result must feel like a premium breeder website, not a generic template.
