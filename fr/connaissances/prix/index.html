@@ -447,6 +447,81 @@ footer{background:var(--primary);color:rgba(255,255,255,.75);padding:48px 5% 28p
   ]
 }</script>
 
+<style>
+.rc-section{max-width:1200px;margin:0 auto;padding:0 5% 56px}
+.rc-section+.rc-section{padding-top:0}
+.rc-title{font-family:'Playfair Display',Georgia,serif;font-size:1.6rem;font-weight:800;color:var(--primary);margin-bottom:8px}
+.rc-sub{color:#5C5C5C;font-size:.95rem;margin-bottom:36px}
+.rc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
+.rc-card{background:#fff;border:1px solid var(--border);border-radius:16px;padding:28px 24px;transition:transform .2s,box-shadow .2s;position:relative;overflow:hidden}
+.rc-card:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(0,0,0,.1)}
+.rc-card::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--primary),var(--gold))}
+.rc-card h3{font-family:'Playfair Display',Georgia,serif;font-size:1.1rem;font-weight:700;color:var(--primary);margin:8px 0}
+.rc-card p{font-size:.88rem;color:#5C5C5C;line-height:1.6;margin-bottom:16px}
+.rc-card a.rc-btn{display:inline-block;background:var(--primary);color:#fff;font-weight:700;font-size:.85rem;padding:9px 20px;border-radius:8px;transition:background .2s}
+.rc-card a.rc-btn:hover{background:var(--gold)}
+</style>
+<section class="rc-section">
+  <h2 class="rc-title">Prix par espèce</h2>
+  <p class="rc-sub">Consultez les fiches individuelles pour connaître le prix de chaque espèce et les frais associés.</p>
+  <div class="rc-grid">
+      <div class="rc-card">
+        <span style="font-size:1.6rem">🔆</span>
+        <h3>Conure Soleil</h3>
+        <p>L'une des espèces les plus accessibles. Fiche complète avec fourchette de prix 2026.</p>
+        <a href="/fr/especies/conure-soleil/" class="rc-btn">Voir la fiche →</a>
+      </div>
+      <div class="rc-card">
+        <span style="font-size:1.6rem">🟢</span>
+        <h3>Perruche Moine</h3>
+        <p>Espèce économique et sociable. Excellent rapport qualité / plaisir pour les débutants.</p>
+        <a href="/fr/especies/perruche-moine/" class="rc-btn">Voir la fiche →</a>
+      </div>
+      <div class="rc-card">
+        <span style="font-size:1.6rem">🦜</span>
+        <h3>Perroquet Gris du Gabon</h3>
+        <p>Investissement plus élevé, mais rentabilisé sur 50 ans de compagnie exceptionnelle.</p>
+        <a href="/fr/especies/perroquet-gris-du-gabon/" class="rc-btn">Voir la fiche →</a>
+      </div>
+      <div class="rc-card">
+        <span style="font-size:1.6rem">💙</span>
+        <h3>Ara Hyacinthe</h3>
+        <p>Le perroquet le plus cher du marché — et l'un des plus impressionnants. Prix et raretés.</p>
+        <a href="/fr/especies/ara-hyacinthe/" class="rc-btn">Voir la fiche →</a>
+      </div>
+  </div>
+</section>
+<section class="rc-section">
+  <h2 class="rc-title">Trouver un perroquet près de chez vous</h2>
+  <p class="rc-sub">Comparez les prix et trouvez votre perroquet idéal livré directement dans votre ville.</p>
+  <div class="rc-grid">
+      <div class="rc-card">
+        <span style="font-size:1.6rem">🏙️</span>
+        <h3>Perroquets à Paris</h3>
+        <p>Livraison à Paris et petite couronne. Prix transparents, sans frais cachés.</p>
+        <a href="/fr/perroquets-a-vendre-paris/" class="rc-btn">Voir la ville →</a>
+      </div>
+      <div class="rc-card">
+        <span style="font-size:1.6rem">🏙️</span>
+        <h3>Perroquets à Nantes</h3>
+        <p>Livraison à Nantes et en Loire-Atlantique. Devis personnalisé selon l'espèce choisie.</p>
+        <a href="/fr/perroquets-a-vendre-nantes/" class="rc-btn">Voir la ville →</a>
+      </div>
+      <div class="rc-card">
+        <span style="font-size:1.6rem">🏙️</span>
+        <h3>Perroquets à Bordeaux</h3>
+        <p>Livraison à Bordeaux. Frais de livraison calculés selon la taille et la distance.</p>
+        <a href="/fr/perroquets-a-vendre-bordeaux/" class="rc-btn">Voir la ville →</a>
+      </div>
+      <div class="rc-card">
+        <span style="font-size:1.6rem">🏙️</span>
+        <h3>Perroquets à Strasbourg</h3>
+        <p>Livraison à Strasbourg et en Alsace. Contactez-nous pour un tarif précis.</p>
+        <a href="/fr/perroquets-a-vendre-strasbourg/" class="rc-btn">Voir la ville →</a>
+      </div>
+  </div>
+</section>
+
 <footer>
   <div class="footer-inner">
     <div class="footer-col">

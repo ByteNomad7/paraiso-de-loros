@@ -458,6 +458,81 @@ footer{background:var(--primary);color:rgba(255,255,255,.75);padding:48px 5% 28p
   ]
 }</script>
 
+<style>
+.rc-section{max-width:1200px;margin:0 auto;padding:0 5% 56px}
+.rc-section+.rc-section{padding-top:0}
+.rc-title{font-family:'Playfair Display',Georgia,serif;font-size:1.6rem;font-weight:800;color:var(--primary);margin-bottom:8px}
+.rc-sub{color:#5C5C5C;font-size:.95rem;margin-bottom:36px}
+.rc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
+.rc-card{background:#fff;border:1px solid var(--border);border-radius:16px;padding:28px 24px;transition:transform .2s,box-shadow .2s;position:relative;overflow:hidden}
+.rc-card:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(0,0,0,.1)}
+.rc-card::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--primary),var(--gold))}
+.rc-card h3{font-family:'Playfair Display',Georgia,serif;font-size:1.1rem;font-weight:700;color:var(--primary);margin:8px 0}
+.rc-card p{font-size:.88rem;color:#5C5C5C;line-height:1.6;margin-bottom:16px}
+.rc-card a.rc-btn{display:inline-block;background:var(--primary);color:#fff;font-weight:700;font-size:.85rem;padding:9px 20px;border-radius:8px;transition:background .2s}
+.rc-card a.rc-btn:hover{background:var(--gold)}
+</style>
+<section class="rc-section">
+  <h2 class="rc-title">Espèces à adopter</h2>
+  <p class="rc-sub">Chaque espèce a ses propres besoins. Consultez la fiche détaillée avant de vous décider.</p>
+  <div class="rc-grid">
+      <div class="rc-card">
+        <span style="font-size:1.6rem">🦜</span>
+        <h3>Perroquet Gris du Gabon</h3>
+        <p>L'espèce la plus intelligente, idéale pour les familles patientes. Longévité 50–80 ans.</p>
+        <a href="/fr/especies/perroquet-gris-du-gabon/" class="rc-btn">Voir la fiche →</a>
+      </div>
+      <div class="rc-card">
+        <span style="font-size:1.6rem">💛</span>
+        <h3>Ara Bleu et Jaune</h3>
+        <p>Grand et affectueux, l'ara bleu est un compagnon exceptionnel pour les espaces spacieux.</p>
+        <a href="/fr/especies/ara-bleu-et-jaune/" class="rc-btn">Voir la fiche →</a>
+      </div>
+      <div class="rc-card">
+        <span style="font-size:1.6rem">🔆</span>
+        <h3>Conure Soleil</h3>
+        <p>Petite et enjouée, la conure soleil est parfaite pour un premier perroquet en appartement.</p>
+        <a href="/fr/especies/conure-soleil/" class="rc-btn">Voir la fiche →</a>
+      </div>
+      <div class="rc-card">
+        <span style="font-size:1.6rem">🟢</span>
+        <h3>Perruche à Collier</h3>
+        <p>Sociable et facile à apprivoiser, elle s'adapte bien à la vie en appartement.</p>
+        <a href="/fr/especies/perruche-a-collier/" class="rc-btn">Voir la fiche →</a>
+      </div>
+  </div>
+</section>
+<section class="rc-section">
+  <h2 class="rc-title">Adopter un perroquet dans votre ville</h2>
+  <p class="rc-sub">Nous livrons partout en France métropolitaine. Retrouvez nos disponibilités par ville.</p>
+  <div class="rc-grid">
+      <div class="rc-card">
+        <span style="font-size:1.6rem">🏙️</span>
+        <h3>Perroquets à Paris</h3>
+        <p>Livraison express à Paris et en Île-de-France. Prise en charge professionnelle.</p>
+        <a href="/fr/perroquets-a-vendre-paris/" class="rc-btn">Voir la ville →</a>
+      </div>
+      <div class="rc-card">
+        <span style="font-size:1.6rem">🏙️</span>
+        <h3>Perroquets à Lyon</h3>
+        <p>Livraison rapide à Lyon et en Auvergne-Rhône-Alpes depuis notre élevage en Espagne.</p>
+        <a href="/fr/perroquets-a-vendre-lyon/" class="rc-btn">Voir la ville →</a>
+      </div>
+      <div class="rc-card">
+        <span style="font-size:1.6rem">🏙️</span>
+        <h3>Perroquets à Marseille</h3>
+        <p>Livraison à Marseille et dans toute la région PACA. Oiseaux documentés CITES.</p>
+        <a href="/fr/perroquets-a-vendre-marseille/" class="rc-btn">Voir la ville →</a>
+      </div>
+      <div class="rc-card">
+        <span style="font-size:1.6rem">🏙️</span>
+        <h3>Perroquets à Toulouse</h3>
+        <p>Livraison à Toulouse et en Occitanie. Accompagnement personnalisé à l'adoption.</p>
+        <a href="/fr/perroquets-a-vendre-toulouse/" class="rc-btn">Voir la ville →</a>
+      </div>
+  </div>
+</section>
+
 <footer>
   <div class="footer-inner">
     <div class="footer-col">
