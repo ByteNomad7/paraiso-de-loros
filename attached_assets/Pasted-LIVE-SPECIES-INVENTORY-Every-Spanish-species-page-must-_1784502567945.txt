@@ -1,0 +1,116 @@
+LIVE SPECIES INVENTORY
+
+Every Spanish species page must automatically display all currently available birds belonging to that species.
+
+Example:
+
+/es/especies/yaco
+
+must contain:
+
+- Hero section
+- Introduction to the species
+- Why choose Paraíso de Aves
+- Available Birds (dynamic inventory)
+- Care guide
+- Shipping information
+- Health Guarantee
+- Frequently Asked Questions
+- Related species
+
+AVAILABLE BIRDS
+
+Immediately below the introduction, create a section titled:
+
+"Aves disponibles"
+
+This section must automatically display every available bird assigned to that species.
+
+Example:
+
+Yaco Pepe
+Male • 7 months
+3–10 photos
+DNA Tested
+Hand-fed
+Available
+
+→ Ver perfil
+
+Yaco Luna
+Female • 5 months
+3–10 photos
+Available
+
+→ Ver perfil
+
+Yaco Coco
+Male • 10 months
+Available
+
+→ Ver perfil
+
+Every bird card must display:
+
+- Featured image
+- Gallery indicator (e.g. "5 Fotos")
+- Name or Bird ID
+- Species
+- Sex
+- Age
+- Availability status
+- Short personality description
+- CTA: "Ver perfil"
+
+BIRD PROFILE PAGES
+
+Every bird must have its own dedicated SEO page.
+
+Example:
+
+/es/aves/yaco-pepe
+/es/aves/yaco-luna
+/es/aves/yaco-coco
+
+Each profile must include:
+
+- Minimum 3 high-resolution photos (support up to 10)
+- Image gallery with thumbnails and lightbox
+- Name or Bird ID
+- Species
+- Sex
+- Age
+- Hatch date (if available)
+- DNA status (if available)
+- Hand-fed or Parent-raised
+- Health information
+- CITES information (where applicable)
+- Availability status
+- Personality
+- Diet
+- Care recommendations
+- Price or "Consultar precio"
+- Inquiry form
+- Related birds from the same species
+- Related species
+- Breadcrumb navigation
+- Product schema
+- Breadcrumb schema
+- Open Graph metadata
+
+DYNAMIC INVENTORY
+
+When a new bird is added to the CMS:
+
+- Automatically create its profile page.
+- Automatically add it to its species page.
+- Automatically update the available bird count.
+- Automatically update the sitemap.
+- Automatically update internal links.
+
+When a bird is marked as sold:
+
+- Display a "Vendido" badge.
+- Keep the profile indexed unless manually removed.
+- Recommend similar available birds.
+- Remove it from the "Aves disponibles" section while keeping it accessible via its direct URL. Here is our source website crawl the site we have copy rights and extract every available bird and then populate our site with it go to the available birds section https://exoticparrotfarms.com

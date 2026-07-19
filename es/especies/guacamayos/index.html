@@ -119,6 +119,28 @@
   footer a{color:var(--gold);text-decoration:none}
   footer a:hover{color:#fff}
   .visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+  
+  /* ── Inventory section ── */
+  .inv-section{margin-bottom:2.5rem}
+  .inv-section>h2{font-size:1.5rem;color:var(--primary,#1B3D2F);margin-bottom:1.2rem}
+  .inv-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+  @media(max-width:760px){.inv-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:460px){.inv-grid{grid-template-columns:1fr}}
+  .inv-card{background:#fff;border:1px solid #E7E0D2;border-radius:14px;overflow:hidden;text-decoration:none;color:#2B2B2B;display:flex;flex-direction:column;transition:transform .25s,box-shadow .25s;box-shadow:0 4px 16px rgba(0,0,0,.07)}
+  .inv-card:hover{transform:translateY(-5px);box-shadow:0 10px 32px rgba(0,0,0,.13);text-decoration:none;color:#2B2B2B}
+  .inv-card-img-wrap{position:relative;overflow:hidden}
+  .inv-card-img-wrap img{width:100%;height:200px;object-fit:cover;object-position:center;transition:transform .4s ease}
+  .inv-card:hover .inv-card-img-wrap img{transform:scale(1.07)}
+  .inv-photo-badge{position:absolute;bottom:.5rem;left:.5rem;background:rgba(0,0,0,.55);color:#fff;font-size:.7rem;font-weight:700;padding:.2rem .6rem;border-radius:999px;backdrop-filter:blur(3px)}
+  .inv-status-badge{position:absolute;top:.5rem;right:.5rem;font-size:.7rem;font-weight:700;padding:.25rem .7rem;border-radius:999px}
+  .inv-card-body{padding:1rem;display:flex;flex-direction:column;gap:.35rem;flex:1}
+  .inv-card-species{font-size:.72rem;color:#5C5C5C;text-transform:uppercase;font-weight:700;letter-spacing:.06em}
+  .inv-card-name{font-family:'Playfair Display',Georgia,serif;font-size:1.05rem;font-weight:800;color:#1B3D2F}
+  .inv-card-meta{font-size:.78rem;color:#5C5C5C;display:flex;gap:.4rem;flex-wrap:wrap}
+  .inv-card-desc{font-size:.82rem;color:#5C5C5C;line-height:1.55;flex:1}
+  .inv-card-cta{display:inline-block;background:linear-gradient(135deg,#C9A24B,#A8873A);color:#fff;font-size:.78rem;font-weight:700;padding:.35rem .9rem;border-radius:999px;align-self:flex-start;margin-top:.2rem}
+  .inv-no-birds{background:#fff;border:2px dashed #E7E0D2;border-radius:14px;padding:2rem;text-align:center;color:#5C5C5C;font-size:.95rem}
+  .inv-no-birds a{color:#1B3D2F;font-weight:700;text-decoration:underline}
   </style>
 </head>
 <body>
@@ -184,10 +206,45 @@
       <p class="sp-intro">Los <strong>Guacamayos</strong> (género <em>Ara</em>) son los loros más grandes y espectaculares del mundo. Su plumaje vibrante, su inteligencia y su capacidad de vocalización los convierten en aves únicas. En Paraíso de Aves criamos a mano las variedades más solicitadas: <strong>Guacamayo Azul y Amarillo</strong>, <strong>Escarlata</strong>, <strong>Jacinto</strong> y el exclusivo <strong>Guacamayo Catalina</strong>. Todos salen con <a href="/blog/cites-loros-espana.html">documentación CITES</a> y <a href="/garantia-de-salud">garantía veterinaria</a>.</p>
 
       <!-- ── Phase 2: Live bird listings placeholder ── -->
-      <section class="ph2-section" aria-label="Guacamayos disponibles">
-        <h2>Guacamayos Disponibles</h2>
-        <p>Esta sección mostrará próximamente todos los ejemplares disponibles de <strong>Guacamayos</strong> criados en nuestras instalaciones.</p>
-        <a href="/aves-disponibles/" class="ph2-cta">Ver todas las aves disponibles</a>
+      <section class="inv-section" aria-label="Aves disponibles de esta especie">
+        <h2>Aves Disponibles</h2>
+        <div class="inv-grid">
+          
+      <a class="inv-card" href="/es/aves/guacamayo-sol/" aria-label="Sol — Guacamayo Azul y Amarillo">
+        <div class="inv-card-img-wrap">
+          <img src="/images/guacamayo-azul-01.webp" alt="Sol — Guacamayo Azul y Amarillo" width="400" height="300" loading="lazy">
+          <span class="inv-photo-badge">4 fotos</span>
+          <span class="inv-status-badge inv-available">Disponible</span>
+        </div>
+        <div class="inv-card-body">
+          <p class="inv-card-species">Guacamayo Azul y Amarillo</p>
+          <h3 class="inv-card-name">Sol</h3>
+          <div class="inv-card-meta">
+            <span>Macho</span><span>·</span><span>8 meses</span>
+            <span>·</span><span>Testado ADN</span>
+          </div>
+          <p class="inv-card-desc">Sol es un guacamayo de personalidad radiante, fiel a su nombre. Muy juguetón, adora los juguetes de madera y l…</p>
+          <span class="inv-card-cta">Ver perfil →</span>
+        </div>
+      </a>
+      <a class="inv-card" href="/es/aves/guacamayo-catalina-arco/" aria-label="Arco — Guacamayo Catalina (Rainbow Macaw)">
+        <div class="inv-card-img-wrap">
+          <img src="/images/catalina-macaw/guacamayo-catalina-cara-frontal-naranja-verde-02.webp" alt="Arco — Guacamayo Catalina (Rainbow Macaw)" width="400" height="300" loading="lazy">
+          <span class="inv-photo-badge">10 fotos</span>
+          <span class="inv-status-badge inv-available">Disponible</span>
+        </div>
+        <div class="inv-card-body">
+          <p class="inv-card-species">Guacamayo Catalina (Rainbow Macaw)</p>
+          <h3 class="inv-card-name">Arco</h3>
+          <div class="inv-card-meta">
+            <span>Macho</span><span>·</span><span>9 meses</span>
+            <span>·</span><span>Testado ADN</span>
+          </div>
+          <p class="inv-card-desc">Arco es nuestro Guacamayo Catalina estrella: un híbrido de plumaje absolutamente único que combina el azul del…</p>
+          <span class="inv-card-cta">Ver perfil →</span>
+        </div>
+      </a>
+        </div>
       </section>
 
       <!-- ── FAQs ── -->
