@@ -419,7 +419,59 @@
 .nav a::after{ pointer-events: none; }
 .hero::before,
 .hero::after{ pointer-events: none; }
-</style>
+
+  /* ── Explora Nuestras Especies ── */
+  .es-section{background:#1B3D2F;padding:5.5rem 5%;position:relative;overflow:hidden}
+  .es-section::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 70% 0%,rgba(201,162,75,.12),transparent 60%);pointer-events:none}
+  .es-wrap{max-width:1400px;margin:0 auto;position:relative;z-index:1}
+  .es-header{text-align:center;margin-bottom:2.8rem}
+  .es-label{display:inline-block;background:rgba(201,162,75,.18);border:1px solid rgba(201,162,75,.45);color:#C9A24B;font-size:.76rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:4px 14px;border-radius:999px;margin-bottom:14px}
+  .es-header h2{font-family:'Playfair Display',Georgia,serif;font-size:clamp(1.8rem,3.5vw,2.7rem);font-weight:900;color:#fff;margin-bottom:.6rem;letter-spacing:-.02em}
+  .es-header p{color:rgba(255,255,255,.65);font-size:1rem;max-width:580px;margin:0 auto}
+  /* Controls */
+  .es-controls{display:flex;flex-direction:column;gap:1rem;margin-bottom:2.4rem}
+  .es-search-wrap{position:relative;max-width:480px;margin:0 auto;width:100%}
+  .es-search{width:100%;padding:.75rem 1rem .75rem 2.8rem;border:1px solid rgba(255,255,255,.18);border-radius:999px;background:rgba(255,255,255,.08);color:#fff;font-size:.97rem;font-family:'Open Sans',sans-serif;outline:none;transition:border-color .2s,background .2s}
+  .es-search::placeholder{color:rgba(255,255,255,.45)}
+  .es-search:focus{border-color:rgba(201,162,75,.7);background:rgba(255,255,255,.12)}
+  .es-search-icon{position:absolute;left:.85rem;top:50%;transform:translateY(-50%);color:rgba(255,255,255,.5);pointer-events:none}
+  .es-filters{display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center}
+  .es-filter{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);color:rgba(255,255,255,.8);font-size:.8rem;font-weight:600;padding:.4rem 1rem;border-radius:999px;cursor:pointer;transition:background .2s,border-color .2s,color .2s;font-family:'Open Sans',sans-serif;white-space:nowrap}
+  .es-filter:hover{background:rgba(201,162,75,.2);border-color:rgba(201,162,75,.5);color:#fff}
+  .es-filter.active{background:linear-gradient(135deg,#C9A24B,#A8873A);border-color:transparent;color:#fff;box-shadow:0 4px 12px rgba(201,162,75,.35)}
+  .es-filter:focus-visible{outline:2px solid #C9A24B;outline-offset:2px}
+  /* Grid */
+  .es-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.4rem}
+  @media(max-width:1100px){.es-grid{grid-template-columns:repeat(3,1fr)}}
+  @media(max-width:720px){.es-grid{grid-template-columns:repeat(2,1fr);gap:1rem}}
+  @media(max-width:400px){.es-grid{grid-template-columns:1fr}}
+  /* Card */
+  .es-card{position:relative;display:block;border-radius:18px;overflow:hidden;aspect-ratio:3/4;text-decoration:none;box-shadow:0 6px 28px rgba(0,0,0,.35);transition:transform .3s cubic-bezier(.25,.8,.25,1),box-shadow .3s;will-change:transform;cursor:pointer}
+  .es-card:hover,.es-card:focus-visible{transform:translateY(-6px) scale(1.015);box-shadow:0 14px 44px rgba(0,0,0,.55);text-decoration:none;outline:none}
+  .es-card:focus-visible{outline:3px solid #C9A24B;outline-offset:3px}
+  .es-card-img{position:absolute;inset:0;overflow:hidden}
+  .es-card-img img{width:100%;height:100%;object-fit:cover;object-position:center;transition:transform .5s cubic-bezier(.25,.8,.25,1)}
+  .es-card:hover .es-card-img img{transform:scale(1.1)}
+  .es-card-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(10,22,16,.88) 0%,rgba(10,22,16,.4) 45%,rgba(10,22,16,.05) 100%);transition:background .3s}
+  .es-card:hover .es-card-overlay{background:linear-gradient(to top,rgba(10,22,16,.94) 0%,rgba(10,22,16,.5) 50%,rgba(10,22,16,.1) 100%)}
+  .es-card-body{position:absolute;bottom:0;left:0;right:0;padding:1.2rem;color:#fff}
+  .es-card-sub{font-size:.72rem;color:rgba(255,255,255,.6);font-weight:600;text-transform:uppercase;letter-spacing:.06em;margin-bottom:.25rem}
+  .es-card-name{font-family:'Playfair Display',Georgia,serif;font-size:1.2rem;font-weight:800;line-height:1.2;margin-bottom:.5rem;text-shadow:0 2px 8px rgba(0,0,0,.4)}
+  .es-card-avail{display:block;font-size:.75rem;color:#C9A24B;font-weight:600;margin-bottom:.6rem}
+  .es-card-cta{display:inline-block;background:rgba(201,162,75,.2);border:1px solid rgba(201,162,75,.5);color:#C9A24B;font-size:.78rem;font-weight:700;padding:.3rem .9rem;border-radius:999px;transition:background .2s,color .2s}
+  .es-card:hover .es-card-cta{background:linear-gradient(135deg,#C9A24B,#A8873A);border-color:transparent;color:#fff}
+  /* Hidden cards */
+  .es-card.hidden{display:none}
+  /* No results */
+  .es-no-results{text-align:center;color:rgba(255,255,255,.55);padding:2.5rem;font-size:.95rem;display:none}
+  .es-no-results.visible{display:block}
+  /* View all CTA */
+  .es-footer{text-align:center;margin-top:2.4rem}
+  .es-footer a{display:inline-block;border:2px solid rgba(201,162,75,.5);color:#C9A24B;font-weight:700;padding:.75rem 2rem;border-radius:999px;font-size:.95rem;transition:background .2s,border-color .2s,color .2s;text-decoration:none}
+  .es-footer a:hover{background:rgba(201,162,75,.15);border-color:#C9A24B;color:#fff;text-decoration:none}
+  
+  .visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+  </style>
 
   <!-- ✅ Structured data (Spain + Europe targeted) -->
   <script type="application/ld+json">
@@ -1121,6 +1173,366 @@
       </div>
     </div>
   </section>
+
+<!-- ░░ EXPLORA NUESTRAS ESPECIES ░░ -->
+<section class="es-section" id="explora-especies" aria-labelledby="es-title">
+  <div class="es-wrap">
+    <div class="es-header">
+      <span class="es-label">Nuestras Especies</span>
+      <h2 id="es-title">Explora Nuestras Especies</h2>
+      <p>Loros criados a mano en Llíria. Encuentra la especie perfecta para tu hogar.</p>
+    </div>
+
+    <div class="es-controls">
+      <div class="es-search-wrap">
+        <label for="es-search" class="visually-hidden">Buscar una especie</label>
+        <svg class="es-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input id="es-search" class="es-search" type="search" placeholder="Buscar una especie…" autocomplete="off" aria-label="Buscar una especie">
+      </div>
+      <div class="es-filters" role="group" aria-label="Filtrar por características">
+        <button class="es-filter active" data-filter="all" aria-pressed="true">Todas</button>
+        <button class="es-filter" data-filter="size:pequeño" aria-pressed="false">Tamaño pequeño</button>
+        <button class="es-filter" data-filter="size:mediano" aria-pressed="false">Tamaño mediano</button>
+        <button class="es-filter" data-filter="size:grande" aria-pressed="false">Tamaño grande</button>
+        <button class="es-filter" data-filter="habla:muy-hablador" aria-pressed="false">Muy habladora</button>
+        <button class="es-filter" data-filter="familia:si" aria-pressed="false">Ideal para familias</button>
+        <button class="es-filter" data-filter="principiante:si" aria-pressed="false">Para principiantes</button>
+        <button class="es-filter" data-filter="apartamento:si" aria-pressed="false">Para apartamento</button>
+      </div>
+    </div>
+
+    <div class="es-grid" id="es-grid" role="list">
+
+      <a class="es-card"
+         href="/es/especies/yacos/"
+         data-name="yacos"
+         data-size="grande"
+         data-habla="muy-hablador"
+         data-familia="si"
+         data-principiante="no"
+         data-apartamento="no"
+         aria-label="Yacos — Ver especie">
+        <div class="es-card-img">
+          <img src="/images/loro-gris-01.webp" alt="Yacos — Loro Gris Africano" width="400" height="300" loading="lazy">
+        </div>
+        <div class="es-card-overlay" aria-hidden="true"></div>
+        <div class="es-card-body">
+          <p class="es-card-sub">Loro Gris Africano</p>
+          <h3 class="es-card-name">Yacos</h3>
+          <span class="es-card-avail">Ver aves disponibles</span>
+          <span class="es-card-cta">Ver especie →</span>
+        </div>
+      </a>
+      <a class="es-card"
+         href="/es/especies/guacamayos/"
+         data-name="guacamayos"
+         data-size="grande"
+         data-habla="muy-hablador"
+         data-familia="si"
+         data-principiante="no"
+         data-apartamento="no"
+         aria-label="Guacamayos — Ver especie">
+        <div class="es-card-img">
+          <img src="/images/guacamayo-azul-01.webp" alt="Guacamayos — Macaws" width="400" height="300" loading="lazy">
+        </div>
+        <div class="es-card-overlay" aria-hidden="true"></div>
+        <div class="es-card-body">
+          <p class="es-card-sub">Macaws</p>
+          <h3 class="es-card-name">Guacamayos</h3>
+          <span class="es-card-avail">Ver aves disponibles</span>
+          <span class="es-card-cta">Ver especie →</span>
+        </div>
+      </a>
+      <a class="es-card"
+         href="/es/especies/cacatuas/"
+         data-name="cacatúas"
+         data-size="grande"
+         data-habla="moderado"
+         data-familia="si"
+         data-principiante="no"
+         data-apartamento="no"
+         aria-label="Cacatúas — Ver especie">
+        <div class="es-card-img">
+          <img src="/images/cacatua-01.webp" alt="Cacatúas — Cockatoos" width="400" height="300" loading="lazy">
+        </div>
+        <div class="es-card-overlay" aria-hidden="true"></div>
+        <div class="es-card-body">
+          <p class="es-card-sub">Cockatoos</p>
+          <h3 class="es-card-name">Cacatúas</h3>
+          <span class="es-card-avail">Ver aves disponibles</span>
+          <span class="es-card-cta">Ver especie →</span>
+        </div>
+      </a>
+      <a class="es-card"
+         href="/es/especies/amazonas/"
+         data-name="amazonas"
+         data-size="mediano"
+         data-habla="muy-hablador"
+         data-familia="si"
+         data-principiante="si"
+         data-apartamento="si"
+         aria-label="Amazonas — Ver especie">
+        <div class="es-card-img">
+          <img src="/images/loro-amazonico-01.webp" alt="Amazonas — Amazon Parrots" width="400" height="300" loading="lazy">
+        </div>
+        <div class="es-card-overlay" aria-hidden="true"></div>
+        <div class="es-card-body">
+          <p class="es-card-sub">Amazon Parrots</p>
+          <h3 class="es-card-name">Amazonas</h3>
+          <span class="es-card-avail">Ver aves disponibles</span>
+          <span class="es-card-cta">Ver especie →</span>
+        </div>
+      </a>
+      <a class="es-card"
+         href="/es/especies/eclectus/"
+         data-name="eclectus"
+         data-size="mediano"
+         data-habla="moderado"
+         data-familia="si"
+         data-principiante="si"
+         data-apartamento="si"
+         aria-label="Eclectus — Ver especie">
+        <div class="es-card-img">
+          <img src="/images/eclectus-01.webp" alt="Eclectus — Eclectus Parrot" width="400" height="300" loading="lazy">
+        </div>
+        <div class="es-card-overlay" aria-hidden="true"></div>
+        <div class="es-card-body">
+          <p class="es-card-sub">Eclectus Parrot</p>
+          <h3 class="es-card-name">Eclectus</h3>
+          <span class="es-card-avail">Ver aves disponibles</span>
+          <span class="es-card-cta">Ver especie →</span>
+        </div>
+      </a>
+      <a class="es-card"
+         href="/es/especies/conuros/"
+         data-name="conuros"
+         data-size="pequeño"
+         data-habla="moderado"
+         data-familia="si"
+         data-principiante="si"
+         data-apartamento="si"
+         aria-label="Conuros — Ver especie">
+        <div class="es-card-img">
+          <img src="/images/conuro-01.webp" alt="Conuros — Conures" width="400" height="300" loading="lazy">
+        </div>
+        <div class="es-card-overlay" aria-hidden="true"></div>
+        <div class="es-card-body">
+          <p class="es-card-sub">Conures</p>
+          <h3 class="es-card-name">Conuros</h3>
+          <span class="es-card-avail">Ver aves disponibles</span>
+          <span class="es-card-cta">Ver especie →</span>
+        </div>
+      </a>
+      <a class="es-card"
+         href="/es/especies/agapornis/"
+         data-name="agapornis"
+         data-size="pequeño"
+         data-habla="poco"
+         data-familia="si"
+         data-principiante="si"
+         data-apartamento="si"
+         aria-label="Agapornis — Ver especie">
+        <div class="es-card-img">
+          <img src="/images/conuro-mejilla-verde/conuro-mejilla-verde-01.webp" alt="Agapornis — Inseparables" width="400" height="300" loading="lazy">
+        </div>
+        <div class="es-card-overlay" aria-hidden="true"></div>
+        <div class="es-card-body">
+          <p class="es-card-sub">Inseparables</p>
+          <h3 class="es-card-name">Agapornis</h3>
+          <span class="es-card-avail">Ver aves disponibles</span>
+          <span class="es-card-cta">Ver especie →</span>
+        </div>
+      </a>
+      <a class="es-card"
+         href="/es/especies/loris/"
+         data-name="loris"
+         data-size="pequeño"
+         data-habla="poco"
+         data-familia="si"
+         data-principiante="no"
+         data-apartamento="si"
+         aria-label="Loris — Ver especie">
+        <div class="es-card-img">
+          <img src="/images/lorikeet-arcoiris/lorikeet-arcoiris-01.webp" alt="Loris — Lorikeets" width="400" height="300" loading="lazy">
+        </div>
+        <div class="es-card-overlay" aria-hidden="true"></div>
+        <div class="es-card-body">
+          <p class="es-card-sub">Lorikeets</p>
+          <h3 class="es-card-name">Loris</h3>
+          <span class="es-card-avail">Ver aves disponibles</span>
+          <span class="es-card-cta">Ver especie →</span>
+        </div>
+      </a>
+      <a class="es-card"
+         href="/es/especies/ninfas/"
+         data-name="ninfas"
+         data-size="pequeño"
+         data-habla="moderado"
+         data-familia="si"
+         data-principiante="si"
+         data-apartamento="si"
+         aria-label="Ninfas — Ver especie">
+        <div class="es-card-img">
+          <img src="/images/homepage/cockatoo-resting-content.webp" alt="Ninfas — Cacatúa Ninfa" width="400" height="300" loading="lazy">
+        </div>
+        <div class="es-card-overlay" aria-hidden="true"></div>
+        <div class="es-card-body">
+          <p class="es-card-sub">Cacatúa Ninfa</p>
+          <h3 class="es-card-name">Ninfas</h3>
+          <span class="es-card-avail">Ver aves disponibles</span>
+          <span class="es-card-cta">Ver especie →</span>
+        </div>
+      </a>
+      <a class="es-card"
+         href="/es/especies/pionus/"
+         data-name="pionus"
+         data-size="mediano"
+         data-habla="moderado"
+         data-familia="si"
+         data-principiante="si"
+         data-apartamento="si"
+         aria-label="Pionus — Ver especie">
+        <div class="es-card-img">
+          <img src="/images/loro-pionus/loro-pionus-01.webp" alt="Pionus — Loros Pionus" width="400" height="300" loading="lazy">
+        </div>
+        <div class="es-card-overlay" aria-hidden="true"></div>
+        <div class="es-card-body">
+          <p class="es-card-sub">Loros Pionus</p>
+          <h3 class="es-card-name">Pionus</h3>
+          <span class="es-card-avail">Ver aves disponibles</span>
+          <span class="es-card-cta">Ver especie →</span>
+        </div>
+      </a>
+      <a class="es-card"
+         href="/es/especies/cotorras-quaker/"
+         data-name="cotorras quaker"
+         data-size="pequeño"
+         data-habla="moderado"
+         data-familia="si"
+         data-principiante="si"
+         data-apartamento="no"
+         aria-label="Cotorras Quaker — Ver especie">
+        <div class="es-card-img">
+          <img src="/images/cacatua-goffin/cacatua-goffin-01.webp" alt="Cotorras Quaker — Cotorra Monje" width="400" height="300" loading="lazy">
+        </div>
+        <div class="es-card-overlay" aria-hidden="true"></div>
+        <div class="es-card-body">
+          <p class="es-card-sub">Cotorra Monje</p>
+          <h3 class="es-card-name">Cotorras Quaker</h3>
+          <span class="es-card-avail">Ver aves disponibles</span>
+          <span class="es-card-cta">Ver especie →</span>
+        </div>
+      </a>
+      <a class="es-card"
+         href="/es/especies/rosellas/"
+         data-name="rosellas"
+         data-size="pequeño"
+         data-habla="poco"
+         data-familia="si"
+         data-principiante="si"
+         data-apartamento="si"
+         aria-label="Rosellas — Ver especie">
+        <div class="es-card-img">
+          <img src="/images/conuro-mejilla-verde/conuro-mejilla-verde-01.webp" alt="Rosellas — Roselas Australianas" width="400" height="300" loading="lazy">
+        </div>
+        <div class="es-card-overlay" aria-hidden="true"></div>
+        <div class="es-card-body">
+          <p class="es-card-sub">Roselas Australianas</p>
+          <h3 class="es-card-name">Rosellas</h3>
+          <span class="es-card-avail">Ver aves disponibles</span>
+          <span class="es-card-cta">Ver especie →</span>
+        </div>
+      </a>
+      <a class="es-card"
+         href="/es/especies/periquitos/"
+         data-name="periquitos"
+         data-size="pequeño"
+         data-habla="poco"
+         data-familia="si"
+         data-principiante="si"
+         data-apartamento="si"
+         aria-label="Periquitos — Ver especie">
+        <div class="es-card-img">
+          <img src="/images/periquito-alejandrino/periquito-alejandrino-01.webp" alt="Periquitos — Alejandrinos y Collar" width="400" height="300" loading="lazy">
+        </div>
+        <div class="es-card-overlay" aria-hidden="true"></div>
+        <div class="es-card-body">
+          <p class="es-card-sub">Alejandrinos y Collar</p>
+          <h3 class="es-card-name">Periquitos</h3>
+          <span class="es-card-avail">Ver aves disponibles</span>
+          <span class="es-card-cta">Ver especie →</span>
+        </div>
+      </a>
+      <a class="es-card"
+         href="/es/especies/tucanes/"
+         data-name="tucanes"
+         data-size="mediano"
+         data-habla="poco"
+         data-familia="si"
+         data-principiante="no"
+         data-apartamento="no"
+         aria-label="Tucanes — Ver especie">
+        <div class="es-card-img">
+          <img src="/images/homepage/toucan-portrait-closeup.webp" alt="Tucanes — Tucanes Tropicales" width="400" height="300" loading="lazy">
+        </div>
+        <div class="es-card-overlay" aria-hidden="true"></div>
+        <div class="es-card-body">
+          <p class="es-card-sub">Tucanes Tropicales</p>
+          <h3 class="es-card-name">Tucanes</h3>
+          <span class="es-card-avail">Ver aves disponibles</span>
+          <span class="es-card-cta">Ver especie →</span>
+        </div>
+      </a>
+      <a class="es-card"
+         href="/es/especies/buhos/"
+         data-name="búhos"
+         data-size="mediano"
+         data-habla="poco"
+         data-familia="si"
+         data-principiante="no"
+         data-apartamento="no"
+         aria-label="Búhos — Ver especie">
+        <div class="es-card-img">
+          <img src="/images/homepage/african-grey-parrot-flying.webp" alt="Búhos — Rapaces Nocturnas" width="400" height="300" loading="lazy">
+        </div>
+        <div class="es-card-overlay" aria-hidden="true"></div>
+        <div class="es-card-body">
+          <p class="es-card-sub">Rapaces Nocturnas</p>
+          <h3 class="es-card-name">Búhos</h3>
+          <span class="es-card-avail">Ver aves disponibles</span>
+          <span class="es-card-cta">Ver especie →</span>
+        </div>
+      </a>
+      <a class="es-card"
+         href="/es/especies/halcones/"
+         data-name="halcones"
+         data-size="mediano"
+         data-habla="poco"
+         data-familia="no"
+         data-principiante="no"
+         data-apartamento="no"
+         aria-label="Halcones — Ver especie">
+        <div class="es-card-img">
+          <img src="/images/homepage/african-grey-parrot-flying.webp" alt="Halcones — Rapaces Diurnas" width="400" height="300" loading="lazy">
+        </div>
+        <div class="es-card-overlay" aria-hidden="true"></div>
+        <div class="es-card-body">
+          <p class="es-card-sub">Rapaces Diurnas</p>
+          <h3 class="es-card-name">Halcones</h3>
+          <span class="es-card-avail">Ver aves disponibles</span>
+          <span class="es-card-cta">Ver especie →</span>
+        </div>
+      </a>
+    </div>
+    <p class="es-no-results" id="es-no-results" aria-live="polite">No se encontraron especies con esos criterios.</p>
+
+    <div class="es-footer">
+      <a href="/aves-disponibles/">Ver todas las aves disponibles</a>
+    </div>
+  </div>
+</section>
+<!-- ░░ /EXPLORA NUESTRAS ESPECIES ░░ -->
+
 
 <section class="about" id="nosotros">
     <div class="container">
@@ -2167,5 +2579,51 @@ donde explicamos cada paso con detalle.
 })();
 </script>
 <script src="/lang-switcher.js" defer></script>
+<script>
+  /* Explora Nuestras Especies — search + filter */
+  (function(){
+    var grid   = document.getElementById('es-grid');
+    var noRes  = document.getElementById('es-no-results');
+    if(!grid) return;
+    var cards  = Array.from(grid.querySelectorAll('.es-card'));
+    var search = document.getElementById('es-search');
+    var filters= Array.from(document.querySelectorAll('.es-filter'));
+    var activeFilter = 'all';
+    var searchTerm   = '';
+
+    function update(){
+      var visible = 0;
+      cards.forEach(function(c){
+        var nameMatch = !searchTerm || c.dataset.name.includes(searchTerm);
+        var filterMatch = activeFilter === 'all' || matchFilter(c, activeFilter);
+        if(nameMatch && filterMatch){ c.classList.remove('hidden'); visible++; }
+        else c.classList.add('hidden');
+      });
+      noRes.classList.toggle('visible', visible === 0);
+    }
+
+    function matchFilter(card, f){
+      var parts = f.split(':');
+      if(parts.length !== 2) return true;
+      return card.dataset[parts[0]] === parts[1];
+    }
+
+    if(search){
+      search.addEventListener('input', function(){
+        searchTerm = this.value.toLowerCase().trim();
+        update();
+      });
+    }
+
+    filters.forEach(function(btn){
+      btn.addEventListener('click', function(){
+        filters.forEach(function(b){ b.classList.remove('active'); b.setAttribute('aria-pressed','false'); });
+        this.classList.add('active');
+        this.setAttribute('aria-pressed','true');
+        activeFilter = this.dataset.filter;
+        update();
+      });
+    });
+  })();</script>
 </body>
 </html> 

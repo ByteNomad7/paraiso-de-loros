@@ -1,0 +1,273 @@
+Act as a Senior UX Designer, SEO Architect and React Developer.
+
+Create a premium Spanish-language “Explora nuestras especies” section for https://paraisodeaves.com.
+
+This phase applies ONLY to the Spanish section of the website.
+
+Do not modify, translate, generate or restructure any English, German, French or other language version in this phase.
+
+Build a modern, conversion-focused and SEO-friendly species navigation system inspired by strong category-browsing patterns, but do not copy another website’s code, layout, styling, text or assets.
+
+OBJECTIVES
+
+- Build the strongest Spanish species-navigation hub on the website.
+- Increase internal linking across Spanish pages.
+- Improve Spanish topical authority.
+- Increase pages per session.
+- Improve bird discovery.
+- Preserve the premium Paraíso de Aves branding.
+- Prepare the architecture for a later live bird inventory system.
+
+SECTION
+
+Create the heading:
+
+EXPLORA NUESTRAS ESPECIES
+
+Position:
+Immediately below the homepage hero on the Spanish homepage.
+
+Container:
+- centered
+- maximum width 1400px
+- consistent with the existing site spacing system
+
+Responsive layout:
+- Desktop: 4 columns
+- Tablet: 3 columns
+- Mobile: 2 columns
+
+CARDS
+
+Every species card must include:
+
+- premium species image
+- subtle dark gradient overlay
+- Spanish species name
+- dynamic number of available birds
+- CTA: “Ver especie →”
+
+Use:
+
+- rounded corners around 18px
+- soft shadow
+- subtle hover lift
+- image zoom on hover
+- smooth transitions
+- equal card heights
+- equal image ratios
+- object-fit: cover
+- no stretched images
+- accessible contrast
+
+SPANISH SPECIES ROUTES
+
+Every card must link to a Spanish SEO landing page using this structure:
+
+/es/especies/{species-slug}
+
+Examples:
+
+/es/especies/yaco
+/es/especies/guacamayos
+/es/especies/cacatuas
+/es/especies/amazonas
+/es/especies/eclectus
+/es/especies/conuros
+/es/especies/agapornis
+/es/especies/loris
+/es/especies/ninfas
+/es/especies/pionus
+/es/especies/cotorras-quaker
+/es/especies/rosellas
+/es/especies/periquitos
+/es/especies/tucanes
+/es/especies/buhos
+/es/especies/halcones
+
+Do not place bird eggs, incubators or cages inside the species taxonomy.
+
+Create separate Spanish commercial categories for those items:
+
+/es/huevos-fertiles
+/es/incubadoras
+/es/jaulas-para-aves
+
+Use natural Spanish naming throughout the UI.
+
+Suggested visible species names:
+
+- Yacos
+- Guacamayos
+- Cacatúas
+- Amazonas
+- Eclectus
+- Conuros
+- Agapornis
+- Loris
+- Ninfas
+- Pionus
+- Cotorras Quaker
+- Rosellas
+- Periquitos
+- Tucanes
+- Búhos
+- Halcones
+
+DYNAMIC COUNTS
+
+Automatically display:
+
+“XX aves disponibles”
+
+using real live product or inventory data.
+
+Do not invent counts.
+
+If live inventory data is not yet connected, display:
+
+“Ver aves disponibles”
+
+instead of a fake number.
+
+SEARCH
+
+Add a Spanish search field with placeholder:
+
+“Buscar una especie…”
+
+FILTERS
+
+Allow users to filter using Spanish labels:
+
+- Tamaño
+- Capacidad para hablar
+- Ideal para familias
+- Adecuada para principiantes
+- Adecuada para apartamentos
+
+Ensure the filters work with the actual species data and are fully accessible.
+
+SPANISH SEO LANDING PAGES
+
+Each Spanish species page must contain:
+
+- unique Spanish SEO title
+- unique Spanish meta description
+- one clear H1
+- useful original Spanish introduction
+- available bird listings area prepared for Phase 2
+- FAQs in Spanish
+- breadcrumb navigation
+- links to relevant bird profiles
+- related care guides
+- related species
+- internal links to:
+  - garantía de salud
+  - proceso de adopción
+  - transporte
+  - contacto
+  - preguntas frecuentes
+- BreadcrumbList schema
+- CollectionPage schema where appropriate
+- Product schema only for real individual birds or products, not for generic species pages
+- canonical URL using https://paraisodeaves.com
+- Spanish Open Graph metadata
+
+PHASE 2 PREPARATION
+
+Prepare every species page to later display all available birds belonging to that species.
+
+Example:
+
+/es/especies/yaco
+
+must later support a dynamic section containing all currently available Yacos.
+
+Each future bird profile will have:
+
+- its own dedicated URL
+- at least 3 photos
+- name or bird ID
+- sex
+- age
+- hatch date when available
+- DNA status when available
+- hand-fed or parent-raised status
+- health information
+- CITES information where applicable
+- availability status
+- personality description
+- price or “Consultar precio”
+- enquiry CTA
+
+Do not generate individual bird profiles in this phase.
+
+ARCHITECTURE
+
+Build reusable React components and a central Spanish species data structure.
+
+The section must automatically update when:
+
+- a new species is added
+- a species is removed
+- a bird is added to inventory
+- a bird is marked as sold
+- availability counts change
+
+Reuse the existing project architecture, components, styling system and route conventions.
+
+Do not break existing routes, product pages, forms, metadata, navigation or current SEO work.
+
+PERFORMANCE
+
+- lazy-load below-the-fold images
+- do not lazy-load the homepage LCP image
+- use responsive image sizes
+- define image width and height
+- prevent layout shift
+- use optimized WebP or AVIF where supported
+- preserve image quality
+
+ACCESSIBILITY
+
+- cards must be keyboard accessible
+- use semantic links
+- include visible focus states
+- add descriptive Spanish alt text
+- maintain sufficient contrast
+- ensure search and filters have labels
+
+FINAL QA
+
+Verify:
+
+- Spanish copy is natural and grammatically correct
+- no English labels remain in the new section
+- all Spanish routes work
+- no broken links
+- no duplicate titles
+- no duplicate H1 headings
+- no fake inventory counts
+- perfect spacing
+- consistent typography
+- equal card heights
+- responsive behavior
+- mobile usability
+- accessibility
+- premium animations
+- production-ready implementation
+
+COMPLETION REPORT
+
+At the end, provide:
+
+- files created
+- files modified
+- Spanish routes created
+- species added
+- commercial categories separated from species
+- data source used for availability counts
+- SEO elements added
+- schema added
+- remaining tasks for Phase 2 live bird profiles

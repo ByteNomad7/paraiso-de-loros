@@ -1,0 +1,148 @@
+Act as a Senior UX Designer, SEO Architect and React Developer.
+
+Create a premium "Explore Our Species" section for ParaisodeAves.com inspired by category browsing layouts used by leading parrot websites, but build a significantly more modern, conversion-focused and SEO-friendly implementation.
+
+DO NOT copy another website's code, layout, styling or assets.
+
+Objectives
+
+- Build the strongest species navigation hub on the website.
+- Increase internal linking.
+- Improve topical authority.
+- Increase pages per session.
+- Improve user discovery.
+- Preserve the premium Paraíso de Aves branding.
+
+SECTION
+
+Create:
+
+EXPLORE OUR SPECIES
+
+Position:
+Immediately below the hero.
+
+Container:
+Centered
+Max width 1400px
+
+Desktop:
+4 columns
+
+Tablet:
+3 columns
+
+Mobile:
+2 columns
+
+CARDS
+
+Every species card should include:
+
+- premium species image
+- subtle dark gradient overlay
+- species name
+- dynamic number of available birds
+- "View Species →"
+
+Use:
+
+- rounded corners (18px)
+- soft shadow
+- hover lift
+- hover image zoom
+- smooth transitions
+- equal card heights
+- equal image ratios
+
+The image must never stretch.
+
+INTERNAL LINKING
+
+Every card links to:
+
+/species/{species-slug}
+
+Examples:
+
+African Grey
+Macaws
+Cockatoos
+Amazons
+Eclectus
+Conures
+Lovebirds
+Lorikeets
+Cockatiels
+Pionus
+Quakers
+Rosellas
+Parakeets
+Toucan
+Owls
+Falcons
+Bird Eggs
+Incubators
+Bird Cages
+
+Each page should become an SEO landing page.
+
+DYNAMIC COUNTS
+
+Automatically display:
+
+XX Available Birds
+
+using live product data.
+
+SEARCH
+
+Add a species search bar.
+
+FILTERS
+
+Allow filtering by:
+
+- Size
+- Talking Ability
+- Family Friendly
+- Beginner Friendly
+- Apartment Friendly
+
+SEO
+
+Each species page must contain:
+
+- unique title
+- unique meta description
+- H1
+- introductory content
+- FAQ
+- Breadcrumb
+- Product links
+- Related guides
+- Related species
+- Product schema where appropriate
+- Breadcrumb schema
+
+PERFORMANCE
+
+Lazy-load images.
+
+Use responsive images.
+
+Avoid layout shift.
+
+FINAL QA
+
+Ensure:
+
+- perfect spacing
+- consistent typography
+- equal card heights
+- responsive layout
+- accessibility
+- premium animations
+- production-ready implementation
+
+Build a reusable React component that automatically updates whenever new bird species or products are added.

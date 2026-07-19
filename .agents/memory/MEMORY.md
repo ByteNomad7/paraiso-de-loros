@@ -11,3 +11,4 @@
 - [Phase 10 brand identity](phase10-brand.md) — new horizontal logo, favicons, Playfair Display headings, Forest Green #1B3D2F / Gold #C9A24B applied site-wide.
 - [sitemap.xml drift](sitemap-xml-drift.md) — sitemap.xml and the split sitemap_*.xml files are two separate mechanisms that can disagree; always diff live HTML tree vs sitemap.xml before trusting coverage.
 - [Product schema pricing gaps](product-schema-pricing.md) — FR/PT species pages and tienda.html had Product markup with no/incomplete offers.price; fixed. Never fabricate aggregateRating/review.
+- [ES Especies Phase 1](es-especies-phase1.md) — 16 /es/especies/ category pages + "Explora Nuestras Especies" section on ES homepage; generators: generate-es-especies.js + inject-explora-especies.js.
