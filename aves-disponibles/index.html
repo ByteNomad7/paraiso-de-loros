@@ -108,15 +108,15 @@
   .bird-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px;margin-top:16px;}
   .bird-card{background:var(--white);border:1px solid var(--border);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);transition:transform .2s,box-shadow .2s;}
   .bird-card:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(0,0,0,.12);}
-  .bird-card-img{height:200px;background:linear-gradient(135deg,var(--primary),var(--secondary));display:flex;align-items:center;justify-content:center;font-size:4rem;}
+  .bird-card-head{display:flex;align-items:center;gap:.75rem;padding:1rem 1rem .8rem;border-bottom:1px solid var(--border);}.bird-card-thumb{width:52px;height:52px;border-radius:50%;object-fit:cover;object-position:center top;flex-shrink:0;border:2px solid var(--border);box-shadow:0 2px 10px rgba(0,0,0,.13);}.bird-card-head-text{min-width:0;flex:1;}@media(max-width:640px){.bird-card-thumb{width:44px;height:44px}}
   .bird-card-body{padding:16px;}
-  .bird-card-species{font-family:'Playfair Display',Georgia,serif,sans-serif;font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:4px;}
-  .bird-card-name{font-family:'Playfair Display',Georgia,serif,sans-serif;font-size:1rem;font-weight:700;color:var(--primary);margin-bottom:8px;}
+  .bird-card-species{font-family:'Playfair Display',Georgia,serif,sans-serif;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:3px;}
+  .bird-card-name{font-family:'Playfair Display',Georgia,serif,sans-serif;font-size:.95rem;font-weight:700;color:var(--primary);margin-bottom:0;line-height:1.25;}
   .bird-card-status{display:inline-block;padding:4px 12px;border-radius:20px;font-size:.76rem;font-weight:700;}
   .status-available{background:#d4edda;color:#155724;}
   .status-reserved{background:#fff3cd;color:#856404;}
   .status-consult{background:#d1ecf1;color:#0c5460;}
-  .bird-card-traits{margin-top:10px;font-size:.83rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px;}
+  .bird-card-traits{margin-top:8px;font-size:.8rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:5px;}
   .trait{background:rgba(31,61,43,.07);padding:3px 8px;border-radius:4px;font-size:.76rem;}
   /* Species grid */
   .species-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:14px;margin:16px 0 24px;}
@@ -254,114 +254,160 @@
   <section class="section">
     <h2>Especies disponibles en nuestro criadero</h2>
     <div class="bird-grid">
+
+      <!-- Yaco -->
       <div class="bird-card">
-        <div class="bird-card-img">🐦</div>
+        <div class="bird-card-head">
+          <img class="bird-card-thumb" src="/images/loro-gris-01.webp" alt="Yaco africano" width="52" height="52" loading="eager">
+          <div class="bird-card-head-text">
+            <div class="bird-card-species">Psittacus erithacus</div>
+            <div class="bird-card-name">Loro Gris Africano (Yaco)</div>
+          </div>
+        </div>
         <div class="bird-card-body">
-          <div class="bird-card-species">Psittacus erithacus</div>
-          <div class="bird-card-name">Loro Gris Africano (Yaco)</div>
           <span class="bird-card-status status-consult">Consultar disponibilidad</span>
-          <div class="bird-card-traits"><span class="trait">🧠 Alta inteligencia</span><span class="trait">💬 Gran hablador</span><span class="trait">👐 Criado a mano</span></div>
+          <div class="bird-card-traits"><span class="trait">Alta inteligencia</span><span class="trait">Gran hablador</span><span class="trait">Criado a mano</span></div>
           <p style="font-size:.84rem;color:var(--muted);margin-top:10px;">El loro más inteligente del mundo. Vocabulario de hasta 1000 palabras.</p>
-          <a href="https://www.paraisodeaves.com/loro-gris-africano.html" class="btn-gold" style="margin-top:12px;display:inline-block;padding:8px 16px;">Ver ficha →</a>
+          <a href="/es/especies/yacos/" class="btn-gold" style="margin-top:12px;display:inline-block;padding:8px 16px;">Ver especie →</a>
         </div>
       </div>
+
+      <!-- Guacamayo Azul y Amarillo -->
       <div class="bird-card">
-        <div class="bird-card-img">🦜</div>
+        <div class="bird-card-head">
+          <img class="bird-card-thumb" src="/images/guacamayo-azul-01.webp" alt="Guacamayo azul y amarillo" width="52" height="52" loading="lazy">
+          <div class="bird-card-head-text">
+            <div class="bird-card-species">Ara ararauna</div>
+            <div class="bird-card-name">Guacamayo Azul y Amarillo</div>
+          </div>
+        </div>
         <div class="bird-card-body">
-          <div class="bird-card-species">Ara ararauna</div>
-          <div class="bird-card-name">Guacamayo Azul y Amarillo</div>
           <span class="bird-card-status status-consult">Consultar disponibilidad</span>
-          <div class="bird-card-traits"><span class="trait">💙 Plumaje espectacular</span><span class="trait">🤝 Afectuoso</span><span class="trait">👐 Criado a mano</span></div>
+          <div class="bird-card-traits"><span class="trait">Plumaje espectacular</span><span class="trait">Afectuoso</span><span class="trait">Criado a mano</span></div>
           <p style="font-size:.84rem;color:var(--muted);margin-top:10px;">Grande, vistoso y con una personalidad extraordinaria. Hasta 60 años de vida.</p>
-          <a href="https://www.paraisodeaves.com/guacamayo-azul-amarillo.html" class="btn-gold" style="margin-top:12px;display:inline-block;padding:8px 16px;">Ver ficha →</a>
+          <a href="/es/especies/guacamayos/" class="btn-gold" style="margin-top:12px;display:inline-block;padding:8px 16px;">Ver especie →</a>
         </div>
       </div>
+
+      <!-- Guacamayo Jacinto -->
       <div class="bird-card">
-        <div class="bird-card-img">💙</div>
+        <div class="bird-card-head">
+          <img class="bird-card-thumb" src="/images/guacamayo-jacinto-01.webp" alt="Guacamayo jacinto" width="52" height="52" loading="lazy">
+          <div class="bird-card-head-text">
+            <div class="bird-card-species">Anodorhynchus hyacinthinus</div>
+            <div class="bird-card-name">Guacamayo Jacinto</div>
+          </div>
+        </div>
         <div class="bird-card-body">
-          <div class="bird-card-species">Anodorhynchus hyacinthinus</div>
-          <div class="bird-card-name">Guacamayo Jacinto</div>
           <span class="bird-card-status status-consult">Consultar disponibilidad</span>
-          <div class="bird-card-traits"><span class="trait">👑 El loro más grande</span><span class="trait">💙 Azul cobalto único</span><span class="trait">👐 Criado a mano</span></div>
+          <div class="bird-card-traits"><span class="trait">El loro más grande</span><span class="trait">Azul cobalto único</span><span class="trait">Criado a mano</span></div>
           <p style="font-size:.84rem;color:var(--muted);margin-top:10px;">El loro más grande del mundo. Especie protegida con documentación CITES completa.</p>
-          <a href="https://www.paraisodeaves.com/guacamayo-jacinto.html" class="btn-gold" style="margin-top:12px;display:inline-block;padding:8px 16px;">Ver ficha →</a>
+          <a href="/es/especies/guacamayos/" class="btn-gold" style="margin-top:12px;display:inline-block;padding:8px 16px;">Ver especie →</a>
         </div>
       </div>
+
+      <!-- Cacatúa de Cresta Amarilla -->
       <div class="bird-card">
-        <div class="bird-card-img">🤍</div>
+        <div class="bird-card-head">
+          <img class="bird-card-thumb" src="/images/cacatua-01.webp" alt="Cacatúa de cresta amarilla" width="52" height="52" loading="lazy">
+          <div class="bird-card-head-text">
+            <div class="bird-card-species">Cacatua galerita</div>
+            <div class="bird-card-name">Cacatúa de Cresta Amarilla</div>
+          </div>
+        </div>
         <div class="bird-card-body">
-          <div class="bird-card-species">Cacatua galerita</div>
-          <div class="bird-card-name">Cacatúa de Cresta Amarilla</div>
           <span class="bird-card-status status-consult">Consultar disponibilidad</span>
-          <div class="bird-card-traits"><span class="trait">😄 Muy expresiva</span><span class="trait">🎵 Canta y baila</span><span class="trait">👐 Criada a mano</span></div>
+          <div class="bird-card-traits"><span class="trait">Muy expresiva</span><span class="trait">Canta y baila</span><span class="trait">Criada a mano</span></div>
           <p style="font-size:.84rem;color:var(--muted);margin-top:10px;">Personalidad fuerte y carismática. Necesita mucha interacción y estimulación.</p>
-          <a href="https://www.paraisodeaves.com/cacatua.html" class="btn-gold" style="margin-top:12px;display:inline-block;padding:8px 16px;">Ver ficha →</a>
+          <a href="/es/especies/cacatuas/" class="btn-gold" style="margin-top:12px;display:inline-block;padding:8px 16px;">Ver especie →</a>
         </div>
       </div>
+
+      <!-- Eclectus -->
       <div class="bird-card">
-        <div class="bird-card-img">🟢</div>
+        <div class="bird-card-head">
+          <img class="bird-card-thumb" src="/images/eclectus-01.webp" alt="Loro Eclectus" width="52" height="52" loading="lazy">
+          <div class="bird-card-head-text">
+            <div class="bird-card-species">Eclectus roratus</div>
+            <div class="bird-card-name">Loro Eclectus</div>
+          </div>
+        </div>
         <div class="bird-card-body">
-          <div class="bird-card-species">Eclectus roratus</div>
-          <div class="bird-card-name">Loro Eclectus</div>
           <span class="bird-card-status status-consult">Consultar disponibilidad</span>
-          <div class="bird-card-traits"><span class="trait">🌈 Dimorfismo sexual</span><span class="trait">🌿 Dieta especial</span><span class="trait">👐 Criado a mano</span></div>
+          <div class="bird-card-traits"><span class="trait">Dimorfismo sexual</span><span class="trait">Dieta especial</span><span class="trait">Criado a mano</span></div>
           <p style="font-size:.84rem;color:var(--muted);margin-top:10px;">Macho verde, hembra roja y azul. Una de las especies más fascinantes.</p>
-          <a href="https://www.paraisodeaves.com/eclectus.html" class="btn-gold" style="margin-top:12px;display:inline-block;padding:8px 16px;">Ver ficha →</a>
+          <a href="/es/especies/eclectus/" class="btn-gold" style="margin-top:12px;display:inline-block;padding:8px 16px;">Ver especie →</a>
         </div>
       </div>
+
+      <!-- Amazona de Frente Azul -->
       <div class="bird-card">
-        <div class="bird-card-img">🟡</div>
+        <div class="bird-card-head">
+          <img class="bird-card-thumb" src="/images/loro-amazonico-01.webp" alt="Amazona de frente azul" width="52" height="52" loading="lazy">
+          <div class="bird-card-head-text">
+            <div class="bird-card-species">Amazona aestiva</div>
+            <div class="bird-card-name">Amazona de Frente Azul</div>
+          </div>
+        </div>
         <div class="bird-card-body">
-          <div class="bird-card-species">Amazona aestiva</div>
-          <div class="bird-card-name">Amazona de Frente Azul</div>
           <span class="bird-card-status status-consult">Consultar disponibilidad</span>
-          <div class="bird-card-traits"><span class="trait">💬 Gran habladora</span><span class="trait">🎶 Musical</span><span class="trait">👐 Criada a mano</span></div>
+          <div class="bird-card-traits"><span class="trait">Gran habladora</span><span class="trait">Musical</span><span class="trait">Criada a mano</span></div>
           <p style="font-size:.84rem;color:var(--muted);margin-top:10px;">Excelente aprendiz de vocabulario y canciones. Temperamento equilibrado.</p>
-          <a href="https://www.paraisodeaves.com/loro-amazonico.html" class="btn-gold" style="margin-top:12px;display:inline-block;padding:8px 16px;">Ver ficha →</a>
+          <a href="/es/especies/amazonas/" class="btn-gold" style="margin-top:12px;display:inline-block;padding:8px 16px;">Ver especie →</a>
         </div>
       </div>
+
+      <!-- Conuro del Sol -->
       <div class="bird-card">
-        <div class="bird-card-img">☀️</div>
+        <div class="bird-card-head">
+          <img class="bird-card-thumb" src="/images/conuro-del-sol/conuro-del-sol-01.webp" alt="Conuro del sol" width="52" height="52" loading="lazy">
+          <div class="bird-card-head-text">
+            <div class="bird-card-species">Aratinga solstitialis</div>
+            <div class="bird-card-name">Conuro del Sol</div>
+          </div>
+        </div>
         <div class="bird-card-body">
-          <div class="bird-card-species">Aratinga solstitialis</div>
-          <div class="bird-card-name">Conuro del Sol</div>
           <span class="bird-card-status status-consult">Consultar disponibilidad</span>
-          <div class="bird-card-traits"><span class="trait">🌈 Muy colorido</span><span class="trait">🎉 Juguetón</span><span class="trait">👐 Criado a mano</span></div>
+          <div class="bird-card-traits"><span class="trait">Muy colorido</span><span class="trait">Juguetón</span><span class="trait">Criado a mano</span></div>
           <p style="font-size:.84rem;color:var(--muted);margin-top:10px;">Pequeño y vibrante. Ideal para familias activas que buscan una mascota alegre.</p>
-          <a href="https://www.paraisodeaves.com/conuro.html" class="btn-gold" style="margin-top:12px;display:inline-block;padding:8px 16px;">Ver ficha →</a>
+          <a href="/es/especies/conuros/" class="btn-gold" style="margin-top:12px;display:inline-block;padding:8px 16px;">Ver especie →</a>
         </div>
       </div>
+
+      <!-- Guacamayo Catalina -->
       <div class="bird-card">
-        <div class="bird-card-img" style="padding:0;overflow:hidden;background:#1B3D2F">
-          <picture>
-            <source srcset="/images/catalina-macaw/guacamayo-catalina-cara-frontal-naranja-verde-02.avif" type="image/avif">
-            <source srcset="/images/catalina-macaw/guacamayo-catalina-cara-frontal-naranja-verde-02.webp" type="image/webp">
-            <img src="/images/catalina-macaw/guacamayo-catalina-cara-frontal-naranja-verde-02.jpg"
-                 alt="Guacamayo Catalina — híbrido arcoíris Ara ararauna × Ara macao"
-                 width="640" height="480" loading="lazy" decoding="async"
-                 style="width:100%;height:100%;object-fit:cover;display:block">
-          </picture>
+        <div class="bird-card-head">
+          <img class="bird-card-thumb" src="/images/catalina-macaw/guacamayo-catalina-cara-frontal-naranja-verde-02.webp" alt="Guacamayo Catalina arcoíris" width="52" height="52" loading="lazy">
+          <div class="bird-card-head-text">
+            <div class="bird-card-species">Ara ararauna × Ara macao</div>
+            <div class="bird-card-name">Guacamayo Catalina (Rainbow Macaw)</div>
+          </div>
         </div>
         <div class="bird-card-body">
-          <div class="bird-card-species">Ara ararauna × Ara macao</div>
-          <div class="bird-card-name">Guacamayo Catalina (Rainbow Macaw)</div>
           <span class="bird-card-status status-consult">Consultar disponibilidad</span>
-          <div class="bird-card-traits"><span class="trait">🌈 Plumaje arcoíris único</span><span class="trait">🎭 Sociable y juguetón</span><span class="trait">👐 Criado a mano</span></div>
+          <div class="bird-card-traits"><span class="trait">Plumaje arcoíris único</span><span class="trait">Sociable y juguetón</span><span class="trait">Criado a mano</span></div>
           <p style="font-size:.84rem;color:var(--muted);margin-top:10px;">Híbrido espectacular con plumaje multicolor irrepetible. Afectuoso, inteligente, 50-60 años de vida.</p>
-          <a href="https://www.paraisodeaves.com/guacamayo-catalina/" class="btn-gold" style="margin-top:12px;display:inline-block;padding:8px 16px;">Ver ficha →</a>
+          <a href="/es/especies/guacamayos/" class="btn-gold" style="margin-top:12px;display:inline-block;padding:8px 16px;">Ver especie →</a>
         </div>
       </div>
+
+      <!-- Huevos Fértiles -->
       <div class="bird-card">
-        <div class="bird-card-img">🥚</div>
+        <div class="bird-card-head">
+          <img class="bird-card-thumb" src="/images/huevos-fertiles-01.webp" alt="Huevos fértiles de psitácidos" width="52" height="52" loading="lazy">
+          <div class="bird-card-head-text">
+            <div class="bird-card-species">Varios psitácidos</div>
+            <div class="bird-card-name">Huevos Fértiles con CITES</div>
+          </div>
+        </div>
         <div class="bird-card-body">
-          <div class="bird-card-species">Varios psitácidos</div>
-          <div class="bird-card-name">Huevos Fértiles con CITES</div>
           <span class="bird-card-status status-consult">Consultar disponibilidad</span>
-          <div class="bird-card-traits"><span class="trait">📋 CITES incluido</span><span class="trait">🌡️ Para incubar</span><span class="trait">🔬 Alta viabilidad</span></div>
+          <div class="bird-card-traits"><span class="trait">CITES incluido</span><span class="trait">Para incubar</span><span class="trait">Alta viabilidad</span></div>
           <p style="font-size:.84rem;color:var(--muted);margin-top:10px;">Para criadores registrados. Incluye CITES, certificado de procedencia y guía de incubación.</p>
           <a href="https://www.paraisodeaves.com/available-birds/huevos-fertiles.html" class="btn-gold" style="margin-top:12px;display:inline-block;padding:8px 16px;">Ver ficha →</a>
         </div>
       </div>
+
     </div>
   </section>
 
