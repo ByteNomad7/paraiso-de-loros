@@ -1,0 +1,88 @@
+====================================================
+COMPLETE BRAND SYSTEM
+====================================================
+
+Do not redesign only the logo.
+
+Create a complete premium brand identity system that is applied consistently across the entire website.
+
+Design and implement:
+
+• Primary logo
+• Secondary logo
+• Icon-only logo
+• Premium favicon
+• Apple Touch Icon
+• Browser manifest icons
+• Open Graph logo
+• Social media profile icon
+• Email signature logo
+• Watermark for bird photography
+• Health Guarantee seal
+• Adoption Certificate seal
+• DNA Certificate seal
+• CITES document emblem
+• "Verified Breeder" premium badge
+• Luxury loading animation using the brand emblem
+• SVG decorative dividers inspired by tropical leaves and feathers
+• Brand pattern for backgrounds
+• Premium icon style guide
+• Button icon style
+• Card icon style
+
+====================================================
+DESIGN PRINCIPLES
+====================================================
+
+The brand should feel like:
+
+• Rolex
+• Four Seasons
+• National Geographic
+• Apple
+
+Avoid anything that feels:
+
+• generic
+• template-based
+• cartoonish
+• clipart
+• AI-generated
+• overly decorative
+
+====================================================
+PHOTO BRANDING
+====================================================
+
+Create a subtle watermark system for all bird photography.
+
+The watermark should use only the new brand emblem.
+
+It must be elegant, semi-transparent and suitable for protecting original photography without distracting from the bird.
+
+====================================================
+BRAND GUIDELINES
+====================================================
+
+Generate a concise brand guide documenting:
+
+• Logo usage
+• Minimum clear space
+• Minimum logo size
+• Color palette
+• Typography
+• Icon usage
+• Favicon usage
+• Photography style
+• Background rules
+• Incorrect logo usage examples
+• Button style
+• Card style
+• Illustration style
+• Accessibility recommendations
+
+====================================================
+FUTURE EXPANSION
+====================================================
+
+The identity system must be scalable for future international versions of the brand, including Spanish, English, German and French websites, while maintaining one unified global visual identity.
