@@ -185,8 +185,6 @@ function makeBirdPage(bird) {
   .price-val{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:800;color:var(--primary)}
   .cta-inquire{display:block;width:100%;background:linear-gradient(135deg,var(--gold),#A8873A);color:#fff;font-weight:800;padding:1rem;border-radius:12px;text-align:center;font-size:1rem;text-decoration:none;transition:opacity .2s,transform .2s;margin-bottom:.7rem}
   .cta-inquire:hover{opacity:.88;transform:translateY(-2px);color:#fff;text-decoration:none}
-  .cta-whatsapp{display:block;width:100%;background:#25D366;color:#fff;font-weight:700;padding:.8rem;border-radius:12px;text-align:center;font-size:.92rem;text-decoration:none;transition:opacity .2s}
-  .cta-whatsapp:hover{opacity:.88;color:#fff;text-decoration:none}
   /* Sections */
   .bird-section{margin-bottom:2.2rem}
   .bird-section h2{font-size:1.3rem;color:var(--primary);margin-bottom:.8rem;padding-bottom:.4rem;border-bottom:2px solid var(--gold);display:inline-block}
@@ -344,7 +342,7 @@ function makeBirdPage(bird) {
         ${!isAvailable ? `<div class="sold-overlay">Este ejemplar ya no está disponible. Contáctanos para encontrar uno similar.</div>` : ''}
 
         <a href="/#contacto" class="cta-inquire">Solicitar información sobre ${bird.name}</a>
-        <a href="https://wa.me/34600000000?text=Hola%2C%20me%20interesa%20${encodeURIComponent(bird.name)}%20(${encodeURIComponent(bird.speciesName)})" class="cta-whatsapp" target="_blank" rel="noopener">💬 Consultar por WhatsApp</a>
+        
 
         <p style="font-size:.75rem;color:var(--muted);text-align:center;margin-top:.8rem">
           <a href="/adopcion-de-loros">Proceso de adopción</a> ·

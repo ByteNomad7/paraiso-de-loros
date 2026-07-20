@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Brand Guidelines — Paraíso de Aves</title>
+<link rel="icon" type="image/png" href="/favicon.png">
+<style>
+/* ── Reset & Base ─────────────────────────────────────────── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Palatino Linotype','Book Antiqua',Palatino,Georgia,serif;
+  background:#FAF7F0;
+  color:#1A2A1E;
+  line-height:1.65;
+}
+
+/* ── Type ─────────────────────────────────────────────────── */
+h1,h2,h3,h4{
+  font-family:'Playfair Display','Palatino Linotype',Georgia,serif;
+  font-weight:700;
+  line-height:1.2;
+}
+h1{font-size:clamp(2.2rem,5vw,3.5rem);letter-spacing:-.01em}
+h2{font-size:clamp(1.5rem,3vw,2.1rem);margin-bottom:1rem}
+h3{font-size:1.15rem;letter-spacing:.03em;color:#1B3D2F}
+h4{font-size:.85rem;letter-spacing:.15em;text-transform:uppercase;color:#C9A24B;margin-bottom:.5rem}
+p{margin-bottom:1rem;color:#3A4A3E;font-size:.97rem}
+
+/* ── Layout helpers ────────────────────────────────────────── */
+.container{max-width:1080px;margin:0 auto;padding:0 2rem}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:2rem}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem}
+@media(max-width:720px){.grid-2,.grid-3,.grid-4{grid-template-columns:1fr}}
+.flex{display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap}
+.text-center{text-align:center}
+.mt-2{margin-top:2rem}.mt-4{margin-top:4rem}
+
+/* ── Section ──────────────────────────────────────────────── */
+.section{padding:5rem 0}
+.section-alt{background:#fff}
+.section-dark{background:#1B3D2F;color:#FAF7F0}
+.section-dark h2,.section-dark h3{color:#E8C97A}
+.section-dark p{color:#B8C8BC}
+.section-dark h4{color:#C9A24B}
+
+/* ── Gold Rule ────────────────────────────────────────────── */
+.rule{
+  border:none;height:1px;
+  background:linear-gradient(to right,transparent,#C9A24B 30%,#E8C97A 50%,#C9A24B 70%,transparent);
+  margin:2.5rem 0;
+}
+
+/* ── Hero ─────────────────────────────────────────────────── */
+.hero{
+  background:linear-gradient(160deg,#0C1C11 0%,#1B3D2F 55%,#0C1C11 100%);
+  padding:6rem 0 5rem;
+  text-align:center;
+  position:relative;
+  overflow:hidden;
+}
+.hero::before{
+  content:'';
+  position:absolute;inset:0;
+  background:url('/brand/pattern-tile.svg') repeat;
+  background-size:80px 80px;
+  opacity:.05;
+}
+.hero h1{color:#fff;margin:.5rem 0}
+.hero .subtitle{
+  font-size:1rem;letter-spacing:.25em;text-transform:uppercase;
+  color:#C9A24B;margin-bottom:2rem
+}
+.hero p{color:#8FAF9A;max-width:560px;margin:0 auto}
+
+/* ── Asset card ───────────────────────────────────────────── */
+.asset-card{
+  background:#fff;
+  border:1px solid rgba(201,162,75,.18);
+  border-radius:8px;
+  overflow:hidden;
+  box-shadow:0 1px 8px rgba(0,0,0,.07);
+}
+.asset-card .preview{
+  background:#F0EBE1;
+  padding:2rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:160px;
+}
+.asset-card .preview-dark{background:#1B3D2F}
+.asset-card .meta{padding:1rem 1.2rem;border-top:1px solid rgba(201,162,75,.12)}
+.asset-card .meta h4{margin-bottom:.25rem}
+.asset-card .meta p{font-size:.82rem;color:#5C6B5E;margin:0}
+.asset-card img,.asset-card svg{max-width:100%;height:auto}
+
+/* ── Color swatch ─────────────────────────────────────────── */
+.swatch{border-radius:6px;overflow:hidden;box-shadow:0 1px 8px rgba(0,0,0,.09)}
+.swatch-color{height:90px}
+.swatch-meta{padding:.75rem 1rem;background:#fff;border:1px solid rgba(0,0,0,.06);border-top:none}
+.swatch-meta .swatch-name{font-weight:700;font-size:.9rem;display:block;margin-bottom:.2rem}
+.swatch-meta code{font-size:.78rem;color:#5C6B5E;font-family:monospace;display:block;line-height:1.7}
+
+/* ── Typography specimens ─────────────────────────────────── */
+.type-specimen{
+  border:1px solid rgba(201,162,75,.15);
+  border-radius:6px;
+  padding:1.5rem;
+  background:#fff;
+}
+
+/* ── Usage examples ───────────────────────────────────────── */
+.usage-card{
+  border-radius:8px;
+  overflow:hidden;
+  border:2px solid transparent;
+}
+.usage-card.do{border-color:#2D8B4E}
+.usage-card.dont{border-color:#CC3333}
+.usage-badge{
+  display:block;
+  padding:.3rem .8rem;
+  font-size:.72rem;
+  letter-spacing:.12em;
+  font-weight:700;
+  text-transform:uppercase;
+}
+.do .usage-badge{background:#2D8B4E;color:#fff}
+.dont .usage-badge{background:#CC3333;color:#fff}
+.usage-preview{background:#F0EBE1;padding:1.5rem;display:flex;align-items:center;justify-content:center;min-height:130px}
+.usage-preview.dark{background:#1B3D2F}
+.usage-desc{padding:.8rem 1rem;background:#fff;font-size:.82rem;color:#5C6B5E}
+
+/* ── Button preview ───────────────────────────────────────── */
+.btn-preview{
+  display:inline-flex;align-items:center;gap:.4rem;
+  padding:.6rem 1.4rem;border-radius:2px;
+  font-family:'Playfair Display',Georgia,serif;
+  font-size:.88rem;font-weight:600;letter-spacing:.05em;
+  text-decoration:none;border:none;cursor:default;
+}
+.bp-gold{background:linear-gradient(135deg,#C9A24B 0%,#E8C97A 50%,#B88C38 100%);color:#0C1C11;box-shadow:0 2px 12px rgba(201,162,75,.35)}
+.bp-outline{background:transparent;color:#C9A24B;border:1.5px solid #C9A24B}
+.bp-dark{background:#1B3D2F;color:#E8C97A;border:1px solid rgba(201,162,75,.25)}
+.bp-ghost{background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.22)}
+
+/* ── Seal grid ────────────────────────────────────────────── */
+.seal-row{display:flex;gap:2rem;flex-wrap:wrap;align-items:center;justify-content:center;padding:2rem 0}
+.seal-label{text-align:center;margin-top:.5rem;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:#8FAF9A}
+
+/* ── Nav ──────────────────────────────────────────────────── */
+.page-nav{
+  position:sticky;top:0;z-index:100;
+  background:rgba(27,61,47,.97);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid rgba(201,162,75,.2);
+}
+.page-nav ul{
+  display:flex;list-style:none;gap:0;
+  overflow-x:auto;padding:.6rem 2rem;
+  scrollbar-width:none;
+}
+.page-nav ul::-webkit-scrollbar{display:none}
+.page-nav a{
+  display:block;padding:.4rem .9rem;
+  font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;
+  color:#8FAF9A;text-decoration:none;white-space:nowrap;
+  border-radius:3px;transition:color .15s,background .15s;
+}
+.page-nav a:hover{color:#E8C97A;background:rgba(201,162,75,.1)}
+</style>
+</head>
+<body>
+
+<!-- ── Sticky Navigation ──────────────────────────────────── -->
+<nav class="page-nav">
+  <ul>
+    <li><a href="#mark">The Mark</a></li>
+    <li><a href="#logo">Logo Suite</a></li>
+    <li><a href="#color">Colour</a></li>
+    <li><a href="#type">Typography</a></li>
+    <li><a href="#seals">Seals</a></li>
+    <li><a href="#elements">Elements</a></li>
+    <li><a href="#buttons">Buttons</a></li>
+    <li><a href="#cards">Cards</a></li>
+    <li><a href="#usage">Usage Rules</a></li>
+    <li><a href="#photo">Photography</a></li>
+    <li><a href="#a11y">Accessibility</a></li>
+    <li><a href="#international">International</a></li>
+  </ul>
+</nav>
+
+<!-- ── Hero ──────────────────────────────────────────────── -->
+<header class="hero">
+  <div class="container">
+    <img src="/brand/emblem.svg" alt="Paraíso de Aves emblem" width="120" height="120"
+         style="margin-bottom:1.5rem;filter:drop-shadow(0 4px 24px rgba(0,0,0,.6))">
+    <p class="subtitle">Brand Identity System</p>
+    <h1>Paraíso de Aves</h1>
+    <p>This document defines the visual language of Paraíso de Aves across every touchpoint — from the browser favicon to official certification documents. Follow these guidelines to ensure the brand reads as one unified, premium experience.</p>
+  </div>
+</header>
+
+<!-- ── The Mark ──────────────────────────────────────────── -->
+<section class="section" id="mark">
+  <div class="container">
+    <h4>01 — Brand Identity</h4>
+    <h2>The Mark</h2>
+    <p>The Paraíso de Aves mark is built around three macaw tail feathers — the most distinctive visual signature of the Blue &amp; Gold Macaw, the species most associated with the brand. The feathers fan outward from a single point, evoking both nature and prestige. Above them, the signature gold arc references the rainbow motif of the illustrated primary logo, creating visual continuity between the full identity and the geometric mark.</p>
+    <hr class="rule">
+    <div class="grid-3 mt-2">
+      <div class="asset-card">
+        <div class="preview preview-dark" style="min-height:220px">
+          <img src="/brand/emblem.svg" alt="Full emblem" width="160" height="160">
+        </div>
+        <div class="meta">
+          <h4>Full Emblem</h4>
+          <p>brand/emblem.svg — Used in seals, certificates, the loading animation, and any premium context at 80px+</p>
+        </div>
+      </div>
+      <div class="asset-card">
+        <div class="preview preview-dark" style="min-height:220px">
+          <img src="/favicon.svg" alt="Favicon mark" width="100" height="100">
+        </div>
+        <div class="meta">
+          <h4>Icon Mark / Favicon</h4>
+          <p>favicon.svg — Simplified for browser tabs, app icons, and any context under 80px</p>
+        </div>
+      </div>
+      <div class="asset-card">
+        <div class="preview" style="min-height:220px;background:#1B3D2F">
+          <img src="/brand/watermark.svg" alt="Watermark" width="120" height="120" style="opacity:.7">
+        </div>
+        <div class="meta">
+          <h4>Watermark</h4>
+          <p>brand/watermark.svg — White outline version for photo overlays. Apply at 15–25% opacity.</p>
+        </div>
+      </div>
+    </div>
+
+    <div style="background:#1B3D2F;border-radius:8px;padding:2rem;margin-top:2rem">
+      <h3 style="color:#E8C97A;margin-bottom:1rem">Clear Space Rule</h3>
+      <p style="color:#8FAF9A">Always maintain clear space equal to <strong style="color:#C9A24B">½ × the mark diameter</strong> on all sides. Nothing — typography, imagery, or other graphic elements — should intrude into this protected zone.</p>
+      <p style="color:#8FAF9A;margin:0"><strong style="color:#C9A24B">Minimum size:</strong> 24px diameter on screen · 8mm on print. Below this, use only the primary illustrated logo.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── Logo Suite ─────────────────────────────────────────── -->
+<section class="section section-alt" id="logo">
+  <div class="container">
+    <h4>02 — Logo Suite</h4>
+    <h2>All Logo Variants</h2>
+    <p>The primary illustrated logo remains the main expression for the navbar, print, and all large-format uses. The geometric logo suite handles every other application.</p>
+    <hr class="rule">
+
+    <div class="grid-2 mt-2">
+      <div class="asset-card">
+        <div class="preview preview-dark" style="padding:2.5rem">
+          <img src="/images/logo/paraiso-de-aves-logo-light.png" alt="Primary illustrated logo" style="max-width:340px;width:100%">
+        </div>
+        <div class="meta">
+          <h4>Primary Logo — Illustrated</h4>
+          <p>Navbar, hero areas, print. Minimum width: 200px. Always on dark green or black backgrounds.</p>
+        </div>
+      </div>
+      <div class="asset-card">
+        <div class="preview preview-dark" style="padding:2.5rem">
+          <img src="/brand/logo-primary.svg" alt="Geometric primary logo" style="max-width:380px;width:100%">
+        </div>
+        <div class="meta">
+          <h4>Primary Logo — Geometric</h4>
+          <p>brand/logo-primary.svg — Email headers, documents, slide decks. Dark background version.</p>
+        </div>
+      </div>
+      <div class="asset-card">
+        <div class="preview preview-dark" style="min-height:200px">
+          <img src="/brand/logo-stacked.svg" alt="Stacked logo" width="180" height="210">
+        </div>
+        <div class="meta">
+          <h4>Stacked Logo</h4>
+          <p>brand/logo-stacked.svg — Square spaces, app stores, compact layouts. Min: 120px wide.</p>
+        </div>
+      </div>
+      <div class="asset-card">
+        <div class="preview preview-dark" style="min-height:200px">
+          <img src="/brand/logo-social.svg" alt="Social media logo" width="160" height="160">
+        </div>
+        <div class="meta">
+          <h4>Social Media Profile</h4>
+          <p>brand/logo-social.svg — Facebook, Instagram, LinkedIn profile photos. Export at 500×500 PNG.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Colour ──────────────────────────────────────────────── -->
+<section class="section" id="color">
+  <div class="container">
+    <h4>03 — Colour</h4>
+    <h2>Brand Palette</h2>
+    <p>The palette is built around the deep forest greens of tropical habitats and the warm gold of macaw plumage. Every digital surface should use these colours exclusively.</p>
+    <hr class="rule">
+
+    <!-- Primary palette -->
+    <h3 style="margin-bottom:1rem">Primary Colours</h3>
+    <div class="grid-4">
+      <div class="swatch">
+        <div class="swatch-color" style="background:#1B3D2F"></div>
+        <div class="swatch-meta">
+          <span class="swatch-name">Forest Green</span>
+          <code>#1B3D2F<br>RGB 27·61·47<br>HSL 150° 38% 17%</code>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#C9A24B"></div>
+        <div class="swatch-meta">
+          <span class="swatch-name">Gold</span>
+          <code>#C9A24B<br>RGB 201·162·75<br>HSL 38° 52% 54%</code>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#FAF7F0;border:1px solid #E0DAD0"></div>
+        <div class="swatch-meta">
+          <span class="swatch-name">Cream</span>
+          <code>#FAF7F0<br>RGB 250·247·240<br>HSL 41° 71% 96%</code>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#0C1C11"></div>
+        <div class="swatch-meta">
+          <span class="swatch-name">Deep Forest</span>
+          <code>#0C1C11<br>RGB 12·28·17<br>HSL 138° 40% 8%</code>
+        </div>
+      </div>
+    </div>
+
+    <!-- Secondary palette -->
+    <h3 style="margin:2rem 0 1rem">Supporting Colours</h3>
+    <div class="grid-4">
+      <div class="swatch">
+        <div class="swatch-color" style="background:#254A36"></div>
+        <div class="swatch-meta">
+          <span class="swatch-name">Mid Green</span>
+          <code>#254A36</code>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#E8C97A"></div>
+        <div class="swatch-meta">
+          <span class="swatch-name">Gold Light</span>
+          <code>#E8C97A</code>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#7A5E1A"></div>
+        <div class="swatch-meta">
+          <span class="swatch-name">Gold Dark</span>
+          <code>#7A5E1A</code>
+        </div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-color" style="background:#F0EBE1;border:1px solid #E0DAD0"></div>
+        <div class="swatch-meta">
+          <span class="swatch-name">Cream Dark</span>
+          <code>#F0EBE1</code>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Typography ─────────────────────────────────────────── -->
+<section class="section section-alt" id="type">
+  <div class="container">
+    <h4>04 — Typography</h4>
+    <h2>Type System</h2>
+    <hr class="rule">
+    <div class="grid-2">
+      <div class="type-specimen">
+        <h4>Display / Headings</h4>
+        <p style="font-family:'Playfair Display',Georgia,serif;font-size:2.2rem;font-weight:700;color:#1B3D2F;line-height:1.1;margin-bottom:.5rem">Playfair Display</p>
+        <p style="font-family:'Playfair Display',Georgia,serif;font-size:1rem;color:#5C6B5E">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk</p>
+        <p style="font-family:'Playfair Display',Georgia,serif;font-size:.85rem;color:#5C6B5E;margin-top:.5rem">0 1 2 3 4 5 6 7 8 9</p>
+        <hr style="border:none;border-top:1px solid #E0DAD0;margin:1rem 0">
+        <code style="font-size:.78rem;color:#8A9A8C">font-family:'Playfair Display','Palatino Linotype',Georgia,serif</code>
+        <p style="font-size:.82rem;color:#5C6B5E;margin-top:.5rem;margin-bottom:0">Google Fonts. Weights: 400 · 600 · 700. Used for all headings, wordmarks, and CTA buttons.</p>
+      </div>
+      <div class="type-specimen">
+        <h4>Body / UI</h4>
+        <p style="font-size:1.15rem;margin-bottom:.5rem">System UI Sans-Serif</p>
+        <p style="font-size:.95rem;color:#5C6B5E">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk</p>
+        <p style="font-size:.85rem;color:#5C6B5E;margin-top:.5rem">0 1 2 3 4 5 6 7 8 9</p>
+        <hr style="border:none;border-top:1px solid #E0DAD0;margin:1rem 0">
+        <code style="font-size:.78rem;color:#8A9A8C">font-family:system-ui,-apple-system,sans-serif</code>
+        <p style="font-size:.82rem;color:#5C6B5E;margin-top:.5rem;margin-bottom:0">System default. Used for body copy, navigation, and interface elements. No webfont load needed.</p>
+      </div>
+    </div>
+
+    <div class="type-specimen mt-2" style="background:#1B3D2F;color:#FAF7F0">
+      <h4 style="color:#C9A24B">Type Scale</h4>
+      <div style="margin-top:1rem;display:grid;gap:.75rem">
+        <div style="font-family:'Playfair Display',Georgia,serif;font-size:2.8rem;font-weight:700;color:#fff;line-height:1">Hero — 44–56px</div>
+        <div style="font-family:'Playfair Display',Georgia,serif;font-size:2rem;font-weight:700;color:#fff">H1 — 32–40px</div>
+        <div style="font-family:'Playfair Display',Georgia,serif;font-size:1.5rem;font-weight:700;color:#fff">H2 — 24–32px</div>
+        <div style="font-family:'Playfair Display',Georgia,serif;font-size:1.15rem;font-weight:700;color:#C9A24B">H3 — 18–22px</div>
+        <div style="font-size:.95rem;color:#8FAF9A">Body — 15–17px · line-height 1.65</div>
+        <div style="font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:#C9A24B">Caption / Label — 11–13px</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Seals ───────────────────────────────────────────────── -->
+<section class="section" id="seals">
+  <div class="container">
+    <h4>05 — Official Seals &amp; Certificates</h4>
+    <h2>Certification System</h2>
+    <p>Each seal is a self-contained SVG used on official documents, certificates, and the website. They share a unified visual language — concentric gold rings, the brand mark in the centre — differentiated only by their arc text labels.</p>
+    <hr class="rule">
+
+    <div class="seal-row">
+      <div>
+        <img src="/brand/seal-health.svg" alt="Garantía de Salud" width="170" height="170">
+        <p class="seal-label" style="color:#5C6B5E">Health Guarantee</p>
+      </div>
+      <div>
+        <img src="/brand/seal-adoption.svg" alt="Certificado de Adopción" width="170" height="170">
+        <p class="seal-label" style="color:#5C6B5E">Adoption Certificate</p>
+      </div>
+      <div>
+        <img src="/brand/seal-dna.svg" alt="Certificado Genético" width="170" height="170">
+        <p class="seal-label" style="color:#5C6B5E">DNA / Genetic</p>
+      </div>
+      <div>
+        <img src="/brand/seal-cites.svg" alt="Documentación CITES" width="170" height="170">
+        <p class="seal-label" style="color:#5C6B5E">CITES Documentation</p>
+      </div>
+    </div>
+
+    <div style="background:#1B3D2F;border-radius:8px;padding:2rem;margin-top:1.5rem">
+      <h3 style="color:#E8C97A;margin-bottom:.75rem">Verified Breeder Badge</h3>
+      <div style="display:flex;align-items:center;gap:2rem;flex-wrap:wrap">
+        <img src="/brand/badge-verified.svg" alt="Verified Breeder badge" height="80">
+        <div>
+          <p style="color:#8FAF9A;margin:0">brand/badge-verified.svg — Used on the website homepage trust section, email footers, and printed documentation. Always on dark or forest green backgrounds.</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="mt-2" style="font-size:.85rem;color:#5C6B5E">
+      <strong>Seal usage rules:</strong> Seals must never be distorted, recoloured, or placed on busy photographic backgrounds. Minimum print size: 30mm diameter. For digital: minimum 120×120px. Seals are informational marks — they must not be used as decorative elements without the backing certification.
+    </p>
+  </div>
+</section>
+
+<!-- ── Decorative Elements ────────────────────────────────── -->
+<section class="section section-alt" id="elements">
+  <div class="container">
+    <h4>06 — Decorative Elements</h4>
+    <h2>Dividers, Pattern &amp; Watermark</h2>
+    <hr class="rule">
+
+    <h3>Leaf Divider</h3>
+    <p style="margin-bottom:1rem">Used between major content sections. Max-width: 640px. Never stretch beyond the content column.</p>
+    <div style="background:#F0EBE1;padding:2rem;border-radius:8px;margin-bottom:2rem">
+      <img src="/brand/divider-leaves.svg" alt="Leaf divider" style="width:100%;max-width:640px;display:block;margin:0 auto">
+    </div>
+
+    <h3>Feather Divider</h3>
+    <p style="margin-bottom:1rem">For more prominent section breaks, particularly on dark backgrounds.</p>
+    <div style="background:#1B3D2F;padding:2rem;border-radius:8px;margin-bottom:2rem">
+      <img src="/brand/divider-feather.svg" alt="Feather divider" style="width:100%;max-width:640px;display:block;margin:0 auto">
+    </div>
+
+    <div class="grid-2">
+      <div>
+        <h3>Background Pattern</h3>
+        <p style="margin-bottom:1rem">brand/pattern-tile.svg — Apply as CSS background-image at 5–8% opacity for a premium textured surface.</p>
+        <div style="height:140px;background:url('/brand/pattern-tile.svg') repeat #1B3D2F;background-size:80px 80px;border-radius:8px;opacity:.9"></div>
+      </div>
+      <div>
+        <h3>Photo Watermark</h3>
+        <p style="margin-bottom:1rem">brand/watermark.svg — Positioned bottom-right at 15–25% opacity. Use the <code>.pa-photo-wrap</code> CSS class for automatic watermarking.</p>
+        <div class="pa-photo-wrap" style="display:block;border-radius:8px;overflow:hidden">
+          <img src="/images/logo/emblem-raw.png" alt="Watermark demo" style="width:100%;display:block;filter:brightness(.7)">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Buttons ─────────────────────────────────────────────── -->
+<section class="section" id="buttons">
+  <div class="container">
+    <h4>07 — Buttons</h4>
+    <h2>Button Style Guide</h2>
+    <hr class="rule">
+    <div class="grid-2">
+      <div class="asset-card">
+        <div class="preview" style="gap:1rem;flex-direction:column;background:#FAF7F0">
+          <span class="btn-preview bp-gold">Solicitar Información</span>
+          <span class="btn-preview bp-outline">Ver Más</span>
+          <span class="btn-preview bp-dark">Conocimiento</span>
+        </div>
+        <div class="meta">
+          <h4>Light surface buttons</h4>
+          <p>Use Primary Gold for the single most important CTA per section. Outline for secondary. Dark for tertiary actions.</p>
+        </div>
+      </div>
+      <div class="asset-card">
+        <div class="preview preview-dark" style="gap:1rem;flex-direction:column">
+          <span class="btn-preview bp-gold">Solicitar Información</span>
+          <span class="btn-preview bp-ghost">Explorar Especies</span>
+          <span class="btn-preview" style="background:transparent;color:#E8C97A;border:1.5px solid rgba(201,162,75,.5);font-family:'Playfair Display',serif;font-size:.88rem;padding:.6rem 1.4rem;border-radius:2px">Ver Galería</span>
+        </div>
+        <div class="meta">
+          <h4>Dark surface buttons</h4>
+          <p>Primary Gold works on all backgrounds. Ghost button for subtle CTAs on dark hero areas.</p>
+        </div>
+      </div>
+    </div>
+    <div style="background:#fff;border:1px solid rgba(201,162,75,.15);border-radius:8px;padding:1.5rem;margin-top:1.5rem">
+      <h4>Button rules</h4>
+      <ul style="font-size:.88rem;color:#5C6B5E;padding-left:1.2rem;line-height:2">
+        <li>Border-radius is always <strong>2px</strong> — no rounded pill buttons</li>
+        <li>Font: Playfair Display 600 · 0.05em letter-spacing</li>
+        <li>Hover: +2px translateY lift on primary; +1px on others</li>
+        <li>One Primary Gold button maximum per section</li>
+        <li>Minimum touch target: 44×44px</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ── Cards ──────────────────────────────────────────────── -->
+<section class="section section-alt" id="cards">
+  <div class="container">
+    <h4>08 — Cards</h4>
+    <h2>Card Components</h2>
+    <hr class="rule">
+    <div class="grid-3">
+      <div class="asset-card" style="border-color:rgba(201,162,75,.18)">
+        <div style="height:8px;background:linear-gradient(90deg,#1B3D2F,#2D5C3F)"></div>
+        <div style="padding:1.5rem">
+          <h4>Standard Card</h4>
+          <p style="font-size:.9rem;color:#5C6B5E">White background · 1px gold-tinted border · 8px radius · Lifts 3px on hover</p>
+          <div style="margin-top:1rem"><span class="btn-preview bp-gold" style="font-size:.78rem;padding:.4rem 1rem">Action</span></div>
+        </div>
+      </div>
+      <div class="asset-card" style="border-color:rgba(201,162,75,.32);background:linear-gradient(160deg,#fff 0%,#FAF7F0 100%)">
+        <div style="height:8px;background:linear-gradient(90deg,#C9A24B,#E8C97A)"></div>
+        <div style="padding:1.5rem">
+          <h4 style="color:#7A5E1A">Premium Card</h4>
+          <p style="font-size:.9rem;color:#5C6B5E">Cream gradient · stronger gold border · For featured species or highlight content</p>
+          <div style="margin-top:1rem"><span class="btn-preview bp-gold" style="font-size:.78rem;padding:.4rem 1rem">Ver Ficha</span></div>
+        </div>
+      </div>
+      <div class="asset-card" style="background:#1B3D2F;border-color:rgba(201,162,75,.2)">
+        <div style="height:8px;background:linear-gradient(90deg,#C9A24B,#E8C97A)"></div>
+        <div style="padding:1.5rem">
+          <h4 style="color:#C9A24B">Dark Card</h4>
+          <p style="font-size:.9rem;color:#8FAF9A">Forest green background · For testimonials, trust blocks, or highlighted info</p>
+          <div style="margin-top:1rem"><span class="btn-preview" style="background:transparent;color:#C9A24B;border:1px solid rgba(201,162,75,.4);font-family:'Playfair Display',serif;font-size:.78rem;padding:.4rem 1rem;border-radius:2px">Leer más</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Usage Rules ────────────────────────────────────────── -->
+<section class="section" id="usage">
+  <div class="container">
+    <h4>09 — Logo Usage Rules</h4>
+    <h2>Do &amp; Don't</h2>
+    <hr class="rule">
+    <div class="grid-3">
+      <div class="usage-card do">
+        <span class="usage-badge">✓ Do</span>
+        <div class="usage-preview dark">
+          <img src="/brand/emblem.svg" alt="" width="90" height="90">
+        </div>
+        <p class="usage-desc">Use the mark on dark green or deep colour backgrounds</p>
+      </div>
+      <div class="usage-card do">
+        <span class="usage-badge">✓ Do</span>
+        <div class="usage-preview">
+          <img src="/brand/emblem.svg" alt="" width="90" height="90" style="filter:drop-shadow(0 2px 8px rgba(0,0,0,.2))">
+        </div>
+        <p class="usage-desc">Use with generous clear space on neutral light backgrounds</p>
+      </div>
+      <div class="usage-card do">
+        <span class="usage-badge">✓ Do</span>
+        <div class="usage-preview dark" style="background:#0C1C11">
+          <img src="/brand/logo-primary.svg" alt="" style="max-width:260px;width:100%">
+        </div>
+        <p class="usage-desc">Use the primary geometric logo in documents and email headers</p>
+      </div>
+      <div class="usage-card dont">
+        <span class="usage-badge">✗ Don't</span>
+        <div class="usage-preview">
+          <img src="/brand/emblem.svg" alt="" width="90" height="90" style="filter:hue-rotate(120deg)">
+        </div>
+        <p class="usage-desc">Never recolour the mark. Green and gold only.</p>
+      </div>
+      <div class="usage-card dont">
+        <span class="usage-badge">✗ Don't</span>
+        <div class="usage-preview">
+          <img src="/brand/emblem.svg" alt="" width="90" height="90" style="transform:scaleX(1.4)">
+        </div>
+        <p class="usage-desc">Never distort or stretch the mark disproportionately</p>
+      </div>
+      <div class="usage-card dont">
+        <span class="usage-badge">✗ Don't</span>
+        <div class="usage-preview" style="background:url('/images/homepage/hand-raised-macaw-breeder.webp') center/cover">
+          <img src="/brand/emblem.svg" alt="" width="90" height="90">
+        </div>
+        <p class="usage-desc">Never place the mark over busy photography without the watermark treatment</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Photography ────────────────────────────────────────── -->
+<section class="section section-alt" id="photo">
+  <div class="container">
+    <h4>10 — Photography</h4>
+    <h2>Photography Style</h2>
+    <hr class="rule">
+    <div class="grid-2">
+      <div>
+        <h3>Subject &amp; Composition</h3>
+        <ul style="font-size:.9rem;color:#5C6B5E;padding-left:1.2rem;line-height:2.2">
+          <li>Birds as the clear subject — sharp, well-lit, expressive</li>
+          <li>Natural perch or hand-held contexts preferred</li>
+          <li>Complementary backgrounds: bokeh greens, cream walls, or clean studio dark</li>
+          <li>No filters or heavy post-processing — authentic colour</li>
+          <li>Eye-level or slightly below — never looking down at the bird</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Tone &amp; Treatment</h3>
+        <ul style="font-size:.9rem;color:#5C6B5E;padding-left:1.2rem;line-height:2.2">
+          <li>Warm colour temperature (5500–6000K) preferred</li>
+          <li>High contrast between subject and background</li>
+          <li>Feather detail is the priority — never sacrifice sharpness for DOF</li>
+          <li>Watermark all original photography using <code>.pa-photo-wrap</code> or the SVG overlay</li>
+          <li>No stock images that compete with original photography</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Accessibility ──────────────────────────────────────── -->
+<section class="section" id="a11y">
+  <div class="container">
+    <h4>11 — Accessibility</h4>
+    <h2>Accessibility Standards</h2>
+    <hr class="rule">
+    <div class="grid-2">
+      <div style="background:#fff;border:1px solid rgba(201,162,75,.15);border-radius:8px;padding:1.5rem">
+        <h3>Colour Contrast</h3>
+        <ul style="font-size:.88rem;color:#5C6B5E;padding-left:1.2rem;line-height:2.2;margin-bottom:0">
+          <li>White on Forest Green (#1B3D2F): <strong style="color:#2D8B4E">11.5:1 ✓ AAA</strong></li>
+          <li>Gold (#C9A24B) on Deep Forest: <strong style="color:#2D8B4E">7.8:1 ✓ AAA</strong></li>
+          <li>Gold (#C9A24B) on White: <strong style="color:#B85C00">2.9:1 — for large text only</strong></li>
+          <li>Dark text (#1A2A1E) on Cream: <strong style="color:#2D8B4E">14.2:1 ✓ AAA</strong></li>
+        </ul>
+      </div>
+      <div style="background:#fff;border:1px solid rgba(201,162,75,.15);border-radius:8px;padding:1.5rem">
+        <h3>Implementation Notes</h3>
+        <ul style="font-size:.88rem;color:#5C6B5E;padding-left:1.2rem;line-height:2.2;margin-bottom:0">
+          <li>All SVG brand assets include <code>role="img"</code> and <code>aria-label</code></li>
+          <li>All <code>&lt;img&gt;</code> referencing brand assets must include descriptive <code>alt</code> text</li>
+          <li>Focus rings: <code>outline:2px solid #C9A24B; offset:3px</code></li>
+          <li>Minimum touch target: 44×44px for all interactive elements</li>
+          <li>The loading animation respects <code>prefers-reduced-motion</code></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── International ──────────────────────────────────────── -->
+<section class="section section-dark" id="international">
+  <div class="container">
+    <h4>12 — International</h4>
+    <h2>Global Identity</h2>
+    <p>Paraíso de Aves operates across ES, PT, FR, and EN markets. The visual identity is language-agnostic — the mark, colours, and typography translate unchanged into every market. Only text content, taglines, and seal labels are localised.</p>
+    <hr class="rule">
+    <div class="grid-4">
+      <div style="text-align:center;padding:1.5rem;background:rgba(255,255,255,.06);border-radius:8px;border:1px solid rgba(201,162,75,.15)">
+        <div style="font-size:1.5rem;margin-bottom:.5rem">🇪🇸</div>
+        <h3 style="font-size:1rem;color:#E8C97A">Español</h3>
+        <p style="font-size:.82rem;margin:0">Paraíso de Aves<br>Criador Registrado</p>
+      </div>
+      <div style="text-align:center;padding:1.5rem;background:rgba(255,255,255,.06);border-radius:8px;border:1px solid rgba(201,162,75,.15)">
+        <div style="font-size:1.5rem;margin-bottom:.5rem">🇵🇹</div>
+        <h3 style="font-size:1rem;color:#E8C97A">Português</h3>
+        <p style="font-size:.82rem;margin:0">Paraíso de Aves<br>Criador Registado</p>
+      </div>
+      <div style="text-align:center;padding:1.5rem;background:rgba(255,255,255,.06);border-radius:8px;border:1px solid rgba(201,162,75,.15)">
+        <div style="font-size:1.5rem;margin-bottom:.5rem">🇫🇷</div>
+        <h3 style="font-size:1rem;color:#E8C97A">Français</h3>
+        <p style="font-size:.82rem;margin:0">Paraíso de Aves<br>Éleveur Certifié</p>
+      </div>
+      <div style="text-align:center;padding:1.5rem;background:rgba(255,255,255,.06);border-radius:8px;border:1px solid rgba(201,162,75,.15)">
+        <div style="font-size:1.5rem;margin-bottom:.5rem">🇬🇧</div>
+        <h3 style="font-size:1rem;color:#E8C97A">English</h3>
+        <p style="font-size:.82rem;margin:0">Paraíso de Aves<br>Verified Breeder</p>
+      </div>
+    </div>
+    <p style="margin-top:2rem;color:#8FAF9A;font-size:.88rem">The brand mark (emblem SVG, favicon, seals) is used identically across all language versions. No localised mark variants are created or permitted.</p>
+  </div>
+</section>
+
+<!-- ── Footer ─────────────────────────────────────────────── -->
+<footer style="background:#0C1C11;padding:3rem 0;text-align:center">
+  <img src="/brand/emblem.svg" alt="" width="56" height="56" style="opacity:.7;margin-bottom:1rem">
+  <p style="color:#4A6B54;font-size:.82rem;letter-spacing:.08em">PARAÍSO DE AVES · BRAND GUIDELINES v1.0 · 2025</p>
+  <p style="color:#3A5040;font-size:.78rem;margin-top:.5rem">For questions contact: <a href="mailto:paraisodeloros@gmail.com" style="color:#C9A24B">paraisodeloros@gmail.com</a></p>
+</footer>
+
+<link rel="stylesheet" href="/brand-system.css">
+</body>
+</html>

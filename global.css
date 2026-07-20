@@ -199,7 +199,7 @@ footer a:hover,
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--gold); }
 
-/* ── Email CTA button (replaces WhatsApp button globally) ── */
+/* ── Email CTA button ── */
 .btn-email {
   display: inline-block;
   padding: .8rem 1.7rem;

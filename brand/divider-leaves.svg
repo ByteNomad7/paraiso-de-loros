@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Gold line gradient (fades to transparent at edges) -->
+    <linearGradient id="dlg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"    stop-color="#C9A24B" stop-opacity="0"/>
+      <stop offset="18%"   stop-color="#C9A24B" stop-opacity="0.8"/>
+      <stop offset="38%"   stop-color="#E8C97A" stop-opacity="1"/>
+      <stop offset="50%"   stop-color="#E8C97A" stop-opacity="0"/>
+      <stop offset="62%"   stop-color="#E8C97A" stop-opacity="1"/>
+      <stop offset="82%"   stop-color="#C9A24B" stop-opacity="0.8"/>
+      <stop offset="100%"  stop-color="#C9A24B" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Horizontal gold rule -->
+  <line x1="0" y1="30" x2="1200" y2="30" stroke="url(#dlg)" stroke-width="1"/>
+
+  <!-- Left leaf (monstera-inspired, pointing right) -->
+  <g transform="translate(440, 30)">
+    <path d="M 0 0 C -20 -18 -44 -14 -48 0 C -44 14 -20 18 0 0 Z"
+          fill="#1B3D2F" stroke="#C9A24B" stroke-width="0.8" opacity="0.85"/>
+    <path d="M -8 0 C -20 -10 -36 -8 -42 0" fill="none" stroke="#C9A24B" stroke-width="0.5" opacity="0.5"/>
+    <!-- Small notch -->
+    <path d="M -24 -10 C -26 -6 -26 6 -24 10" fill="none" stroke="#C9A24B" stroke-width="0.5" opacity="0.4"/>
+  </g>
+
+  <!-- Right leaf (monstera-inspired, pointing left) -->
+  <g transform="translate(760, 30)">
+    <path d="M 0 0 C 20 -18 44 -14 48 0 C 44 14 20 18 0 0 Z"
+          fill="#1B3D2F" stroke="#C9A24B" stroke-width="0.8" opacity="0.85"/>
+    <path d="M 8 0 C 20 -10 36 -8 42 0" fill="none" stroke="#C9A24B" stroke-width="0.5" opacity="0.5"/>
+    <path d="M 24 -10 C 26 -6 26 6 24 10" fill="none" stroke="#C9A24B" stroke-width="0.5" opacity="0.4"/>
+  </g>
+
+  <!-- Central diamond ornament -->
+  <g transform="translate(600, 30)">
+    <path d="M 0 -10 L 7 0 L 0 10 L -7 0 Z"
+          fill="#C9A24B" opacity="0.90"/>
+    <path d="M 0 -7 L 5 0 L 0 7 L -5 0 Z"
+          fill="none" stroke="#F4E49C" stroke-width="0.6" opacity="0.5"/>
+    <!-- Small flanking dots -->
+    <circle cx="-18" cy="0" r="1.8" fill="#C9A24B" opacity="0.60"/>
+    <circle cx=" 18" cy="0" r="1.8" fill="#C9A24B" opacity="0.60"/>
+    <circle cx="-32" cy="0" r="1.2" fill="#C9A24B" opacity="0.40"/>
+    <circle cx=" 32" cy="0" r="1.2" fill="#C9A24B" opacity="0.40"/>
+  </g>
+</svg>

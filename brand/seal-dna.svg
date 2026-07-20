@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240"
+     role="img" aria-label="Certificado Genético — Paraíso de Aves">
+  <title>Certificado Genético — Paraíso de Aves</title>
+  <defs>
+    <linearGradient id="sdgH" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#6B5118"/>
+      <stop offset="40%"  stop-color="#E8C97A"/>
+      <stop offset="60%"  stop-color="#C9A24B"/>
+      <stop offset="100%" stop-color="#6B5118"/>
+    </linearGradient>
+    <linearGradient id="sdgV" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#F4E49C"/>
+      <stop offset="100%" stop-color="#7A5E1A"/>
+    </linearGradient>
+    <radialGradient id="sdbg" cx="50%" cy="40%" r="65%">
+      <stop offset="0%"   stop-color="#254637"/>
+      <stop offset="100%" stop-color="#0C1C11"/>
+    </radialGradient>
+    <path id="sdTop" d="M 18 120 A 102 102 0 0 1 222 120"/>
+    <path id="sdBot" d="M 18 120 A 102 102 0 0 0 222 120"/>
+  </defs>
+
+  <circle cx="120" cy="120" r="119" fill="#060E08"/>
+  <circle cx="120" cy="120" r="117" fill="url(#sdbg)"/>
+  <circle cx="120" cy="120" r="116" fill="none" stroke="url(#sdgH)" stroke-width="3"/>
+  <circle cx="120" cy="120" r="110" fill="none" stroke="#060E08" stroke-width="6"/>
+  <circle cx="120" cy="120" r="107" fill="none" stroke="#C9A24B"
+          stroke-width="0.8" stroke-dasharray="2.5 3" opacity="0.50"/>
+
+  <text font-family="'Palatino Linotype','Book Antiqua',Palatino,Georgia,serif"
+        font-size="10" font-weight="700" letter-spacing="2.5" fill="url(#sdgH)">
+    <textPath href="#sdTop" startOffset="50%" text-anchor="middle">CERTIFICADO GENÉTICO</textPath>
+  </text>
+  <text font-family="'Palatino Linotype','Book Antiqua',Palatino,Georgia,serif"
+        font-size="8" font-weight="600" letter-spacing="2" fill="#C9A24B" opacity="0.80">
+    <textPath href="#sdBot" startOffset="50%" text-anchor="middle">PARAÍSO · DE · AVES</textPath>
+  </text>
+
+  <circle cx="120" cy="120" r="92" fill="none" stroke="url(#sdgH)" stroke-width="1.3"/>
+  <circle cx="120" cy="120" r="89" fill="none" stroke="#C9A24B" stroke-width="0.4" opacity="0.28"/>
+
+  <g transform="translate(120,155) scale(0.62) translate(-100,-148)">
+    <path d="M 31 68 A 76 76 0 0 1 169 68"
+          fill="none" stroke="#C9A24B" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 97 148 C 92 112 95 74 100 36 C 105 74 108 112 103 148 Z" fill="url(#sdgV)"/>
+    <path d="M 97 148 C 92 112 95 74 100 36 C 105 74 108 112 103 148 Z"
+          fill="#D4AB52" opacity="0.80" transform="rotate(-27 100 148)"/>
+    <path d="M 97 148 C 92 112 95 74 100 36 C 105 74 108 112 103 148 Z"
+          fill="#D4AB52" opacity="0.80" transform="rotate(27 100 148)"/>
+    <circle cx="100" cy="148" r="3" fill="url(#sdgV)"/>
+  </g>
+
+  <text x="120" y="170" text-anchor="middle"
+        font-family="'Palatino Linotype',Georgia,serif"
+        font-size="7" letter-spacing="3.5" fill="#C9A24B" opacity="0.58">EST. 2018</text>
+
+  <circle cx="120" cy="18"  r="2"   fill="#C9A24B" opacity="0.50"/>
+  <circle cx="120" cy="222" r="2"   fill="#C9A24B" opacity="0.42"/>
+  <circle cx="18"  cy="120" r="1.5" fill="#C9A24B" opacity="0.30"/>
+  <circle cx="222" cy="120" r="1.5" fill="#C9A24B" opacity="0.30"/>
+</svg>

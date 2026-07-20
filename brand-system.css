@@ -1,0 +1,181 @@
+/* ═══════════════════════════════════════════════════════════
+   PARAÍSO DE AVES — BRAND SYSTEM  v1.0
+   Forest Green #1B3D2F · Gold #C9A24B · Cream #FAF7F0
+   ═══════════════════════════════════════════════════════════ */
+
+/* ── Design Tokens ─────────────────────────────────────────── */
+:root {
+  --pa-green:       #1B3D2F;
+  --pa-green-dark:  #0C1C11;
+  --pa-green-mid:   #254A36;
+  --pa-green-light: #2D5C3F;
+  --pa-gold:        #C9A24B;
+  --pa-gold-light:  #E8C97A;
+  --pa-gold-dark:   #7A5E1A;
+  --pa-cream:       #FAF7F0;
+  --pa-cream-dark:  #F0EBE1;
+  --pa-white:       #FFFFFF;
+  --pa-text:        #1A2A1E;
+  --pa-muted:       #5C6B5E;
+
+  --pa-font-display: 'Playfair Display','Palatino Linotype','Book Antiqua',Georgia,serif;
+  --pa-font-body:    system-ui,-apple-system,sans-serif;
+
+  --pa-radius-xs: 2px;
+  --pa-radius-sm: 4px;
+  --pa-radius-md: 8px;
+  --pa-radius-lg: 16px;
+
+  --pa-shadow-card: 0 1px 8px rgba(0,0,0,.08),0 2px 16px rgba(0,0,0,.06);
+  --pa-shadow-lift: 0 4px 24px rgba(0,0,0,.14),0 2px 8px rgba(0,0,0,.08);
+  --pa-shadow-gold: 0 2px 12px rgba(201,162,75,.30);
+  --pa-transition:  0.2s cubic-bezier(.25,.46,.45,.94);
+}
+
+/* ── Background pattern ─────────────────────────────────────── */
+.pa-pattern-bg {
+  background-image: url('/brand/pattern-tile.svg');
+  background-repeat: repeat;
+  background-size: 80px 80px;
+}
+
+/* ── Photo Watermark ────────────────────────────────────────── */
+.pa-photo-wrap { position: relative; display: inline-block; }
+.pa-photo-wrap::after {
+  content: '';
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 58px;
+  height: 58px;
+  background: url('/brand/watermark.svg') no-repeat center / contain;
+  opacity: .20;
+  pointer-events: none;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,.3));
+}
+
+/* ── Decorative Dividers ────────────────────────────────────── */
+.pa-divider {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 2.5rem auto;
+  overflow: hidden;
+  line-height: 0;
+}
+.pa-divider img,
+.pa-divider svg { max-width: 640px; width: 100%; height: auto; }
+
+/* ── Gold Rule ──────────────────────────────────────────────── */
+.pa-rule {
+  display: block;
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--pa-gold-dark) 15%,
+    var(--pa-gold-light) 50%,
+    var(--pa-gold-dark) 85%,
+    transparent
+  );
+  margin: 2rem 0;
+}
+
+/* ── Seals & Badges ─────────────────────────────────────────── */
+.pa-seal    { width:130px; height:130px; display:inline-block; }
+.pa-seal-lg { width:190px; height:190px; display:inline-block; }
+.pa-badge   { width:195px; height: 80px; display:inline-block; }
+
+/* ── Buttons ────────────────────────────────────────────────── */
+.pa-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .45rem;
+  padding: .65rem 1.5rem;
+  border-radius: var(--pa-radius-xs);
+  font-family: var(--pa-font-display);
+  font-size: .9rem;
+  font-weight: 600;
+  letter-spacing: .05em;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition:
+    transform var(--pa-transition),
+    box-shadow var(--pa-transition),
+    background var(--pa-transition);
+  white-space: nowrap;
+}
+.pa-btn:focus-visible { outline: 2px solid var(--pa-gold); outline-offset: 3px; }
+
+/* Primary gold */
+.pa-btn-primary {
+  background: linear-gradient(135deg,#C9A24B 0%,#E8C97A 50%,#B88C38 100%);
+  color: var(--pa-green-dark);
+  box-shadow: var(--pa-shadow-gold);
+}
+.pa-btn-primary:hover { transform:translateY(-2px); box-shadow:0 4px 20px rgba(201,162,75,.45); }
+.pa-btn-primary:active { transform:translateY(0); }
+
+/* Outline gold */
+.pa-btn-outline {
+  background: transparent;
+  color: var(--pa-gold);
+  border: 1.5px solid var(--pa-gold);
+}
+.pa-btn-outline:hover { background:rgba(201,162,75,.08); transform:translateY(-1px); }
+
+/* Dark green */
+.pa-btn-dark {
+  background: var(--pa-green);
+  color: var(--pa-gold-light);
+  border: 1px solid rgba(201,162,75,.25);
+}
+.pa-btn-dark:hover { background:var(--pa-green-mid); transform:translateY(-2px); box-shadow:var(--pa-shadow-lift); }
+
+/* Ghost */
+.pa-btn-ghost {
+  background: rgba(255,255,255,.08);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,.22);
+  backdrop-filter: blur(4px);
+}
+.pa-btn-ghost:hover { background:rgba(255,255,255,.14); transform:translateY(-1px); }
+
+/* ── Cards ──────────────────────────────────────────────────── */
+.pa-card {
+  background: #fff;
+  border-radius: var(--pa-radius-md);
+  box-shadow: var(--pa-shadow-card);
+  border: 1px solid rgba(201,162,75,.12);
+  overflow: hidden;
+  transition: transform var(--pa-transition), box-shadow var(--pa-transition);
+}
+.pa-card:hover { transform:translateY(-3px); box-shadow:var(--pa-shadow-lift); }
+.pa-card-premium {
+  border-color: rgba(201,162,75,.32);
+  background: linear-gradient(160deg,#fff 0%,var(--pa-cream) 100%);
+}
+.pa-card-dark {
+  background: var(--pa-green);
+  color: var(--pa-cream);
+  border-color: rgba(201,162,75,.20);
+}
+
+/* ── Typography Utilities ───────────────────────────────────── */
+.pa-display {
+  font-family: var(--pa-font-display);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -.01em;
+}
+.pa-caption {
+  font-size: .78rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--pa-muted);
+}
+.pa-caption-gold { color: var(--pa-gold); }
+.pa-display-gold { color: var(--pa-gold); }

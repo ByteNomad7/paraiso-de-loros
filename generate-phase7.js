@@ -2282,7 +2282,7 @@ ${breadcrumbs([
 
     <div class="info-box">
       <h2>Video Consultations</h2>
-      <p>Can't travel to Spain? We offer video call consultations via WhatsApp or email-attached video, showing you our available birds, our facility, and answering all your questions in real time. Many UK and Irish buyers prefer this before committing, and we are delighted to arrange it.</p>
+      <p>Can't travel to Spain? We offer video call consultations via correo electrónico or email-attached video, showing you our available birds, our facility, and answering all your questions in real time. Many UK and Irish buyers prefer this before committing, and we are delighted to arrange it.</p>
     </div>
   </div>
 </div>

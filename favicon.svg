@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gH" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#6B5118"/>
+      <stop offset="50%"  stop-color="#E8C97A"/>
+      <stop offset="100%" stop-color="#6B5118"/>
+    </linearGradient>
+    <linearGradient id="gV" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#F4E49C"/>
+      <stop offset="100%" stop-color="#7A5E1A"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="50%" cy="35%" r="70%">
+      <stop offset="0%"   stop-color="#254637"/>
+      <stop offset="100%" stop-color="#0C1C11"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#bg)"/>
+  <circle cx="100" cy="100" r="97"  fill="none" stroke="url(#gH)" stroke-width="3"/>
+  <!-- Gold arc -->
+  <path d="M 31 68 A 76 76 0 0 1 169 68"
+        fill="none" stroke="url(#gH)" stroke-width="9" stroke-linecap="round"/>
+  <!-- Three feathers -->
+  <path d="M 97 148 C 92 112 95 74 100 36 C 105 74 108 112 103 148 Z" fill="url(#gV)"/>
+  <path d="M 97 148 C 92 112 95 74 100 36 C 105 74 108 112 103 148 Z"
+        fill="#D4AB52" opacity="0.84" transform="rotate(-27 100 148)"/>
+  <path d="M 97 148 C 92 112 95 74 100 36 C 105 74 108 112 103 148 Z"
+        fill="#D4AB52" opacity="0.84" transform="rotate(27 100 148)"/>
+  <circle cx="100" cy="148" r="3" fill="url(#gV)"/>
+</svg>

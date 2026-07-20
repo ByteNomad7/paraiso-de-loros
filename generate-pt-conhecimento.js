@@ -138,7 +138,7 @@ function css() {
 function nav(activeSlug = '') {
   return `
 <nav class="topnav" aria-label="Navegação principal">
-  <a class="topnav__brand" href="/pt/"><img src="/images/logo/paraiso-de-aves-logo-light.webp" alt="Paraíso de Aves" width="110" height="55" loading="eager" style="height:52px;width:auto;display:block"></a>
+  <a class="topnav__brand" href="/pt/"><img src="/images/logo/paraiso-de-aves-logo-light.png" alt="Paraíso de Aves" width="110" height="55" loading="eager" style="height:52px;width:auto;display:block"></a>
   <ul class="topnav__links">
     <li><a href="/pt/papagaios-a-venda-portugal/">Adoção</a></li>
     <li><a href="/pt/conhecimento/" class="${activeSlug === '' ? 'active' : ''}">Conhecimento</a></li>
@@ -154,7 +154,7 @@ function footer() {
 <footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-brand">
-      <img src="/images/logo/paraiso-de-aves-logo-light.webp" alt="Paraíso de Aves" width="110" height="55" loading="lazy" style="height:48px;width:auto;display:block;margin-bottom:10px">
+      <img src="/images/logo/paraiso-de-aves-logo-light.png" alt="Paraíso de Aves" width="110" height="55" loading="lazy" style="height:48px;width:auto;display:block;margin-bottom:10px">
       Criador registado · Llíria, Valência, Espanha<br>
       <a href="mailto:${EMAIL}">${EMAIL}</a>
     </div>

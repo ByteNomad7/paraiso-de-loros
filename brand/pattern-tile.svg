@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <!-- Seamless repeating tile: subtle feather + leaf silhouettes -->
+  <!-- Use as background-image at 5–8% opacity for premium texture -->
+
+  <!-- Single feather (centre top, pointing up-right) -->
+  <g transform="translate(20,60) rotate(-20) scale(0.13) translate(-100,-148)" opacity="0.18">
+    <path d="M 97 148 C 92 112 95 74 100 36 C 105 74 108 112 103 148 Z" fill="#C9A24B"/>
+    <path d="M 97 148 C 92 112 95 74 100 36 C 105 74 108 112 103 148 Z"
+          fill="#C9A24B" transform="rotate(-27 100 148)"/>
+    <path d="M 97 148 C 92 112 95 74 100 36 C 105 74 108 112 103 148 Z"
+          fill="#C9A24B" transform="rotate(27 100 148)"/>
+  </g>
+
+  <!-- Second feather (offset for tiling, pointing up-left) -->
+  <g transform="translate(60,20) rotate(160) scale(0.13) translate(-100,-148)" opacity="0.12">
+    <path d="M 97 148 C 92 112 95 74 100 36 C 105 74 108 112 103 148 Z" fill="#C9A24B"/>
+    <path d="M 97 148 C 92 112 95 74 100 36 C 105 74 108 112 103 148 Z"
+          fill="#C9A24B" transform="rotate(-27 100 148)"/>
+    <path d="M 97 148 C 92 112 95 74 100 36 C 105 74 108 112 103 148 Z"
+          fill="#C9A24B" transform="rotate(27 100 148)"/>
+  </g>
+
+  <!-- Small leaf accent (bottom right corner) -->
+  <path d="M 68 72 C 58 62 60 48 68 44 C 72 50 74 62 68 72 Z"
+        fill="#C9A24B" opacity="0.09"/>
+
+  <!-- Small leaf accent (top left corner) -->
+  <path d="M 12 8 C 22 18 20 32 12 36 C 8 30 6 18 12 8 Z"
+        fill="#C9A24B" opacity="0.07"/>
+</svg>

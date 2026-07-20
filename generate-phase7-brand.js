@@ -305,7 +305,7 @@ ${NAV}
     <div class="cert-card">
       <span class="cert-icon">🌍</span>
       <h3>Cumplimiento RGPD</h3>
-      <p>Gestión de datos de clientes conforme al Reglamento General de Protección de Datos de la UE. Email como único canal de comunicación — sin WhatsApp ni telemarketing.</p>
+      <p>Gestión de datos de clientes conforme al Reglamento General de Protección de Datos de la UE. Email como único canal de comunicación — sin correo electrónico ni telemarketing.</p>
       <span class="cert-badge">✓ RGPD 2016/679 UE</span>
     </div>
     <div class="cert-card">

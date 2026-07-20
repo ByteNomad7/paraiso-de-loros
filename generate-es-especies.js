@@ -505,7 +505,7 @@ function makePage(sp) {
 
   const relatedCards = sp.relatedSlugs.map((slug, i) => {
     const thumb = slugToImg[slug];
-    const thumbSrc = thumb ? thumb.img : '/images/logo/paraiso-de-aves-logo-light.webp';
+    const thumbSrc = thumb ? thumb.img : '/images/logo/paraiso-de-aves-logo-light.png';
     const thumbAlt = thumb ? thumb.alt : sp.relatedSpeciesLabels[i];
     return `
       <a class="es-rel-card" href="/es/especies/${slug}/">

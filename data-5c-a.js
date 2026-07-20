@@ -1230,7 +1230,7 @@ En paraisodeaves, <strong>todas nuestras aves son criadas en nuestras instalacio
 
 Esta guía explica exactamente cómo funciona el proceso de reserva en un criadero responsable, qué debes esperar en cada paso y cómo proteger tus derechos como comprador. Consulta también nuestras <a href="/blog/preguntas-criador-loros-antes-comprar.html">25 preguntas clave que hacerle a un criador</a> antes de comprometerte.`},
 {h2:'Paso 1: Primer contacto y consulta de disponibilidad',
-content:`El proceso comienza siempre con una consulta. En paraisodeaves, el canal de contacto es exclusivamente por correo electrónico a <strong>paraisodeloros@gmail.com</strong>. No ofrecemos WhatsApp ni teléfono —esta política nos permite dar respuestas más documentadas y mantener un registro escrito de toda la comunicación.
+content:`El proceso comienza siempre con una consulta. En paraisodeaves, el canal de contacto es exclusivamente por correo electrónico a <strong>paraisodeloros@gmail.com</strong>. El contacto es exclusivamente por correo —esta política nos permite dar respuestas más documentadas y mantener un registro escrito de toda la comunicación.
 
 En tu primer mensaje, incluye:
 <ul>
