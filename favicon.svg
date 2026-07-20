@@ -1,29 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Paraíso de Aves — Favicon
+  Bold macaw head · thick gold ring · dark green BG
+  No text · No leaf · No body
+  Optimised for 16×16 / 32×32 / 48×48
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <defs>
-    <linearGradient id="gH" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#6B5118"/>
-      <stop offset="50%"  stop-color="#E8C97A"/>
-      <stop offset="100%" stop-color="#6B5118"/>
-    </linearGradient>
-    <linearGradient id="gV" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%"   stop-color="#F4E49C"/>
-      <stop offset="100%" stop-color="#7A5E1A"/>
-    </linearGradient>
-    <radialGradient id="bg" cx="50%" cy="35%" r="70%">
-      <stop offset="0%"   stop-color="#254637"/>
-      <stop offset="100%" stop-color="#0C1C11"/>
-    </radialGradient>
+    <clipPath id="fc">
+      <circle cx="50" cy="50" r="49"/>
+    </clipPath>
   </defs>
-  <circle cx="100" cy="100" r="100" fill="url(#bg)"/>
-  <circle cx="100" cy="100" r="97"  fill="none" stroke="url(#gH)" stroke-width="3"/>
-  <!-- Gold arc -->
-  <path d="M 31 68 A 76 76 0 0 1 169 68"
-        fill="none" stroke="url(#gH)" stroke-width="9" stroke-linecap="round"/>
-  <!-- Three feathers -->
-  <path d="M 97 148 C 92 112 95 74 100 36 C 105 74 108 112 103 148 Z" fill="url(#gV)"/>
-  <path d="M 97 148 C 92 112 95 74 100 36 C 105 74 108 112 103 148 Z"
-        fill="#D4AB52" opacity="0.84" transform="rotate(-27 100 148)"/>
-  <path d="M 97 148 C 92 112 95 74 100 36 C 105 74 108 112 103 148 Z"
-        fill="#D4AB52" opacity="0.84" transform="rotate(27 100 148)"/>
-  <circle cx="100" cy="148" r="3" fill="url(#gV)"/>
+
+  <!-- Background -->
+  <circle cx="50" cy="50" r="50" fill="#183C2E"/>
+
+  <!-- THICK gold ring — dominant at small sizes -->
+  <circle cx="50" cy="50" r="44" fill="none"
+          stroke="#C89B3C" stroke-width="9"/>
+
+  <!-- GOLD HEAD (macaw facing upper-right) -->
+  <path d="M 68 20
+           C 62 14 54 10 44 10
+           C 36 10 28 14 24 22
+           C 18 30 14 40 14 50
+           C 12 62 16 74 24 80
+           C 30 86 40 88 50 86
+           C 60 84 70 78 74 70
+           C 78 62 80 52 78 44
+           C 76 38 74 32 72 30
+           C 68 28 66 24 68 20 Z"
+        fill="#C89B3C" clip-path="url(#fc)"/>
+
+  <!-- GREEN HEAD CAP -->
+  <path d="M 36 14
+           C 36 6 44 4 52 6
+           C 60 8 66 12 68 20
+           C 68 24 64 26 60 26
+           C 52 26 44 24 40 20
+           C 38 18 36 16 36 14 Z"
+        fill="#183C2E" clip-path="url(#fc)"/>
+
+  <!-- IVORY FACE PATCH -->
+  <ellipse cx="68" cy="38" rx="7" ry="10"
+           fill="#F8F5EF"
+           transform="rotate(-30 68 38)"
+           clip-path="url(#fc)"/>
+
+  <!-- UPPER BEAK — large hook, most recognisable macaw feature -->
+  <path d="M 64 22
+           C 68 14 76 10 82 16
+           C 86 20 86 28 82 32
+           C 78 28 74 26 70 28
+           C 68 28 66 26 64 22 Z"
+        fill="#0C0904" clip-path="url(#fc)"/>
+
+  <!-- LOWER BEAK HOOK -->
+  <path d="M 80 32
+           C 82 38 80 46 74 48
+           C 70 48 68 44 70 38
+           C 72 34 76 32 80 32 Z"
+        fill="#0C0904" clip-path="url(#fc)"/>
+
+  <!-- EYE — visible even at 16px -->
+  <circle cx="54" cy="28" r="6.5"  fill="#0C0904" clip-path="url(#fc)"/>
+  <circle cx="54" cy="28" r="3"    fill="#F8F5EF" clip-path="url(#fc)"/>
+  <circle cx="55.5" cy="26.5" r="1.2" fill="#0C0904" clip-path="url(#fc)"/>
+
 </svg>

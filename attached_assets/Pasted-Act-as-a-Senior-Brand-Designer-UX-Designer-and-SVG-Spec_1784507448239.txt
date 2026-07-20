@@ -1,0 +1,193 @@
+Act as a Senior Brand Designer, UX Designer and SVG Specialist.
+
+Refine the Paraíso de Aves logo into a world-class premium brand mark.
+
+Do NOT create a completely new concept.
+
+Use the current logo as the foundation and improve it dramatically.
+
+====================================================
+PRIMARY GOAL
+====================================================
+
+The logo must look exceptional inside the website header.
+
+It should feel comparable to premium brands like Rolex, Four Seasons or National Geographic.
+
+====================================================
+SIMPLIFY
+====================================================
+
+The current logo contains too much detail.
+
+Simplify the illustration while keeping it elegant.
+
+Remove tiny decorative details that disappear at small sizes.
+
+Every element must remain recognizable at 32px.
+
+====================================================
+ICON
+====================================================
+
+Redesign the bird emblem.
+
+Requirements:
+
+• Bold macaw silhouette
+• Cleaner feather shapes
+• Stronger beak
+• Better balance
+• Minimal internal lines
+• Thick premium circular border
+• Elegant tropical inspiration
+• Timeless vector style
+
+Avoid:
+
+• Clipart
+• Cartoon appearance
+• Thin outlines
+• Overly detailed feathers
+• AI-looking gradients
+
+====================================================
+TYPOGRAPHY
+====================================================
+
+Make "PARAÍSO" the hero.
+
+Increase its visual weight.
+
+Improve kerning and spacing.
+
+"de Aves"
+
+should be:
+
+• noticeably smaller
+• elegant
+• secondary
+• perfectly aligned
+
+Remove unnecessary decorative lines.
+
+====================================================
+HEADER OPTIMIZATION
+====================================================
+
+The header and footer use a dark forest green background.
+
+Optimize the logo specifically for this environment.
+
+Increase contrast.
+
+Increase readability.
+
+Increase presence.
+
+The logo should occupy approximately 220–260px width in the desktop header.
+
+Create proper padding around the logo.
+
+Do not allow the logo to push navigation too far to the right.
+
+====================================================
+TAGLINE
+====================================================
+
+Remove the tagline from the header logo.
+
+It becomes unreadable at navigation size.
+
+Instead:
+
+Use the tagline only:
+
+• homepage hero
+• footer
+• About page
+• printed material
+
+====================================================
+COLOUR
+====================================================
+
+Use only:
+
+Forest Green
+#183C2E
+
+Luxury Gold
+#C89B3C
+
+Ivory
+#F8F5EF
+
+Avoid additional colours.
+
+====================================================
+RESPONSIVE
+====================================================
+
+Generate:
+
+Desktop logo
+
+Compact logo
+
+Mobile logo
+
+Icon-only logo
+
+====================================================
+FAVICON
+====================================================
+
+Create a completely separate favicon.
+
+Do NOT shrink the full logo.
+
+The favicon should consist only of:
+
+• bold macaw head
+• thick gold circular border
+• dark green background
+
+No text.
+
+No leaf.
+
+No small details.
+
+It must remain perfectly recognisable at:
+
+16×16
+32×32
+48×48
+
+====================================================
+IMPLEMENTATION
+====================================================
+
+Replace:
+
+• Header logo
+• Footer logo
+• Favicon
+• Apple Touch Icon
+• Open Graph image
+• Browser icons
+• Manifest icons
+
+Use optimized SVG wherever possible.
+
+====================================================
+FINAL QUALITY CHECK
+====================================================
+
+The logo should be instantly recognizable after a single glance.
+
+If viewed beside Apple, Rolex, Ferrari, National Geographic or Four Seasons branding, it should feel equally premium, timeless and professionally crafted.
+
+Prioritize simplicity, balance, elegance and memorability over decorative detail.
