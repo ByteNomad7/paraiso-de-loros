@@ -1,0 +1,213 @@
+Act as the SEO Director for Paraíso de Aves.
+
+MISSION
+
+Stop creating strategy documents.
+
+Design a complete production system that allows every future French page to be built consistently, audited automatically and published at enterprise quality.
+
+The objective is to create a repeatable workflow that scales from 145 pages to 1,000+ pages without sacrificing quality.
+
+Do not create content.
+
+Do not modify production pages.
+
+====================================================
+STEP 1
+PAGE STANDARDS
+====================================================
+
+Define mandatory quality standards for every page type:
+
+• Commercial pages
+• Species pages
+• Bird profile pages
+• FAQ pages
+• City pages
+• Blog articles
+• Knowledge pages
+
+For each page type define:
+
+• minimum word depth
+• heading structure
+• metadata requirements
+• schema requirements
+• image requirements
+• internal links
+• CTA requirements
+• EEAT requirements
+• accessibility requirements
+
+====================================================
+STEP 2
+EDITORIAL CHECKLISTS
+====================================================
+
+Create publication checklists.
+
+No page can be published unless every requirement passes.
+
+====================================================
+STEP 3
+AUTOMATED QA
+====================================================
+
+Design automatic validation for:
+
+✓ title
+
+✓ meta description
+
+✓ canonical
+
+✓ hreflang
+
+✓ H1
+
+✓ schema
+
+✓ image alts
+
+✓ internal links
+
+✓ broken links
+
+✓ orphan pages
+
+✓ duplicate metadata
+
+✓ duplicate schema
+
+✓ Lighthouse readiness
+
+====================================================
+STEP 4
+SEO DASHBOARD
+====================================================
+
+Design an internal dashboard showing:
+
+Pages published
+
+Pages indexed
+
+Commercial pages
+
+Species pages
+
+Bird profiles
+
+FAQ pages
+
+City pages
+
+Internal-link health
+
+Schema health
+
+Core Web Vitals
+
+Topical Authority progress
+
+Technical SEO score
+
+EEAT score
+
+Conversion score
+
+====================================================
+STEP 5
+CONTENT PIPELINE
+====================================================
+
+Create a publishing workflow:
+
+Idea
+
+↓
+
+Keyword validation
+
+↓
+
+Architecture approval
+
+↓
+
+Writing
+
+↓
+
+SEO review
+
+↓
+
+Schema validation
+
+↓
+
+Internal-link validation
+
+↓
+
+QA
+
+↓
+
+Publication
+
+↓
+
+Index monitoring
+
+↓
+
+Performance review
+
+====================================================
+STEP 6
+MONTHLY AUDITS
+====================================================
+
+Design recurring audits for:
+
+Technical SEO
+
+Content quality
+
+Internal linking
+
+Schema
+
+Performance
+
+Conversions
+
+Entity coverage
+
+Topical authority
+
+====================================================
+OUTPUT
+====================================================
+
+Generate:
+
+SEO-PRODUCTION-STANDARDS.md
+
+PAGE-TEMPLATES.md
+
+QA-CHECKLISTS.md
+
+SEO-DASHBOARD-SPECIFICATION.md
+
+CONTENT-PRODUCTION-WORKFLOW.md
+
+MONTHLY-AUDIT-PROCEDURES.md
+
+SCALING-ROADMAP.md
+
+Do not modify production files.
+
+The goal is to build an enterprise SEO operating system for the French section.

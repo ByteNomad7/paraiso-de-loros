@@ -1,0 +1,255 @@
+Act as an Enterprise Semantic SEO Engineer, Knowledge Graph Architect, Entity SEO Specialist and Technical SEO Lead.
+
+DO NOT create blog articles.
+
+DO NOT create random pages.
+
+Your task is to transform the French section of Paraíso de Aves into a complete semantic entity network.
+
+====================================================
+MISSION
+====================================================
+
+Google should understand every parrot species as a unique entity with defined relationships.
+
+The website must become a semantic knowledge graph rather than a collection of pages.
+
+====================================================
+STEP 1 — ENTITY INVENTORY
+====================================================
+
+Audit every French page.
+
+Identify every entity including:
+
+Species
+
+Subspecies
+
+Individual birds
+
+Bird colours
+
+DNA sex
+
+Age
+
+Hand-raised
+
+Parent-raised
+
+CITES
+
+Health guarantee
+
+Delivery
+
+Country
+
+French cities
+
+Food
+
+Cages
+
+Toys
+
+Training
+
+Behaviour
+
+Talking ability
+
+Noise level
+
+Intelligence
+
+Lifespan
+
+Price
+
+Availability
+
+Customer support
+
+Breeder
+
+Payment
+
+Adoption
+
+FAQ topics
+
+====================================================
+STEP 2 — ENTITY RELATIONSHIPS
+====================================================
+
+Build the relationship graph.
+
+Example:
+
+African Grey
+
+↓
+
+Talking ability
+
+↓
+
+Training guide
+
+↓
+
+Available African Greys
+
+↓
+
+Individual African Grey
+
+↓
+
+Price guide
+
+↓
+
+FAQ
+
+↓
+
+Contact
+
+Repeat for every major species.
+
+====================================================
+STEP 3 — SCHEMA
+====================================================
+
+Audit every entity.
+
+Recommend correct schema usage including:
+
+Organization
+
+WebSite
+
+CollectionPage
+
+Product
+
+ItemList
+
+FAQPage
+
+BreadcrumbList
+
+Article
+
+BlogPosting
+
+ImageObject
+
+Offer
+
+AggregateRating (only where factual)
+
+Person (only where factual)
+
+LocalBusiness (only where applicable)
+
+Never fabricate structured data.
+
+====================================================
+STEP 4 — INTERNAL LINK GRAPH
+====================================================
+
+Create an ideal semantic link graph.
+
+Species
+
+↓
+
+Buying guides
+
+↓
+
+Price pages
+
+↓
+
+Bird profiles
+
+↓
+
+FAQs
+
+↓
+
+Knowledge hub
+
+↓
+
+Contact
+
+Ensure no orphan entities exist.
+
+====================================================
+STEP 5 — ENTITY GAPS
+====================================================
+
+Identify:
+
+Missing entities
+
+Weak entities
+
+Duplicate entities
+
+Entities needing stronger supporting content
+
+Entities with insufficient internal links
+
+Entities without schema
+
+====================================================
+STEP 6 — TOPICAL AUTHORITY SCORE
+====================================================
+
+Score every major entity from 1–10 for:
+
+Authority
+
+Depth
+
+Internal linking
+
+Commercial intent
+
+Supporting content
+
+Trust
+
+Schema implementation
+
+====================================================
+OUTPUT
+====================================================
+
+Generate:
+
+ENTITY-INVENTORY.md
+
+ENTITY-RELATIONSHIP-GRAPH.md
+
+ENTITY-GAPS.md
+
+ENTITY-SCHEMA-AUDIT.md
+
+SEMANTIC-LINK-GRAPH.md
+
+TOPICAL-AUTHORITY-SCORES.md
+
+SEMANTIC-ROADMAP.md
+
+Do not modify production pages.
+
+Produce a detailed implementation roadmap ranked by SEO impact.

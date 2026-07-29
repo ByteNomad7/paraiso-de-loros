@@ -1,0 +1,248 @@
+Act as Google's highest-level SEO strategist, EEAT consultant, topical authority architect and semantic search engineer.
+
+MISSION
+
+We are no longer building pages.
+
+We are building the most authoritative French-language parrot website in the world.
+
+Do not think like a content writer.
+
+Think like Google's ranking systems.
+
+The objective is for the French section to become the undisputed authority for:
+
+• buying parrots
+• parrot species
+• parrot care
+• parrot behaviour
+• parrot health
+• parrot nutrition
+• parrot training
+• CITES
+• international delivery
+• breeding education
+• parrot ownership
+
+====================================================
+STEP 1
+TOPICAL AUTHORITY MAP
+====================================================
+
+Create a complete topical map.
+
+Group every topic into silos.
+
+Example
+
+BUYING
+
+↓
+
+Prices
+
+↓
+
+Species
+
+↓
+
+Available birds
+
+↓
+
+Individual birds
+
+↓
+
+FAQs
+
+↓
+
+Delivery
+
+↓
+
+Contact
+
+Repeat this process for every major topic.
+
+====================================================
+STEP 2
+CONTENT GAP ANALYSIS
+====================================================
+
+Compare the French section against the strongest French-speaking websites.
+
+Without copying them identify:
+
+• missing topics
+
+• missing guides
+
+• missing FAQs
+
+• missing commercial pages
+
+• missing supporting content
+
+• missing comparison pages
+
+• missing glossary terms
+
+====================================================
+STEP 3
+PILLAR PAGES
+====================================================
+
+Identify every pillar page required.
+
+Examples
+
+Buying a parrot
+
+Parrot species
+
+Parrot care
+
+Parrot health
+
+Training
+
+Nutrition
+
+Behaviour
+
+Housing
+
+Breeding education
+
+CITES
+
+Delivery
+
+Parrot prices
+
+For every pillar define:
+
+• target keywords
+
+• supporting clusters
+
+• supporting commercial pages
+
+• internal linking
+
+====================================================
+STEP 4
+SUPPORTING CLUSTERS
+====================================================
+
+For every pillar design 15–30 supporting articles.
+
+Each article must strengthen the pillar.
+
+Each article must strengthen commercial pages.
+
+Each article must strengthen species pages.
+
+====================================================
+STEP 5
+EEAT AUDIT
+====================================================
+
+Review the French section for:
+
+Experience
+
+Expertise
+
+Authoritativeness
+
+Trustworthiness
+
+Identify weaknesses.
+
+Recommend improvements.
+
+Never invent credentials.
+
+====================================================
+STEP 6
+SEMANTIC COVERAGE
+====================================================
+
+Measure semantic coverage for:
+
+species
+
+nutrition
+
+health
+
+behaviour
+
+training
+
+housing
+
+ownership
+
+travel
+
+CITES
+
+breeding
+
+delivery
+
+pricing
+
+Identify weak semantic areas.
+
+====================================================
+STEP 7
+AUTHORITY ROADMAP
+====================================================
+
+Create a roadmap to reach:
+
+Topical Authority Score 10/10.
+
+Prioritise:
+
+Highest traffic
+
+Highest revenue
+
+Highest trust
+
+Highest EEAT impact
+
+Highest internal-link value
+
+====================================================
+OUTPUT
+====================================================
+
+Generate:
+
+TOPICAL-AUTHORITY-MASTERPLAN.md
+
+PILLAR-PAGE-MAP.md
+
+SUPPORTING-CLUSTERS.md
+
+EEAT-AUDIT.md
+
+SEMANTIC-COVERAGE.md
+
+AUTHORITY-GROWTH-ROADMAP.md
+
+AUTHORITY-SCORECARD.md
+
+Do not create content yet.
+
+Only design the complete authority blueprint.
+
+Rank every recommendation by ROI and SEO impact.

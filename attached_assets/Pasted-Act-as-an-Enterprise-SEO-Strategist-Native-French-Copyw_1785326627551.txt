@@ -1,0 +1,167 @@
+Act as an Enterprise SEO Strategist, Native French Copywriter, Information Architect and Conversion Optimisation Specialist.
+
+You are authorised to build ONLY the following page:
+
+/fr/perroquet-qui-parle/
+
+This page will become the pillar page for the entire "Talking Parrots" topical cluster.
+
+====================================================
+OBJECTIVE
+====================================================
+
+Create the definitive French-language commercial guide for people searching for talking parrots.
+
+The page must satisfy:
+
+- informational intent
+- commercial intent
+- comparison intent
+- beginner intent
+- buying intent
+
+It should become the strongest page in the French section for this topic.
+
+Write for humans first.
+
+Never force keywords.
+
+====================================================
+CONTENT STRUCTURE
+====================================================
+
+Create:
+
+• unique SEO title
+
+• compelling meta description
+
+• one H1
+
+• engaging introduction
+
+Then include sections covering:
+
+- What makes a parrot capable of talking?
+- Which species speak the best?
+- African Grey
+- Blue & Gold Macaw
+- Amazon Parrots
+- Eclectus
+- Cockatoos
+- Conures
+- Senegal Parrot
+- Ringneck Parakeet
+- Which species is best for beginners?
+- Which species is best for families?
+- Which species is easiest to train?
+- Which species has the clearest speech?
+- Common myths about talking parrots
+- Buying advice
+- Frequently Asked Questions
+- Strong enquiry CTA
+
+====================================================
+SEO
+====================================================
+
+Implement:
+
+• FAQPage schema
+
+• BreadcrumbList
+
+• CollectionPage schema
+
+• Open Graph
+
+• Twitter Cards
+
+• Canonical
+
+====================================================
+INTERNAL LINKS
+====================================================
+
+Naturally link to:
+
+• African Grey guide
+
+• Amazon guide
+
+• Macaw guide
+
+• Cockatoo guide
+
+• Eclectus guide
+
+• Conure guide
+
+• Available parrots
+
+• Buying guide
+
+• Delivery page
+
+• Health guarantee
+
+• Contact page
+
+• Related FAQ pages
+
+====================================================
+RELATED CONTENT
+====================================================
+
+At the bottom include a section:
+
+"Related guides"
+
+Prepare internal links for future pages including:
+
+- Best parrots for apartments
+- Best parrots for families
+- Baby parrots
+- Small parrots
+- Quiet parrots
+- African Grey prices
+- How to teach a parrot to talk
+
+If those pages do not yet exist, leave placeholder internal-link components ready for activation.
+
+====================================================
+QUALITY
+====================================================
+
+The page must read like it was written by an experienced native French bird specialist.
+
+Avoid repetition.
+
+Avoid filler.
+
+Avoid machine-translated phrasing.
+
+Prioritise readability, authority and trust.
+
+====================================================
+OUTPUT
+====================================================
+
+Implement the page.
+
+Generate:
+
+BUILD-REPORT-PERROQUET-QUI-PARLE.md
+
+including:
+
+- files created
+- files modified
+- metadata
+- schema
+- internal links
+- QA checklist
+- Lighthouse readiness
+- Search Console readiness
+
+Do not build any other pages during this phase.

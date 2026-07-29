@@ -1,0 +1,303 @@
+Act as an Enterprise Brand Strategist, UX Director, EEAT Consultant, CRO Specialist and Technical SEO Architect.
+
+MISSION
+
+Transform the French section of Paraíso de Aves into the most trustworthy and premium parrot website in the French-speaking market.
+
+Do NOT create blog articles.
+
+Do NOT create new species pages.
+
+Do NOT create new city pages.
+
+Instead, audit and redesign every trust and conversion element.
+
+====================================================
+STEP 1
+TRUST AUDIT
+====================================================
+
+Review every French page.
+
+Evaluate whether a first-time visitor immediately understands:
+
+• who Paraíso de Aves is
+
+• what the company offers
+
+• why customers should trust us
+
+• how birds are raised
+
+• health procedures
+
+• DNA testing
+
+• veterinary care
+
+• CITES compliance
+
+• delivery process
+
+• enquiry process
+
+• customer support
+
+Identify every trust weakness.
+
+====================================================
+STEP 2
+CONVERSION JOURNEY
+====================================================
+
+Map the complete customer journey.
+
+Landing Page
+
+↓
+
+Commercial Page
+
+↓
+
+Species Guide
+
+↓
+
+Available Bird
+
+↓
+
+Bird Profile
+
+↓
+
+Enquiry
+
+↓
+
+Confirmation
+
+↓
+
+Follow-up
+
+Find every point where users may abandon the journey.
+
+Recommend improvements.
+
+====================================================
+STEP 3
+PREMIUM DESIGN AUDIT
+====================================================
+
+Review:
+
+Typography
+
+Spacing
+
+Cards
+
+Buttons
+
+Icons
+
+Colours
+
+Photography
+
+Animations
+
+Header
+
+Footer
+
+Navigation
+
+Mobile experience
+
+Accessibility
+
+Visual hierarchy
+
+Recommend improvements that create a luxury experience similar to premium international brands.
+
+====================================================
+STEP 4
+TRUST CONTENT
+====================================================
+
+Identify all trust-building components that should exist, including:
+
+Health Guarantee
+
+DNA Testing Process
+
+Veterinary Checks
+
+Transport Standards
+
+CITES Documentation
+
+Frequently Asked Questions
+
+Customer Testimonials
+
+Photo Galleries
+
+Breeder Philosophy
+
+Parrot Welfare
+
+Ethical Practices
+
+Payment Process
+
+Delivery Timeline
+
+After-Sales Support
+
+Do not invent credentials or certifications.
+
+====================================================
+STEP 5
+ENTITY TRUST
+====================================================
+
+Ensure every species page clearly connects to:
+
+Available Birds
+
+Health Information
+
+Delivery
+
+Guarantees
+
+Contact
+
+Related Guides
+
+FAQs
+
+Commercial Pages
+
+Knowledge Hub
+
+====================================================
+STEP 6
+IMAGE AUTHORITY
+====================================================
+
+Audit all French imagery.
+
+Check:
+
+Image quality
+
+Species accuracy
+
+Consistency
+
+Gallery depth
+
+Alt text
+
+File names
+
+Responsive loading
+
+WebP/AVIF
+
+Missing photos
+
+Identify pages where additional authentic bird photography would significantly increase trust.
+
+====================================================
+STEP 7
+MOBILE EXPERIENCE
+====================================================
+
+Audit the entire French section on mobile.
+
+Review:
+
+Navigation
+
+Touch targets
+
+Forms
+
+Buttons
+
+Image loading
+
+Scrolling
+
+Sticky elements
+
+CTA visibility
+
+Accessibility
+
+Loading speed
+
+Identify all mobile conversion issues.
+
+====================================================
+STEP 8
+EEAT IMPROVEMENTS
+====================================================
+
+Recommend practical improvements that strengthen:
+
+Experience
+
+Expertise
+
+Authoritativeness
+
+Trustworthiness
+
+Without fabricating any credentials.
+
+====================================================
+OUTPUT
+====================================================
+
+Generate:
+
+BRAND-AUTHORITY-AUDIT.md
+
+UX-IMPROVEMENT-PLAN.md
+
+TRUST-SIGNALS.md
+
+CONVERSION-FLOW.md
+
+IMAGE-AUTHORITY-AUDIT.md
+
+MOBILE-UX-AUDIT.md
+
+EEAT-IMPROVEMENT-PLAN.md
+
+PREMIUM-BRAND-ROADMAP.md
+
+Rank every recommendation by:
+
+High ROI
+
+Medium ROI
+
+Low ROI
+
+Expected SEO impact
+
+Expected conversion impact
+
+Implementation complexity
+
+Do not modify production files.
+
+Produce a complete implementation roadmap ready for execution.

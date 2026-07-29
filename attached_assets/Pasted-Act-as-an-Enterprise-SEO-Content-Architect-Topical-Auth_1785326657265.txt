@@ -1,0 +1,176 @@
+Act as an Enterprise SEO Content Architect, Topical Authority Specialist, Technical SEO Engineer and Native French Copywriter.
+
+====================================================
+MISSION
+====================================================
+
+We are no longer building individual pages.
+
+We are now building complete topical authority clusters.
+
+The first cluster is:
+
+"TALKING PARROTS"
+
+The objective is to create the strongest French-language topical cluster on this subject.
+
+Do not build unrelated pages.
+
+Everything must reinforce the pillar page:
+
+/fr/perroquet-qui-parle/
+
+====================================================
+CLUSTER STRUCTURE
+====================================================
+
+Audit the existing French architecture.
+
+Determine which pages already exist.
+
+Do NOT duplicate existing content.
+
+Only create pages that are genuinely missing.
+
+The cluster should include pages such as:
+
+• /fr/perroquet-qui-parle/
+(Pillar)
+
+• /fr/comment-apprendre-a-un-perroquet-a-parler/
+
+• /fr/pourquoi-mon-perroquet-ne-parle-pas/
+
+• /fr/les-perroquets-les-plus-intelligents/
+
+• /fr/perroquet-qui-parle-le-mieux/
+
+• /fr/perroquet-pour-debutant/
+
+• /fr/perroquet-pour-famille/
+
+• /fr/perroquet-appartement/
+
+• /fr/perroquets-calmes/
+
+• /fr/petits-perroquets/
+
+• /fr/perroquets-bebes/
+
+• FAQ pages related to talking parrots
+
+====================================================
+FOR EACH PAGE
+====================================================
+
+Implement:
+
+• unique title
+
+• meta description
+
+• H1
+
+• semantic headings
+
+• original French copy
+
+• internal links
+
+• FAQ
+
+• schema
+
+• Open Graph
+
+• Twitter Cards
+
+• BreadcrumbList
+
+• canonical
+
+====================================================
+INTERNAL LINKING
+====================================================
+
+Every page must link naturally to:
+
+• the pillar page
+
+• relevant species guides
+
+• commercial buying pages
+
+• available parrots
+
+• delivery page
+
+• health guarantee
+
+• contact page
+
+• related FAQs
+
+Likewise, the pillar page must link back to every supporting page.
+
+====================================================
+TOPICAL AUTHORITY
+====================================================
+
+Design the cluster so Google clearly understands that Paraíso de Aves is an authority on:
+
+• talking parrots
+
+• intelligent parrots
+
+• family parrots
+
+• apartment parrots
+
+• beginner parrots
+
+• hand-raised parrots
+
+• buying parrots
+
+====================================================
+QUALITY
+====================================================
+
+Every page must:
+
+• be genuinely useful
+
+• avoid duplicated sections
+
+• avoid keyword stuffing
+
+• read naturally in professional French
+
+• satisfy search intent
+
+====================================================
+OUTPUT
+====================================================
+
+After implementation generate:
+
+TALKING-PARROTS-CLUSTER-REPORT.md
+
+including:
+
+1. pages created
+
+2. pages updated
+
+3. internal links added
+
+4. schema implemented
+
+5. keyword coverage
+
+6. topical authority score
+
+7. remaining gaps
+
+Do not begin another topical cluster until this one is fully complete and validated.
