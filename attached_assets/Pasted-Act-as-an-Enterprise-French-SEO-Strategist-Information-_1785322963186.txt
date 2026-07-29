@@ -1,0 +1,261 @@
+Act as an Enterprise French SEO Strategist, Information Architect and Senior Content Planner.
+
+Do NOT write the pages yet.
+
+Do NOT modify existing content.
+
+Your task is to design the complete implementation plan for Phase 2: French Commercial Dominance.
+
+====================================================
+OBJECTIVE
+====================================================
+
+Design a commercial content architecture that will make the French section the strongest revenue-generating section of Paraíso de Aves.
+
+The architecture must be based on genuine French-language search intent.
+
+Do not copy the Spanish structure unless it is also the best solution for French users.
+
+====================================================
+1. AUDIT CURRENT COMMERCIAL PAGES
+====================================================
+
+Review every commercial page under /fr/.
+
+For each page analyse:
+
+- target keyword
+- search intent
+- title
+- H1
+- URL
+- internal links
+- CTA
+- schema
+- supporting articles
+- conversion strength
+- overlap with other pages
+
+Identify:
+
+- weak pages
+- missing pages
+- duplicate intent
+- keyword cannibalisation
+- opportunities for consolidation
+
+====================================================
+2. KEYWORD CLUSTERS
+====================================================
+
+Build a commercial keyword map.
+
+Cluster keywords by intent, including but not limited to:
+
+Buying
+Species
+Prices
+Delivery
+Beginners
+Families
+Apartments
+Talking parrots
+Hand-raised parrots
+Baby parrots
+Small parrots
+Large parrots
+Quiet parrots
+Easy parrots
+Rare parrots
+
+For every cluster provide:
+
+Primary keyword
+
+Supporting keywords
+
+Search intent
+
+Commercial value
+
+Recommended landing page
+
+Priority
+
+Difficulty
+
+====================================================
+3. MONEY PAGE ROADMAP
+====================================================
+
+Design the next 25 highest-priority commercial landing pages.
+
+For every page provide:
+
+URL
+
+SEO title
+
+H1
+
+Primary keyword
+
+Secondary keywords
+
+Purpose
+
+Target audience
+
+Commercial CTA
+
+Supporting articles required
+
+Related species pages
+
+Internal links to receive
+
+Internal links to send
+
+Schema type
+
+Priority
+
+Estimated impact
+
+Do not create the pages yet.
+
+====================================================
+4. CONTENT SILOS
+====================================================
+
+Design a commercial silo structure.
+
+Example:
+
+Talking parrots
+
+↓
+
+African Grey
+
+↓
+
+Available African Greys
+
+↓
+
+Individual birds
+
+↓
+
+FAQ
+
+↓
+
+Care guides
+
+↓
+
+Contact
+
+Repeat for every major buying journey.
+
+====================================================
+5. INTERNAL LINKING
+====================================================
+
+Create the ideal commercial internal-link structure.
+
+Show:
+
+Homepage
+
+↓
+
+Commercial hubs
+
+↓
+
+Species pages
+
+↓
+
+Available birds
+
+↓
+
+Bird profiles
+
+↓
+
+FAQs
+
+↓
+
+Knowledge hub
+
+↓
+
+Contact
+
+Identify weak areas.
+
+====================================================
+6. CONVERSION REVIEW
+====================================================
+
+Review:
+
+CTA placement
+
+Contact buttons
+
+WhatsApp
+
+Trust signals
+
+Health guarantee
+
+DNA testing
+
+Delivery information
+
+Payment information
+
+Testimonials
+
+Inquiry forms
+
+Identify improvements.
+
+====================================================
+7. FINAL REPORT
+====================================================
+
+Generate:
+
+PHASE2-COMMERCIAL-AUDIT.md
+
+COMMERCIAL-KEYWORD-MAP.md
+
+COMMERCIAL-SILO-PLAN.md
+
+TOP-25-MONEY-PAGES.md
+
+COMMERCIAL-INTERNAL-LINKING.md
+
+CONVERSION-IMPROVEMENTS.md
+
+Rank every recommendation as:
+
+Critical
+
+High
+
+Medium
+
+Low
+
+End by recommending the exact order in which the 25 money pages should be built for maximum SEO and commercial impact.
+
+Do not create or modify any pages in this phase.
