@@ -113,11 +113,12 @@ Sitio web estático multilingüe (ES + PT + FR) para paraisodeaves — criadero 
 
 ## Pendiente (Prioridad Alta)
 
-1. **GSC: Request Indexing** — URLs nuevas (PT + FR + especies + 75 posts 5C). Manual en GSC → Inspección de URL.
-2. **Backlinks** — factor limitante principal. Objetivos: guest post en `mascotahogar.com` o `expertoanimal.com`, alta en `centralvet.es`.
-3. **GSC Portugal** — añadir `paraisodeaves.com/pt/` como propiedad de prefijo de URL en GSC.
-4. **Phase 8.1** — Optimización enlazado interno (ver documento de tarea adjunto).
-5. **Imágenes de especies** — subir fotos reales para las 15 nuevas páginas de `/especies/` (filenames ya preparados en cada página).
+1. **GSC: Request Indexing** — Ver guía completa en `docs/gsc-indexing-guide.md`. Ejecutar `node ping-sitemaps.js` (pinga Bing automáticamente), luego submittir sitemaps manualmente en GSC y solicitar indexación de URLs prioritarias via URL Inspection.
+2. **GSC Portugal** — Añadir `https://www.paraisodeaves.com/pt/` como propiedad de prefijo de URL en GSC. Instrucciones en `docs/gsc-indexing-guide.md` §3.
+3. **GSC English** — Añadir `https://www.paraisodeaves.com/en/` como propiedad de prefijo de URL en GSC. Instrucciones en `docs/gsc-indexing-guide.md` §4.
+4. **Backlinks** — factor limitante principal. Objetivos: guest post en `mascotahogar.com` o `expertoanimal.com`, alta en `centralvet.es`.
+5. **Phase 8.1** — Optimización enlazado interno (ver documento de tarea adjunto).
+6. **Imágenes de especies** — subir fotos reales para las 15 nuevas páginas de `/especies/` (filenames ya preparados en cada página).
 
 ---
 
