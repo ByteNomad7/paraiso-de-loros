@@ -1,0 +1,635 @@
+Act as an Enterprise French SEO Strategist, Technical SEO Auditor, Content Architect and Conversion Optimisation Specialist.
+
+Your task is to conduct a complete audit of the French section of Paraíso de Aves and produce a practical roadmap for making the French section stronger, broader and more authoritative than the Spanish section.
+
+IMPORTANT
+
+- Audit first.
+- Do not create new pages yet.
+- Do not rewrite existing content yet.
+- Do not delete or redirect pages.
+- Do not change production files during this phase.
+- Do not audit English, Portuguese or German pages except where required to verify hreflang.
+- Focus primarily on all URLs under /fr/.
+- Use the Spanish section only as a benchmark for comparison.
+- Do not invent products, availability, prices, breeder claims, legal information or delivery coverage.
+- Clearly separate confirmed facts from recommendations.
+
+====================================================
+PRIMARY OBJECTIVE
+====================================================
+
+Determine exactly what must be improved so the French section can become the website’s strongest organic-search market.
+
+The French section should eventually:
+
+- cover more valuable French-language keywords than Spanish
+- have stronger commercial landing pages
+- have deeper species coverage
+- have better city and regional coverage
+- have stronger informational content
+- have better internal linking
+- offer better user experience
+- convert more visitors into enquiries
+- remain useful, trustworthy and compliant with search-engine quality guidelines
+
+====================================================
+1. COMPLETE FRENCH URL INVENTORY
+====================================================
+
+Crawl and catalogue every existing URL under:
+
+/fr/
+
+Group the URLs into:
+
+- homepage
+- available parrots
+- species pages
+- individual bird profiles
+- commercial pages
+- adoption pages
+- breeder pages
+- delivery pages
+- health guarantee pages
+- price pages
+- city and location pages
+- blog articles
+- knowledge-hub pages
+- FAQ pages
+- gallery pages
+- accessories and supplies
+- legal and trust pages
+- contact pages
+- duplicated, obsolete or low-value pages
+
+For every URL report:
+
+- URL
+- page type
+- indexability
+- canonical URL
+- HTTP status
+- title
+- meta description
+- H1
+- approximate content depth
+- internal-link count
+- schema types
+- breadcrumb status
+- image count
+- image-alt status
+- language declaration
+- hreflang status
+- sitemap inclusion
+- content-quality assessment
+- conversion CTA
+- audit priority
+
+====================================================
+2. FRENCH VERSUS SPANISH GAP ANALYSIS
+====================================================
+
+Compare the French section against the Spanish section.
+
+Identify:
+
+- Spanish pages with no French equivalent
+- French pages with no Spanish equivalent
+- stronger Spanish commercial pages
+- stronger French commercial pages
+- missing French species pages
+- missing French city pages
+- missing French price pages
+- missing French adoption pages
+- missing French guides
+- missing French comparisons
+- missing French FAQs
+- missing French individual bird profiles
+- missing French image galleries
+- weaker French internal-linking clusters
+- weaker French metadata
+- weaker French schema
+- weaker French conversion paths
+- untranslated or partially translated components
+- mixed-language content
+- incorrect links between languages
+
+Do not assume every Spanish page should be copied.
+
+Recommend a French equivalent only when it serves genuine French-language search intent.
+
+====================================================
+3. TECHNICAL SEO AUDIT
+====================================================
+
+Audit the entire French section for:
+
+- crawlability
+- indexability
+- robots directives
+- canonical tags
+- hreflang
+- self-referencing hreflang
+- x-default implementation
+- incorrect language targeting
+- duplicate URLs
+- duplicate canonicals
+- redirect chains
+- redirect loops
+- broken links
+- soft 404 pages
+- orphan pages
+- sitemap coverage
+- incorrect sitemap URLs
+- trailing-slash inconsistencies
+- uppercase and lowercase URL duplication
+- HTTP and HTTPS inconsistencies
+- www and non-www inconsistencies
+- structured-data errors
+- Core Web Vitals risks
+- image performance
+- JavaScript rendering risks
+- missing mobile elements
+- pagination and filter indexation
+- accessibility issues affecting SEO
+
+For every issue provide:
+
+- affected URL
+- affected file
+- severity
+- reason
+- exact recommended fix
+
+====================================================
+4. ON-PAGE SEO AUDIT
+====================================================
+
+Check every French page for:
+
+- unique title
+- compelling title length
+- unique meta description
+- one clear H1
+- logical H2 and H3 structure
+- useful introductory copy
+- natural French keyword targeting
+- search-intent alignment
+- descriptive image alt text
+- semantic HTML
+- breadcrumb navigation
+- contextual internal links
+- relevant CTA
+- duplication
+- thin content
+- keyword cannibalisation
+- unnatural keyword repetition
+- machine-translated or awkward French
+- incorrect accents, grammar or terminology
+
+Flag all pages whose French does not feel professionally written for a native French audience.
+
+====================================================
+5. COMMERCIAL KEYWORD AND MONEY-PAGE AUDIT
+====================================================
+
+Assess coverage for high-value French commercial themes such as:
+
+- perroquet à vendre
+- perroquets à vendre
+- acheter un perroquet
+- élevage de perroquets
+- éleveur de perroquets
+- perroquet élevé à la main
+- perroquet disponible
+- livraison de perroquets
+- adoption de perroquets
+- prix des perroquets
+- perroquet gris du Gabon à vendre
+- ara à vendre
+- cacatoès à vendre
+- amazone à vendre
+- eclectus à vendre
+- conure à vendre
+- perroquet pionus à vendre
+
+Do not limit the audit to these examples.
+
+Build a comprehensive French keyword map based on existing architecture and realistic customer intent.
+
+For each proposed keyword cluster report:
+
+- primary keyword
+- supporting keywords
+- search intent
+- recommended page
+- existing URL, if any
+- cannibalisation risk
+- commercial importance
+- content gap
+- priority
+
+====================================================
+6. SPECIES AUTHORITY AUDIT
+====================================================
+
+Audit French coverage for all relevant species and sub-species.
+
+Check whether every important species has:
+
+- a French species landing page
+- correct common name
+- scientific name
+- useful original introduction
+- temperament information
+- care requirements
+- legal or CITES information where applicable
+- available-bird section
+- related individual bird profiles
+- related guides
+- related comparisons
+- FAQs
+- internal links
+- appropriate schema
+- enquiry CTA
+
+Identify missing opportunities such as:
+
+- Gris du Gabon
+- Ara bleu et jaune
+- Ara chloroptère
+- Ara macao
+- Ara hyacinthe
+- Ara Catalina
+- Cacatoès blanc
+- Cacatoès rosalbin
+- Cacatoès de Goffin
+- Cacatoès à huppe jaune
+- Amazone à front bleu
+- Amazone à nuque jaune
+- Amazone à ailes orange
+- Eclectus
+- Conure soleil
+- Conure jenday
+- Conure à joues vertes
+- Caique
+- Pionus
+- Loriquet arc-en-ciel
+- Perroquet du Sénégal
+- Perruche à collier
+- Grand Alexandre
+- Perruche moine
+
+Do not create pages during this audit.
+
+====================================================
+7. LIVE INVENTORY AND BIRD PROFILE AUDIT
+====================================================
+
+Review the French architecture for individual available birds.
+
+Determine whether French species pages can dynamically display all available birds assigned to the species.
+
+Example:
+
+/fr/perroquet-gris-du-gabon/
+
+should eventually display all currently available African Greys.
+
+Audit whether individual French bird profiles support:
+
+- dedicated URL
+- minimum 3 photos
+- image gallery
+- name or bird ID
+- species
+- sex
+- age
+- hatch date
+- DNA status
+- hand-raised or parent-raised status
+- health information
+- CITES information where applicable
+- personality
+- availability
+- price or “Nous contacter”
+- enquiry CTA
+- related birds
+- breadcrumbs
+- Product schema
+- Open Graph metadata
+- sitemap inclusion
+
+Identify all technical and content work required to make this system fully operational in French.
+
+====================================================
+8. FRANCE LOCAL SEO AUDIT
+====================================================
+
+Audit the current French city and location architecture.
+
+Assess coverage for:
+
+- major French cities
+- major metropolitan areas
+- relevant regions
+- genuine delivery areas
+- locations with meaningful commercial intent
+
+Review existing location pages for:
+
+- unique local content
+- city-specific delivery information
+- local FAQs
+- internal links
+- conversion CTA
+- duplicate templates
+- thin content
+- doorway-page risk
+- accurate service coverage
+- title and H1 uniqueness
+- LocalBusiness or Service schema where appropriate
+
+Identify:
+
+- strongest existing city pages
+- weakest city pages
+- missing priority cities
+- pages that should not exist
+- pages requiring consolidation
+- realistic publishing order
+
+Do not recommend mass-producing hundreds of near-identical location pages.
+
+====================================================
+9. FRENCH CONTENT AUTHORITY AUDIT
+====================================================
+
+Audit the French blog and knowledge hub.
+
+Group existing content into topic clusters:
+
+- choosing a parrot
+- buying and adoption
+- species guides
+- prices
+- legal and CITES
+- nutrition
+- health
+- behaviour
+- training
+- housing and cages
+- travelling and delivery
+- family suitability
+- beginner guides
+- comparisons
+- FAQs
+
+Identify:
+
+- missing pillar pages
+- missing supporting articles
+- duplicate topics
+- outdated content
+- thin articles
+- orphan articles
+- weak commercial links
+- weak topical clusters
+- cannibalisation
+- translation-quality problems
+- topics where Spanish is stronger
+- topics where French can surpass Spanish
+
+For every recommended article provide:
+
+- proposed French title
+- target keyword
+- search intent
+- target parent page
+- internal links to add
+- commercial page supported
+- priority
+
+====================================================
+10. INTERNAL-LINKING AUDIT
+====================================================
+
+Map the French internal-link structure.
+
+Verify links among:
+
+- homepage
+- available parrots
+- species pages
+- bird profiles
+- price pages
+- city pages
+- adoption pages
+- delivery pages
+- health guarantee
+- CITES information
+- blog articles
+- knowledge hub
+- FAQs
+- contact page
+
+Identify:
+
+- orphan pages
+- dead-end pages
+- pages with too many links
+- pages with too few links
+- weak anchor text
+- links pointing to Spanish pages
+- broken language paths
+- important pages more than three clicks from the French homepage
+
+Create a proposed French internal-linking architecture.
+
+====================================================
+11. TRUST AND CONVERSION AUDIT
+====================================================
+
+Audit whether French visitors can clearly understand:
+
+- who Paraíso de Aves is
+- available birds
+- adoption process
+- health guarantee
+- DNA testing
+- CITES documentation
+- delivery process
+- payment process
+- breeder credibility
+- contact options
+- expected response process
+
+Review:
+
+- CTA clarity
+- contact forms
+- trust badges
+- testimonials
+- guarantees
+- legal pages
+- shipping information
+- enquiry flow
+- mobile conversion
+- WhatsApp or contact-button placement
+- consistency of French terminology
+
+Do not invent credentials or certifications.
+
+====================================================
+12. STRUCTURED DATA AUDIT
+====================================================
+
+Check French pages for correct use of:
+
+- Organization
+- WebSite
+- BreadcrumbList
+- CollectionPage
+- Product
+- FAQPage
+- Article
+- BlogPosting
+- Service
+- LocalBusiness, only when genuinely applicable
+- ItemList
+
+Identify:
+
+- invalid schema
+- duplicate schema
+- misleading schema
+- missing properties
+- schema applied to the wrong page type
+- Spanish values appearing in French schema
+- inconsistent currency, availability or URLs
+
+====================================================
+13. IMAGE SEO AUDIT
+====================================================
+
+Review French-page imagery for:
+
+- correct species image
+- descriptive French filename
+- descriptive French alt text
+- width and height attributes
+- responsive image sources
+- WebP or AVIF
+- lazy loading
+- oversized files
+- duplicate images
+- missing galleries
+- low-resolution images
+- layout shift
+- incorrect species thumbnails
+
+Prioritise real bird images and avoid generic or mismatched species photography.
+
+====================================================
+14. COMPETITIVE READINESS
+====================================================
+
+Without copying competitors, evaluate whether the French section provides enough depth to compete with strong French-language bird, breeder, pet-care and species-information websites.
+
+Assess:
+
+- commercial depth
+- topical depth
+- species coverage
+- trust
+- content quality
+- usability
+- inventory presentation
+- local relevance
+- technical quality
+- brand authority
+
+State clearly where Paraíso de Aves is:
+
+- ahead
+- competitive
+- behind
+- critically weak
+
+====================================================
+15. PRIORITISED FRENCH DOMINANCE ROADMAP
+====================================================
+
+Create a staged implementation plan.
+
+Phase 1:
+Critical technical and indexation fixes
+
+Phase 2:
+French commercial money pages
+
+Phase 3:
+Species landing pages and live inventory
+
+Phase 4:
+Individual available-bird profiles with at least 3 photos each
+
+Phase 5:
+High-priority France city pages
+
+Phase 6:
+French knowledge hub and topical clusters
+
+Phase 7:
+Internal-linking overhaul
+
+Phase 8:
+Trust and conversion improvements
+
+Phase 9:
+Performance, accessibility and schema QA
+
+Phase 10:
+Final indexing and Search Console readiness
+
+For every phase provide:
+
+- tasks
+- affected URLs
+- expected SEO purpose
+- estimated complexity
+- dependencies
+- priority
+- risks
+- completion criteria
+
+====================================================
+FINAL DELIVERABLES
+====================================================
+
+Produce the following files without changing the live site:
+
+1. FRENCH-SEO-AUDIT.md
+2. FRENCH-SPANISH-GAP-ANALYSIS.md
+3. FRENCH-KEYWORD-MAP.md
+4. FRENCH-CONTENT-GAPS.md
+5. FRENCH-INTERNAL-LINKING-PLAN.md
+6. FRENCH-TECHNICAL-ISSUES.md
+7. FRENCH-DOMINANCE-ROADMAP.md
+8. FRENCH-URL-INVENTORY.csv
+
+The final summary must contain:
+
+1. Correctly implemented
+2. Critical issues
+3. High-priority improvements
+4. Missing French pages
+5. Weak or duplicate pages
+6. Pages that can outperform Spanish
+7. First 20 actions to execute
+8. Recommended order of implementation
+
+Do not implement fixes in this phase.
+
+End by asking for approval before beginning Phase 1.
