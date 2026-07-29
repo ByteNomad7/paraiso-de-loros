@@ -1,0 +1,155 @@
+Act as an Enterprise SEO Content Architect, Senior French Copywriter, Technical SEO Engineer and CRO Specialist.
+
+You are now authorised to build the FIRST French commercial landing page.
+
+Do not work on any other page.
+
+==================================================
+PAGE
+==================================================
+
+/fr/prix-perroquet-gris-du-gabon/
+
+This page will become the reference template for every future French commercial page.
+
+==================================================
+OBJECTIVE
+==================================================
+
+Create the highest-quality French commercial landing page on the website.
+
+The page must satisfy:
+
+• commercial intent
+• informational intent
+• comparison intent
+• trust intent
+• conversion intent
+
+while remaining natural, original and genuinely useful.
+
+Never write content purely for keywords.
+
+==================================================
+CONTENT REQUIREMENTS
+==================================================
+
+Include:
+
+• unique SEO title
+
+• compelling meta description
+
+• clean URL
+
+• one H1
+
+• logical H2/H3 hierarchy
+
+• engaging introduction
+
+• realistic explanation of African Grey pricing factors
+
+• differences between young and adult birds
+
+• hand-raised vs parent-raised
+
+• DNA sexing
+
+• health documentation
+
+• CITES information where applicable
+
+• delivery process
+
+• health guarantee
+
+• buying advice
+
+• common mistakes buyers make
+
+• FAQs
+
+• strong enquiry CTA
+
+==================================================
+SEO
+==================================================
+
+Implement:
+
+• Product schema where appropriate
+
+• FAQPage schema
+
+• BreadcrumbList
+
+• Open Graph
+
+• Twitter Cards
+
+• canonical
+
+• internal links
+
+• descriptive image alt recommendations
+
+==================================================
+INTERNAL LINKS
+==================================================
+
+Link naturally to:
+
+African Grey species guide
+
+Buying guide
+
+Delivery page
+
+Health guarantee
+
+Available African Greys
+
+Contact page
+
+Relevant FAQ pages
+
+==================================================
+QUALITY
+==================================================
+
+The page must read like it was written by a professional native French copywriter.
+
+Avoid repetition.
+
+Avoid machine translation.
+
+Avoid keyword stuffing.
+
+Write naturally.
+
+==================================================
+OUTPUT
+==================================================
+
+Implement the page.
+
+Then generate
+
+BUILD-REPORT-PRIX-GRIS-DU-GABON.md
+
+including:
+
+• files created
+
+• files modified
+
+• schema added
+
+• internal links added
+
+• metadata
+
+• QA checklist
+
+Do not build any additional commercial pages.
