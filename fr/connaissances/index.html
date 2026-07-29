@@ -212,12 +212,21 @@ footer{background:var(--primary);color:rgba(255,255,255,.75);padding:48px 5% 28p
   </div>
 </div>
 
+<!-- Intro -->
+<div style="padding:40px 5% 0;">
+  <div class="container" style="max-width:1200px;margin:0 auto;">
+    <div class="intro-block">
+      <p>Le <strong>Centre de Connaissances de Paraíso de Aves</strong> est la ressource française de référence pour tout ce qui concerne les perroquets exotiques. Rédigé par des éleveurs professionnels avec plus de 15 ans d'expérience, ce centre couvre l'ensemble du parcours : choisir son espèce, comprendre la législation CITES française, bien nourrir et soigner son oiseau, et organiser sa livraison en toute sécurité. Utilisez les catégories ci-dessous ou la recherche pour accéder directement au contenu dont vous avez besoin.</p>
+    </div>
+  </div>
+</div>
+
 <!-- Categories -->
-<section class="section">
+<section class="section" aria-labelledby="categories-heading">
   <div class="container">
     <div class="section-title">
       <div class="label">Catégories</div>
-      <h2>Explorez par thème</h2>
+      <h2 id="categories-heading">Explorez par thème</h2>
       <p>Chaque catégorie rassemble nos meilleurs contenus sur un aspect essentiel de la vie avec un perroquet.</p>
     </div>
     <div class="cat-grid">
@@ -481,71 +490,17 @@ footer{background:var(--primary);color:rgba(255,255,255,.75);padding:48px 5% 28p
   </div>
 </section>
 
-<!-- Schema -->
-<script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WebPage",
-      "@id": "https://www.paraisodeaves.com/fr/connaissances/",
-      "url": "https://www.paraisodeaves.com/fr/connaissances/",
-      "name": "Centre de Connaissances | Perroquets Exotiques en France | Paraíso de Aves",
-      "description": "Le plus grand centre de connaissances sur les perroquets exotiques en France. Fiches espèces, guides prix, alimentation, santé, CITES, adoption et livraison.",
-      "inLanguage": "fr-FR",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Paraíso de Aves",
-        "url": "https://www.paraisodeaves.com/"
-      },
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Accueil",
-            "item": "https://www.paraisodeaves.com/fr/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Centre de Connaissances",
-            "item": "https://www.paraisodeaves.com/fr/connaissances/"
-          }
-        ]
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Qu'est-ce que le Centre de Connaissances de Paraíso de Aves ?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Le Centre de Connaissances est la plus grande ressource française sur les perroquets exotiques : fiches espèces, guides prix, conseils alimentation et santé, légalité CITES, guides d'adoption et informations sur la livraison en France."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Ces guides sont-ils gratuits ?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Oui, tous les guides du Centre de Connaissances sont 100 % gratuits et accessibles sans inscription. Nous les mettons à jour régulièrement avec les dernières informations."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Comment adopter un perroquet via Paraíso de Aves ?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Consultez notre guide d'adoption, choisissez votre espèce dans les fiches, puis contactez-nous à paraisodeloros@gmail.com pour connaître les disponibilités. Nous livrons dans toute la France."
-          }
-        }
-      ]
-    }
-  ]
-}</script>
+<!-- Schema: BreadcrumbList -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://www.paraisodeaves.com/fr/"},{"@type":"ListItem","position":2,"name":"Centre de Connaissances","item":"https://www.paraisodeaves.com/fr/connaissances/"}]}</script>
+
+<!-- Schema: CollectionPage -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","@id":"https://www.paraisodeaves.com/fr/connaissances/","url":"https://www.paraisodeaves.com/fr/connaissances/","name":"Centre de Connaissances — Perroquets Exotiques en France","description":"Le plus grand centre de connaissances sur les perroquets exotiques en France. Fiches espèces, guides prix, alimentation, santé, CITES, adoption et livraison.","inLanguage":"fr-FR","publisher":{"@type":"Organization","name":"Paraíso de Aves","url":"https://www.paraisodeaves.com/"},"hasPart":[{"@type":"WebPage","name":"Fiches Espèces","url":"https://www.paraisodeaves.com/fr/connaissances/especes/"},{"@type":"WebPage","name":"Prix & Tarifs","url":"https://www.paraisodeaves.com/fr/connaissances/prix/"},{"@type":"WebPage","name":"Alimentation","url":"https://www.paraisodeaves.com/fr/connaissances/alimentation/"},{"@type":"WebPage","name":"Santé & Longévité","url":"https://www.paraisodeaves.com/fr/connaissances/sante/"},{"@type":"WebPage","name":"Comportement & Éducation","url":"https://www.paraisodeaves.com/fr/connaissances/comportement/"},{"@type":"WebPage","name":"CITES & Légalité","url":"https://www.paraisodeaves.com/fr/connaissances/cites/"},{"@type":"WebPage","name":"Guide d'Adoption","url":"https://www.paraisodeaves.com/fr/connaissances/adoption/"},{"@type":"WebPage","name":"Livraison en France","url":"https://www.paraisodeaves.com/fr/connaissances/livraison/"},{"@type":"WebPage","name":"FAQ Générale","url":"https://www.paraisodeaves.com/fr/connaissances/faq/"}]}</script>
+
+<!-- Schema: Organization -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","@id":"https://www.paraisodeaves.com/#organization","name":"Paraíso de Aves","url":"https://www.paraisodeaves.com/","email":"paraisodeloros@gmail.com","description":"Élevage spécialisé de perroquets exotiques élevés à la main depuis l'Espagne, avec livraison dans toute la France et documentation CITES complète.","address":{"@type":"PostalAddress","addressLocality":"Llíria","addressRegion":"Valencia","addressCountry":"ES"},"areaServed":{"@type":"Country","name":"France"},"sameAs":[]}</script>
+
+<!-- Schema: FAQPage -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Qu'est-ce que le Centre de Connaissances de Paraíso de Aves ?","acceptedAnswer":{"@type":"Answer","text":"Le Centre de Connaissances est la plus grande ressource française sur les perroquets exotiques : fiches espèces, guides prix, conseils alimentation et santé, légalité CITES, guides d'adoption et informations sur la livraison en France."}},{"@type":"Question","name":"Ces guides sont-ils gratuits ?","acceptedAnswer":{"@type":"Answer","text":"Oui, tous les guides du Centre de Connaissances sont 100 % gratuits et accessibles sans inscription. Nous les mettons à jour régulièrement avec les dernières informations."}},{"@type":"Question","name":"Comment adopter un perroquet via Paraíso de Aves ?","acceptedAnswer":{"@type":"Answer","text":"Consultez notre guide d'adoption, choisissez votre espèce dans les fiches, puis contactez-nous à paraisodeloros@gmail.com pour connaître les disponibilités. Nous livrons dans toute la France métropolitaine."}},{"@type":"Question","name":"Les informations sont-elles spécifiques à la France ?","acceptedAnswer":{"@type":"Answer","text":"Oui. Tous nos guides sont écrits pour le contexte français : législation CITES française, vétérinaires NAC, villes de livraison, réglementation sur la détention d'animaux exotiques et prix en euros."}},{"@type":"Question","name":"Puis-je faire confiance à Paraíso de Aves ?","acceptedAnswer":{"@type":"Answer","text":"Paraíso de Aves est un élevage enregistré en Espagne, spécialisé dans les perroquets exotiques depuis plus de 15 ans. Tous nos oiseaux sont bagués, documentés et accompagnés d'un certificat vétérinaire. Nous avons livré des centaines d'oiseaux en France avec une garantie santé de 15 jours."}}]}</script>
 
 <footer>
   <div class="footer-inner">
