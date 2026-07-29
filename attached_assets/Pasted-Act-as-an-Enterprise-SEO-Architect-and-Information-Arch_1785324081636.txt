@@ -1,0 +1,141 @@
+Act as an Enterprise SEO Architect and Information Architecture Specialist.
+
+Do NOT create any new pages yet.
+
+Do NOT write content.
+
+Do NOT delete existing pages.
+
+Your task is to optimise the French commercial architecture before expansion.
+
+==================================================
+OBJECTIVE
+==================================================
+
+Prepare the French section so every future commercial page strengthens topical authority, internal linking and conversions.
+
+==================================================
+TASK 1 — Resolve Cannibalisation
+==================================================
+
+Audit these pages:
+
+/fr/acheter-perroquet/
+/fr/adopter-perroquet/
+/fr/perroquets/
+/fr/vente-oiseaux/
+
+For each page determine:
+
+- primary intent
+- secondary intent
+- unique role
+- target keyword
+- supporting keywords
+- overlap
+- recommended canonical strategy
+- whether the page should remain distinct or be repositioned
+
+Do NOT merge or remove pages yet.
+
+==================================================
+TASK 2 — Commercial Funnel
+==================================================
+
+Design the ideal buyer journey.
+
+Homepage
+
+↓
+
+Commercial hubs
+
+↓
+
+Buying guides
+
+↓
+
+Species pages
+
+↓
+
+Available birds
+
+↓
+
+Individual bird profiles
+
+↓
+
+Contact
+
+Identify every missing internal link.
+
+==================================================
+TASK 3 — Species → Commercial Links
+==================================================
+
+Audit all French species guides.
+
+For every guide recommend:
+
+- commercial pages to link to
+- anchor text
+- CTA placement
+- related buying pages
+- related FAQ pages
+- related city pages
+
+Do not modify the pages.
+
+==================================================
+TASK 4 — Link Equity
+==================================================
+
+Map current internal PageRank flow.
+
+Show:
+
+Current structure
+
+Ideal structure
+
+Weak nodes
+
+Dead ends
+
+Commercial bottlenecks
+
+==================================================
+TASK 5 — Priority Matrix
+==================================================
+
+Rank all commercial pages by:
+
+- revenue potential
+- search demand
+- competition
+- topical authority
+- internal-link value
+- conversion impact
+
+==================================================
+OUTPUT
+==================================================
+
+Generate:
+
+COMMERCIAL-ARCHITECTURE-PLAN.md
+
+COMMERCIAL-FUNNEL.md
+
+SPECIES-COMMERCIAL-LINKS.md
+
+LINK-EQUITY-MAP.md
+
+COMMERCIAL-PRIORITY-MATRIX.md
+
+End with the exact order in which new commercial pages should be implemented after the architecture is approved.
+
+Do not modify production files.
